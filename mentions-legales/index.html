@@ -3,24 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Désabonnement | Capitali</title>
-<meta name="description" content="Gérer votre désabonnement des emails Capitali.">
-<meta name="robots" content="noindex">
-<link rel="canonical" href="https://capitali.fr/desabonnement/">
-<meta property="og:type" content="website">
-<meta property="og:site_name" content="Capitali">
-<meta property="og:locale" content="fr_FR">
-<meta property="og:url" content="https://capitali.fr/ressources/">
-<meta property="og:title" content="Ressources : Guides actionnariat salarié et Partage de la Valeur | Capitali">
-<meta property="og:description" content="Les guides Capitali pour comprendre l'actionnariat salarié des PME, l'AGA et la Loi Partage de la Valeur. Des fiches claires et concrètes pour dirigeants.">
-<meta property="og:image" content="https://capitali.fr/og/og-ressources.png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="Ressources : Guides actionnariat salarié et Partage de la Valeur | Capitali">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Ressources : Guides actionnariat salarié et Partage de la Valeur | Capitali">
-<meta name="twitter:description" content="Les guides Capitali pour comprendre l'actionnariat salarié des PME, l'AGA et la Loi Partage de la Valeur. Des fiches claires et concrètes pour dirigeants.">
-<meta name="twitter:image" content="https://capitali.fr/og/og-ressources.png">
+<title>Mentions légales | Capitali</title>
+<meta name="description" content="Mentions légales du site capitali.fr : éditeur, hébergement, directeur de publication.">
+<meta name="robots" content="noindex, follow">
+<link rel="canonical" href="https://capitali.fr/mentions-legales/">
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -72,7 +58,7 @@
     </a>
     <div class="nav-right">
       <a href="/#pourquoi" class="nav-link">Pourquoi Capitali</a>
-      <a href="/ressources/" class="nav-link is-active">Guides</a>
+      <a href="/ressources/" class="nav-link">Guides</a>
       <a href="/blog/" class="nav-link">Blog</a>
       <a href="/#tarifs" class="nav-link">Tarifs</a>
       <a href="https://app.capitali.fr/login" class="nav-login">Se connecter</a>
@@ -83,61 +69,45 @@
 <script src="/js/common.js"></script>
 
 <section class="page-hero">
-  <div class="hero-badge">Vos préférences</div>
-  <h1 id="titre">Désabonnement</h1>
-  <p id="message">Vérification de votre lien…</p>
+  <div class="hero-badge">Informations légales</div>
+  <h1>Mentions légales</h1>
 </section>
 
-<div class="simpage-body">
-  <div class="sim-card">
-    <div class="capture-section">
-      <div class="capture-header">
-        <div class="capture-icon">✉️</div>
-        <div>
-          <div class="capture-title" id="detail-titre">-</div>
-          <div class="capture-subtitle" id="detail-texte">-</div>
-        </div>
-      </div>
-      <div class="price-cta" style="margin-top:1rem;">
-        <a href="/" class="btn-ghost">Retour à l'accueil →</a>
-      </div>
-    </div>
-  </div>
-</div>
+<section class="article-body">
+  <div class="article-prose">
+    <p><em>⚠️ Page provisoire : les champs entre crochets [à compléter] doivent être renseignés avec les informations exactes de la société avant mise en production réelle auprès du public.</em></p>
 
-<script>
-// La fonction edge a déjà fait le travail : elle redirige ici avec le résultat.
-// Cette page ne fait que le dire : elle ne désabonne personne elle-même, et
-// n'expose donc aucune adresse.
-(function () {
-  var etats = {
-    ok: {
-      titre: 'C\'est fait.',
-      message: 'Vous ne recevrez plus nos emails.',
-      detail: 'Désabonnement enregistré',
-      texte: 'Votre adresse reste dans nos registres pour ne plus vous solliciter, et rien d\'autre. Vous pouvez demander sa suppression complète en répondant à l\'un de nos emails.'
-    },
-    invalide: {
-      titre: 'Ce lien n\'est plus valable.',
-      message: 'Nous n\'avons pas pu vérifier votre demande.',
-      detail: 'Lien invalide ou incomplet',
-      texte: 'Le lien a peut-être été tronqué par votre messagerie. Répondez simplement à l\'un de nos emails en écrivant « désabonnement » et nous le ferons manuellement.'
-    },
-    erreur: {
-      titre: 'Quelque chose a échoué.',
-      message: 'Votre désabonnement n\'a pas pu être enregistré.',
-      detail: 'Erreur technique',
-      texte: 'Ce n\'est pas de votre fait. Répondez à l\'un de nos emails en écrivant « désabonnement » et nous le ferons manuellement.'
-    }
-  };
-  var etat = new URLSearchParams(window.location.search).get('etat');
-  var vu = etats[etat] || etats.invalide;
-  document.getElementById('titre').textContent = vu.titre;
-  document.getElementById('message').textContent = vu.message;
-  document.getElementById('detail-titre').textContent = vu.detail;
-  document.getElementById('detail-texte').textContent = vu.texte;
-})();
-</script>
+    <h2>Éditeur du site</h2>
+    <p>
+      Le site capitali.fr est édité par : [Raison sociale à compléter], [forme juridique, ex. SAS] au capital de [montant] €,
+      immatriculée au Registre du Commerce et des Sociétés de [ville] sous le numéro [SIREN/RCS],
+      dont le siège social est situé [adresse complète].<br>
+      Numéro de TVA intracommunautaire : [à compléter]<br>
+      Contact : contact@capitali.fr
+    </p>
+
+    <h2>Directeur de la publication</h2>
+    <p>[Nom et prénom du directeur de la publication à compléter]</p>
+
+    <h2>Hébergement</h2>
+    <p>
+      Le site est hébergé par : Vercel Inc., 340 S Lemon Ave #4133, Walnut, CA 91789, États-Unis
+      (infrastructure de déploiement en Europe — région <code>iad1</code>/Europe selon configuration).<br>
+      La base de données et le traitement des données sont hébergés par Supabase Inc., dans l'Union Européenne.
+    </p>
+
+    <h2>Propriété intellectuelle</h2>
+    <p>
+      L'ensemble des éléments de ce site (textes, visuels, logo, code) est la propriété de [Raison sociale] ou de ses partenaires,
+      sauf mention contraire. Toute reproduction sans autorisation préalable est interdite.
+    </p>
+
+    <h2>Contact</h2>
+    <p>Pour toute question relative au site : <a href="mailto:contact@capitali.fr">contact@capitali.fr</a></p>
+
+    <p>Voir également notre <a href="/confidentialite/">politique de confidentialité</a>.</p>
+  </div>
+</section>
 
 <footer>
   <div class="footer-inner">

@@ -723,4 +723,22 @@ a.case-card:hover .case-media img{transform:scale(1.02);}
   .testimonial--photo .case-media{max-width:320px;}
 }
   .testimonial--compact .testimonial-inner{grid-template-columns:minmax(0,110px) minmax(0,1fr);}
+
+/* ── Bandeau de consentement cookies ── */
+#cookie-banner{
+  position:fixed; left:1rem; right:1rem; bottom:1rem; z-index:1000;
+  max-width:640px; margin:0 auto;
+  background:var(--surface); border:1px solid var(--line); border-radius:0.75rem;
+  box-shadow:0 8px 24px rgba(0,0,0,0.12);
+  padding:1.25rem 1.5rem; display:flex; flex-wrap:wrap; gap:1rem; align-items:center; justify-content:space-between;
+}
+#cookie-banner p{margin:0; font-size:0.9rem; color:var(--text-strong); flex:1 1 260px;}
+#cookie-banner a{color:inherit; text-decoration:underline;}
+#cookie-banner .cookie-banner-actions{display:flex; gap:0.5rem; flex:0 0 auto;}
+#cookie-banner .btn-primary{height:2.5rem; padding:0 1.25rem; font-size:0.9rem;}
+#cookie-banner .btn-ghost{height:2.5rem; padding:0 0.5rem; font-size:0.9rem;}
+@media (max-width:480px){
+  #cookie-banner{flex-direction:column; align-items:stretch;}
+  #cookie-banner .cookie-banner-actions{justify-content:flex-end;}
+}
 }

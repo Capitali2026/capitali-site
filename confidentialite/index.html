@@ -3,24 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Désabonnement | Capitali</title>
-<meta name="description" content="Gérer votre désabonnement des emails Capitali.">
-<meta name="robots" content="noindex">
-<link rel="canonical" href="https://capitali.fr/desabonnement/">
-<meta property="og:type" content="website">
-<meta property="og:site_name" content="Capitali">
-<meta property="og:locale" content="fr_FR">
-<meta property="og:url" content="https://capitali.fr/ressources/">
-<meta property="og:title" content="Ressources : Guides actionnariat salarié et Partage de la Valeur | Capitali">
-<meta property="og:description" content="Les guides Capitali pour comprendre l'actionnariat salarié des PME, l'AGA et la Loi Partage de la Valeur. Des fiches claires et concrètes pour dirigeants.">
-<meta property="og:image" content="https://capitali.fr/og/og-ressources.png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="Ressources : Guides actionnariat salarié et Partage de la Valeur | Capitali">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Ressources : Guides actionnariat salarié et Partage de la Valeur | Capitali">
-<meta name="twitter:description" content="Les guides Capitali pour comprendre l'actionnariat salarié des PME, l'AGA et la Loi Partage de la Valeur. Des fiches claires et concrètes pour dirigeants.">
-<meta name="twitter:image" content="https://capitali.fr/og/og-ressources.png">
+<title>Politique de confidentialité | Capitali</title>
+<meta name="description" content="Politique de confidentialité et gestion des cookies du site capitali.fr : données collectées, finalités, durée de conservation, vos droits.">
+<meta name="robots" content="noindex, follow">
+<link rel="canonical" href="https://capitali.fr/confidentialite/">
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -72,7 +58,7 @@
     </a>
     <div class="nav-right">
       <a href="/#pourquoi" class="nav-link">Pourquoi Capitali</a>
-      <a href="/ressources/" class="nav-link is-active">Guides</a>
+      <a href="/ressources/" class="nav-link">Guides</a>
       <a href="/blog/" class="nav-link">Blog</a>
       <a href="/#tarifs" class="nav-link">Tarifs</a>
       <a href="https://app.capitali.fr/login" class="nav-login">Se connecter</a>
@@ -83,61 +69,60 @@
 <script src="/js/common.js"></script>
 
 <section class="page-hero">
-  <div class="hero-badge">Vos préférences</div>
-  <h1 id="titre">Désabonnement</h1>
-  <p id="message">Vérification de votre lien…</p>
+  <div class="hero-badge">Vos données</div>
+  <h1>Politique de confidentialité</h1>
 </section>
 
-<div class="simpage-body">
-  <div class="sim-card">
-    <div class="capture-section">
-      <div class="capture-header">
-        <div class="capture-icon">✉️</div>
-        <div>
-          <div class="capture-title" id="detail-titre">-</div>
-          <div class="capture-subtitle" id="detail-texte">-</div>
-        </div>
-      </div>
-      <div class="price-cta" style="margin-top:1rem;">
-        <a href="/" class="btn-ghost">Retour à l'accueil →</a>
-      </div>
-    </div>
-  </div>
-</div>
+<section class="article-body">
+  <div class="article-prose">
+    <p><em>⚠️ Page provisoire, en attente de finalisation avec les informations exactes de la société (voir aussi les <a href="/mentions-legales/">mentions légales</a>). Dernière mise à jour : [date].</em></p>
 
-<script>
-// La fonction edge a déjà fait le travail : elle redirige ici avec le résultat.
-// Cette page ne fait que le dire : elle ne désabonne personne elle-même, et
-// n'expose donc aucune adresse.
-(function () {
-  var etats = {
-    ok: {
-      titre: 'C\'est fait.',
-      message: 'Vous ne recevrez plus nos emails.',
-      detail: 'Désabonnement enregistré',
-      texte: 'Votre adresse reste dans nos registres pour ne plus vous solliciter, et rien d\'autre. Vous pouvez demander sa suppression complète en répondant à l\'un de nos emails.'
-    },
-    invalide: {
-      titre: 'Ce lien n\'est plus valable.',
-      message: 'Nous n\'avons pas pu vérifier votre demande.',
-      detail: 'Lien invalide ou incomplet',
-      texte: 'Le lien a peut-être été tronqué par votre messagerie. Répondez simplement à l\'un de nos emails en écrivant « désabonnement » et nous le ferons manuellement.'
-    },
-    erreur: {
-      titre: 'Quelque chose a échoué.',
-      message: 'Votre désabonnement n\'a pas pu être enregistré.',
-      detail: 'Erreur technique',
-      texte: 'Ce n\'est pas de votre fait. Répondez à l\'un de nos emails en écrivant « désabonnement » et nous le ferons manuellement.'
-    }
-  };
-  var etat = new URLSearchParams(window.location.search).get('etat');
-  var vu = etats[etat] || etats.invalide;
-  document.getElementById('titre').textContent = vu.titre;
-  document.getElementById('message').textContent = vu.message;
-  document.getElementById('detail-titre').textContent = vu.detail;
-  document.getElementById('detail-texte').textContent = vu.texte;
-})();
-</script>
+    <h2>Qui sommes-nous</h2>
+    <p>
+      Capitali (voir <a href="/mentions-legales/">mentions légales</a>) édite le site capitali.fr et la plateforme app.capitali.fr.
+      Cette page décrit quelles données personnelles nous collectons via le site capitali.fr, pourquoi, combien de temps, et comment les faire supprimer.
+    </p>
+
+    <h2>Quelles données nous collectons</h2>
+    <ul>
+      <li><strong>Simulateurs (AGA, LPV, PPV, PEE)</strong> : votre adresse email, et selon le simulateur, le SIREN de votre entreprise ou des données déclaratives (effectif, forme juridique, réponses aux questions du simulateur).</li>
+      <li><strong>Livre blanc</strong> : votre adresse email, pour l'envoi du document.</li>
+      <li><strong>Prise de rendez-vous démo</strong> : gérée par notre prestataire de réservation (Cal.com) — voir leur propre politique de confidentialité.</li>
+    </ul>
+    <p>Nous ne collectons aucune donnée bancaire ni aucune donnée sensible via le site vitrine.</p>
+
+    <h2>Pourquoi (finalités et base légale)</h2>
+    <ul>
+      <li>Vous envoyer le résultat détaillé de votre simulation ou le livre blanc demandé (exécution d'une démarche à votre initiative, art. 6.1.b RGPD).</li>
+      <li>Vous recontacter dans le cadre d'un intérêt commercial pour Capitali (intérêt légitime, art. 6.1.f RGPD) — vous pouvez vous y opposer à tout moment.</li>
+    </ul>
+
+    <h2>Où sont stockées vos données</h2>
+    <p>
+      Vos données sont stockées dans une base de données hébergée par Supabase, dans l'Union Européenne.
+      L'envoi des emails (résultats de simulation, livre blanc) est réalisé via le prestataire Resend.
+    </p>
+
+    <h2>Combien de temps</h2>
+    <p>
+      Les données de prospection sont conservées 3 ans à compter du dernier contact, sauf demande de suppression anticipée de votre part.
+    </p>
+
+    <h2>Vos droits</h2>
+    <p>
+      Conformément au RGPD, vous disposez d'un droit d'accès, de rectification, d'opposition et de suppression de vos données.
+      Pour l'exercer : écrivez à <a href="mailto:contact@capitali.fr">contact@capitali.fr</a>, ou utilisez le lien de désabonnement présent dans chacun de nos emails.
+      Vous disposez aussi du droit d'introduire une réclamation auprès de la CNIL (cnil.fr).
+    </p>
+
+    <h2>Cookies</h2>
+    <p>
+      Le site capitali.fr utilise uniquement, à ce jour, des cookies strictement nécessaires à son fonctionnement (mémorisation de votre choix sur le bandeau cookies, fermeture d'un bandeau d'information).
+      Aucun cookie de mesure d'audience ou publicitaire n'est déposé sans votre consentement préalable, recueilli via le bandeau affiché lors de votre première visite.
+      Vous pouvez modifier votre choix à tout moment en effaçant les cookies de votre navigateur pour ce site.
+    </p>
+  </div>
+</section>
 
 <footer>
   <div class="footer-inner">
