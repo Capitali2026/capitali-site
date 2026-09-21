@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Simulateur prime vs actions gratuites (AGA) | Capitali</title>
+<meta name="description" content="Comparez sur 4 ans ce que coûte une prime et ce que coûte un plan d'attribution gratuite d'actions : coût employeur, net du bénéficiaire, dilution. Simulation gratuite, sans inscription.">
+<link rel="canonical" href="https://capitali.fr/simulateur-aga/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Capitali">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:url" content="https://capitali.fr/simulateur-aga/">
+<meta property="og:title" content="Simulateur prime vs actions gratuites (AGA) | Capitali">
+<meta property="og:description" content="Comparez sur 4 ans ce que coûte une prime et ce que coûte un plan d'attribution gratuite d'actions : coût employeur, net du bénéficiaire, dilution. Simulation gratuite, sans inscription.">
+<meta property="og:image" content="https://capitali.fr/og/og-simulateur-aga.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Simulateur prime vs actions gratuites (AGA) | Capitali">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Simulateur prime vs actions gratuites (AGA) | Capitali">
+<meta name="twitter:description" content="Comparez sur 4 ans ce que coûte une prime et ce que coûte un plan d'attribution gratuite d'actions : coût employeur, net du bénéficiaire, dilution. Simulation gratuite, sans inscription.">
+<meta name="twitter:image" content="https://capitali.fr/og/og-simulateur-aga.png">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:ital,wght@0,300..700;1,300..700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/tokens.css">
+<link rel="stylesheet" href="/css/design-system.css">
+</head>
+<body>
+
+<svg class="svg-sprite" aria-hidden="true">
+  <defs>
+    <linearGradient id="beanieYellow" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFE08A"/><stop offset="0.55" stop-color="#FFC94A"/><stop offset="1" stop-color="#E8A420"/></linearGradient>
+    <linearGradient id="beanieRed" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F58A8E"/><stop offset="0.55" stop-color="#E5484D"/><stop offset="1" stop-color="#B93035"/></linearGradient>
+    <linearGradient id="beanieBlue" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7C97ED"/><stop offset="0.55" stop-color="#3E63DD"/><stop offset="1" stop-color="#28439E"/></linearGradient>
+    <linearGradient id="beanieGreen" x1="0" y1="0" x2="0.3" y2="1"><stop offset="0" stop-color="#3CB273"/><stop offset="1" stop-color="#166F41"/></linearGradient>
+    <linearGradient id="beanieBlade" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#284BAF"/><stop offset="0.5" stop-color="#5F80E6"/><stop offset="1" stop-color="#243F94"/></linearGradient>
+    <radialGradient id="beanieBeadYellow" cx="0.35" cy="0.35" r="0.75"><stop offset="0" stop-color="#FFEBA8"/><stop offset="1" stop-color="#E5A928"/></radialGradient>
+    <radialGradient id="beanieBeadBlue" cx="0.35" cy="0.35" r="0.75"><stop offset="0" stop-color="#93A9EE"/><stop offset="1" stop-color="#2C4AA0"/></radialGradient>
+    <radialGradient id="beanieBeadNavy" cx="0.35" cy="0.35" r="0.75"><stop offset="0" stop-color="#5064AC"/><stop offset="1" stop-color="#181F45"/></radialGradient>
+    <radialGradient id="beanieShadow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#000000" stop-opacity="0.16"/><stop offset="1" stop-color="#000000" stop-opacity="0"/></radialGradient>
+    <symbol id="icon-beanie" viewBox="0 0 100 100">
+      <ellipse cx="46" cy="90" rx="34" ry="4.5" fill="url(#beanieShadow)"/>
+      <path d="M 15,59 C 8,64 3,71 4,78 C 5,82 8,84 13,85 C 25,88 40,88 52,85 C 62,82 69,78 73,71 C 74,68 73,65 71,63 C 60,66 45,66 33,64 C 25,63 19,62 15,59 Z" fill="url(#beanieGreen)"/>
+      <path d="M 15,59 C 8,64 3,71 4,78 C 5,82 8,84 13,85 C 20,84 26,80 30,73 C 24,69 18,64 15,59 Z" fill="#0F5236" opacity="0.4"/>
+      <path d="M 12,63 C 7,68 5,73 6,78 C 7,81 10,83 14,84 C 25,87 39,87 51,84 C 60,81 66,78 70,72" fill="none" stroke="#eafff2" stroke-width="0.9" stroke-linecap="round" opacity="0.5"/>
+      <path d="M 15,59 C 15,45 18,28 31,19 C 38,14 46,12 53,13 C 62,13 70,15 78,22 C 86,28 90,36 89,45 C 88,53 84,58 79,61 L 71,63 C 60,66 45,66 33,64 C 25,63 19,62 15,59 Z" fill="url(#beanieBlue)"/>
+      <path d="M 44,13 C 50,12.5 58,13 66,14 C 68,30 68,48 65,62 C 55,65 45,65 38,64 C 37,45 40,28 44,13 Z" fill="url(#beanieRed)"/>
+      <path d="M 15,59 C 15,45 18,28 31,19 C 38,14 43,13 44,13 C 40,28 37,45 38,64 C 33,64 22,63 15,59 Z" fill="url(#beanieYellow)"/>
+      <path d="M 44,13 C 40,28 37,45 38,64" fill="none" stroke="#ffffff" stroke-width="0.9" stroke-linecap="round" opacity="0.35"/>
+      <path d="M 66,14 C 68,30 68,48 65,62" fill="none" stroke="#ffffff" stroke-width="0.9" stroke-linecap="round" opacity="0.3"/>
+      <path d="M 15,59 C 15,45 18,28 31,19 C 38,14 46,12 53,13 C 62,13 70,15 78,22 C 86,28 90,36 89,45 C 88,53 84,58 79,61 L 71,63 C 60,66 45,66 33,64 C 25,63 19,62 15,59 Z" fill="none" stroke="#00000022" stroke-width="1"/>
+      <path d="M 66,7 C 75,4 85,2 97,3 C 96,4.5 90,6.5 80,7.5 C 74,8 69,8 66,7 Z" fill="url(#beanieBlade)" stroke="#1c2c66" stroke-width="0.4"/>
+      <path d="M 66,7 C 57,9 47,10.5 33,11 C 34,9.5 40,7.5 50,6.5 C 57,6 63,6.5 66,7 Z" fill="url(#beanieBlade)" stroke="#1c2c66" stroke-width="0.4"/>
+      <path d="M 66,7 C 78,4.5 88,3 96,3.2" fill="none" stroke="#ffffff" stroke-width="0.6" opacity="0.4"/>
+      <path d="M 66,7 C 54,9.5 44,10.7 34,11" fill="none" stroke="#ffffff" stroke-width="0.6" opacity="0.4"/>
+      <path d="M 63,17 L 65,8" stroke="#2F5FD6" stroke-width="1.4" stroke-linecap="round"/>
+      <circle cx="63" cy="16.5" r="3.1" fill="url(#beanieBeadNavy)"/>
+      <circle cx="64.3" cy="11.3" r="2.5" fill="url(#beanieBeadYellow)"/>
+      <circle cx="65.5" cy="7.3" r="1.8" fill="url(#beanieBeadBlue)"/>
+    </symbol>
+  </defs>
+</svg>
+
+<div class="topstack">
+  <div class="banner" id="banner">
+    <span>🆕 <strong>Nouveau</strong> : la Loi Partage de la Valeur s'applique aux PME de 11 à 49 salariés depuis 2025.</span>
+    <a href="/simulateur-lpv/">Suis-je concerné(e) →</a>
+    <button class="banner-close" id="banner-close" aria-label="Fermer le bandeau">✕</button>
+  </div>
+  <nav>
+    <a href="/" class="nav-logo">
+      <svg class="nav-logo-mark" viewBox="0 0 32 32" width="24" height="24" aria-hidden="true"><use href="#icon-beanie"/></svg>
+      Capitali
+    </a>
+    <div class="nav-right">
+      <a href="/#pourquoi" class="nav-link">Pourquoi Capitali</a>
+      <a href="/ressources/" class="nav-link">Guides</a>
+      <a href="/blog/" class="nav-link">Blog</a>
+      <a href="/#tarifs" class="nav-link">Tarifs</a>
+      <a href="https://app.capitali.fr/login" class="nav-login">Se connecter</a>
+      <a href="https://cal.com/capitali/30min" data-cal-link="capitali/30min" data-cal-namespace="30min" data-cal-config='{"layout":"month_view","useSlotsViewOnSmallScreen":"true"}' class="nav-cta"><span class="btn-dot"></span>Réserver une démo</a>
+    </div>
+  </nav>
+</div>
+<script src="/js/common.js"></script>
+
+<section class="page-hero">
+  <div class="hero-badge">Simulateur AGA · Actionnariat salarié</div>
+  <h1>Une prime, ça coûte cher.<br>Des actions, <em>presque rien.</em></h1>
+  <p>Comparez, sur quatre ans, ce que vous coûte une prime et ce que vous coûte un plan d'attribution gratuite d'actions, et ce que touche votre bénéficiaire dans les deux cas.</p>
+</section>
+
+<div class="simpage-body">
+  <div class="sim-card">
+
+    <div class="tabs" role="tablist" aria-label="Profil de simulation">
+      <button type="button" class="tab is-active" role="tab" id="tab-fidelisation"
+              aria-selected="true" aria-controls="panel-fidelisation" data-profil="fidelisation">
+        <span class="tab-title">Fidélisation</span>
+        <span class="tab-sub">Garder mes profils clés</span>
+      </button>
+      <button type="button" class="tab" role="tab" id="tab-transmission" tabindex="-1"
+              aria-selected="false" aria-controls="panel-transmission" data-profil="transmission">
+        <span class="tab-title">Transmission</span>
+        <span class="tab-sub">Reprise progressive par mes cadres</span>
+      </button>
+    </div>
+
+    <div class="sim-inputs grid-2" role="tabpanel" id="panel-fidelisation" aria-labelledby="tab-fidelisation">
+      <div class="input-group">
+        <div class="input-label">Profils clés à faire entrer au capital</div>
+        <div class="input-value-row"><span class="input-display" id="fid-display-nb">3</span><span class="input-unit">profils</span></div>
+        <input type="range" class="input-slider" id="fid-slider-nb" min="1" max="30" value="3" step="1">
+        <div class="slider-range"><span>1</span><span>30</span></div>
+      </div>
+
+      <div class="input-group">
+        <div class="input-label">Valeur annuelle attribuée, par profil</div>
+        <div class="input-value-row"><span class="input-display" id="fid-display-valeur">6 000</span><span class="input-unit">€ / an</span></div>
+        <input type="range" class="input-slider" id="fid-slider-valeur" min="2000" max="18000" value="6000" step="500">
+        <div class="slider-range"><span>2 000 €</span><span>18 000 €</span></div>
+        <div class="input-hint">Le budget que vous consacreriez à une prime, ou la valeur d'actions que vous attribueriez.</div>
+      </div>
+
+      <div class="input-group">
+        <div class="input-label">Valorisation actuelle de votre entreprise</div>
+        <div class="valo-input-wrap">
+          <input type="number" id="fid-input-valo" value="2000000" min="50000" max="500000000" step="10000">
+          <span class="euro">€</span>
+        </div>
+        <input type="range" class="input-slider" id="fid-slider-valo" min="100000" max="20000000" value="2000000" step="100000">
+        <div class="slider-range"><span>100 k€</span><span>20 M€</span></div>
+        <div class="input-hint">Sert uniquement à calculer la dilution : une estimation approximative suffit.</div>
+      </div>
+
+    </div>
+
+    <div class="sim-inputs grid-2" role="tabpanel" id="panel-transmission" aria-labelledby="tab-transmission" hidden>
+      <div class="input-group">
+        <div class="input-label">Valorisation actuelle de votre entreprise</div>
+        <div class="valo-input-wrap">
+          <input type="number" id="trans-input-valo" value="2000000" min="50000" max="500000000" step="10000">
+          <span class="euro">€</span>
+        </div>
+        <input type="range" class="input-slider" id="trans-slider-valo" min="100000" max="20000000" value="2000000" step="100000">
+        <div class="slider-range"><span>100 k€</span><span>20 M€</span></div>
+      </div>
+
+      <div class="input-group">
+        <div class="input-label">Part du capital à transmettre</div>
+        <div class="input-value-row"><span class="input-display" id="trans-display-part">10</span><span class="input-unit">%</span></div>
+        <input type="range" class="input-slider" id="trans-slider-part" min="1" max="20" value="10" step="0.5">
+        <div class="slider-range"><span>1 %</span><span>20 %</span></div>
+        <div class="input-hint">Les plafonds exacts dépendent de votre situation : 15 % en général, 20 % pour une PME non cotée.</div>
+      </div>
+
+      <div class="input-group">
+        <div class="input-label">Cadres repreneurs</div>
+        <div class="input-value-row"><span class="input-display" id="trans-display-nb">3</span><span class="input-unit">cadres</span></div>
+        <input type="range" class="input-slider" id="trans-slider-nb" min="1" max="10" value="3" step="1">
+        <div class="slider-range"><span>1</span><span>10</span></div>
+      </div>
+
+      <div class="input-group">
+        <div class="input-label">Durée de la transmission</div>
+        <div class="input-value-row"><span class="input-display" id="trans-display-duree">5</span><span class="input-unit">ans</span></div>
+        <input type="range" class="input-slider" id="trans-slider-duree" min="2" max="10" value="5" step="1">
+        <div class="slider-range"><span>2 ans</span><span>10 ans</span></div>
+      </div>
+    </div>
+
+    <div class="sim-inputs">
+      <div class="input-group">
+        <div class="input-label">Votre PME a-t-elle déjà distribué des dividendes ?</div>
+        <div class="yn-row">
+          <button type="button" class="yn-btn selected" data-dividendes="non">Non, jamais</button>
+          <button type="button" class="yn-btn" data-dividendes="oui">Oui</button>
+        </div>
+        <div class="input-hint">Une PME qui n'a jamais distribué de dividendes est exonérée de contribution patronale, dans une certaine limite. La réponse change le coût des deux scénarios.</div>
+      </div>
+    </div>
+
+    <div class="sim-results visible">
+
+      <div class="verdict" id="verdict">
+        <div class="verdict-main" id="verdict-main">-</div>
+        <div class="verdict-sub" id="verdict-sub">-</div>
+      </div>
+
+      <div class="verdict-cols">
+        <div class="verdict-col bad">
+          <div class="verdict-col-head" id="col-bad-head">Prime classique</div>
+          <div class="verdict-col-value" id="col-bad-value">-</div>
+          <div class="verdict-col-note" id="col-bad-note">-</div>
+        </div>
+        <div class="verdict-col good">
+          <div class="verdict-col-head" id="col-good-head">Plan AGA Capitali</div>
+          <div class="verdict-col-value" id="col-good-value">-</div>
+          <div class="verdict-col-note" id="col-good-note">-</div>
+        </div>
+      </div>
+
+      <div class="capture-error" id="alerte-plafond"></div>
+
+      <div class="table-section">
+        <div class="table-label" id="detail-label">Le détail</div>
+        <table class="sim-table">
+          <tbody id="detail-body"></tbody>
+        </table>
+      </div>
+
+      <p class="input-hint" id="mention-contribution"></p>
+
+      <div class="sim-sep"></div>
+
+      <div class="capture-section">
+        <div class="capture-header">
+          <div class="capture-icon">📄</div>
+          <div>
+            <div class="capture-title">Recevoir ce détail par email</div>
+            <div class="capture-subtitle">Le comparatif complet, les hypothèses retenues et les prochaines étapes pour mettre en place un plan.</div>
+          </div>
+        </div>
+
+        <div class="capture-success" id="capture-success">
+          <span>✅</span>
+          <span>C'est envoyé ! Vérifiez votre boîte mail (et vos spams).</span>
+        </div>
+
+        <div class="capture-error" id="capture-partial"></div>
+
+        <div id="capture-form-wrap">
+          <div class="capture-form">
+            <input type="email" id="capture-email" placeholder="votre@email.fr" autocomplete="email">
+            <button type="button" id="capture-btn">Recevoir →</button>
+          </div>
+          <div class="rgpd-line">
+            <input type="checkbox" id="capture-rgpd">
+            <label for="capture-rgpd">J'accepte que Capitali conserve mon email pour m'envoyer cette simulation et, si je le souhaite, me recontacter. Données traitées conformément au RGPD. Désabonnement en 1 clic.</label>
+          </div>
+          <div class="capture-error" id="capture-error"></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ══ CAPITALI:GENERATED aga-sim-disclaimer ══ -->
+  <p class="sim-disclaimer">
+    Simulation illustrative fondée exclusivement sur les hypothèses que vous avez saisies et sur des ordres de grandeur de charges et d'imposition : elle ne constitue ni une valorisation réelle de votre entreprise, ni une garantie de performance, ni un conseil en investissement, ni une recommandation personnalisée. Le coût employeur et le net du bénéficiaire reposent sur des taux provisoires en cours de validation juridique. La plus-value réalisée lors d'une revente ultérieure des actions n'est pas modélisée. Consultez votre expert-comptable ou un conseiller habilité avant toute décision.
+  </p>
+<!-- ══ CAPITALI:END aga-sim-disclaimer ══ -->
+
+</div>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <svg class="footer-mark" viewBox="0 0 32 32" width="56" height="56" aria-hidden="true"><use href="#icon-beanie"/></svg>
+      <p class="footer-tag">Associer vos profils clés au capital, et préparer la continuité de l'entreprise. Pour les PME de 10 à 150 salariés.</p>
+    </div>
+    <nav class="footer-sitemap" aria-label="Plan du site">
+      <div class="footer-col">
+        <div class="footer-col-title">Produit</div>
+        <a href="/#comment">Comment ça marche</a>
+        <a href="/#pourquoi">Pourquoi Capitali</a>
+        <a href="/#tarifs">Tarifs</a>
+      </div>
+      <div class="footer-col">
+        <div class="footer-col-title">Ressources</div>
+        <a href="/ressources/">Guides</a>
+        <a href="/blog/">Blog</a>
+        <a href="/simulateur-aga/">Simulateur AGA</a>
+        <a href="/simulateur-lpv/">Simulateur LPV</a>
+        <a href="/simulateur-ppv/">Simulateur PPV</a>
+        <a href="/livre-blanc/">Livre blanc</a>
+      </div>
+      <div class="footer-col">
+        <div class="footer-col-title">Compte</div>
+        <a href="https://app.capitali.fr/login">Se connecter</a>
+        <a href="https://cal.com/capitali/30min" data-cal-link="capitali/30min" data-cal-namespace="30min" data-cal-config='{"layout":"month_view","useSlotsViewOnSmallScreen":"true"}'>Réserver une démo</a>
+      </div>
+    </nav>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 Capitali · capitali.fr</span>
+    <span>Conforme RGPD · Hébergé dans l'UE</span>
+  </div>
+</footer>
+
+<!-- Cal.com embed -->
+<!-- ═══ SIMULATOR LOGIC ═══ -->
+<!-- ══ CAPITALI:GENERATED aga-sim-config ══ -->
+<script src="/js/aga-calc.js"></script>
+<script>
+const LPV_ENDPOINT = "https://gvuuremizjsnilphahul.supabase.co/functions/v1/lpv-leads";
+const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imd2dXVyZW1pempzbmlscGhhaHVsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzU2NTY0ODMsImV4cCI6MjA5MTIzMjQ4M30.nL3McMOnJ245eYibDp1xFPbBT0lVjx3vkw5YeO8xcBk";
+const CTA_URL = "https://cal.com/capitali/30min";
+</script>
+<!-- ══ CAPITALI:END aga-sim-config ══ -->
+<script>
+// Le calcul, le formatage et les textes vivent dans /js/aga-calc.js. La fonction
+// edge exécute le même fichier pour composer l'email : l'écran et l'email ne
+// peuvent pas afficher deux chiffres différents.
+const fmt = AGA_CALC.formatEur;
+
+const utm = (() => {
+  const p = new URLSearchParams(window.location.search);
+  return { source: p.get('utm_source') || '', campaign: p.get('utm_campaign') || '' };
+})();
+
+let profil = 'fidelisation';
+let dividendes = false;
+let sim = {};
+
+function readInputs() {
+  const n = (id) => parseFloat(document.getElementById(id).value);
+  if (profil === 'transmission') {
+    return {
+      profil: 'transmission',
+      valorisation: n('trans-input-valo'),
+      partTransmisePct: n('trans-slider-part'),
+      nbRepreneurs: n('trans-slider-nb'),
+      dureeAns: n('trans-slider-duree'),
+      aDistribueDividendes: dividendes
+    };
+  }
+  return {
+    profil: 'fidelisation',
+    nbBeneficiaires: n('fid-slider-nb'),
+    valeurAnnuelle: n('fid-slider-valeur'),
+    valorisation: n('fid-input-valo'),
+    aDistribueDividendes: dividendes
+  };
+}
+
+function ligne(libelle, valeur, accent) {
+  return '<tr><td>' + libelle + '</td><td class="' + (accent ? 'col-gain' : '') + '" style="text-align:right">' + valeur + '</td></tr>';
+}
+
+function render() {
+  const saisies = readInputs();
+  sim = AGA_CALC.compute(saisies);
+  const m = AGA_CALC.buildEmailModel(saisies);
+
+  // Sur de très petites valeurs attribuées, l'abonnement peut dépasser le coût
+  // de la prime : le verdict doit alors cesser d'être vert.
+  const favorable = profil === 'transmission' || sim.ecartCout > 0;
+  document.getElementById('verdict').classList.toggle('is-negative', !favorable);
+  document.getElementById('verdict-main').textContent = m.verdict;
+  document.getElementById('verdict-sub').textContent = m.verdict_sous;
+  document.getElementById('mention-contribution').textContent =
+    (m.mention_contribution + ' ' + m.mention_exoneration).trim();
+
+  const alerte = document.getElementById('alerte-plafond');
+  alerte.textContent = m.alerte_plafond;
+  alerte.classList.toggle('visible', m.alerte_plafond !== '');
+
+  const detail = document.getElementById('detail-body');
+  if (profil === 'transmission') {
+    document.getElementById('col-bad-head').textContent = 'Rachat à financer';
+    document.getElementById('col-bad-value').textContent = m.valeur_transmise;
+    document.getElementById('col-bad-note').textContent = 'ce que vos cadres devraient réunir';
+    document.getElementById('col-good-head').textContent = 'Transmission par AGA';
+    document.getElementById('col-good-value').textContent = m.debours_repreneurs;
+    document.getElementById('col-good-note').textContent = 'ce qu\'ils déboursent';
+    document.getElementById('detail-label').textContent = 'Votre plan de transmission';
+    detail.innerHTML =
+      ligne('Part transmise sur ' + m.duree, m.part_transmise + ' · ' + m.valeur_transmise) +
+      ligne('Par repreneur (' + m.nb_repreneurs + ')', m.valeur_par_repreneur + ' · ' + m.part_par_repreneur) +
+      ligne('Abonnement Capitali', m.abonnement) +
+      ligne('Contribution patronale', m.contribution) +
+      ligne('Coût employeur total', m.cout_aga, true) +
+      ligne('Capital que vous conservez', m.capital_conserve, true);
+  } else {
+    document.getElementById('col-bad-head').textContent = 'Prime classique';
+    document.getElementById('col-bad-value').textContent = m.cout_prime;
+    document.getElementById('col-bad-note').textContent = 'coût employeur sur ' + m.horizon;
+    document.getElementById('col-good-head').textContent = 'Plan AGA Capitali';
+    document.getElementById('col-good-value').textContent = m.cout_aga;
+    document.getElementById('col-good-note').textContent = 'coût employeur sur ' + m.horizon;
+    document.getElementById('detail-label').textContent = 'Le détail, par bénéficiaire';
+    detail.innerHTML =
+      ligne('Valeur attribuée', m.valeur_par_beneficiaire) +
+      ligne('Net s\'il touchait une prime', m.net_prime) +
+      ligne('Net avec le plan AGA', m.net_aga, true) +
+      ligne('Différence pour lui', m.ecart_net, true) +
+      ligne('Abonnement Capitali', m.abonnement) +
+      ligne('Contribution patronale', m.contribution) +
+      ligne('Capital attribué (' + m.nb_beneficiaires + ')', m.valeur_attribuee + ' · ' + m.dilution) +
+      ligne('Capital que vous conservez', m.capital_conserve, true);
+  }
+}
+
+function setProfil(p) {
+  profil = p;
+  AGA_CALC.PROFILS.forEach((nom) => {
+    const onglet = document.getElementById('tab-' + nom);
+    const actif = nom === p;
+    onglet.classList.toggle('is-active', actif);
+    onglet.setAttribute('aria-selected', actif ? 'true' : 'false');
+    onglet.tabIndex = actif ? 0 : -1;
+    document.getElementById('panel-' + nom).hidden = !actif;
+  });
+  render();
+}
+
+document.querySelectorAll('.tab').forEach((onglet) => {
+  onglet.addEventListener('click', () => setProfil(onglet.dataset.profil));
+  onglet.addEventListener('keydown', (e) => {
+    if (e.key !== 'ArrowRight' && e.key !== 'ArrowLeft') return;
+    e.preventDefault();
+    const i = AGA_CALC.PROFILS.indexOf(profil);
+    const suivant = AGA_CALC.PROFILS[(i + (e.key === 'ArrowRight' ? 1 : -1) + AGA_CALC.PROFILS.length) % AGA_CALC.PROFILS.length];
+    setProfil(suivant);
+    document.getElementById('tab-' + suivant).focus();
+  });
+});
+
+document.querySelectorAll('[data-dividendes]').forEach((btn) => {
+  btn.addEventListener('click', () => {
+    dividendes = btn.dataset.dividendes === 'oui';
+    document.querySelectorAll('[data-dividendes]').forEach((b) => b.classList.toggle('selected', b === btn));
+    render();
+  });
+});
+
+// Les affichages de curseurs suivent leur champ, sans dupliquer de formatage.
+const MIROIRS = [
+  ['fid-slider-nb', 'fid-display-nb', false],
+  ['fid-slider-valeur', 'fid-display-valeur', true],
+  ['trans-slider-part', 'trans-display-part', false],
+  ['trans-slider-nb', 'trans-display-nb', false],
+  ['trans-slider-duree', 'trans-display-duree', false],
+];
+MIROIRS.forEach(([source, cible, milliers]) => {
+  const el = document.getElementById(source);
+  const maj = () => {
+    document.getElementById(cible).textContent =
+      milliers ? AGA_CALC.formatNumber(el.value, 0) : el.value;
+  };
+  el.addEventListener('input', () => { maj(); render(); });
+  maj();
+});
+
+[['fid-input-valo', 'fid-slider-valo'], ['trans-input-valo', 'trans-slider-valo']].forEach(([champ, curseur]) => {
+  const c = document.getElementById(champ);
+  const s = document.getElementById(curseur);
+  c.addEventListener('input', () => { s.value = Math.min(Math.max(c.value, s.min), s.max); render(); });
+  s.addEventListener('input', () => { c.value = s.value; render(); });
+});
+
+async function submitLead() {
+  const email = document.getElementById('capture-email').value.trim();
+  const rgpd = document.getElementById('capture-rgpd').checked;
+  const errEl = document.getElementById('capture-error');
+  const btn = document.getElementById('capture-btn');
+
+  errEl.classList.remove('visible');
+  if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+    errEl.textContent = 'Veuillez saisir une adresse email valide.';
+    errEl.classList.add('visible');
+    return;
+  }
+  if (!rgpd) {
+    errEl.textContent = 'Veuillez accepter les conditions pour recevoir votre simulation.';
+    errEl.classList.add('visible');
+    return;
+  }
+
+  btn.disabled = true;
+  btn.textContent = 'Envoi…';
+
+  try {
+    const res = await fetch(LPV_ENDPOINT, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Authorization': 'Bearer ' + SUPABASE_ANON_KEY,
+        'apikey': SUPABASE_ANON_KEY,
+      },
+      // On n'envoie que les saisies : le résumé CRM et le gain sont dérivés
+      // côté serveur par le même code de calcul, donc jamais désynchronisés.
+      body: JSON.stringify({
+        email: email,
+        simulateur_origine: 'aga',
+        aga_inputs: readInputs(),
+        utm_source: utm.source,
+        utm_campaign: utm.campaign,
+      }),
+    });
+
+    if (!res.ok) throw new Error('server');
+    const data = await res.json().catch(() => ({}));
+
+    // Le lead est enregistré dès que la réponse est 200 : on ne réactive donc
+    // jamais le bouton ici, ça créerait des doublons. Mais un envoi qui a
+    // échoué ne doit pas s'afficher comme un succès : la boîte mail du
+    // visiteur le contredirait dans la minute.
+    document.getElementById('capture-form-wrap').style.display = 'none';
+    if (data.email_sent === true) {
+      document.getElementById('capture-success').classList.add('visible');
+    } else {
+      const partial = document.getElementById('capture-partial');
+      partial.innerHTML = 'Vos résultats sont bien enregistrés, mais l\'email n\'a pas pu partir. '
+        + '<a href="' + CTA_URL + '" data-cal-link="capitali/30min" data-cal-namespace="30min"'
+        + ' data-cal-config=\'{"layout":"month_view"}\' style="color:var(--green-dark)">Réservez une démo</a>'
+        + ' et on vous les commente de vive voix.';
+      partial.classList.add('visible');
+    }
+  } catch {
+    btn.disabled = false;
+    btn.textContent = 'Recevoir →';
+    errEl.innerHTML = 'Une erreur est survenue. <a href="' + CTA_URL + '" data-cal-link="capitali/30min"'
+      + ' data-cal-namespace="30min" data-cal-config=\'{"layout":"month_view"}\''
+      + ' style="color:var(--green-dark)">Réservez une démo</a> à la place.';
+    errEl.classList.add('visible');
+  }
+}
+
+document.getElementById('capture-btn').addEventListener('click', submitLead);
+document.getElementById('capture-email').addEventListener('keydown', (e) => {
+  if (e.key === 'Enter') submitLead();
+});
+
+render();
+</script>
+
+<script src="/js/cal.js" defer></script>
+</body>
+</html>

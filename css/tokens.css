@@ -1,0 +1,113 @@
+/* ═══════════════════════════════════════════════════════
+   Capitali - FONDATIONS (tokens + bases)
+   Source de vérité unique du design system. Toute page du site
+   charge ce fichier AVANT sa feuille de composants.
+
+   Contient les tokens, et les rares règles de base dont *toutes*
+   les pages ont besoin, quelle que soit leur feuille de composants.
+
+   Règle : aucune autre feuille ne redéclare de token. Une police,
+   une couleur ou un espacement qui n'est pas ici n'a rien à faire
+   dans une page : c'est ainsi que le site avait fini avec trois
+   régimes typographiques différents.
+
+   Vérifié par scripts/design-system/check.py (lancé en CI).
+   ═══════════════════════════════════════════════════════ */
+:root{
+  --paper:#faf9f5;
+  --ink:#12100c;
+  --line-hair:#efeade;   /* filets de séparation (en-tête, lignes de tableau) */
+  --line:#e3ddd0;        /* bordures de cartes et de champs */
+  --line-strong:#c9c1af; /* bordures accentuées, survol */
+  --surface:#ffffff;         /* cartes posées sur le papier */
+  --surface-elevated:#fdfcf8;/* cartes de second niveau */
+  --text-strong:#4a4438;  /* texte secondaire lisible (entre --ink et --muted) */
+  --muted:#847d6c;        /* texte tertiaire, légendes */
+
+  /* Rythme des contrôles : toute commande cliquable fait la même hauteur,
+     ce qui aligne nav, boutons et champs sur une seule grille. */
+  --control-h:3rem;
+
+  /* Rythme vertical : trois densités au lieu d'un padding unique.
+     En clamp plutôt qu'en points de rupture : le site est statique, une
+     valeur fluide évite trois media queries par section. Le mobile se
+     resserre (l'ancien 5.5rem plat y était trop lâche), le desktop respire. */
+  --section-y:clamp(3.5rem, 7vw, 6rem);        /* densité courante */
+  --section-y-tight:clamp(2.25rem, 4.5vw, 3.5rem); /* bandeaux, listes serrées */
+  --section-y-loose:clamp(4.5rem, 9vw, 8rem);  /* sections-manifeste, CTA final */
+  --green:#00b86b;
+  --green-dark:#009a59;
+  --green-bg:rgba(0,184,107,0.08);
+  --coral:#c2481f;
+  /* Titrage et interface partagent Geist : la référence n'emploie aucune
+     serif, son h1 est en Geist 300. Le token garde son nom --serif pour ne pas
+     réécrire les 12 règles qui s'y réfèrent, mais il ne désigne plus une serif.
+     Pour revenir à l'ancienne paire : remettre Instrument Serif ici et
+     --display-weight à 400. */
+  --serif:'Geist', -apple-system, BlinkMacSystemFont, sans-serif;
+  --sans:'Geist', -apple-system, BlinkMacSystemFont, sans-serif;
+  --display-weight:300;   /* graisse des grands titres, relevée sur la référence */
+  --mono:'DM Mono', ui-monospace, SFMono-Regular, monospace;
+
+  /* Hauteur de l'en-tête fixe (bandeau + nav) et respiration sous celui-ci.
+     Source de vérité unique : les trois types de héros s'y réfèrent au lieu
+     de dupliquer des constantes qui se contredisaient d'une media query à
+     l'autre (le @media 900px arrivant après le 860px écrasait le dégagement
+     prévu pour le bandeau sur deux lignes, passant le contenu sous la nav). */
+  --header-h:5.4rem;
+  --hero-gap:3.6rem;
+
+  /* Alias vers les anciens tokens de /css/brand.css, permet aux pages qui
+     ne sont pas encore migrées vers la palette --paper/--ink/--muted de
+     rester lisibles si elles chargent ce fichier par erreur, et sert de
+     pont pendant la migration page par page. */
+  --white:#ffffff;
+  --black:var(--ink);
+  --gray-50:var(--paper);
+  --gray-100:#f2efe6;
+  --gray-200:var(--line);
+  --gray-400:var(--line-strong);
+  --gray-600:var(--muted);
+  --gray-800:var(--ink);
+}
+
+/* ── Ponts de compatibilité ──
+   Noms hérités de l'ancien /css/brand.css, encore employés par les
+   pages PEE gelées. Ils pointent vers l'échelle ci-dessus : les pages
+   gelées suivent donc la marque sans qu'on touche à leur balisage. */
+:root{
+  --black:var(--ink);
+  --white:var(--surface);
+  --gray-50:var(--paper);
+  --gray-100:#f2efe6;
+  --gray-200:var(--line);
+  --gray-400:var(--line-strong);
+  --gray-600:var(--muted);
+  --gray-800:var(--ink);
+}
+
+/* Noms hérités des pages de schémas, qui portaient leur propre palette
+   (dont un vert différent de celui de la marque). Alias plutôt que
+   réécriture de leur balisage : les schémas suivent la marque sans risque. */
+:root{
+  --red:var(--coral);
+  --red-bg:rgba(194,72,31,0.06);
+  --text:var(--ink);
+  --text-2:var(--text-strong);
+  --text-3:var(--muted);
+  --border:var(--line);
+}
+
+/* Tokens responsives : sous 860px le bandeau passe sur deux lignes,
+   l'en-tête grandit d'autant. Cette redéfinition vit ici et non dans la
+   feuille de composants : un token ne se déclare qu'à un seul endroit. */
+@media (max-width:860px){
+  :root{--header-h:6.9rem; --hero-gap:4.1rem;}
+}
+
+/* Sprite SVG partagé (symboles d'icônes et de couvertures).
+   NE PAS repasser en display:none : Chromium cesse alors de résoudre les
+   paint servers (linearGradient / radialGradient) référencés depuis ce
+   sous-arbre, et toute forme remplie par url(#gradient), dont la marque
+   du logo, se rend en quasi-blanc. On le sort du flux sans le masquer. */
+.svg-sprite{position:absolute; width:0; height:0; overflow:hidden;}

@@ -1,0 +1,1051 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Simulateur PEE : Calculez le gain réel de vos salariés | Capitali</title>
+<meta name="description" content="Pour 1 000 € de budget, une prime classique donne 378 € net à votre salarié. Un PEE en donne 903 €. Faites le calcul pour votre entreprise en 30 secondes.">
+<link rel="canonical" href="https://capitali.fr/simulateur/">
+<meta property="og:title" content="Simulateur PEE : Calculez le gain réel de vos salariés">
+<meta property="og:description" content="Pour 1 000 € de budget employeur : prime classique → 378 € net. PEE → 903 € net. Même coût, x2,4 de résultat.">
+<meta property="og:type" content="website">
+<link href="https://fonts.googleapis.com/css2?family=Geist:ital,wght@0,300..700;1,300..700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/tokens.css">
+<link rel="stylesheet" href="/css/brand.css">
+<style>
+
+/* ── PAGE LAYOUT ── */
+.sim-page {
+  padding-top: 5rem;
+  min-height: 100vh;
+}
+
+/* ── HERO ── */
+.sim-hero {
+  padding: 4rem 2rem 2.5rem;
+  background: var(--white);
+}
+
+.sim-hero-inner {
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.sim-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.3rem 0.9rem;
+  border-radius: 100px;
+  background: var(--green-bg);
+  color: var(--green-dark);
+  font-size: 0.75rem;
+  font-weight: 600;
+  margin-bottom: 1.25rem;
+  border: 1px solid rgba(0,184,107,0.18);
+}
+
+.sim-badge::before {
+  content: '';
+  width: 6px; height: 6px;
+  background: var(--green);
+  border-radius: 50%;
+}
+
+.sim-hero h1 {
+  font-family: var(--serif);
+  font-weight: 400;
+  font-size: clamp(2.2rem, 4.5vw, 3rem);
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  margin-bottom: 1rem;
+}
+
+.sim-hero h1 em {
+  font-style: italic;
+  color: var(--green);
+}
+
+.sim-hero-sub {
+  font-size: 1rem;
+  color: var(--gray-600);
+  line-height: 1.6;
+  max-width: 520px;
+  margin: 0 auto 2rem;
+}
+
+/* ── CALCULATOR CARD ── */
+.sim-body {
+  padding: 0 2rem 4rem;
+  background: var(--gray-100);
+}
+
+.sim-card {
+  max-width: 960px;
+  margin: 0 auto;
+  background: var(--white);
+  border: 1px solid var(--gray-200);
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 4px 32px rgba(0,0,0,0.06);
+}
+
+/* ── INPUTS PANEL ── */
+.sim-inputs {
+  padding: 2rem 2.5rem;
+  border-bottom: 1px solid var(--gray-200);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.input-label {
+  font-size: 0.78rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--gray-600);
+}
+
+.input-value-row {
+  display: flex;
+  align-items: baseline;
+  gap: 0.35rem;
+}
+
+.input-display {
+  font-size: 2.2rem;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  color: var(--black);
+  line-height: 1;
+}
+
+.input-unit {
+  font-size: 0.88rem;
+  color: var(--gray-400);
+  font-weight: 500;
+}
+
+.input-slider {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 4px;
+  background: var(--gray-200);
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+}
+
+.input-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 18px; height: 18px;
+  background: var(--green);
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0,184,107,0.3);
+  transition: transform 0.15s;
+}
+
+.input-slider::-webkit-slider-thumb:hover {
+  transform: scale(1.2);
+}
+
+.input-slider::-moz-range-thumb {
+  width: 18px; height: 18px;
+  background: var(--green);
+  border-radius: 50%;
+  cursor: pointer;
+  border: none;
+  box-shadow: 0 2px 6px rgba(0,184,107,0.3);
+}
+
+.slider-range {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.7rem;
+  color: var(--gray-400);
+  margin-top: 0.25rem;
+}
+
+.budget-input-wrap {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  border: 1.5px solid var(--gray-200);
+  border-radius: 10px;
+  padding: 0.6rem 0.9rem;
+  transition: border-color 0.2s;
+  background: var(--white);
+}
+
+.budget-input-wrap:focus-within {
+  border-color: var(--green);
+}
+
+.budget-input-wrap input {
+  border: none;
+  outline: none;
+  font-family: var(--sans);
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--black);
+  width: 100%;
+  background: transparent;
+}
+
+.budget-input-wrap .euro {
+  font-size: 1.1rem;
+  color: var(--gray-400);
+  font-weight: 600;
+  flex-shrink: 0;
+}
+
+.input-hint {
+  font-size: 0.75rem;
+  color: var(--gray-400);
+  line-height: 1.4;
+}
+
+/* ── FS BADGE ── */
+.fs-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.2rem 0.6rem;
+  border-radius: 6px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  margin-top: 0.25rem;
+  transition: all 0.3s;
+}
+
+.fs-badge.zero { background: rgba(0,184,107,0.12); color: var(--green-dark); }
+.fs-badge.twenty { background: rgba(245,158,11,0.12); color: #d97706; }
+
+/* ── RESULTS PANEL ── */
+.sim-results {
+  padding: 2.5rem;
+}
+
+.results-headline {
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--gray-400);
+  margin-bottom: 1.5rem;
+}
+
+/* ── COMPARISON BARS ── */
+.bars-section {
+  margin-bottom: 2rem;
+}
+
+.bar-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.bar-label {
+  width: 130px;
+  flex-shrink: 0;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--gray-600);
+  text-align: right;
+}
+
+.bar-track {
+  flex: 1;
+  height: 44px;
+  background: var(--gray-100);
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+.bar-fill {
+  height: 100%;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 1rem;
+  transition: width 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  min-width: 60px;
+  position: relative;
+}
+
+.bar-fill.prime {
+  background: var(--gray-200);
+}
+
+.bar-fill.pee {
+  background: linear-gradient(90deg, #00a860, var(--green));
+}
+
+.bar-value {
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: -0.02em;
+  white-space: nowrap;
+}
+
+.bar-fill.prime .bar-value { color: var(--gray-600); }
+.bar-fill.pee .bar-value { color: white; }
+
+/* ── KPI CARDS ── */
+.kpi-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.kpi-card {
+  background: var(--gray-50);
+  border: 1px solid var(--gray-200);
+  border-radius: 14px;
+  padding: 1.25rem;
+}
+
+.kpi-card.highlight {
+  background: var(--green-bg);
+  border-color: rgba(0,184,107,0.2);
+}
+
+.kpi-label {
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--gray-400);
+  margin-bottom: 0.5rem;
+}
+
+.kpi-card.highlight .kpi-label { color: var(--green-dark); opacity: 0.8; }
+
+.kpi-value {
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  color: var(--black);
+  line-height: 1;
+}
+
+.kpi-card.highlight .kpi-value { color: var(--green-dark); }
+
+.kpi-sub {
+  font-size: 0.75rem;
+  color: var(--gray-400);
+  margin-top: 0.3rem;
+  line-height: 1.35;
+}
+
+/* ── 3-YEAR TABLE ── */
+.table-section {
+  margin-bottom: 2rem;
+}
+
+.table-label {
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--gray-400);
+  margin-bottom: 0.75rem;
+}
+
+.sim-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.88rem;
+}
+
+.sim-table th {
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--gray-400);
+  padding: 0.5rem 0.85rem;
+  text-align: right;
+  border-bottom: 1px solid var(--gray-200);
+}
+
+.sim-table th:first-child { text-align: left; }
+
+.sim-table td {
+  padding: 0.7rem 0.85rem;
+  border-bottom: 1px solid var(--gray-100);
+  text-align: right;
+  font-weight: 500;
+}
+
+.sim-table td:first-child {
+  text-align: left;
+  color: var(--gray-600);
+  font-weight: 400;
+}
+
+.sim-table tr:last-child td {
+  border-bottom: none;
+  font-weight: 700;
+  color: var(--black);
+}
+
+.sim-table .col-prime { color: var(--gray-600); }
+.sim-table .col-pee { color: var(--green-dark); font-weight: 700; }
+.sim-table .col-gain { color: var(--green); font-weight: 700; }
+
+/* ── SEPARATOR ── */
+.sim-sep {
+  height: 1px;
+  background: var(--gray-200);
+  margin: 2rem 0;
+}
+
+/* ── EMAIL CAPTURE ── */
+.capture-section {
+  background: var(--gray-50);
+  border: 1px solid var(--gray-200);
+  border-radius: 16px;
+  padding: 2rem;
+}
+
+.capture-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.capture-icon {
+  width: 42px; height: 42px;
+  background: var(--green-bg);
+  border-radius: 12px;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 1.2rem;
+  flex-shrink: 0;
+}
+
+.capture-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+  line-height: 1.3;
+}
+
+.capture-subtitle {
+  font-size: 0.85rem;
+  color: var(--gray-600);
+  line-height: 1.4;
+}
+
+.capture-form {
+  display: flex;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.capture-form input[type="email"] {
+  flex: 1;
+  min-width: 200px;
+  padding: 0.85rem 1rem;
+  border: 1.5px solid var(--gray-200);
+  border-radius: 10px;
+  font-family: var(--sans);
+  font-size: 0.95rem;
+  outline: none;
+  transition: border-color 0.2s;
+  background: var(--white);
+}
+
+.capture-form input[type="email"]:focus { border-color: var(--green); }
+
+.capture-form button {
+  padding: 0.85rem 1.5rem;
+  background: var(--green);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-family: var(--sans);
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+  white-space: nowrap;
+}
+
+.capture-form button:hover { background: var(--green-dark); }
+
+.capture-form button:disabled {
+  background: var(--gray-400);
+  cursor: not-allowed;
+}
+
+.rgpd-line {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.6rem;
+  font-size: 0.75rem;
+  color: var(--gray-600);
+  line-height: 1.45;
+}
+
+.rgpd-line input[type="checkbox"] {
+  margin-top: 0.15rem;
+  accent-color: var(--green);
+  flex-shrink: 0;
+}
+
+/* ── CAPTURE STATES ── */
+.capture-success {
+  display: none;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 1.25rem;
+  background: var(--green-bg);
+  border: 1px solid rgba(0,184,107,0.2);
+  border-radius: 10px;
+  font-size: 0.9rem;
+  color: var(--green-dark);
+  font-weight: 500;
+}
+
+.capture-success.visible { display: flex; }
+
+.capture-error {
+  display: none;
+  font-size: 0.8rem;
+  color: #ef4444;
+  margin-top: 0.5rem;
+}
+
+.capture-error.visible { display: block; }
+
+/* ── DISCLAIMER ── */
+.sim-disclaimer {
+  max-width: 960px;
+  margin: 1.5rem auto 0;
+  font-size: 0.72rem;
+  color: var(--gray-400);
+  line-height: 1.5;
+  text-align: center;
+  padding: 0 2rem;
+}
+
+/* ── SOCIAL PROOF ── */
+.proof-bar {
+  background: var(--black);
+  padding: 0.85rem 2rem;
+}
+
+.proof-inner {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.proof-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.82rem;
+  color: var(--gray-400);
+}
+
+.proof-item strong { color: var(--white); }
+
+/* ── RESPONSIVE ── */
+@media (max-width: 768px) {
+  .sim-hero { padding: 3rem 1.25rem 2rem; }
+  .sim-body { padding: 0 1.25rem 3rem; }
+  .sim-inputs { grid-template-columns: 1fr; gap: 1.5rem; padding: 1.5rem; }
+  .sim-results { padding: 1.5rem; }
+  .kpi-grid { grid-template-columns: 1fr 1fr; }
+  .kpi-grid .kpi-card:last-child { grid-column: span 2; }
+  .bar-label { width: 80px; font-size: 0.72rem; }
+  .capture-form { flex-direction: column; }
+  .capture-form input[type="email"], .capture-form button { width: 100%; }
+  .proof-inner { gap: 1rem; }
+}
+
+@media (max-width: 480px) {
+  .kpi-grid { grid-template-columns: 1fr; }
+  .kpi-grid .kpi-card:last-child { grid-column: auto; }
+}
+
+</style>
+</head>
+<body>
+
+<svg class="svg-sprite" aria-hidden="true">
+  <defs>
+    <linearGradient id="beanieYellow" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFE08A"/><stop offset="0.55" stop-color="#FFC94A"/><stop offset="1" stop-color="#E8A420"/></linearGradient>
+    <linearGradient id="beanieRed" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F58A8E"/><stop offset="0.55" stop-color="#E5484D"/><stop offset="1" stop-color="#B93035"/></linearGradient>
+    <linearGradient id="beanieBlue" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7C97ED"/><stop offset="0.55" stop-color="#3E63DD"/><stop offset="1" stop-color="#28439E"/></linearGradient>
+    <linearGradient id="beanieGreen" x1="0" y1="0" x2="0.3" y2="1"><stop offset="0" stop-color="#3CB273"/><stop offset="1" stop-color="#166F41"/></linearGradient>
+    <linearGradient id="beanieBlade" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#284BAF"/><stop offset="0.5" stop-color="#5F80E6"/><stop offset="1" stop-color="#243F94"/></linearGradient>
+    <radialGradient id="beanieBeadYellow" cx="0.35" cy="0.35" r="0.75"><stop offset="0" stop-color="#FFEBA8"/><stop offset="1" stop-color="#E5A928"/></radialGradient>
+    <radialGradient id="beanieBeadBlue" cx="0.35" cy="0.35" r="0.75"><stop offset="0" stop-color="#93A9EE"/><stop offset="1" stop-color="#2C4AA0"/></radialGradient>
+    <radialGradient id="beanieBeadNavy" cx="0.35" cy="0.35" r="0.75"><stop offset="0" stop-color="#5064AC"/><stop offset="1" stop-color="#181F45"/></radialGradient>
+    <radialGradient id="beanieShadow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#000000" stop-opacity="0.16"/><stop offset="1" stop-color="#000000" stop-opacity="0"/></radialGradient>
+    <symbol id="icon-beanie" viewBox="0 0 100 100">
+      <ellipse cx="46" cy="90" rx="34" ry="4.5" fill="url(#beanieShadow)"/>
+      <path d="M 15,59 C 8,64 3,71 4,78 C 5,82 8,84 13,85 C 25,88 40,88 52,85 C 62,82 69,78 73,71 C 74,68 73,65 71,63 C 60,66 45,66 33,64 C 25,63 19,62 15,59 Z" fill="url(#beanieGreen)"/>
+      <path d="M 15,59 C 8,64 3,71 4,78 C 5,82 8,84 13,85 C 20,84 26,80 30,73 C 24,69 18,64 15,59 Z" fill="#0F5236" opacity="0.4"/>
+      <path d="M 12,63 C 7,68 5,73 6,78 C 7,81 10,83 14,84 C 25,87 39,87 51,84 C 60,81 66,78 70,72" fill="none" stroke="#eafff2" stroke-width="0.9" stroke-linecap="round" opacity="0.5"/>
+      <path d="M 15,59 C 15,45 18,28 31,19 C 38,14 46,12 53,13 C 62,13 70,15 78,22 C 86,28 90,36 89,45 C 88,53 84,58 79,61 L 71,63 C 60,66 45,66 33,64 C 25,63 19,62 15,59 Z" fill="url(#beanieBlue)"/>
+      <path d="M 44,13 C 50,12.5 58,13 66,14 C 68,30 68,48 65,62 C 55,65 45,65 38,64 C 37,45 40,28 44,13 Z" fill="url(#beanieRed)"/>
+      <path d="M 15,59 C 15,45 18,28 31,19 C 38,14 43,13 44,13 C 40,28 37,45 38,64 C 33,64 22,63 15,59 Z" fill="url(#beanieYellow)"/>
+      <path d="M 44,13 C 40,28 37,45 38,64" fill="none" stroke="#ffffff" stroke-width="0.9" stroke-linecap="round" opacity="0.35"/>
+      <path d="M 66,14 C 68,30 68,48 65,62" fill="none" stroke="#ffffff" stroke-width="0.9" stroke-linecap="round" opacity="0.3"/>
+      <path d="M 15,59 C 15,45 18,28 31,19 C 38,14 46,12 53,13 C 62,13 70,15 78,22 C 86,28 90,36 89,45 C 88,53 84,58 79,61 L 71,63 C 60,66 45,66 33,64 C 25,63 19,62 15,59 Z" fill="none" stroke="#00000022" stroke-width="1"/>
+      <path d="M 66,7 C 75,4 85,2 97,3 C 96,4.5 90,6.5 80,7.5 C 74,8 69,8 66,7 Z" fill="url(#beanieBlade)" stroke="#1c2c66" stroke-width="0.4"/>
+      <path d="M 66,7 C 57,9 47,10.5 33,11 C 34,9.5 40,7.5 50,6.5 C 57,6 63,6.5 66,7 Z" fill="url(#beanieBlade)" stroke="#1c2c66" stroke-width="0.4"/>
+      <path d="M 66,7 C 78,4.5 88,3 96,3.2" fill="none" stroke="#ffffff" stroke-width="0.6" opacity="0.4"/>
+      <path d="M 66,7 C 54,9.5 44,10.7 34,11" fill="none" stroke="#ffffff" stroke-width="0.6" opacity="0.4"/>
+      <path d="M 63,17 L 65,8" stroke="#2F5FD6" stroke-width="1.4" stroke-linecap="round"/>
+      <circle cx="63" cy="16.5" r="3.1" fill="url(#beanieBeadNavy)"/>
+      <circle cx="64.3" cy="11.3" r="2.5" fill="url(#beanieBeadYellow)"/>
+      <circle cx="65.5" cy="7.3" r="1.8" fill="url(#beanieBeadBlue)"/>
+    </symbol>
+  </defs>
+</svg>
+
+<!-- ═══ NAV ═══ -->
+<nav>
+  <a href="/" class="nav-logo">
+    <svg class="nav-logo-icon" viewBox="0 0 32 32" width="24" height="24" aria-hidden="true" style="display:block;flex-shrink:0;"><use href="#icon-beanie"/></svg>
+    Capitali
+  </a>
+  <div class="nav-right">
+    <a href="/#pourquoi" class="nav-link">Pourquoi Capitali</a>
+    <a href="/ressources/" class="nav-link">Guides</a>
+    <a href="/blog/" class="nav-link">Blog</a>
+    <a href="/#tarifs" class="nav-link">Tarifs</a>
+    <a href="https://app.capitali.fr/login" class="nav-login">Se connecter</a>
+    <a href="https://cal.com/capitali/30min" data-cal-link="capitali/30min" data-cal-namespace="30min" data-cal-config='{"layout":"month_view","useSlotsViewOnSmallScreen":"true"}' class="nav-cta">Réserver une démo →</a>
+  </div>
+</nav>
+
+<div class="sim-page">
+
+  <!-- ═══ HERO ═══ -->
+  <div class="sim-hero">
+    <div class="sim-hero-inner">
+      <div class="sim-badge">Calcul en ligne · Gratuit · Instantané</div>
+      <h1>Pour 1 000 € de budget, vos salariés<br>touchent 378 € en prime… ou <em>903 € en PEE.</em></h1>
+      <p class="sim-hero-sub">Renseignez les 3 paramètres ci-dessous et obtenez le gain exact pour votre entreprise, en temps réel.</p>
+    </div>
+  </div>
+
+  <!-- ═══ PROOF BAR ═══ -->
+  <div class="proof-bar">
+    <div class="proof-inner">
+      <div class="proof-item"><strong>Forfait Social à 0 %</strong> pour les PME 11-49 salariés</div>
+      <div class="proof-item"><strong>Loi Partage de la Valeur</strong> (obligation depuis 2025)</div>
+      <div class="proof-item"><strong>45 jours</strong> pour déployer votre PEE avec Capitali</div>
+    </div>
+  </div>
+
+  <!-- ═══ CALCULATOR ═══ -->
+  <div class="sim-body">
+    <div class="sim-card">
+
+      <!-- INPUTS -->
+      <div class="sim-inputs">
+
+        <div class="input-group">
+          <div class="input-label">Effectif salarié</div>
+          <div class="input-value-row">
+            <span class="input-display" id="display-effectif">20</span>
+            <span class="input-unit">salariés</span>
+          </div>
+          <input type="range" class="input-slider" id="slider-effectif"
+            min="11" max="249" value="20" step="1">
+          <div class="slider-range"><span>11</span><span>249</span></div>
+          <div id="fs-badge" class="fs-badge zero">✓ Forfait Social 0 %</div>
+        </div>
+
+        <div class="input-group">
+          <div class="input-label">Budget annuel par salarié</div>
+          <div class="budget-input-wrap">
+            <input type="number" id="input-budget" value="1000" min="100" max="50000" step="100">
+            <span class="euro">€</span>
+          </div>
+          <input type="range" class="input-slider" id="slider-budget"
+            min="100" max="10000" value="1000" step="100">
+          <div class="slider-range"><span>100 €</span><span>10 000 €</span></div>
+          <div class="input-hint">Montant prévu en primes ou abondement par salarié / an</div>
+        </div>
+
+        <div class="input-group">
+          <div class="input-label">Taux d'abondement envisagé</div>
+          <div class="input-value-row">
+            <span class="input-display" id="display-abondement">100</span>
+            <span class="input-unit">%</span>
+          </div>
+          <input type="range" class="input-slider" id="slider-abondement"
+            min="0" max="300" value="100" step="10">
+          <div class="slider-range"><span>0 %</span><span>300 %</span></div>
+          <div class="input-hint" id="abondement-hint">Pour 1 € versé par le salarié, vous ajoutez 1 €</div>
+        </div>
+
+      </div>
+
+      <!-- RESULTS -->
+      <div class="sim-results">
+
+        <div class="results-headline">Résultats : même coût employeur, résultat différent</div>
+
+        <!-- BARS -->
+        <div class="bars-section">
+          <div class="bar-row">
+            <div class="bar-label">Prime classique</div>
+            <div class="bar-track">
+              <div class="bar-fill prime" id="bar-prime" style="width: 42%;">
+                <span class="bar-value" id="val-prime">378 €</span>
+              </div>
+            </div>
+          </div>
+          <div class="bar-row">
+            <div class="bar-label">Via PEE</div>
+            <div class="bar-track">
+              <div class="bar-fill pee" id="bar-pee" style="width: 100%;">
+                <span class="bar-value" id="val-pee">903 €</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- KPI CARDS -->
+        <div class="kpi-grid">
+          <div class="kpi-card highlight">
+            <div class="kpi-label">Gain par salarié / an</div>
+            <div class="kpi-value" id="kpi-gain-salarie">+525 €</div>
+            <div class="kpi-sub">net supplémentaire vs prime</div>
+          </div>
+          <div class="kpi-card">
+            <div class="kpi-label">Gain total équipe / an</div>
+            <div class="kpi-value" id="kpi-gain-equipe">+10 500 €</div>
+            <div class="kpi-sub" id="kpi-gain-equipe-sub">pour 20 salariés</div>
+          </div>
+          <div class="kpi-card">
+            <div class="kpi-label">Multiplicateur</div>
+            <div class="kpi-value" id="kpi-mult">×2,4</div>
+            <div class="kpi-sub">de pouvoir d'achat salarié</div>
+          </div>
+        </div>
+
+        <!-- 3-YEAR TABLE -->
+        <div class="table-section">
+          <div class="table-label">Projection 3 ans : net reçu par salarié (budget employeur constant)</div>
+          <table class="sim-table">
+            <thead>
+              <tr>
+                <th>Année</th>
+                <th>Prime classique</th>
+                <th>Via PEE</th>
+                <th>Gain cumulé</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Année 1</td>
+                <td class="col-prime" id="t-y1-prime">378 €</td>
+                <td class="col-pee" id="t-y1-pee">903 €</td>
+                <td class="col-gain" id="t-y1-gain">+525 €</td>
+              </tr>
+              <tr>
+                <td>Année 2 (cumulé)</td>
+                <td class="col-prime" id="t-y2-prime">756 €</td>
+                <td class="col-pee" id="t-y2-pee">1 806 €</td>
+                <td class="col-gain" id="t-y2-gain">+1 050 €</td>
+              </tr>
+              <tr>
+                <td>Année 3 (cumulé)</td>
+                <td class="col-prime" id="t-y3-prime">1 134 €</td>
+                <td class="col-pee" id="t-y3-pee">2 709 €</td>
+                <td class="col-gain" id="t-y3-gain">+1 575 €</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="sim-sep"></div>
+
+        <!-- EMAIL CAPTURE -->
+        <div class="capture-section">
+
+          <div class="capture-header">
+            <div class="capture-icon">📄</div>
+            <div>
+              <div class="capture-title">Recevoir ma simulation détaillée en PDF</div>
+              <div class="capture-subtitle">Tableau complet, barèmes URSSAF, comparatif 3 ans, prêt à partager avec votre expert-comptable.</div>
+            </div>
+          </div>
+
+          <!-- Success state -->
+          <div class="capture-success" id="capture-success">
+            <span>✅</span>
+            <span>Votre PDF est en route ! Vérifiez votre boîte mail (et vos spams).</span>
+          </div>
+
+          <!-- Form -->
+          <div id="capture-form-wrap">
+            <div class="capture-form">
+              <input type="email" id="capture-email" placeholder="votre@email.com" autocomplete="email">
+              <button type="button" id="capture-btn" onclick="submitLead()">
+                Recevoir le PDF →
+              </button>
+            </div>
+            <div class="rgpd-line">
+              <input type="checkbox" id="rgpd-check">
+              <label for="rgpd-check">J'accepte que Capitali conserve mon email pour m'envoyer ma simulation et, si je le souhaite, me recontacter. Données traitées conformément au RGPD. Désabonnement en 1 clic.</label>
+            </div>
+            <div class="capture-error" id="capture-error"></div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+    <!-- DISCLAIMER -->
+    <p class="sim-disclaimer">
+      Calcul mécanique fondé sur les barèmes URSSAF en vigueur (charges patronales ~42 %, salariales ~22 %, forfait social 0 % pour PME 11-49 salariés) et une hypothèse de taux marginal d'imposition à 11 %. Ne constitue ni un conseil en investissement, ni un conseil fiscal, ni une recommandation personnalisée. Consultez votre expert-comptable ou un conseiller habilité avant toute décision.
+    </p>
+
+  </div>
+
+</div>
+
+<footer>
+  <p><svg width="18" height="18" viewBox="0 0 32 32" aria-hidden="true" style="display:inline-block;vertical-align:-4px;margin-right:0.4em;"><use href="#icon-beanie"/></svg>© 2025 Capitali · capitali.fr · <a href="/ressources/" style="color:inherit;text-decoration:underline;">Guides</a> · <a href="/#tarifs" style="color:inherit;text-decoration:underline;">Tarifs</a></p>
+</footer>
+
+<!-- Cal.com embed -->
+<!-- ═══ SIMULATOR LOGIC ═══ -->
+<script>
+// Reference values for 1 000 € employer budget (barèmes URSSAF)
+const PRIME_RATIO   = 0.378;   // net salarié / coût employeur
+const PEE_RATIO_FS0 = 0.903;   // FS 0 %  (PME 11-49)
+const PEE_RATIO_FS20 = 0.703;  // FS 20 % (50-249)
+
+// Endpoint de capture (Supabase edge function `leads`)
+const LEADS_ENDPOINT = 'https://gvuuremizjsnilphahul.supabase.co/functions/v1/leads';
+// Clé anon publique (lecture seule côté gateway, l'insertion passe par la service role dans la fonction)
+const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imd2dXVyZW1pempzbmlscGhhaHVsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzU2NTY0ODMsImV4cCI6MjA5MTIzMjQ4M30.nL3McMOnJ245eYibDp1xFPbBT0lVjx3vkw5YeO8xcBk';
+
+// UTM params (captured on load)
+const utm = (() => {
+  const p = new URLSearchParams(window.location.search);
+  return {
+    source: p.get('utm_source') || '',
+    campaign: p.get('utm_campaign') || '',
+  };
+})();
+
+// Current simulation state (used for lead capture)
+let sim = {};
+
+function fmt(n) {
+  return new Intl.NumberFormat('fr-FR', { maximumFractionDigits: 0 }).format(Math.round(n)) + ' €';
+}
+
+function fmtSign(n) {
+  const s = new Intl.NumberFormat('fr-FR', { maximumFractionDigits: 0 }).format(Math.abs(Math.round(n)));
+  return (n >= 0 ? '+' : '−') + s + ' €';
+}
+
+function calculate() {
+  const effectif       = parseInt(document.getElementById('slider-effectif').value);
+  const budgetParSal   = parseFloat(document.getElementById('input-budget').value) || 1000;
+  const tauxAbondement = parseInt(document.getElementById('slider-abondement').value);
+
+  const fsRate   = effectif < 50 ? 0 : 0.20;
+  const peeRatio = effectif < 50 ? PEE_RATIO_FS0 : PEE_RATIO_FS20;
+
+  const netPrime = budgetParSal * PRIME_RATIO;
+  const netPee   = budgetParSal * peeRatio;
+  const gain     = netPee - netPrime;
+  const gainTeam = gain * effectif;
+  const mult     = netPee / netPrime;
+
+  sim = { effectif, budgetParSal, tauxAbondement, gain, netPrime, netPee, fsRate };
+  return { effectif, budgetParSal, tauxAbondement, netPrime, netPee, gain, gainTeam, mult, fsRate };
+}
+
+function renderResults(r) {
+  const pct = (r.netPrime / r.netPee) * 100;
+
+  // Bars
+  document.getElementById('bar-prime').style.width = Math.max(pct, 8) + '%';
+  document.getElementById('bar-pee').style.width   = '100%';
+  document.getElementById('val-prime').textContent = fmt(r.netPrime);
+  document.getElementById('val-pee').textContent   = fmt(r.netPee);
+
+  // KPIs
+  document.getElementById('kpi-gain-salarie').textContent   = fmtSign(r.gain);
+  document.getElementById('kpi-gain-equipe').textContent    = fmtSign(r.gainTeam);
+  document.getElementById('kpi-gain-equipe-sub').textContent = 'pour ' + r.effectif + ' salarié' + (r.effectif > 1 ? 's' : '');
+  document.getElementById('kpi-mult').textContent            = '×' + r.mult.toFixed(1).replace('.', ',');
+
+  // 3-year table
+  document.getElementById('t-y1-prime').textContent = fmt(r.netPrime);
+  document.getElementById('t-y1-pee').textContent   = fmt(r.netPee);
+  document.getElementById('t-y1-gain').textContent  = fmtSign(r.gain);
+  document.getElementById('t-y2-prime').textContent = fmt(r.netPrime * 2);
+  document.getElementById('t-y2-pee').textContent   = fmt(r.netPee * 2);
+  document.getElementById('t-y2-gain').textContent  = fmtSign(r.gain * 2);
+  document.getElementById('t-y3-prime').textContent = fmt(r.netPrime * 3);
+  document.getElementById('t-y3-pee').textContent   = fmt(r.netPee * 3);
+  document.getElementById('t-y3-gain').textContent  = fmtSign(r.gain * 3);
+
+  // FS badge
+  const badge = document.getElementById('fs-badge');
+  if (r.effectif < 50) {
+    badge.textContent = '✓ Forfait Social 0 %';
+    badge.className = 'fs-badge zero';
+  } else {
+    badge.textContent = '⚠ Forfait Social 20 %';
+    badge.className = 'fs-badge twenty';
+  }
+}
+
+function renderInputDisplays() {
+  const effectif       = parseInt(document.getElementById('slider-effectif').value);
+  const budgetParSal   = parseFloat(document.getElementById('input-budget').value) || 0;
+  const tauxAbondement = parseInt(document.getElementById('slider-abondement').value);
+
+  document.getElementById('display-effectif').textContent   = effectif;
+  document.getElementById('display-abondement').textContent = tauxAbondement;
+
+  // Abondement hint
+  const hint = document.getElementById('abondement-hint');
+  if (tauxAbondement === 0) {
+    hint.textContent = 'Aucun abondement : le salarié épargne seul';
+  } else if (tauxAbondement <= 100) {
+    hint.textContent = 'Pour 1 € versé par le salarié, vous ajoutez ' + (tauxAbondement / 100).toFixed(2).replace(/\.?0+$/, '') + ' €';
+  } else {
+    hint.textContent = 'Pour 1 € versé par le salarié, vous ajoutez ' + (tauxAbondement / 100).toFixed(1).replace('.0', '') + ' €';
+  }
+
+  // Sync budget slider ↔ input
+  const budgetSlider = document.getElementById('slider-budget');
+  if (budgetParSal >= 100 && budgetParSal <= 10000) {
+    budgetSlider.value = budgetParSal;
+  }
+}
+
+function update() {
+  renderInputDisplays();
+  renderResults(calculate());
+}
+
+// ── Wire up inputs ──
+
+document.getElementById('slider-effectif').addEventListener('input', update);
+document.getElementById('slider-abondement').addEventListener('input', update);
+document.getElementById('slider-budget').addEventListener('input', function() {
+  document.getElementById('input-budget').value = this.value;
+  update();
+});
+document.getElementById('input-budget').addEventListener('input', function() {
+  const v = parseFloat(this.value);
+  if (v >= 100 && v <= 10000) {
+    document.getElementById('slider-budget').value = v;
+  }
+  update();
+});
+
+// ── Lead capture ──
+
+async function submitLead() {
+  const email = document.getElementById('capture-email').value.trim();
+  const rgpd  = document.getElementById('rgpd-check').checked;
+  const errEl = document.getElementById('capture-error');
+  const btn   = document.getElementById('capture-btn');
+
+  errEl.classList.remove('visible');
+  errEl.textContent = '';
+
+  if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+    errEl.textContent = 'Veuillez saisir une adresse email valide.';
+    errEl.classList.add('visible');
+    return;
+  }
+  if (!rgpd) {
+    errEl.textContent = 'Veuillez accepter les conditions pour recevoir votre PDF.';
+    errEl.classList.add('visible');
+    return;
+  }
+
+  btn.disabled = true;
+  btn.textContent = 'Envoi en cours…';
+
+  try {
+    const res = await fetch(LEADS_ENDPOINT, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Authorization': 'Bearer ' + SUPABASE_ANON_KEY,
+        'apikey': SUPABASE_ANON_KEY,
+      },
+      body: JSON.stringify({
+        email,
+        effectif:         sim.effectif,
+        budget_prime:     sim.budgetParSal,
+        taux_abondement:  sim.tauxAbondement,
+        gain_calcule:     sim.gain,
+        utm_source:       utm.source,
+        utm_campaign:     utm.campaign,
+      }),
+    });
+
+    if (res.ok) {
+      document.getElementById('capture-form-wrap').style.display = 'none';
+      document.getElementById('capture-success').classList.add('visible');
+    } else {
+      throw new Error('server');
+    }
+  } catch {
+    // Graceful fallback: show Cal link
+    btn.disabled = false;
+    btn.textContent = 'Recevoir le PDF →';
+    errEl.innerHTML = 'Une erreur est survenue. <a href="#" data-cal-link="capitali/30min" data-cal-namespace="30min" data-cal-config=\'{"layout":"month_view"}\' style="color:var(--green-dark)">Réservez une démo</a> pour recevoir votre simulation.';
+    errEl.classList.add('visible');
+  }
+}
+
+// Allow Enter key to submit
+document.getElementById('capture-email').addEventListener('keydown', function(e) {
+  if (e.key === 'Enter') submitLead();
+});
+
+// ── Initial render ──
+update();
+</script>
+
+<script src="/js/cal.js" defer></script>
+</body>
+</html>

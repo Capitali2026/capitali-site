@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Salarié vs salarié actionnaire | Capitali</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:ital,wght@0,300..700;1,300..700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/tokens.css">
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: var(--sans); background: #fff; color: var(--text); display: flex; justify-content: center; padding: 2rem 1rem; }
+.canvas { width: 100%; max-width: 880px; padding: 2.2rem 2.6rem 1.8rem; }
+.brand-bar { display: flex; justify-content: space-between; align-items: center; margin-bottom: 2.4rem; }
+.logo { font-family: var(--serif); font-weight: 700; font-size: 19px; }
+.logo::after { content: '.'; color: var(--green); }
+.brand-dot { width: 10px; height: 10px; border-radius: 50%; background: var(--green); }
+.eyebrow { font-size: 10.5px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--green-dark); margin-bottom: 10px; }
+h1 { font-family: var(--serif); font-weight: 700; font-size: 34px; line-height: 1.15; margin-bottom: 10px; }
+h1 em { font-style: italic; color: var(--green); }
+.lede { font-size: 14px; font-weight: 300; color: var(--text-2); line-height: 1.6; max-width: 540px; margin-bottom: 2.2rem; }
+
+/* Ownership strip */
+.ownership { margin-bottom: 2.2rem; }
+.own-label { font-size: 10.5px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--text-3); margin-bottom: 10px; }
+.blocks { display: flex; gap: 6px; }
+.block { flex: 1; height: 44px; border-radius: 8px; background: #F0F0EC; transition: background 0.5s; }
+.block.mine { background: var(--green); position: relative; }
+.block.mine::after {
+  content: 'sa part'; position: absolute; top: calc(100% + 7px); left: 50%; transform: translateX(-50%);
+  font-size: 10.5px; font-weight: 600; color: var(--green-dark); white-space: nowrap;
+}
+.own-sub { font-size: 11.5px; color: var(--text-3); margin-top: 28px; }
+
+/* Comparison table */
+.compare { border: 1px solid var(--border); border-radius: 14px; overflow: hidden; margin-bottom: 1.4rem; }
+.row { display: grid; grid-template-columns: 1.6fr 1fr 1fr; align-items: center; border-bottom: 1px solid var(--border); }
+.row:last-child { border-bottom: none; }
+.row.head { background: #FAFAF8; }
+.row.head > div { font-size: 12.5px; font-weight: 600; padding: 12px 16px; }
+.row.head .c-pee { background: var(--green-bg); color: var(--green-dark); display: flex; align-items: center; gap: 6px; }
+.cell { padding: 13px 16px; font-size: 12.5px; color: var(--text-2); display: flex; align-items: center; gap: 6px; }
+.mark { font-size: 14px; font-weight: 600; padding: 13px 16px; }
+.mark.yes { color: var(--green); }
+.mark.no { color: var(--text-3); font-weight: 400; }
+.row .c-pee { background: rgba(29,158,117,0.04); height: 100%; display: flex; align-items: center; }
+
+/* Punchline */
+.punch {
+  background: var(--text); color: #fff; border-radius: 14px;
+  padding: 1.2rem 1.5rem; display: flex; align-items: baseline; gap: 1.2rem;
+}
+.punch-big { font-family: var(--serif); font-size: 21px; font-weight: 700; line-height: 1.3; }
+.punch-big em { font-style: italic; color: #5DCAA5; }
+
+/* (i) tooltips */
+.info { appearance: none; border: none; cursor: pointer; width: 16px; height: 16px; border-radius: 50%; background: #EFEFEC; color: var(--text-3); font-size: 10px; font-weight: 600; font-family: var(--sans); display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0; position: relative; }
+.info:hover, .info:focus-visible, .info.open { background: var(--green); color: #fff; outline: none; }
+.tip { position: absolute; z-index: 10; bottom: calc(100% + 8px); left: 50%; transform: translateX(-50%); width: 240px; background: var(--text); color: #E4E4E7; font-size: 11px; font-weight: 400; line-height: 1.55; text-align: left; padding: 9px 11px; border-radius: 9px; opacity: 0; pointer-events: none; transition: opacity 0.15s; box-shadow: 0 4px 16px rgba(0,0,0,0.18); }
+.tip strong { color: #fff; font-weight: 600; }
+.tip::after { content: ''; position: absolute; top: 100%; left: 50%; transform: translateX(-50%); border: 5px solid transparent; border-top-color: var(--text); }
+.info:hover .tip, .info:focus-visible .tip, .info.open .tip { opacity: 1; pointer-events: auto; }
+
+.foot { margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border); font-size: 10.5px; color: var(--text-3); line-height: 1.7; display: flex; justify-content: space-between; gap: 2rem; }
+.foot .series { white-space: nowrap; font-weight: 500; }
+
+@media (max-width: 680px) {
+  .canvas { padding: 1.5rem 1.2rem; }
+  h1 { font-size: 26px; }
+  .row { grid-template-columns: 1.4fr 0.8fr 0.8fr; }
+  .tip { width: 200px; }
+}
+</style>
+</head>
+<body>
+<div class="canvas">
+
+  <div class="brand-bar">
+    <div class="logo">Capitali</div>
+    <div class="brand-dot"></div>
+  </div>
+
+  <div class="eyebrow">Comprendre le PEE · 02</div>
+  <h1>Salarié, ou salarié<br><em>actionnaire</em> ?</h1>
+  <p class="lede">Même poste, même salaire. Mais l'un travaille pour l'entreprise ; l'autre travaille aussi pour <strong>sa</strong> part de l'entreprise.</p>
+
+  <div class="ownership">
+    <div class="own-label">L'entreprise, vue comme un gâteau</div>
+    <div class="blocks">
+      <div class="block"></div><div class="block"></div><div class="block"></div><div class="block"></div><div class="block"></div>
+      <div class="block"></div><div class="block"></div><div class="block"></div><div class="block"></div><div class="block mine"></div>
+    </div>
+    <div class="own-sub">Le salarié actionnaire en possède une vraie part : des actions à son nom, achetées via le PEE.</div>
+  </div>
+
+  <div class="compare">
+    <div class="row head">
+      <div></div>
+      <div>Salarié</div>
+      <div class="c-pee">Salarié actionnaire
+        <button class="info" aria-label="Détail">i
+          <span class="tip"><strong>Salarié actionnaire</strong> : il a acheté des actions de son entreprise via le Plan d'Épargne Entreprise (PEE), souvent avec l'aide financière de l'employeur.</span>
+        </button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="cell">Touche son salaire chaque mois</div>
+      <div class="mark yes">✓</div>
+      <div class="mark yes c-pee">✓</div>
+    </div>
+    <div class="row">
+      <div class="cell">Possède une part de l'entreprise
+        <button class="info" aria-label="Détail">i
+          <span class="tip"><strong>Des actions à son nom</strong>, inscrites au registre de l'entreprise. Ce n'est pas un bonus ni une promesse : c'est de la propriété.</span>
+        </button>
+      </div>
+      <div class="mark no">✕</div>
+      <div class="mark yes c-pee">✓</div>
+    </div>
+    <div class="row">
+      <div class="cell">Gagne si l'entreprise prend de la valeur
+        <button class="info" aria-label="Détail">i
+          <span class="tip">La valeur de ses actions suit celle de l'entreprise. <strong>Dans les deux sens</strong> : c'est un placement, pas une garantie.</span>
+        </button>
+      </div>
+      <div class="mark no">✕</div>
+      <div class="mark yes c-pee">✓</div>
+    </div>
+    <div class="row">
+      <div class="cell">Peut toucher des dividendes
+        <button class="info" aria-label="Détail">i
+          <span class="tip">Si l'entreprise distribue une partie de ses bénéfices. Dans un PEE, ces dividendes sont <strong>réinvestis et exonérés d'impôt sur le revenu</strong>.</span>
+        </button>
+      </div>
+      <div class="mark no">✕</div>
+      <div class="mark yes c-pee">✓</div>
+    </div>
+    <div class="row">
+      <div class="cell">A un intérêt direct aux résultats</div>
+      <div class="mark no">✕</div>
+      <div class="mark yes c-pee">✓</div>
+    </div>
+  </div>
+
+  <div class="punch">
+    <div class="punch-big">Même travail. L'un est <em>spectateur</em> des résultats, l'autre en est <em>copropriétaire</em>.</div>
+  </div>
+
+  <div class="foot">
+    <div>Les détails sont derrière chaque <strong style="color:var(--green-dark)">i</strong>. La part détenue dépend du nombre d'actions souscrites. L'exemple est illustratif.</div>
+    <div class="series">capitali.fr</div>
+  </div>
+
+</div>
+
+<script>
+document.querySelectorAll('.info').forEach(btn => {
+  btn.addEventListener('click', e => {
+    e.stopPropagation();
+    const wasOpen = btn.classList.contains('open');
+    document.querySelectorAll('.info.open').forEach(b => b.classList.remove('open'));
+    if (!wasOpen) btn.classList.add('open');
+  });
+});
+document.addEventListener('click', () => document.querySelectorAll('.info.open').forEach(b => b.classList.remove('open')));
+</script>
+</body>
+</html>

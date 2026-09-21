@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="beanieYellow" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFE08A"/><stop offset="0.55" stop-color="#FFC94A"/><stop offset="1" stop-color="#E8A420"/></linearGradient>
+    <linearGradient id="beanieRed" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F58A8E"/><stop offset="0.55" stop-color="#E5484D"/><stop offset="1" stop-color="#B93035"/></linearGradient>
+    <linearGradient id="beanieBlue" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7C97ED"/><stop offset="0.55" stop-color="#3E63DD"/><stop offset="1" stop-color="#28439E"/></linearGradient>
+    <linearGradient id="beanieGreen" x1="0" y1="0" x2="0.3" y2="1"><stop offset="0" stop-color="#3CB273"/><stop offset="1" stop-color="#166F41"/></linearGradient>
+    <linearGradient id="beanieBlade" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#284BAF"/><stop offset="0.5" stop-color="#5F80E6"/><stop offset="1" stop-color="#243F94"/></linearGradient>
+    <radialGradient id="beanieBeadYellow" cx="0.35" cy="0.35" r="0.75"><stop offset="0" stop-color="#FFEBA8"/><stop offset="1" stop-color="#E5A928"/></radialGradient>
+    <radialGradient id="beanieBeadBlue" cx="0.35" cy="0.35" r="0.75"><stop offset="0" stop-color="#93A9EE"/><stop offset="1" stop-color="#2C4AA0"/></radialGradient>
+    <radialGradient id="beanieBeadNavy" cx="0.35" cy="0.35" r="0.75"><stop offset="0" stop-color="#5064AC"/><stop offset="1" stop-color="#181F45"/></radialGradient>
+    <radialGradient id="beanieShadow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#000000" stop-opacity="0.16"/><stop offset="1" stop-color="#000000" stop-opacity="0"/></radialGradient>
+  </defs>
+  <ellipse cx="46" cy="90" rx="34" ry="4.5" fill="url(#beanieShadow)"/>
+  <path d="M 15,59 C 8,64 3,71 4,78 C 5,82 8,84 13,85 C 25,88 40,88 52,85 C 62,82 69,78 73,71 C 74,68 73,65 71,63 C 60,66 45,66 33,64 C 25,63 19,62 15,59 Z" fill="url(#beanieGreen)"/>
+  <path d="M 15,59 C 8,64 3,71 4,78 C 5,82 8,84 13,85 C 20,84 26,80 30,73 C 24,69 18,64 15,59 Z" fill="#0F5236" opacity="0.4"/>
+  <path d="M 12,63 C 7,68 5,73 6,78 C 7,81 10,83 14,84 C 25,87 39,87 51,84 C 60,81 66,78 70,72" fill="none" stroke="#eafff2" stroke-width="0.9" stroke-linecap="round" opacity="0.5"/>
+  <path d="M 15,59 C 15,45 18,28 31,19 C 38,14 46,12 53,13 C 62,13 70,15 78,22 C 86,28 90,36 89,45 C 88,53 84,58 79,61 L 71,63 C 60,66 45,66 33,64 C 25,63 19,62 15,59 Z" fill="url(#beanieBlue)"/>
+  <path d="M 44,13 C 50,12.5 58,13 66,14 C 68,30 68,48 65,62 C 55,65 45,65 38,64 C 37,45 40,28 44,13 Z" fill="url(#beanieRed)"/>
+  <path d="M 15,59 C 15,45 18,28 31,19 C 38,14 43,13 44,13 C 40,28 37,45 38,64 C 33,64 22,63 15,59 Z" fill="url(#beanieYellow)"/>
+  <path d="M 44,13 C 40,28 37,45 38,64" fill="none" stroke="#ffffff" stroke-width="0.9" stroke-linecap="round" opacity="0.35"/>
+  <path d="M 66,14 C 68,30 68,48 65,62" fill="none" stroke="#ffffff" stroke-width="0.9" stroke-linecap="round" opacity="0.3"/>
+  <path d="M 15,59 C 15,45 18,28 31,19 C 38,14 46,12 53,13 C 62,13 70,15 78,22 C 86,28 90,36 89,45 C 88,53 84,58 79,61 L 71,63 C 60,66 45,66 33,64 C 25,63 19,62 15,59 Z" fill="none" stroke="#00000022" stroke-width="1"/>
+  <path d="M 66,7 C 75,4 85,2 97,3 C 96,4.5 90,6.5 80,7.5 C 74,8 69,8 66,7 Z" fill="url(#beanieBlade)" stroke="#1c2c66" stroke-width="0.4"/>
+  <path d="M 66,7 C 57,9 47,10.5 33,11 C 34,9.5 40,7.5 50,6.5 C 57,6 63,6.5 66,7 Z" fill="url(#beanieBlade)" stroke="#1c2c66" stroke-width="0.4"/>
+  <path d="M 66,7 C 78,4.5 88,3 96,3.2" fill="none" stroke="#ffffff" stroke-width="0.6" opacity="0.4"/>
+  <path d="M 66,7 C 54,9.5 44,10.7 34,11" fill="none" stroke="#ffffff" stroke-width="0.6" opacity="0.4"/>
+  <path d="M 63,17 L 65,8" stroke="#2F5FD6" stroke-width="1.4" stroke-linecap="round"/>
+  <circle cx="63" cy="16.5" r="3.1" fill="url(#beanieBeadNavy)"/>
+  <circle cx="64.3" cy="11.3" r="2.5" fill="url(#beanieBeadYellow)"/>
+  <circle cx="65.5" cy="7.3" r="1.8" fill="url(#beanieBeadBlue)"/>
+</svg>

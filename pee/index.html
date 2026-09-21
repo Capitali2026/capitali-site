@@ -1,0 +1,1028 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Capitali | Vos primes, x2,4 plus efficaces</title>
+<link href="https://fonts.googleapis.com/css2?family=Geist:ital,wght@0,300..700;1,300..700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/tokens.css">
+<link rel="stylesheet" href="/css/brand.css">
+<style>
+/* Styles spécifiques à la landing - base partagée dans /css/brand.css */
+
+/* ── HERO ── */
+.hero {
+  padding-top: 9rem;
+  padding-bottom: 4rem;
+}
+
+.hero-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+}
+
+.hero-left {}
+
+.hero-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.3rem 0.9rem;
+  border-radius: 100px;
+  background: var(--gray-100);
+  color: var(--gray-600);
+  font-size: 0.75rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+  border: 1px solid var(--gray-200);
+}
+
+.hero-badge::before {
+  content: '';
+  width: 6px; height: 6px;
+  background: var(--green);
+  border-radius: 50%;
+}
+
+.hero h1 {
+  font-family: var(--serif);
+  font-weight: 400;
+  font-size: clamp(2.4rem, 4.5vw, 3.5rem);
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  margin-bottom: 1.25rem;
+}
+
+.hero h1 em {
+  font-style: italic;
+  color: var(--green);
+}
+
+.hero-sub {
+  font-size: 1.05rem;
+  color: var(--gray-600);
+  line-height: 1.6;
+  margin-bottom: 2rem;
+  max-width: 440px;
+}
+
+.hero-cta-group {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+/* ── DASHBOARD MOCKUP ── */
+.hero-mockup {
+  background: var(--gray-100);
+  border: 1px solid var(--gray-200);
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.08), 0 1px 3px rgba(0,0,0,0.04);
+}
+
+.mockup-bar {
+  display: flex; align-items: center; gap: 0.5rem;
+  padding: 0.75rem 1rem;
+  background: var(--white);
+  border-bottom: 1px solid var(--gray-200);
+}
+
+.mockup-dot {
+  width: 8px; height: 8px; border-radius: 50%;
+}
+.mockup-dot.r { background: #ff5f57; }
+.mockup-dot.y { background: #febc2e; }
+.mockup-dot.g { background: #28c840; }
+
+.mockup-url {
+  flex: 1; text-align: center;
+  font-size: 0.7rem; color: var(--gray-400); font-weight: 500;
+}
+
+.mockup-body {
+  padding: 1.25rem;
+  background: var(--white);
+}
+
+.mockup-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.mockup-stat {
+  background: var(--gray-50);
+  border: 1px solid var(--gray-200);
+  border-radius: 10px;
+  padding: 0.85rem;
+}
+
+.mockup-stat-label {
+  font-size: 0.55rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--gray-400);
+  font-weight: 600;
+  margin-bottom: 0.35rem;
+}
+
+.mockup-stat-value {
+  font-size: 1.15rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.mockup-stat-value.green { color: var(--green); }
+
+.mockup-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+}
+
+.mockup-card {
+  background: var(--gray-50);
+  border: 1px solid var(--gray-200);
+  border-radius: 10px;
+  padding: 0.85rem;
+}
+
+.mockup-card-title {
+  font-size: 0.6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--gray-400);
+  font-weight: 600;
+  margin-bottom: 0.6rem;
+}
+
+.mockup-doc-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.35rem 0;
+  font-size: 0.7rem;
+}
+
+.mockup-doc-name { color: var(--gray-800); font-weight: 500; }
+
+.mockup-badge-sign {
+  font-size: 0.55rem;
+  padding: 0.15rem 0.45rem;
+  border-radius: 4px;
+  font-weight: 600;
+}
+.mockup-badge-sign.green {
+  background: rgba(0,184,107,0.1);
+  color: var(--green);
+}
+.mockup-badge-sign.orange {
+  background: rgba(245,158,11,0.1);
+  color: #d97706;
+}
+
+.mockup-step-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.3rem 0;
+  font-size: 0.7rem;
+  color: var(--gray-600);
+}
+
+.mockup-step-dot {
+  width: 6px; height: 6px; border-radius: 50%;
+  flex-shrink: 0;
+}
+.mockup-step-dot.done { background: var(--green); }
+.mockup-step-dot.pending { background: var(--gray-400); }
+
+/* ── SECTION BÉNÉFICES ── */
+.benefits { background: var(--white); }
+
+.benefits-header {
+  text-align: center;
+  margin-bottom: 3.5rem;
+}
+
+.benefits h2 {
+  font-family: var(--serif);
+  font-size: clamp(2rem, 4vw, 2.8rem);
+  font-weight: 400;
+}
+
+.benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+}
+
+.benefit-card {
+  padding: 2rem;
+  border-radius: 16px;
+  border: 1px solid var(--gray-200);
+  background: var(--white);
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+.benefit-card:hover {
+  border-color: var(--green);
+  box-shadow: 0 4px 20px rgba(0,184,107,0.08);
+}
+
+.benefit-icon {
+  width: 44px; height: 44px;
+  border-radius: 12px;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 1.3rem;
+  margin-bottom: 1.25rem;
+}
+
+.benefit-icon.savings { background: rgba(0,184,107,0.1); }
+.benefit-icon.retention { background: rgba(59,130,246,0.1); }
+.benefit-icon.compliance { background: rgba(245,158,11,0.1); }
+.benefit-icon.fiscal { background: rgba(139,92,246,0.1); }
+.benefit-icon.simplicity { background: rgba(236,72,153,0.1); }
+.benefit-icon.attract { background: rgba(20,184,166,0.1); }
+
+.benefit-card h3 {
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin-bottom: 0.6rem;
+}
+
+.benefit-card p {
+  font-size: 0.88rem;
+  color: var(--gray-600);
+  line-height: 1.55;
+}
+
+.benefit-stat {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--green);
+  letter-spacing: -0.02em;
+}
+
+/* ── SECTION PROBLÈME ── */
+.problem {
+  background: var(--black);
+  color: var(--white);
+}
+
+.problem-header {
+  text-align: center;
+  margin-bottom: 3.5rem;
+}
+
+.problem h2 {
+  font-family: var(--serif);
+  font-size: clamp(2rem, 4vw, 2.8rem);
+  font-weight: 400;
+  line-height: 1.15;
+}
+
+.problem-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.compare-card {
+  padding: 2.5rem;
+  border-radius: 16px;
+}
+
+.compare-card.before { background: var(--gray-800); }
+.compare-card.after {
+  background: linear-gradient(135deg, #003d23, #00693e);
+  border: 1px solid rgba(0,184,107,0.3);
+}
+
+.compare-label {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--gray-400);
+  margin-bottom: 0.75rem;
+  font-weight: 600;
+}
+.compare-card.after .compare-label { color: rgba(255,255,255,0.6); }
+
+.compare-amount {
+  font-size: clamp(3rem, 6vw, 4rem);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1;
+  margin-bottom: 0.4rem;
+}
+.compare-card.before .compare-amount { color: var(--gray-400); }
+
+.compare-detail {
+  font-size: 0.88rem;
+  color: var(--gray-400);
+  line-height: 1.5;
+}
+.compare-card.after .compare-detail { color: rgba(255,255,255,0.7); }
+
+.compare-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.25rem 0;
+  border-top: 1px solid rgba(255,255,255,0.1);
+}
+
+.compare-bottom-text {
+  font-size: 1.05rem;
+  color: var(--gray-400);
+}
+.compare-bottom-text strong { color: var(--white); }
+
+.compare-multiplier {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--green);
+}
+
+.obligation-bar {
+  margin-top: 1.5rem;
+  padding: 1.25rem 1.5rem;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 0.9rem;
+  color: var(--gray-400);
+  line-height: 1.5;
+}
+.obligation-bar strong { color: var(--white); }
+
+.obligation-icon {
+  width: 38px; height: 38px;
+  background: rgba(255,184,0,0.15);
+  border-radius: 10px;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 1.1rem;
+  flex-shrink: 0;
+}
+
+/* ── COMMENT ÇA MARCHE ── */
+.how { background: var(--gray-100); }
+
+.how-header { text-align: center; margin-bottom: 3.5rem; }
+
+.how h2 {
+  font-family: var(--serif);
+  font-size: clamp(2rem, 4vw, 2.8rem);
+  font-weight: 400;
+  margin-bottom: 0.75rem;
+}
+
+.how-subtitle {
+  font-size: 1.05rem;
+  color: var(--gray-600);
+  max-width: 560px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.steps {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+}
+
+.step {
+  background: var(--white);
+  border-radius: 16px;
+  padding: 2rem 1.75rem;
+  border: 1px solid var(--gray-200);
+  transition: border-color 0.2s;
+  display: flex;
+  flex-direction: column;
+}
+.step:hover { border-color: var(--green); }
+
+.step-top {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1.25rem;
+}
+
+.step-number {
+  width: 34px; height: 34px;
+  background: var(--green);
+  color: white;
+  border-radius: 9px;
+  display: flex; align-items: center; justify-content: center;
+  font-weight: 700;
+  font-size: 0.85rem;
+  flex-shrink: 0;
+}
+
+.step h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.step-summary {
+  font-size: 1rem;
+  color: var(--black);
+  line-height: 1.55;
+  margin-bottom: 1.25rem;
+  font-weight: 500;
+}
+
+.step-details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.step-detail-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+  color: var(--gray-600);
+  line-height: 1.45;
+}
+
+.step-detail-item::before {
+  content: '✓';
+  color: var(--green);
+  font-weight: 700;
+  flex-shrink: 0;
+  margin-top: 0.05rem;
+}
+
+.step-duration {
+  margin-top: auto;
+  padding-top: 1rem;
+  border-top: 1px solid var(--gray-200);
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--green);
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.how-bottom {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.how-bottom-text {
+  font-size: 1.15rem;
+  color: var(--gray-600);
+  margin-bottom: 1.5rem;
+}
+.how-bottom-text strong { color: var(--black); }
+.how-bottom-text em { color: var(--green); font-style: normal; font-weight: 700; }
+
+/* ── TARIFS ── */
+.pricing-header { text-align: center; margin-bottom: 3.5rem; }
+
+.pricing h2 {
+  font-family: var(--serif);
+  font-size: clamp(2rem, 4vw, 2.8rem);
+  font-weight: 400;
+}
+
+.pricing-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  align-items: start;
+}
+
+.pricing-card {
+  background: var(--white);
+  border: 2px solid var(--gray-200);
+  border-radius: 20px;
+  padding: 2.5rem;
+}
+
+.pricing-card.featured {
+  border-color: var(--green);
+  position: relative;
+}
+
+.pricing-card.featured::before {
+  content: 'Cœur de cible';
+  position: absolute; top: -11px; left: 2rem;
+  background: var(--green); color: white;
+  padding: 0.2rem 0.75rem;
+  border-radius: 6px;
+  font-size: 0.7rem; font-weight: 600;
+}
+
+.pricing-segment {
+  font-size: 0.75rem; font-weight: 600;
+  text-transform: uppercase; letter-spacing: 0.05em;
+  color: var(--gray-600);
+  margin-bottom: 0.6rem;
+}
+
+.pricing-amount {
+  font-size: 2.8rem; font-weight: 700;
+  letter-spacing: -0.03em; line-height: 1;
+}
+
+.pricing-sub {
+  color: var(--gray-400); font-size: 0.85rem;
+  margin-top: 0.2rem; margin-bottom: 1.25rem;
+}
+
+.pricing-line {
+  display: flex; justify-content: space-between;
+  padding: 0.55rem 0; font-size: 0.88rem;
+  border-bottom: 1px solid var(--gray-100);
+}
+.pricing-line:last-child { border-bottom: none; font-weight: 700; }
+
+.pricing-includes {
+  margin-top: 1.25rem; padding-top: 1.25rem;
+  border-top: 1px solid var(--gray-200);
+}
+.pricing-includes p {
+  font-size: 0.82rem; color: var(--gray-600); line-height: 1.6;
+}
+
+.pricing-card-secondary {
+  background: var(--gray-100);
+  border: 1px solid var(--gray-200);
+  border-radius: 16px;
+  padding: 1.75rem 2.5rem;
+  margin-top: 1rem;
+}
+
+.pricing-card-secondary .pricing-segment { margin-bottom: 0.3rem; }
+.pricing-card-secondary .pricing-amount { font-size: 1.8rem; }
+.pricing-card-secondary .pricing-sub { margin-bottom: 0; }
+
+.pricing-vs {
+  background: var(--gray-100);
+  border: 1px solid var(--gray-200);
+  border-radius: 20px;
+  padding: 2.5rem;
+}
+
+.pricing-vs h3 {
+  font-family: var(--serif);
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin-bottom: 1.25rem;
+}
+
+.vs-row {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 0.85rem 0;
+  border-bottom: 1px solid var(--gray-200);
+  font-size: 0.9rem;
+}
+.vs-row:last-child { border-bottom: none; }
+
+.vs-label { color: var(--gray-600); }
+.vs-value { font-weight: 600; font-size: 1.05rem; }
+.vs-value.old { color: var(--gray-400); text-decoration: line-through; }
+.vs-value.highlight { color: var(--green); }
+
+.vs-saving {
+  margin-top: 1.25rem;
+  padding: 1.1rem;
+  background: rgba(0,184,107,0.08);
+  border-radius: 10px;
+  text-align: center;
+  font-size: 0.95rem;
+  color: var(--green-dark);
+  font-weight: 600;
+}
+
+/* ── CTA FINAL ── */
+.final-cta {
+  background: var(--black);
+  color: var(--white);
+  text-align: center;
+  padding: 6rem 2rem;
+}
+
+.final-cta h2 {
+  font-family: var(--serif);
+  font-size: clamp(2rem, 5vw, 3.2rem);
+  font-weight: 400;
+  line-height: 1.15;
+  margin-bottom: 1rem;
+}
+.final-cta h2 em { color: var(--green); font-style: italic; }
+
+.final-cta-sub {
+  font-size: 1.05rem;
+  color: var(--gray-400);
+  margin-bottom: 2rem;
+  max-width: 460px;
+  margin-left: auto; margin-right: auto;
+  line-height: 1.5;
+}
+
+.final-cta-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.final-cta .btn-primary {
+  font-size: 1.1rem;
+  padding: 1.1rem 2.2rem;
+}
+
+.final-cta-note {
+  margin-top: 1.25rem;
+  font-size: 0.78rem;
+  color: var(--gray-600);
+}
+
+/* ── RESPONSIVE ── */
+@media (max-width: 900px) {
+  section { padding: 4rem 1.25rem; }
+  .hero-content { grid-template-columns: 1fr; }
+  .hero-mockup { max-width: 480px; margin: 0 auto; }
+  .problem-grid { grid-template-columns: 1fr; }
+  .steps { grid-template-columns: 1fr; }
+  .pricing-grid { grid-template-columns: 1fr; }
+  .benefits-grid { grid-template-columns: 1fr; }
+  .hero { padding-top: 7rem; }
+  .compare-bottom { flex-direction: column; gap: 0.5rem; text-align: center; }
+}
+
+@media (min-width: 901px) and (max-width: 1100px) {
+  .benefits-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+.hero-badge, .hero h1, .hero-sub, .hero-cta-group {
+  animation: fadeUp 0.6s ease-out both;
+}
+.hero-badge { animation-delay: 0s; }
+.hero h1 { animation-delay: 0.08s; }
+.hero-sub { animation-delay: 0.16s; }
+.hero-cta-group { animation-delay: 0.24s; }
+
+.hero-mockup {
+  animation: fadeUp 0.7s ease-out both;
+  animation-delay: 0.3s;
+}
+</style>
+</head>
+<body>
+
+<svg class="svg-sprite" aria-hidden="true">
+  <defs>
+    <linearGradient id="beanieYellow" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFE08A"/><stop offset="0.55" stop-color="#FFC94A"/><stop offset="1" stop-color="#E8A420"/></linearGradient>
+    <linearGradient id="beanieRed" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F58A8E"/><stop offset="0.55" stop-color="#E5484D"/><stop offset="1" stop-color="#B93035"/></linearGradient>
+    <linearGradient id="beanieBlue" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7C97ED"/><stop offset="0.55" stop-color="#3E63DD"/><stop offset="1" stop-color="#28439E"/></linearGradient>
+    <linearGradient id="beanieGreen" x1="0" y1="0" x2="0.3" y2="1"><stop offset="0" stop-color="#3CB273"/><stop offset="1" stop-color="#166F41"/></linearGradient>
+    <linearGradient id="beanieBlade" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#284BAF"/><stop offset="0.5" stop-color="#5F80E6"/><stop offset="1" stop-color="#243F94"/></linearGradient>
+    <radialGradient id="beanieBeadYellow" cx="0.35" cy="0.35" r="0.75"><stop offset="0" stop-color="#FFEBA8"/><stop offset="1" stop-color="#E5A928"/></radialGradient>
+    <radialGradient id="beanieBeadBlue" cx="0.35" cy="0.35" r="0.75"><stop offset="0" stop-color="#93A9EE"/><stop offset="1" stop-color="#2C4AA0"/></radialGradient>
+    <radialGradient id="beanieBeadNavy" cx="0.35" cy="0.35" r="0.75"><stop offset="0" stop-color="#5064AC"/><stop offset="1" stop-color="#181F45"/></radialGradient>
+    <radialGradient id="beanieShadow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#000000" stop-opacity="0.16"/><stop offset="1" stop-color="#000000" stop-opacity="0"/></radialGradient>
+    <symbol id="icon-beanie" viewBox="0 0 100 100">
+      <ellipse cx="46" cy="90" rx="34" ry="4.5" fill="url(#beanieShadow)"/>
+      <path d="M 15,59 C 8,64 3,71 4,78 C 5,82 8,84 13,85 C 25,88 40,88 52,85 C 62,82 69,78 73,71 C 74,68 73,65 71,63 C 60,66 45,66 33,64 C 25,63 19,62 15,59 Z" fill="url(#beanieGreen)"/>
+      <path d="M 15,59 C 8,64 3,71 4,78 C 5,82 8,84 13,85 C 20,84 26,80 30,73 C 24,69 18,64 15,59 Z" fill="#0F5236" opacity="0.4"/>
+      <path d="M 12,63 C 7,68 5,73 6,78 C 7,81 10,83 14,84 C 25,87 39,87 51,84 C 60,81 66,78 70,72" fill="none" stroke="#eafff2" stroke-width="0.9" stroke-linecap="round" opacity="0.5"/>
+      <path d="M 15,59 C 15,45 18,28 31,19 C 38,14 46,12 53,13 C 62,13 70,15 78,22 C 86,28 90,36 89,45 C 88,53 84,58 79,61 L 71,63 C 60,66 45,66 33,64 C 25,63 19,62 15,59 Z" fill="url(#beanieBlue)"/>
+      <path d="M 44,13 C 50,12.5 58,13 66,14 C 68,30 68,48 65,62 C 55,65 45,65 38,64 C 37,45 40,28 44,13 Z" fill="url(#beanieRed)"/>
+      <path d="M 15,59 C 15,45 18,28 31,19 C 38,14 43,13 44,13 C 40,28 37,45 38,64 C 33,64 22,63 15,59 Z" fill="url(#beanieYellow)"/>
+      <path d="M 44,13 C 40,28 37,45 38,64" fill="none" stroke="#ffffff" stroke-width="0.9" stroke-linecap="round" opacity="0.35"/>
+      <path d="M 66,14 C 68,30 68,48 65,62" fill="none" stroke="#ffffff" stroke-width="0.9" stroke-linecap="round" opacity="0.3"/>
+      <path d="M 15,59 C 15,45 18,28 31,19 C 38,14 46,12 53,13 C 62,13 70,15 78,22 C 86,28 90,36 89,45 C 88,53 84,58 79,61 L 71,63 C 60,66 45,66 33,64 C 25,63 19,62 15,59 Z" fill="none" stroke="#00000022" stroke-width="1"/>
+      <path d="M 66,7 C 75,4 85,2 97,3 C 96,4.5 90,6.5 80,7.5 C 74,8 69,8 66,7 Z" fill="url(#beanieBlade)" stroke="#1c2c66" stroke-width="0.4"/>
+      <path d="M 66,7 C 57,9 47,10.5 33,11 C 34,9.5 40,7.5 50,6.5 C 57,6 63,6.5 66,7 Z" fill="url(#beanieBlade)" stroke="#1c2c66" stroke-width="0.4"/>
+      <path d="M 66,7 C 78,4.5 88,3 96,3.2" fill="none" stroke="#ffffff" stroke-width="0.6" opacity="0.4"/>
+      <path d="M 66,7 C 54,9.5 44,10.7 34,11" fill="none" stroke="#ffffff" stroke-width="0.6" opacity="0.4"/>
+      <path d="M 63,17 L 65,8" stroke="#2F5FD6" stroke-width="1.4" stroke-linecap="round"/>
+      <circle cx="63" cy="16.5" r="3.1" fill="url(#beanieBeadNavy)"/>
+      <circle cx="64.3" cy="11.3" r="2.5" fill="url(#beanieBeadYellow)"/>
+      <circle cx="65.5" cy="7.3" r="1.8" fill="url(#beanieBeadBlue)"/>
+    </symbol>
+  </defs>
+</svg>
+
+<!-- ═══ NAV ═══ -->
+<nav>
+  <a href="/" class="nav-logo">
+    <svg class="nav-logo-icon" viewBox="0 0 32 32" width="24" height="24" aria-hidden="true" style="display:block;flex-shrink:0;"><use href="#icon-beanie"/></svg>
+    Capitali
+  </a>
+  <div class="nav-right">
+    <a href="/#pourquoi" class="nav-link">Pourquoi Capitali</a>
+    <a href="/ressources/" class="nav-link">Guides</a>
+    <a href="/blog/" class="nav-link">Blog</a>
+    <a href="/#tarifs" class="nav-link">Tarifs</a>
+    <a href="https://app.capitali.fr/login" class="nav-login">Se connecter</a>
+    <a href="https://cal.com/capitali/30min" class="nav-cta" data-cal-link="capitali/30min" data-cal-namespace="30min" data-cal-config='{"layout":"month_view","useSlotsViewOnSmallScreen":"true"}'>Réserver une démo →</a>
+  </div>
+</nav>
+
+<!-- ═══ 1. HERO ═══ -->
+<section class="hero">
+  <div class="container">
+    <div class="hero-content">
+      <div class="hero-left">
+        <div class="hero-badge">Obligation Loi Partage de la Valeur 2025</div>
+        <h1>Même budget primes, vos salariés reçoivent <em>2,4x plus.</em></h1>
+        <p class="hero-sub">Capitali est la plateforme qui met en place et gère votre PEE de A à Z. En 45 jours, sans paperasse.</p>
+        <div class="hero-cta-group">
+          <a href="https://cal.com/capitali/30min" class="btn-primary" data-cal-link="capitali/30min" data-cal-namespace="30min" data-cal-config='{"layout":"month_view","useSlotsViewOnSmallScreen":"true"}'>Réserver une démo →</a>
+          <a href="https://cal.com/capitali/30min" class="btn-ghost" data-cal-link="capitali/30min" data-cal-namespace="30min" data-cal-config='{"layout":"month_view","useSlotsViewOnSmallScreen":"true"}'>Parler à un expert</a>
+        </div>
+      </div>
+      <div class="hero-mockup">
+        <div class="mockup-bar">
+          <div class="mockup-dot r"></div>
+          <div class="mockup-dot y"></div>
+          <div class="mockup-dot g"></div>
+          <div class="mockup-url">app.capitali.fr / dashboard</div>
+        </div>
+        <div class="mockup-body">
+          <div class="mockup-stats">
+            <div class="mockup-stat">
+              <div class="mockup-stat-label">Salariés actionnaires</div>
+              <div class="mockup-stat-value">12</div>
+            </div>
+            <div class="mockup-stat">
+              <div class="mockup-stat-label">Valeur du plan</div>
+              <div class="mockup-stat-value">68 400 €</div>
+            </div>
+            <div class="mockup-stat">
+              <div class="mockup-stat-label">Gain / salarié</div>
+              <div class="mockup-stat-value green">+903 €</div>
+            </div>
+          </div>
+          <div class="mockup-cards">
+            <div class="mockup-card">
+              <div class="mockup-card-title">Documents</div>
+              <div class="mockup-doc-row">
+                <span class="mockup-doc-name">Pacte d'actionnaires</span>
+                <span class="mockup-badge-sign green">Signé ✓</span>
+              </div>
+              <div class="mockup-doc-row">
+                <span class="mockup-doc-name">Bulletin - M. Dupont</span>
+                <span class="mockup-badge-sign orange">En attente</span>
+              </div>
+              <div class="mockup-doc-row">
+                <span class="mockup-doc-name">Règlement PEE</span>
+                <span class="mockup-badge-sign green">Signé ✓</span>
+              </div>
+            </div>
+            <div class="mockup-card">
+              <div class="mockup-card-title">Avancement</div>
+              <div class="mockup-step-row">
+                <span class="mockup-step-dot done"></span>
+                Valorisation validée
+              </div>
+              <div class="mockup-step-row">
+                <span class="mockup-step-dot done"></span>
+                Dépôt bancaire confirmé
+              </div>
+              <div class="mockup-step-row">
+                <span class="mockup-step-dot done"></span>
+                8 salariés ont souscrit
+              </div>
+              <div class="mockup-step-row">
+                <span class="mockup-step-dot pending"></span>
+                4 invitations en attente
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ 2. BÉNÉFICES DIRIGEANT ═══ -->
+<section class="benefits" id="avantages">
+  <div class="container">
+    <div class="benefits-header">
+      <div class="section-label">Ce que vous y gagnez</div>
+      <h2>Payez moins. Fidélisez mieux.</h2>
+    </div>
+    <div class="benefits-grid">
+      <div class="benefit-card">
+        <div class="benefit-icon savings">💰</div>
+        <h3>Économisez sur vos charges</h3>
+        <p>Forfait Social à 0 % pour les PME de 11 à 49 salariés. Chaque euro investi dans le PEE coûte moins qu'une prime classique.</p>
+        <div class="benefit-stat">0 % de charges</div>
+      </div>
+      <div class="benefit-card">
+        <div class="benefit-icon retention">🤝</div>
+        <h3>Fidélisez vos équipes</h3>
+        <p>Un salarié actionnaire est un salarié engagé. Le PEE crée un lien durable entre vos collaborateurs et la réussite de votre entreprise.</p>
+        <div class="benefit-stat">−30 % de turnover</div>
+      </div>
+      <div class="benefit-card">
+        <div class="benefit-icon compliance">⚖️</div>
+        <h3>Soyez en conformité</h3>
+        <p>La Loi Partage de la Valeur impose un dispositif de partage depuis janvier 2025. 65 000 PME sont concernées.</p>
+        <div class="benefit-stat">Obligation 2025</div>
+      </div>
+      <div class="benefit-card">
+        <div class="benefit-icon fiscal">📈</div>
+        <h3>Vos salariés gagnent plus</h3>
+        <p>Pour 1 000 € de budget employeur : 378 € en prime classique, 903 € via un PEE. Le même budget, 2,4 fois plus d'impact.</p>
+        <div class="benefit-stat">×2,4 pour le salarié</div>
+      </div>
+      <div class="benefit-card">
+        <div class="benefit-icon simplicity">⚡</div>
+        <h3>Zéro complexité</h3>
+        <p>Pas besoin de DAF ni de process RH complexe. On coordonne l'avocat, l'expert-comptable et la banque. Vous validez, c'est tout.</p>
+        <div class="benefit-stat">10 min / mois</div>
+      </div>
+      <div class="benefit-card">
+        <div class="benefit-icon attract">🎯</div>
+        <h3>Attirez les talents</h3>
+        <p>L'actionnariat salarié est un avantage distinctif face aux grands groupes. Proposez ce que les autres PME ne proposent pas encore.</p>
+        <div class="benefit-stat">Avantage compétitif</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ 3. COMPARAISON ═══ -->
+<section class="problem">
+  <div class="container">
+    <div class="problem-header">
+      <div class="section-label">Même budget. Résultat différent.</div>
+      <h2>Le problème n'est pas de payer.<br>C'est <em style="color:var(--green);font-style:italic">comment</em> vous payez.</h2>
+    </div>
+    <div class="problem-grid">
+      <div class="compare-card before">
+        <div class="compare-label">Prime classique</div>
+        <div class="compare-amount">378 €</div>
+        <div class="compare-detail">reçus par le salarié<br>pour 1 000 € de budget employeur</div>
+      </div>
+      <div class="compare-card after">
+        <div class="compare-label">Via un PEE</div>
+        <div class="compare-amount">903 €</div>
+        <div class="compare-detail">reçus par le salarié<br>pour 1 000 € de budget employeur</div>
+      </div>
+    </div>
+    <div class="compare-bottom">
+      <div class="compare-bottom-text">Même coût employeur. <strong>+525 € nets pour chaque salarié.</strong></div>
+      <div class="compare-multiplier">×2,4</div>
+    </div>
+    <div class="obligation-bar">
+      <div class="obligation-icon">⚠</div>
+      <div><strong>PME de 11 à 49 salariés : Forfait Social à 0 %.</strong> L'intégralité de votre investissement va directement à vos salariés, sans prélèvement.</div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ 4. COMMENT ÇA MARCHE ═══ -->
+<section class="how" id="fonctionnement">
+  <div class="container">
+    <div class="how-header">
+      <div class="section-label">Comment ça marche</div>
+      <h2>Vous validez. On orchestre tout.</h2>
+      <p class="how-subtitle">Après la valorisation de votre entreprise par un expert-comptable, votre PEE est opérationnel en 45 jours.</p>
+    </div>
+    <div class="steps">
+      <div class="step">
+        <div class="step-top">
+          <div class="step-number">1</div>
+          <h3>Diagnostic</h3>
+        </div>
+        <p class="step-summary">On analyse votre situation et on calcule votre économie exacte.</p>
+        <div class="step-details">
+          <div class="step-detail-item">Analyse effectifs et masse salariale</div>
+          <div class="step-detail-item">Identification du meilleur dispositif (PEE, intéressement, participation)</div>
+          <div class="step-detail-item">Simulation chiffrée du gain par salarié</div>
+        </div>
+        <div class="step-duration">⏱ 10 minutes de votre temps</div>
+      </div>
+      <div class="step">
+        <div class="step-top">
+          <div class="step-number">2</div>
+          <h3>Mise en place</h3>
+        </div>
+        <p class="step-summary">Valorisation, juridique, banque : on coordonne tous les intervenants.</p>
+        <div class="step-details">
+          <div class="step-detail-item">Valorisation multicritères par expert-comptable (DCF, Multiples, ANR)</div>
+          <div class="step-detail-item">Rédaction du règlement, pacte d'actionnaires, bulletins de souscription</div>
+          <div class="step-detail-item">Validation par avocat spécialisé</div>
+          <div class="step-detail-item">Ouverture du compte et dépôt bancaire</div>
+        </div>
+        <div class="step-duration">⏱ 45 jours, géré par nos soins</div>
+      </div>
+      <div class="step">
+        <div class="step-top">
+          <div class="step-number">3</div>
+          <h3>Souscription & suivi</h3>
+        </div>
+        <p class="step-summary">Vos salariés souscrivent en ligne. Le registre se met à jour automatiquement.</p>
+        <div class="step-details">
+          <div class="step-detail-item">Lien sécurisé envoyé à chaque salarié</div>
+          <div class="step-detail-item">Signature électronique, zéro paperasse</div>
+          <div class="step-detail-item">Cap table et registre d'actionnaires en temps réel</div>
+          <div class="step-detail-item">Reporting annuel et alertes de conformité</div>
+        </div>
+        <div class="step-duration">⏱ 100 % en ligne</div>
+      </div>
+    </div>
+    <div class="how-bottom">
+      <p class="how-bottom-text">Déployé en <em>45 jours</em>. Géré en <em>10 minutes par mois</em>.</p>
+      <a href="https://cal.com/capitali/30min" class="btn-primary" data-cal-link="capitali/30min" data-cal-namespace="30min" data-cal-config='{"layout":"month_view","useSlotsViewOnSmallScreen":"true"}'>Réserver une démo →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ 5. TARIFS ═══ -->
+<section class="pricing" id="tarifs">
+  <div class="container">
+    <div class="pricing-header">
+      <div class="section-label">Tarifs</div>
+      <h2>Un prix fixe. Tout inclus.</h2>
+    </div>
+    <div class="pricing-grid">
+      <div>
+        <div class="pricing-card featured">
+          <div class="pricing-segment">PME 11-49 salariés · Forfait Social 0 %</div>
+          <div class="pricing-amount">2 490 €</div>
+          <div class="pricing-sub">mise en place + 1 788 €/an</div>
+          <div class="pricing-line"><span>Première année</span><span>4 278 €</span></div>
+          <div class="pricing-line"><span>À partir de l'année 2</span><span>1 788 €/an</span></div>
+          <div class="pricing-includes">
+            <p>Diagnostic · Valorisation · Coordination avocat & EC · Rédaction juridique · Dépôt DREETS · Plateforme · Souscription digitale · Registre actionnaires · Reporting · Mises à jour réglementaires</p>
+          </div>
+        </div>
+        <div class="pricing-card-secondary">
+          <div class="pricing-segment">PME 50-249 salariés</div>
+          <div class="pricing-amount">3 490 €</div>
+          <div class="pricing-sub">mise en place + 199 €/mois · Total an 1 : 5 878 €</div>
+        </div>
+      </div>
+      <div class="pricing-vs">
+        <h3>Le même montage sans nous</h3>
+        <div class="vs-row">
+          <span class="vs-label">Avocat spécialisé</span>
+          <span class="vs-value old">2 500 - 4 000 €</span>
+        </div>
+        <div class="vs-row">
+          <span class="vs-label">Expert-comptable</span>
+          <span class="vs-value old">1 000 - 2 000 €</span>
+        </div>
+        <div class="vs-row">
+          <span class="vs-label">Temps du dirigeant</span>
+          <span class="vs-value old">3-6 mois</span>
+        </div>
+        <div class="vs-row">
+          <span class="vs-label">Total estimé</span>
+          <span class="vs-value old">5 000 €+</span>
+        </div>
+        <div class="vs-row">
+          <span class="vs-label">Capitali</span>
+          <span class="vs-value highlight">2 490 € tout inclus</span>
+        </div>
+        <div class="vs-saving">ROI positif dès le premier mois</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ 6. CTA FINAL ═══ -->
+<section class="final-cta" id="demo">
+  <div class="container">
+    <h2>Passez de 378 € à 903 €.<br><em>À budget identique.</em></h2>
+    <p class="final-cta-sub">Réservez une démo de 15 minutes. On vous montre exactement combien vous économisez et comment ça fonctionne.</p>
+    <div class="final-cta-buttons">
+      <a href="https://cal.com/capitali/30min" class="btn-primary" data-cal-link="capitali/30min" data-cal-namespace="30min" data-cal-config='{"layout":"month_view","useSlotsViewOnSmallScreen":"true"}'>Réserver une démo →</a>
+      <a href="#" class="btn-outline">Créer un compte</a>
+    </div>
+    <p class="final-cta-note">Sans engagement · Réponse en 24h</p>
+  </div>
+</section>
+
+<footer>
+  <p><svg width="18" height="18" viewBox="0 0 32 32" aria-hidden="true" style="display:inline-block;vertical-align:-4px;margin-right:0.4em;"><use href="#icon-beanie"/></svg>© 2025 Capitali · capitali.fr</p>
+</footer>
+
+<script src="/js/cal.js" defer></script>
+</body>
+</html>

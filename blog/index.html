@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blog : Actionnariat salarié et Partage de la Valeur | Capitali</title>
+<meta name="description" content="Analyses, retours de terrain et coulisses sur l'AGA, la Loi Partage de la Valeur et l'actionnariat salarié en PME, écrit pour les dirigeants, pas pour les investisseurs.">
+<link rel="canonical" href="https://capitali.fr/blog/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Capitali">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:url" content="https://capitali.fr/blog/">
+<meta property="og:title" content="Blog : Actionnariat salarié et Partage de la Valeur | Capitali">
+<meta property="og:description" content="Analyses, retours de terrain et coulisses sur l'AGA, la Loi Partage de la Valeur et l'actionnariat salarié en PME, écrit pour les dirigeants, pas pour les investisseurs.">
+<meta property="og:image" content="https://capitali.fr/og/og-blog.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Blog : Actionnariat salarié et Partage de la Valeur | Capitali">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Blog : Actionnariat salarié et Partage de la Valeur | Capitali">
+<meta name="twitter:description" content="Analyses, retours de terrain et coulisses sur l'AGA, la Loi Partage de la Valeur et l'actionnariat salarié en PME, écrit pour les dirigeants, pas pour les investisseurs.">
+<meta name="twitter:image" content="https://capitali.fr/og/og-blog.png">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:ital,wght@0,300..700;1,300..700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/tokens.css">
+<link rel="stylesheet" href="/css/design-system.css">
+</head>
+<body>
+
+<svg class="svg-sprite" aria-hidden="true">
+  <defs>
+    <linearGradient id="beanieYellow" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFE08A"/><stop offset="0.55" stop-color="#FFC94A"/><stop offset="1" stop-color="#E8A420"/></linearGradient>
+    <linearGradient id="beanieRed" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F58A8E"/><stop offset="0.55" stop-color="#E5484D"/><stop offset="1" stop-color="#B93035"/></linearGradient>
+    <linearGradient id="beanieBlue" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7C97ED"/><stop offset="0.55" stop-color="#3E63DD"/><stop offset="1" stop-color="#28439E"/></linearGradient>
+    <linearGradient id="beanieGreen" x1="0" y1="0" x2="0.3" y2="1"><stop offset="0" stop-color="#3CB273"/><stop offset="1" stop-color="#166F41"/></linearGradient>
+    <linearGradient id="beanieBlade" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#284BAF"/><stop offset="0.5" stop-color="#5F80E6"/><stop offset="1" stop-color="#243F94"/></linearGradient>
+    <radialGradient id="beanieBeadYellow" cx="0.35" cy="0.35" r="0.75"><stop offset="0" stop-color="#FFEBA8"/><stop offset="1" stop-color="#E5A928"/></radialGradient>
+    <radialGradient id="beanieBeadBlue" cx="0.35" cy="0.35" r="0.75"><stop offset="0" stop-color="#93A9EE"/><stop offset="1" stop-color="#2C4AA0"/></radialGradient>
+    <radialGradient id="beanieBeadNavy" cx="0.35" cy="0.35" r="0.75"><stop offset="0" stop-color="#5064AC"/><stop offset="1" stop-color="#181F45"/></radialGradient>
+    <radialGradient id="beanieShadow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#000000" stop-opacity="0.16"/><stop offset="1" stop-color="#000000" stop-opacity="0"/></radialGradient>
+    <symbol id="icon-beanie" viewBox="0 0 100 100">
+      <ellipse cx="46" cy="90" rx="34" ry="4.5" fill="url(#beanieShadow)"/>
+      <path d="M 15,59 C 8,64 3,71 4,78 C 5,82 8,84 13,85 C 25,88 40,88 52,85 C 62,82 69,78 73,71 C 74,68 73,65 71,63 C 60,66 45,66 33,64 C 25,63 19,62 15,59 Z" fill="url(#beanieGreen)"/>
+      <path d="M 15,59 C 8,64 3,71 4,78 C 5,82 8,84 13,85 C 20,84 26,80 30,73 C 24,69 18,64 15,59 Z" fill="#0F5236" opacity="0.4"/>
+      <path d="M 12,63 C 7,68 5,73 6,78 C 7,81 10,83 14,84 C 25,87 39,87 51,84 C 60,81 66,78 70,72" fill="none" stroke="#eafff2" stroke-width="0.9" stroke-linecap="round" opacity="0.5"/>
+      <path d="M 15,59 C 15,45 18,28 31,19 C 38,14 46,12 53,13 C 62,13 70,15 78,22 C 86,28 90,36 89,45 C 88,53 84,58 79,61 L 71,63 C 60,66 45,66 33,64 C 25,63 19,62 15,59 Z" fill="url(#beanieBlue)"/>
+      <path d="M 44,13 C 50,12.5 58,13 66,14 C 68,30 68,48 65,62 C 55,65 45,65 38,64 C 37,45 40,28 44,13 Z" fill="url(#beanieRed)"/>
+      <path d="M 15,59 C 15,45 18,28 31,19 C 38,14 43,13 44,13 C 40,28 37,45 38,64 C 33,64 22,63 15,59 Z" fill="url(#beanieYellow)"/>
+      <path d="M 44,13 C 40,28 37,45 38,64" fill="none" stroke="#ffffff" stroke-width="0.9" stroke-linecap="round" opacity="0.35"/>
+      <path d="M 66,14 C 68,30 68,48 65,62" fill="none" stroke="#ffffff" stroke-width="0.9" stroke-linecap="round" opacity="0.3"/>
+      <path d="M 15,59 C 15,45 18,28 31,19 C 38,14 46,12 53,13 C 62,13 70,15 78,22 C 86,28 90,36 89,45 C 88,53 84,58 79,61 L 71,63 C 60,66 45,66 33,64 C 25,63 19,62 15,59 Z" fill="none" stroke="#00000022" stroke-width="1"/>
+      <path d="M 66,7 C 75,4 85,2 97,3 C 96,4.5 90,6.5 80,7.5 C 74,8 69,8 66,7 Z" fill="url(#beanieBlade)" stroke="#1c2c66" stroke-width="0.4"/>
+      <path d="M 66,7 C 57,9 47,10.5 33,11 C 34,9.5 40,7.5 50,6.5 C 57,6 63,6.5 66,7 Z" fill="url(#beanieBlade)" stroke="#1c2c66" stroke-width="0.4"/>
+      <path d="M 66,7 C 78,4.5 88,3 96,3.2" fill="none" stroke="#ffffff" stroke-width="0.6" opacity="0.4"/>
+      <path d="M 66,7 C 54,9.5 44,10.7 34,11" fill="none" stroke="#ffffff" stroke-width="0.6" opacity="0.4"/>
+      <path d="M 63,17 L 65,8" stroke="#2F5FD6" stroke-width="1.4" stroke-linecap="round"/>
+      <circle cx="63" cy="16.5" r="3.1" fill="url(#beanieBeadNavy)"/>
+      <circle cx="64.3" cy="11.3" r="2.5" fill="url(#beanieBeadYellow)"/>
+      <circle cx="65.5" cy="7.3" r="1.8" fill="url(#beanieBeadBlue)"/>
+    </symbol>
+    <symbol id="cover-prime-aga" viewBox="0 0 320 180">
+      <rect width="320" height="180" fill="#faf9f5"/>
+      <g stroke="#e3ddd0" stroke-width="1">
+        <line x1="40" y1="42" x2="288" y2="42"/><line x1="40" y1="69" x2="288" y2="69"/>
+        <line x1="40" y1="96" x2="288" y2="96"/><line x1="40" y1="123" x2="288" y2="123"/>
+      </g>
+      <line x1="40" y1="150" x2="288" y2="150" stroke="#c9c1af" stroke-width="1.5"/>
+      <rect x="92" y="38" width="52" height="112" fill="#c2481f"/>
+      <rect x="188" y="137" width="52" height="13" fill="#00b86b"/>
+      <g fill="#847d6c">
+        <rect x="92" y="158" width="52" height="3"/><rect x="188" y="158" width="30" height="3"/>
+      </g>
+      <g stroke="#c9c1af" stroke-width="1">
+        <line x1="40" y1="42" x2="34" y2="42"/><line x1="40" y1="96" x2="34" y2="96"/><line x1="40" y1="150" x2="34" y2="150"/>
+      </g>
+    </symbol>
+    <symbol id="cover-fracture" viewBox="0 0 320 180">
+      <rect width="320" height="180" fill="#faf9f5"/>
+      <g>
+        <g fill="none" stroke="#c9c1af" stroke-width="1">
+          <rect x="34" y="52" width="13" height="13"/><rect x="51" y="52" width="13" height="13"/><rect x="68" y="52" width="13" height="13"/><rect x="85" y="52" width="13" height="13"/><rect x="102" y="52" width="13" height="13"/>
+          <rect x="34" y="69" width="13" height="13"/><rect x="51" y="69" width="13" height="13"/><rect x="68" y="69" width="13" height="13"/><rect x="85" y="69" width="13" height="13"/><rect x="102" y="69" width="13" height="13"/>
+          <rect x="34" y="86" width="13" height="13"/><rect x="51" y="86" width="13" height="13"/><rect x="68" y="86" width="13" height="13"/><rect x="85" y="86" width="13" height="13"/><rect x="102" y="86" width="13" height="13"/>
+          <rect x="34" y="103" width="13" height="13"/><rect x="51" y="103" width="13" height="13"/><rect x="68" y="103" width="13" height="13"/><rect x="85" y="103" width="13" height="13"/><rect x="102" y="103" width="13" height="13"/>
+        </g>
+        <rect x="34" y="52" width="13" height="3" fill="#00b86b"/>
+        <rect x="34" y="128" width="81" height="3" fill="#847d6c"/>
+      </g>
+      <line x1="160" y1="40" x2="160" y2="140" stroke="#e3ddd0" stroke-width="1" stroke-dasharray="3 4"/>
+      <g>
+        <g fill="none" stroke="#c9c1af" stroke-width="1">
+          <rect x="205" y="52" width="13" height="13"/><rect x="222" y="52" width="13" height="13"/><rect x="239" y="52" width="13" height="13"/><rect x="256" y="52" width="13" height="13"/><rect x="273" y="52" width="13" height="13"/>
+          <rect x="205" y="69" width="13" height="13"/><rect x="222" y="69" width="13" height="13"/><rect x="239" y="69" width="13" height="13"/><rect x="256" y="69" width="13" height="13"/><rect x="273" y="69" width="13" height="13"/>
+          <rect x="205" y="86" width="13" height="13"/><rect x="222" y="86" width="13" height="13"/><rect x="239" y="86" width="13" height="13"/><rect x="256" y="86" width="13" height="13"/><rect x="273" y="86" width="13" height="13"/>
+          <rect x="205" y="103" width="13" height="13"/><rect x="222" y="103" width="13" height="13"/><rect x="239" y="103" width="13" height="13"/><rect x="256" y="103" width="13" height="13"/><rect x="273" y="103" width="13" height="13"/>
+        </g>
+        <g fill="#00b86b">
+          <rect x="205" y="52" width="13" height="13"/><rect x="239" y="69" width="13" height="13"/><rect x="273" y="86" width="13" height="13"/><rect x="222" y="103" width="13" height="13"/>
+        </g>
+        <rect x="205" y="128" width="81" height="3" fill="#847d6c"/>
+      </g>
+    </symbol>
+    <symbol id="cover-lpv" viewBox="0 0 320 180">
+      <rect width="320" height="180" fill="#faf9f5"/>
+      <line x1="34" y1="140" x2="286" y2="140" stroke="#c9c1af" stroke-width="1.5"/>
+      <g>
+        <rect x="34" y="112" width="14" height="28" fill="none" stroke="#c9c1af"/>
+        <rect x="55" y="104" width="14" height="36" fill="none" stroke="#c9c1af"/>
+        <rect x="76" y="96" width="14" height="44" fill="none" stroke="#c9c1af"/>
+        <rect x="97" y="100" width="14" height="40" fill="#00b86b"/>
+        <rect x="118" y="86" width="14" height="54" fill="#00b86b"/>
+        <rect x="139" y="92" width="14" height="48" fill="none" stroke="#c9c1af"/>
+        <rect x="160" y="74" width="14" height="66" fill="#00b86b"/>
+        <rect x="181" y="80" width="14" height="60" fill="none" stroke="#c9c1af"/>
+        <rect x="202" y="62" width="14" height="78" fill="#00b86b"/>
+        <rect x="223" y="70" width="14" height="70" fill="none" stroke="#c9c1af"/>
+        <rect x="244" y="52" width="14" height="88" fill="#00b86b"/>
+        <rect x="265" y="58" width="14" height="82" fill="none" stroke="#c9c1af"/>
+      </g>
+      <line x1="34" y1="44" x2="286" y2="44" stroke="#e3ddd0" stroke-width="1" stroke-dasharray="3 4"/>
+    </symbol>
+    <symbol id="cover-startups" viewBox="0 0 320 180">
+      <rect width="320" height="180" fill="#faf9f5"/>
+      <g>
+        <rect x="46" y="56" width="76" height="30" fill="#00b86b"/>
+        <rect x="46" y="90" width="76" height="18" fill="none" stroke="#c9c1af"/>
+        <rect x="46" y="112" width="76" height="12" fill="none" stroke="#c9c1af"/>
+        <rect x="46" y="134" width="46" height="3" fill="#847d6c"/>
+      </g>
+      <line x1="160" y1="44" x2="160" y2="140" stroke="#e3ddd0" stroke-width="1" stroke-dasharray="3 4"/>
+      <g fill="none" stroke="#c9c1af">
+        <rect x="198" y="52" width="76" height="9"/><rect x="198" y="64" width="76" height="9"/>
+        <rect x="198" y="76" width="76" height="9"/><rect x="198" y="88" width="76" height="9"/>
+        <rect x="198" y="100" width="76" height="9"/><rect x="198" y="112" width="76" height="9"/>
+      </g>
+      <rect x="198" y="52" width="76" height="9" fill="#c2481f"/>
+      <rect x="198" y="134" width="46" height="3" fill="#847d6c"/>
+    </symbol>
+  </defs>
+</svg>
+
+<div class="topstack">
+  <div class="banner" id="banner">
+    <span>🆕 <strong>Nouveau</strong> : la Loi Partage de la Valeur s'applique aux PME de 11 à 49 salariés depuis 2025.</span>
+    <a href="/simulateur-lpv/">Suis-je concerné(e) →</a>
+    <button class="banner-close" id="banner-close" aria-label="Fermer le bandeau">✕</button>
+  </div>
+  <nav>
+    <a href="/" class="nav-logo">
+      <svg class="nav-logo-mark" viewBox="0 0 32 32" width="24" height="24" aria-hidden="true"><use href="#icon-beanie"/></svg>
+      Capitali
+    </a>
+    <div class="nav-right">
+      <a href="/#pourquoi" class="nav-link">Pourquoi Capitali</a>
+      <a href="/ressources/" class="nav-link">Guides</a>
+      <a href="/blog/" class="nav-link is-active">Blog</a>
+      <a href="/#tarifs" class="nav-link">Tarifs</a>
+      <a href="https://app.capitali.fr/login" class="nav-login">Se connecter</a>
+      <a href="https://cal.com/capitali/30min" class="nav-cta" data-cal-link="capitali/30min" data-cal-namespace="30min" data-cal-config='{"layout":"month_view","useSlotsViewOnSmallScreen":"true"}'><span class="btn-dot"></span>Réserver une démo</a>
+    </div>
+  </nav>
+</div>
+<script src="/js/common.js"></script>
+
+<section class="page-hero">
+  <div class="hero-badge">Blog</div>
+  <h1>Actionnariat salarié, Partage de la Valeur, et ce qu'on apprend en <em>construisant Capitali.</em></h1>
+  <p>Analyses, retours de terrain et coulisses, écrit pour les dirigeants de PME, pas pour impressionner un investisseur.</p>
+</section>
+
+<section class="guides-section">
+  <div class="container">
+    <div class="guides-toolbar">
+      <span class="guides-toolbar-label">2 articles publiés · 2 à paraître</span>
+      <div class="guides-tags">
+        <span class="guides-tag is-active">Tous</span>
+        <span class="guides-tag">AGA</span>
+        <span class="guides-tag">Loi Partage de la Valeur</span>
+        <span class="guides-tag">Coulisses</span>
+      </div>
+    </div>
+
+    <div class="guides-grid">
+      <a href="/blog/prime-vs-aga-cout-reel/" class="guide-card has-visual">
+        <div class="guide-card-visual"><svg viewBox="0 0 320 180" role="img" aria-label="Graphique : le coût d'une prime chargée sur 4 ans, très supérieur à celui d'une attribution gratuite d'actions."><use href="#cover-prime-aga"/></svg></div>
+        <div class="guide-card-body">
+          <div class="guide-card-meta">
+            <span class="guide-card-tag">AGA</span>
+            <span class="dot"></span>
+            <span>6 min de lecture</span>
+          </div>
+          <h3>Pourquoi une prime coûte plus cher qu'une attribution d'actions, chiffres à l'appui</h3>
+          <p>Sur 4 ans, une prime chargée à 3 profils clés coûte environ 104 000 € à l'entreprise. La même intention via une attribution d'actions : environ 12 000 €. Le calcul, ligne par ligne.</p>
+        </div>
+      </a>
+
+      <a href="/blog/actionnariat-salarie-fracture-pme-grandes-entreprises/" class="guide-card has-visual">
+        <div class="guide-card-visual"><svg viewBox="0 0 320 180" role="img" aria-label="Graphique : environ 1 grande entreprise sur 5 dispose d'un dispositif d'actionnariat salarié, contre une part quasi nulle des PME."><use href="#cover-fracture"/></svg></div>
+        <div class="guide-card-body">
+          <div class="guide-card-meta">
+            <span class="guide-card-tag">AGA</span>
+            <span class="dot"></span>
+            <span>6 min de lecture</span>
+          </div>
+          <h3>Actionnariat salarié&nbsp;: la vraie fracture entre grandes entreprises et PME</h3>
+          <p>Près d'1 entreprise sur 5 de 1 000 salariés ou plus a un dispositif d'actionnariat salarié, contre moins de 1&nbsp;% des PME de 10 à 49 salariés. Ce que dit la presse financière, et ce que ça change pour vous.</p>
+        </div>
+      </a>
+
+      <div class="guide-card has-visual is-soon">
+        <div class="guide-card-visual"><svg viewBox="0 0 320 180" role="img" aria-label="Graphique : progression mois par mois de l'adoption de la Loi Partage de la Valeur chez les PME."><use href="#cover-lpv"/></svg></div>
+        <div class="guide-card-body">
+          <div class="guide-card-meta">
+            <span class="guide-card-tag">Loi Partage de la Valeur</span>
+            <span class="dot"></span>
+            <span>À paraître</span>
+          </div>
+          <h3>LPV, un an après&nbsp;: ce qu'on observe chez les PME qu'on accompagne</h3>
+          <p>Qui applique vraiment l'obligation, qui l'ignore, et ce qui distingue les dirigeants qui en font un levier de rétention de ceux qui la traitent comme une case à cocher.</p>
+        </div>
+      </div>
+
+      <div class="guide-card has-visual is-soon">
+        <div class="guide-card-visual"><svg viewBox="0 0 320 180" role="img" aria-label="Schéma : une répartition du capital de PME, simple et lisible, opposée à celle d'une société qui empile les tours d'investisseurs."><use href="#cover-startups"/></svg></div>
+        <div class="guide-card-body">
+          <div class="guide-card-meta">
+            <span class="guide-card-tag">Coulisses</span>
+            <span class="dot"></span>
+            <span>À paraître</span>
+          </div>
+          <h3>Pourquoi Capitali ne vise pas les sociétés en levée de fonds</h3>
+          <p>Le choix qu'on a fait de servir les PME et les repreneurs plutôt que les capitaux ouverts tour après tour, et pourquoi ça change tout dans le produit qu'on construit.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <svg class="footer-mark" viewBox="0 0 32 32" width="56" height="56" aria-hidden="true"><use href="#icon-beanie"/></svg>
+      <p class="footer-tag">Associer vos profils clés au capital, et préparer la continuité de l'entreprise. Pour les PME de 10 à 150 salariés.</p>
+    </div>
+    <nav class="footer-sitemap" aria-label="Plan du site">
+      <div class="footer-col">
+        <div class="footer-col-title">Produit</div>
+        <a href="/#comment">Comment ça marche</a>
+        <a href="/#pourquoi">Pourquoi Capitali</a>
+        <a href="/#tarifs">Tarifs</a>
+      </div>
+      <div class="footer-col">
+        <div class="footer-col-title">Ressources</div>
+        <a href="/ressources/">Guides</a>
+        <a href="/blog/">Blog</a>
+        <a href="/simulateur-aga/">Simulateur AGA</a>
+        <a href="/simulateur-lpv/">Simulateur LPV</a>
+        <a href="/simulateur-ppv/">Simulateur PPV</a>
+        <a href="/livre-blanc/">Livre blanc</a>
+      </div>
+      <div class="footer-col">
+        <div class="footer-col-title">Compte</div>
+        <a href="https://app.capitali.fr/login">Se connecter</a>
+        <a href="https://cal.com/capitali/30min" data-cal-link="capitali/30min" data-cal-namespace="30min" data-cal-config='{"layout":"month_view","useSlotsViewOnSmallScreen":"true"}'>Réserver une démo</a>
+      </div>
+    </nav>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 Capitali · capitali.fr</span>
+    <span>Conforme RGPD · Hébergé dans l'UE</span>
+  </div>
+</footer>
+
+
+<script src="/js/cal.js" defer></script>
+</body>
+</html>

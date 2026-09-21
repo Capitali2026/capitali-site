@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Actualités PEE & Épargne salariale 2026 | Capitali</title>
+<meta name="description" content="Les dernières évolutions réglementaires sur le PEE, l'intéressement, le forfait social et la Loi Partage de la Valeur, mises à jour chaque semaine par Capitali.">
+<link rel="canonical" href="https://capitali.fr/actu-pee/">
+<meta property="og:title" content="Actualités PEE & Épargne salariale | Capitali">
+<meta property="og:description" content="Veille réglementaire automatisée : Légifrance, BOSS, URSSAF (mise à jour hebdomadaire).">
+<meta property="og:type" content="website">
+
+<!-- Schema.org - page de veille -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Actualités PEE & Épargne salariale 2026",
+  "description": "Veille réglementaire hebdomadaire sur le PEE, l'intéressement, la participation et la Loi Partage de la Valeur.",
+  "url": "https://capitali.fr/actu-pee/",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Capitali",
+    "url": "https://capitali.fr"
+  },
+  "mainEntity": {
+    "@type": "ItemList",
+    "name": "Derniers changements réglementaires détectés"
+  }
+}
+</script>
+
+<link href="https://fonts.googleapis.com/css2?family=Geist:ital,wght@0,300..700;1,300..700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/tokens.css">
+<link rel="stylesheet" href="/css/brand.css">
+<style>
+
+.actu-hero {
+  padding: 8.5rem 2rem 2.5rem;
+  background: var(--white);
+}
+
+.actu-hero-inner {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.actu-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--green);
+  margin-bottom: 0.85rem;
+}
+
+.actu-tag::before {
+  content: '';
+  width: 6px; height: 6px;
+  background: var(--green);
+  border-radius: 50%;
+  animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.3; }
+}
+
+.actu-hero h1 {
+  font-family: var(--serif);
+  font-weight: 400;
+  font-size: clamp(2.2rem, 4.2vw, 3rem);
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  margin-bottom: 1rem;
+}
+
+.actu-hero h1 em { font-style: italic; color: var(--green); }
+
+.actu-meta {
+  font-size: 0.85rem;
+  color: var(--gray-600);
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.actu-meta .dot {
+  width: 4px; height: 4px; border-radius: 50%;
+  background: var(--gray-400);
+}
+
+/* ── Sources bar ── */
+.sources-bar {
+  background: var(--gray-100);
+  border-top: 1px solid var(--gray-200);
+  border-bottom: 1px solid var(--gray-200);
+  padding: 0.75rem 2rem;
+}
+
+.sources-bar-inner {
+  max-width: 760px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  font-size: 0.78rem;
+  color: var(--gray-600);
+}
+
+.source-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.2rem 0.65rem;
+  border-radius: 100px;
+  background: var(--white);
+  border: 1px solid var(--gray-200);
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--gray-600);
+}
+
+/* ── Feed ── */
+.actu-feed {
+  padding: 3rem 2rem 6rem;
+  background: var(--white);
+}
+
+.feed-inner {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+/* ── States ── */
+.feed-loading, .feed-empty, .feed-error {
+  padding: 3rem 2rem;
+  text-align: center;
+  color: var(--gray-400);
+  font-size: 0.95rem;
+}
+
+.spinner {
+  display: inline-block;
+  width: 24px; height: 24px;
+  border: 2.5px solid var(--gray-200);
+  border-top-color: var(--green);
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+  margin-bottom: 0.75rem;
+}
+
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* ── Entries ── */
+.entry {
+  border: 1px solid var(--gray-200);
+  border-radius: 16px;
+  padding: 1.75rem;
+  margin-bottom: 1.25rem;
+  background: var(--white);
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.entry:hover {
+  border-color: var(--green);
+  box-shadow: 0 4px 20px rgba(0,184,107,0.06);
+}
+
+.entry-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 0.85rem;
+}
+
+.entry-source-badge {
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--green-dark);
+  background: var(--green-bg);
+  border: 1px solid rgba(0,184,107,0.18);
+  padding: 0.2rem 0.65rem;
+  border-radius: 100px;
+}
+
+.entry-date {
+  font-size: 0.75rem;
+  color: var(--gray-400);
+  white-space: nowrap;
+}
+
+.entry-title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--black);
+  line-height: 1.4;
+  margin-bottom: 0.6rem;
+}
+
+.entry-impact {
+  font-size: 0.88rem;
+  color: var(--gray-600);
+  line-height: 1.55;
+  margin-bottom: 0.75rem;
+}
+
+.entry-footer {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.entry-articles {
+  font-size: 0.72rem;
+  color: var(--gray-400);
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+}
+
+.article-chip {
+  display: inline-block;
+  padding: 0.1rem 0.5rem;
+  border-radius: 4px;
+  background: var(--gray-100);
+  border: 1px solid var(--gray-200);
+  font-weight: 600;
+}
+
+.urgency-badge {
+  font-size: 0.7rem;
+  font-weight: 600;
+  padding: 0.2rem 0.6rem;
+  border-radius: 6px;
+  margin-left: auto;
+}
+
+.urgency-1 { background: rgba(0,184,107,0.08); color: var(--green-dark); }
+.urgency-2 { background: rgba(245,158,11,0.1); color: #d97706; }
+.urgency-3 { background: rgba(239,68,68,0.1); color: #dc2626; }
+
+/* ── CTA simulateur ── */
+.actu-cta {
+  background: var(--gray-100);
+  border: 1px solid var(--gray-200);
+  border-radius: 16px;
+  padding: 1.75rem 2rem;
+  margin-top: 2.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.actu-cta-text {
+  flex: 1;
+}
+
+.actu-cta-text h3 {
+  font-family: var(--serif);
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin-bottom: 0.3rem;
+}
+
+.actu-cta-text h3 em { font-style: italic; color: var(--green); }
+
+.actu-cta-text p {
+  font-size: 0.88rem;
+  color: var(--gray-600);
+  line-height: 1.5;
+}
+
+/* ── Responsive ── */
+@media (max-width: 768px) {
+  .actu-hero { padding: 7rem 1.25rem 2rem; }
+  .sources-bar { padding: 0.75rem 1.25rem; }
+  .actu-feed { padding: 2rem 1.25rem 4rem; }
+  .entry { padding: 1.25rem; }
+  .entry-header { flex-direction: column; gap: 0.4rem; }
+  .actu-cta { flex-direction: column; }
+}
+
+</style>
+</head>
+<body>
+
+<svg class="svg-sprite" aria-hidden="true">
+  <defs>
+    <linearGradient id="beanieYellow" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFE08A"/><stop offset="0.55" stop-color="#FFC94A"/><stop offset="1" stop-color="#E8A420"/></linearGradient>
+    <linearGradient id="beanieRed" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F58A8E"/><stop offset="0.55" stop-color="#E5484D"/><stop offset="1" stop-color="#B93035"/></linearGradient>
+    <linearGradient id="beanieBlue" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7C97ED"/><stop offset="0.55" stop-color="#3E63DD"/><stop offset="1" stop-color="#28439E"/></linearGradient>
+    <linearGradient id="beanieGreen" x1="0" y1="0" x2="0.3" y2="1"><stop offset="0" stop-color="#3CB273"/><stop offset="1" stop-color="#166F41"/></linearGradient>
+    <linearGradient id="beanieBlade" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#284BAF"/><stop offset="0.5" stop-color="#5F80E6"/><stop offset="1" stop-color="#243F94"/></linearGradient>
+    <radialGradient id="beanieBeadYellow" cx="0.35" cy="0.35" r="0.75"><stop offset="0" stop-color="#FFEBA8"/><stop offset="1" stop-color="#E5A928"/></radialGradient>
+    <radialGradient id="beanieBeadBlue" cx="0.35" cy="0.35" r="0.75"><stop offset="0" stop-color="#93A9EE"/><stop offset="1" stop-color="#2C4AA0"/></radialGradient>
+    <radialGradient id="beanieBeadNavy" cx="0.35" cy="0.35" r="0.75"><stop offset="0" stop-color="#5064AC"/><stop offset="1" stop-color="#181F45"/></radialGradient>
+    <radialGradient id="beanieShadow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#000000" stop-opacity="0.16"/><stop offset="1" stop-color="#000000" stop-opacity="0"/></radialGradient>
+    <symbol id="icon-beanie" viewBox="0 0 100 100">
+      <ellipse cx="46" cy="90" rx="34" ry="4.5" fill="url(#beanieShadow)"/>
+      <path d="M 15,59 C 8,64 3,71 4,78 C 5,82 8,84 13,85 C 25,88 40,88 52,85 C 62,82 69,78 73,71 C 74,68 73,65 71,63 C 60,66 45,66 33,64 C 25,63 19,62 15,59 Z" fill="url(#beanieGreen)"/>
+      <path d="M 15,59 C 8,64 3,71 4,78 C 5,82 8,84 13,85 C 20,84 26,80 30,73 C 24,69 18,64 15,59 Z" fill="#0F5236" opacity="0.4"/>
+      <path d="M 12,63 C 7,68 5,73 6,78 C 7,81 10,83 14,84 C 25,87 39,87 51,84 C 60,81 66,78 70,72" fill="none" stroke="#eafff2" stroke-width="0.9" stroke-linecap="round" opacity="0.5"/>
+      <path d="M 15,59 C 15,45 18,28 31,19 C 38,14 46,12 53,13 C 62,13 70,15 78,22 C 86,28 90,36 89,45 C 88,53 84,58 79,61 L 71,63 C 60,66 45,66 33,64 C 25,63 19,62 15,59 Z" fill="url(#beanieBlue)"/>
+      <path d="M 44,13 C 50,12.5 58,13 66,14 C 68,30 68,48 65,62 C 55,65 45,65 38,64 C 37,45 40,28 44,13 Z" fill="url(#beanieRed)"/>
+      <path d="M 15,59 C 15,45 18,28 31,19 C 38,14 43,13 44,13 C 40,28 37,45 38,64 C 33,64 22,63 15,59 Z" fill="url(#beanieYellow)"/>
+      <path d="M 44,13 C 40,28 37,45 38,64" fill="none" stroke="#ffffff" stroke-width="0.9" stroke-linecap="round" opacity="0.35"/>
+      <path d="M 66,14 C 68,30 68,48 65,62" fill="none" stroke="#ffffff" stroke-width="0.9" stroke-linecap="round" opacity="0.3"/>
+      <path d="M 15,59 C 15,45 18,28 31,19 C 38,14 46,12 53,13 C 62,13 70,15 78,22 C 86,28 90,36 89,45 C 88,53 84,58 79,61 L 71,63 C 60,66 45,66 33,64 C 25,63 19,62 15,59 Z" fill="none" stroke="#00000022" stroke-width="1"/>
+      <path d="M 66,7 C 75,4 85,2 97,3 C 96,4.5 90,6.5 80,7.5 C 74,8 69,8 66,7 Z" fill="url(#beanieBlade)" stroke="#1c2c66" stroke-width="0.4"/>
+      <path d="M 66,7 C 57,9 47,10.5 33,11 C 34,9.5 40,7.5 50,6.5 C 57,6 63,6.5 66,7 Z" fill="url(#beanieBlade)" stroke="#1c2c66" stroke-width="0.4"/>
+      <path d="M 66,7 C 78,4.5 88,3 96,3.2" fill="none" stroke="#ffffff" stroke-width="0.6" opacity="0.4"/>
+      <path d="M 66,7 C 54,9.5 44,10.7 34,11" fill="none" stroke="#ffffff" stroke-width="0.6" opacity="0.4"/>
+      <path d="M 63,17 L 65,8" stroke="#2F5FD6" stroke-width="1.4" stroke-linecap="round"/>
+      <circle cx="63" cy="16.5" r="3.1" fill="url(#beanieBeadNavy)"/>
+      <circle cx="64.3" cy="11.3" r="2.5" fill="url(#beanieBeadYellow)"/>
+      <circle cx="65.5" cy="7.3" r="1.8" fill="url(#beanieBeadBlue)"/>
+    </symbol>
+  </defs>
+</svg>
+
+<!-- ═══ NAV ═══ -->
+<nav>
+  <a href="/" class="nav-logo">
+    <svg class="nav-logo-icon" viewBox="0 0 32 32" width="24" height="24" aria-hidden="true" style="display:block;flex-shrink:0;"><use href="#icon-beanie"/></svg>
+    Capitali
+  </a>
+  <div class="nav-right">
+    <a href="/#pourquoi" class="nav-link">Pourquoi Capitali</a>
+    <a href="/ressources/" class="nav-link">Guides</a>
+    <a href="/blog/" class="nav-link">Blog</a>
+    <a href="/#tarifs" class="nav-link">Tarifs</a>
+    <a href="https://app.capitali.fr/login" class="nav-login">Se connecter</a>
+    <a href="https://cal.com/capitali/30min" data-cal-link="capitali/30min" data-cal-namespace="30min" data-cal-config='{"layout":"month_view","useSlotsViewOnSmallScreen":"true"}' class="nav-cta">Réserver une démo →</a>
+  </div>
+</nav>
+
+<!-- ═══ HERO ═══ -->
+<header class="actu-hero">
+  <div class="actu-hero-inner">
+    <div class="actu-tag">Veille réglementaire · Mise à jour hebdomadaire</div>
+    <h1>Actualités PEE &amp; <em>épargne salariale</em></h1>
+    <div class="actu-meta">
+      <span>Surveillance automatisée 4 sources</span>
+      <span class="dot"></span>
+      <span>Résumés par IA · Claude</span>
+      <span class="dot"></span>
+      <span>Publié chaque lundi</span>
+    </div>
+  </div>
+</header>
+
+<!-- ═══ SOURCES BAR ═══ -->
+<div class="sources-bar">
+  <div class="sources-bar-inner">
+    <span>Sources surveillées :</span>
+    <span class="source-chip">📜 Légifrance API PISTE</span>
+    <span class="source-chip">🏛 BOSS.gouv.fr</span>
+    <span class="source-chip">⚖️ URSSAF actualités</span>
+    <span class="source-chip">📊 AMF actualités</span>
+  </div>
+</div>
+
+<!-- ═══ FEED ═══ -->
+<section class="actu-feed">
+  <div class="feed-inner">
+
+    <div id="feed-loading" class="feed-loading">
+      <div class="spinner"></div>
+      <p>Chargement des dernières actualités…</p>
+    </div>
+
+    <div id="feed-empty" class="feed-empty" style="display:none;">
+      <p>Aucun changement réglementaire détecté récemment : c'est une bonne nouvelle.</p>
+      <p style="margin-top:0.5rem;font-size:0.82rem;">La surveillance tourne chaque lundi matin.</p>
+    </div>
+
+    <div id="feed-error" class="feed-error" style="display:none;">
+      <p>Impossible de charger les données. Réessayez dans quelques instants.</p>
+    </div>
+
+    <div id="feed-entries"></div>
+
+    <!-- CTA simulateur -->
+    <div class="actu-cta">
+      <div class="actu-cta-text">
+        <h3>Ces changements impactent <em>votre entreprise ?</em></h3>
+        <p>Calculez le gain concret pour vos salariés en 30 secondes, puis réservez un diagnostic gratuit.</p>
+      </div>
+      <a href="/simulateur/" class="btn-primary" style="white-space:nowrap;">Faire le calcul →</a>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <p><svg width="18" height="18" viewBox="0 0 32 32" aria-hidden="true" style="display:inline-block;vertical-align:-4px;margin-right:0.4em;"><use href="#icon-beanie"/></svg>© 2025 Capitali · capitali.fr · <a href="/ressources/" style="color:inherit;text-decoration:underline;">Guides</a> · <a href="/simulateur/" style="color:inherit;text-decoration:underline;">Simulateur</a></p>
+</footer>
+
+<!-- Cal.com -->
+<!-- ═══ FEED LOGIC ═══ -->
+<script>
+const SUPABASE_URL      = 'https://gvuuremizjsnilphahul.supabase.co';
+const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imd2dXVyZW1pempzbmlscGhhaHVsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzU2NTY0ODMsImV4cCI6MjA5MTIzMjQ4M30.nL3McMOnJ245eYibDp1xFPbBT0lVjx3vkw5YeO8xcBk';
+
+const SOURCE_LABELS = {
+  legifrance: 'Légifrance',
+  boss:       'BOSS.gouv.fr',
+  urssaf:     'URSSAF',
+  amf:        'AMF',
+};
+
+const URGENCY_LABELS = {
+  1: { label: 'Veille', cls: 'urgency-1' },
+  2: { label: 'À surveiller', cls: 'urgency-2' },
+  3: { label: 'Action requise', cls: 'urgency-3' },
+};
+
+function formatDate(iso) {
+  return new Date(iso).toLocaleDateString('fr-FR', {
+    day: 'numeric', month: 'long', year: 'numeric',
+  });
+}
+
+function renderEntry(row) {
+  const s = row.diff_summary || {};
+  const urgency = URGENCY_LABELS[s.urgence || 1];
+  const articles = (s.articles_concernes || []).map(a =>
+    `<span class="article-chip">${a}</span>`
+  ).join(' ');
+
+  return `
+    <article class="entry" itemscope itemtype="https://schema.org/Article">
+      <div class="entry-header">
+        <span class="entry-source-badge">${SOURCE_LABELS[row.source] || row.source}</span>
+        <span class="entry-date" itemprop="datePublished" content="${row.detected_at}">${formatDate(row.detected_at)}</span>
+      </div>
+      ${s.changement ? `<div class="entry-title" itemprop="headline">${s.changement}</div>` : ''}
+      ${s.impact_pme_11_49 ? `<div class="entry-impact">Impact PME 11-49&nbsp;: ${s.impact_pme_11_49}</div>` : ''}
+      <div class="entry-footer">
+        ${articles ? `<div class="entry-articles">Articles&nbsp;: ${articles}</div>` : ''}
+        <span class="urgency-badge ${urgency.cls}">${s.action_requise ? '⚠ ' : ''}${urgency.label}</span>
+      </div>
+    </article>`;
+}
+
+async function loadFeed() {
+  try {
+    const url = new URL(`${SUPABASE_URL}/rest/v1/reg_snapshots`);
+    url.searchParams.set('select', 'id,source,url,content_preview,diff_summary,detected_at');
+    url.searchParams.set('is_new_content', 'eq.true');
+    url.searchParams.set('order', 'detected_at.desc');
+    url.searchParams.set('limit', '20');
+
+    const res = await fetch(url.toString(), {
+      headers: {
+        apikey: SUPABASE_ANON_KEY,
+        Authorization: `Bearer ${SUPABASE_ANON_KEY}`,
+        Accept: 'application/json',
+      },
+    });
+
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const rows = await res.json();
+
+    document.getElementById('feed-loading').style.display = 'none';
+
+    if (!Array.isArray(rows) || rows.length === 0) {
+      document.getElementById('feed-empty').style.display = 'block';
+      return;
+    }
+
+    document.getElementById('feed-entries').innerHTML = rows.map(renderEntry).join('');
+
+  } catch (err) {
+    console.error('[actu-pee] load error:', err);
+    document.getElementById('feed-loading').style.display = 'none';
+    document.getElementById('feed-error').style.display = 'block';
+  }
+}
+
+loadFeed();
+</script>
+
+<script src="/js/cal.js" defer></script>
+</body>
+</html>

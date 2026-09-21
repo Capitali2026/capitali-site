@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Abondement + décote | Capitali</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:ital,wght@0,300..700;1,300..700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/tokens.css">
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: var(--sans); background: #fff; color: var(--text); display: flex; justify-content: center; padding: 2rem 1rem; }
+.canvas { width: 100%; max-width: 880px; padding: 2.2rem 2.6rem 1.8rem; }
+.brand-bar { display: flex; justify-content: space-between; align-items: center; margin-bottom: 2.4rem; }
+.logo { font-family: var(--serif); font-weight: 700; font-size: 19px; }
+.logo::after { content: '.'; color: var(--green); }
+.brand-dot { width: 10px; height: 10px; border-radius: 50%; background: var(--green); }
+.eyebrow { font-size: 10.5px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--green-dark); margin-bottom: 10px; }
+h1 { font-family: var(--serif); font-weight: 700; font-size: 34px; line-height: 1.15; margin-bottom: 10px; }
+h1 em { font-style: italic; color: var(--green); }
+.lede { font-size: 14px; font-weight: 300; color: var(--text-2); line-height: 1.6; max-width: 540px; margin-bottom: 2.6rem; }
+
+/* Steps */
+.steps { margin-bottom: 1.6rem; }
+.stage { margin-bottom: 1.5rem; }
+.stage-head { display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 8px; gap: 10px; }
+.stage-title { font-size: 13px; font-weight: 600; display: flex; align-items: center; gap: 7px; }
+.stage-amount { font-family: var(--serif); font-size: 17px; font-weight: 700; white-space: nowrap; }
+.stage:nth-child(1) .stage-amount { color: var(--text); }
+.stage:nth-child(2) .stage-amount, .stage:nth-child(3) .stage-amount { color: var(--green-dark); }
+.stage-sub { font-size: 11.5px; color: var(--text-3); margin-top: 6px; line-height: 1.5; }
+
+/* Proportional bars: 571 = 100% */
+.track { height: 40px; border-radius: 9px; background: #F4F4F1; overflow: hidden; display: flex; }
+.seg { height: 100%; display: flex; align-items: center; justify-content: center; font-size: 11.5px; font-weight: 600; color: #fff; min-width: 0; white-space: nowrap; width: 0; transition: width 0.9s cubic-bezier(0.22,1,0.36,1); }
+.seg.me { background: var(--text); }
+.seg.boss { background: var(--green); }
+.seg.disc { background: var(--green-light); color: var(--green-dark); }
+
+/* Result */
+.result-strip { background: var(--green); border-radius: 14px; padding: 1.3rem 1.6rem; display: flex; align-items: center; gap: 1.6rem; flex-wrap: wrap; }
+.result-big { font-family: var(--serif); font-size: 40px; font-weight: 700; color: #fff; line-height: 1; white-space: nowrap; }
+.result-text { font-size: 13px; color: rgba(255,255,255,0.9); line-height: 1.55; flex: 1; min-width: 220px; }
+.result-text strong { color: #fff; }
+.mult { background: #fff; color: var(--green-dark); font-family: var(--serif); font-weight: 700; font-size: 17px; padding: 7px 13px; border-radius: 99px; white-space: nowrap; }
+
+/* (i) tooltips */
+.info { appearance: none; border: none; cursor: pointer; width: 16px; height: 16px; border-radius: 50%; background: #EFEFEC; color: var(--text-3); font-size: 10px; font-weight: 600; font-family: var(--sans); display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0; position: relative; }
+.info:hover, .info:focus-visible, .info.open { background: var(--green); color: #fff; outline: none; }
+.tip { position: absolute; z-index: 10; bottom: calc(100% + 8px); left: 50%; transform: translateX(-50%); width: 250px; background: var(--text); color: #E4E4E7; font-size: 11px; font-weight: 400; line-height: 1.55; text-align: left; padding: 9px 11px; border-radius: 9px; opacity: 0; pointer-events: none; transition: opacity 0.15s; box-shadow: 0 4px 16px rgba(0,0,0,0.18); }
+.tip strong { color: #fff; font-weight: 600; }
+.tip::after { content: ''; position: absolute; top: 100%; left: 50%; transform: translateX(-50%); border: 5px solid transparent; border-top-color: var(--text); }
+.info:hover .tip, .info:focus-visible .tip, .info.open .tip { opacity: 1; pointer-events: auto; }
+
+.foot { margin-top: 2.2rem; padding-top: 1rem; border-top: 1px solid var(--border); font-size: 10.5px; color: var(--text-3); line-height: 1.7; display: flex; justify-content: space-between; gap: 2rem; }
+.foot .series { white-space: nowrap; font-weight: 500; }
+
+@media (max-width: 680px) {
+  .canvas { padding: 1.5rem 1.2rem; }
+  h1 { font-size: 26px; }
+  .result-big { font-size: 32px; }
+  .tip { width: 200px; }
+}
+@media (prefers-reduced-motion: reduce) { .seg { transition: none; } }
+</style>
+</head>
+<body>
+<div class="canvas">
+
+  <div class="brand-bar">
+    <div class="logo">Capitali</div>
+    <div class="brand-dot"></div>
+  </div>
+
+  <div class="eyebrow">Comprendre le PEE · 04</div>
+  <h1>Le salarié met 100 €.<br>Il repart avec <em>571 €</em> d'actions.</h1>
+  <p class="lede">Deux mécanismes du PEE multiplient l'effort d'épargne du salarié : le coup de pouce de l'entreprise, et le prix réduit sur les actions.</p>
+
+  <div class="steps">
+
+    <div class="stage">
+      <div class="stage-head">
+        <span class="stage-title">1. Le salarié met de sa poche</span>
+        <span class="stage-amount">100 €</span>
+      </div>
+      <div class="track"><div class="seg me" data-w="17.5">100 €</div></div>
+      <div class="stage-sub">Un versement volontaire, du montant de son choix.</div>
+    </div>
+
+    <div class="stage">
+      <div class="stage-head">
+        <span class="stage-title">2. L'entreprise ajoute jusqu'à 3× sa mise
+          <button class="info" aria-label="Détail">i
+            <span class="tip"><strong>L'abondement</strong> : l'entreprise peut compléter jusqu'à 300 % du versement du salarié, dans la limite de 3 768 €/an (8 % du plafond Sécurité sociale 2025, art. L3332-11 du Code du travail). C'est elle qui fixe la règle.</span>
+          </button>
+        </span>
+        <span class="stage-amount">+ 300 €</span>
+      </div>
+      <div class="track">
+        <div class="seg me" data-w="17.5">100 €</div>
+        <div class="seg boss" data-w="52.5">+ 300 € offerts par l'entreprise</div>
+      </div>
+      <div class="stage-sub">400 € à investir, et pour l'entreprise, ces 300 € ne portent aucune charge (forfait social 0 % sous 50 salariés).</div>
+    </div>
+
+    <div class="stage">
+      <div class="stage-head">
+        <span class="stage-title">3. Les actions sont vendues 30 % moins cher
+          <button class="info" aria-label="Détail">i
+            <span class="tip"><strong>La décote</strong> : l'entreprise peut proposer ses actions jusqu'à 30 % sous leur valeur (art. L3332-17 du Code du travail, sur la base d'une valeur certifiée par un commissaire aux comptes). À prix réduit, 400 € achètent des actions qui en valent ~571.</span>
+          </button>
+        </span>
+        <span class="stage-amount">+ 171 €</span>
+      </div>
+      <div class="track">
+        <div class="seg me" data-w="17.5">100 €</div>
+        <div class="seg boss" data-w="52.5">+ 300 €</div>
+        <div class="seg disc" data-w="30">+ 171 € de décote</div>
+      </div>
+      <div class="stage-sub">La valeur réelle des actions reçues dépasse ce qui a été payé.</div>
+    </div>
+
+  </div>
+
+  <div class="result-strip">
+    <div class="result-big">571 €</div>
+    <div class="result-text">d'actions de son entreprise, au nom du salarié, pour <strong>100 € sortis de sa poche</strong>. Bloqués 5 ans, puis disponibles sans impôt sur le revenu.</div>
+    <div class="mult">× 5,7</div>
+  </div>
+
+  <div class="foot">
+    <div>Exemple avec abondement à 300 % et décote maximale de 30 %. Chaque entreprise règle ses propres curseurs. Détails et articles de loi derrière chaque <strong style="color:var(--green-dark)">i</strong>.</div>
+    <div class="series">capitali.fr</div>
+  </div>
+
+</div>
+
+<script>
+const reveal = () => document.querySelectorAll('.seg').forEach(s => { s.style.width = s.dataset.w + '%'; });
+if (matchMedia('(prefers-reduced-motion: reduce)').matches) {
+  document.querySelectorAll('.seg').forEach(s => { s.style.transition = 'none'; });
+}
+requestAnimationFrame(() => requestAnimationFrame(reveal));
+
+document.querySelectorAll('.info').forEach(btn => {
+  btn.addEventListener('click', e => {
+    e.stopPropagation();
+    const wasOpen = btn.classList.contains('open');
+    document.querySelectorAll('.info.open').forEach(b => b.classList.remove('open'));
+    if (!wasOpen) btn.classList.add('open');
+  });
+});
+document.addEventListener('click', () => document.querySelectorAll('.info.open').forEach(b => b.classList.remove('open')));
+</script>
+</body>
+</html>

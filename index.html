@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Capitali | Faites entrer vos profils clés au capital</title>
+<meta name="description" content="La plateforme qui gère vos attributions gratuites d'actions (AGA) et augmentations de capital réservées, de bout en bout. Conforme RGPD, hébergé dans l'UE.">
+<link rel="canonical" href="https://capitali.fr/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Capitali">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:url" content="https://capitali.fr/">
+<meta property="og:title" content="Capitali | Faites entrer vos profils clés au capital">
+<meta property="og:description" content="La plateforme qui gère vos attributions gratuites d'actions (AGA) et augmentations de capital réservées, de bout en bout. Conforme RGPD, hébergé dans l'UE.">
+<meta property="og:image" content="https://capitali.fr/og/og-accueil.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Capitali | Faites entrer vos profils clés au capital">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Capitali | Faites entrer vos profils clés au capital">
+<meta name="twitter:description" content="La plateforme qui gère vos attributions gratuites d'actions (AGA) et augmentations de capital réservées, de bout en bout. Conforme RGPD, hébergé dans l'UE.">
+<meta name="twitter:image" content="https://capitali.fr/og/og-accueil.png">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:ital,wght@0,300..700;1,300..700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/tokens.css">
+<link rel="stylesheet" href="/css/design-system.css">
+</head>
+<body>
+
+<svg class="svg-sprite" aria-hidden="true">
+  <defs>
+    <linearGradient id="beanieYellow" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFE08A"/><stop offset="0.55" stop-color="#FFC94A"/><stop offset="1" stop-color="#E8A420"/></linearGradient>
+    <linearGradient id="beanieRed" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F58A8E"/><stop offset="0.55" stop-color="#E5484D"/><stop offset="1" stop-color="#B93035"/></linearGradient>
+    <linearGradient id="beanieBlue" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7C97ED"/><stop offset="0.55" stop-color="#3E63DD"/><stop offset="1" stop-color="#28439E"/></linearGradient>
+    <linearGradient id="beanieGreen" x1="0" y1="0" x2="0.3" y2="1"><stop offset="0" stop-color="#3CB273"/><stop offset="1" stop-color="#166F41"/></linearGradient>
+    <linearGradient id="beanieBlade" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#284BAF"/><stop offset="0.5" stop-color="#5F80E6"/><stop offset="1" stop-color="#243F94"/></linearGradient>
+    <radialGradient id="beanieBeadYellow" cx="0.35" cy="0.35" r="0.75"><stop offset="0" stop-color="#FFEBA8"/><stop offset="1" stop-color="#E5A928"/></radialGradient>
+    <radialGradient id="beanieBeadBlue" cx="0.35" cy="0.35" r="0.75"><stop offset="0" stop-color="#93A9EE"/><stop offset="1" stop-color="#2C4AA0"/></radialGradient>
+    <radialGradient id="beanieBeadNavy" cx="0.35" cy="0.35" r="0.75"><stop offset="0" stop-color="#5064AC"/><stop offset="1" stop-color="#181F45"/></radialGradient>
+    <radialGradient id="beanieShadow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#000000" stop-opacity="0.16"/><stop offset="1" stop-color="#000000" stop-opacity="0"/></radialGradient>
+    <symbol id="icon-beanie" viewBox="0 0 100 100">
+      <ellipse cx="46" cy="90" rx="34" ry="4.5" fill="url(#beanieShadow)"/>
+      <path d="M 15,59 C 8,64 3,71 4,78 C 5,82 8,84 13,85 C 25,88 40,88 52,85 C 62,82 69,78 73,71 C 74,68 73,65 71,63 C 60,66 45,66 33,64 C 25,63 19,62 15,59 Z" fill="url(#beanieGreen)"/>
+      <path d="M 15,59 C 8,64 3,71 4,78 C 5,82 8,84 13,85 C 20,84 26,80 30,73 C 24,69 18,64 15,59 Z" fill="#0F5236" opacity="0.4"/>
+      <path d="M 12,63 C 7,68 5,73 6,78 C 7,81 10,83 14,84 C 25,87 39,87 51,84 C 60,81 66,78 70,72" fill="none" stroke="#eafff2" stroke-width="0.9" stroke-linecap="round" opacity="0.5"/>
+      <path d="M 15,59 C 15,45 18,28 31,19 C 38,14 46,12 53,13 C 62,13 70,15 78,22 C 86,28 90,36 89,45 C 88,53 84,58 79,61 L 71,63 C 60,66 45,66 33,64 C 25,63 19,62 15,59 Z" fill="url(#beanieBlue)"/>
+      <path d="M 44,13 C 50,12.5 58,13 66,14 C 68,30 68,48 65,62 C 55,65 45,65 38,64 C 37,45 40,28 44,13 Z" fill="url(#beanieRed)"/>
+      <path d="M 15,59 C 15,45 18,28 31,19 C 38,14 43,13 44,13 C 40,28 37,45 38,64 C 33,64 22,63 15,59 Z" fill="url(#beanieYellow)"/>
+      <path d="M 44,13 C 40,28 37,45 38,64" fill="none" stroke="#ffffff" stroke-width="0.9" stroke-linecap="round" opacity="0.35"/>
+      <path d="M 66,14 C 68,30 68,48 65,62" fill="none" stroke="#ffffff" stroke-width="0.9" stroke-linecap="round" opacity="0.3"/>
+      <path d="M 15,59 C 15,45 18,28 31,19 C 38,14 46,12 53,13 C 62,13 70,15 78,22 C 86,28 90,36 89,45 C 88,53 84,58 79,61 L 71,63 C 60,66 45,66 33,64 C 25,63 19,62 15,59 Z" fill="none" stroke="#00000022" stroke-width="1"/>
+      <path d="M 66,7 C 75,4 85,2 97,3 C 96,4.5 90,6.5 80,7.5 C 74,8 69,8 66,7 Z" fill="url(#beanieBlade)" stroke="#1c2c66" stroke-width="0.4"/>
+      <path d="M 66,7 C 57,9 47,10.5 33,11 C 34,9.5 40,7.5 50,6.5 C 57,6 63,6.5 66,7 Z" fill="url(#beanieBlade)" stroke="#1c2c66" stroke-width="0.4"/>
+      <path d="M 66,7 C 78,4.5 88,3 96,3.2" fill="none" stroke="#ffffff" stroke-width="0.6" opacity="0.4"/>
+      <path d="M 66,7 C 54,9.5 44,10.7 34,11" fill="none" stroke="#ffffff" stroke-width="0.6" opacity="0.4"/>
+      <path d="M 63,17 L 65,8" stroke="#2F5FD6" stroke-width="1.4" stroke-linecap="round"/>
+      <circle cx="63" cy="16.5" r="3.1" fill="url(#beanieBeadNavy)"/>
+      <circle cx="64.3" cy="11.3" r="2.5" fill="url(#beanieBeadYellow)"/>
+      <circle cx="65.5" cy="7.3" r="1.8" fill="url(#beanieBeadBlue)"/>
+    </symbol>
+    <symbol id="icon-pin" viewBox="0 0 24 24"><path d="M12 21s-7-6.7-7-11.3A7 7 0 0 1 19 9.7C19 14.3 12 21 12 21z"/><circle cx="12" cy="9.8" r="2.4"/></symbol>
+    <symbol id="icon-shield" viewBox="0 0 24 24"><path d="M12 3l7 3v5.2c0 5-3.2 8.6-7 9.8-3.8-1.2-7-4.8-7-9.8V6l7-3z"/><path d="M9 12.2l2 2 4-4.2"/></symbol>
+    <symbol id="icon-book" viewBox="0 0 24 24"><path d="M4 4.8h7a3 3 0 0 1 1 .2v14a3 3 0 0 0-1-.2H4V4.8z"/><path d="M20 4.8h-7a3 3 0 0 0-1 .2v14a3 3 0 0 1 1-.2h7V4.8z"/></symbol>
+    <symbol id="icon-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5v5l3.3 1.9"/></symbol>
+    <symbol id="icon-tag" viewBox="0 0 24 24"><path d="M20 12.4L11.6 20.8 3 12.2V4h8.2z"/><circle cx="7.6" cy="8" r="1.3" fill="currentColor" stroke="none"/></symbol>
+    <symbol id="icon-building" viewBox="0 0 24 24"><rect x="4" y="3.2" width="10" height="17.6"/><rect x="15.6" y="10" width="4.4" height="10.8"/><rect x="6.6" y="6.4" width="1.7" height="1.7" fill="currentColor" stroke="none"/><rect x="10.7" y="6.4" width="1.7" height="1.7" fill="currentColor" stroke="none"/><rect x="6.6" y="10.4" width="1.7" height="1.7" fill="currentColor" stroke="none"/><rect x="10.7" y="10.4" width="1.7" height="1.7" fill="currentColor" stroke="none"/><rect x="6.6" y="14.4" width="1.7" height="1.7" fill="currentColor" stroke="none"/><rect x="10.7" y="14.4" width="1.7" height="1.7" fill="currentColor" stroke="none"/></symbol>
+    <symbol id="icon-headset" viewBox="0 0 24 24"><path d="M4.5 13.5a7.5 7.5 0 0 1 15 0"/><rect x="3.3" y="13.5" width="4" height="6.2" rx="1.6"/><rect x="16.7" y="13.5" width="4" height="6.2" rx="1.6"/><path d="M19.7 19.7v.7a2.8 2.8 0 0 1-2.8 2.8h-2.6"/></symbol>
+    <symbol id="icon-coin" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M15.2 9a4 4 0 1 0 0 6.2"/><line x1="7.3" y1="11" x2="13" y2="11"/><line x1="7.3" y1="13" x2="12" y2="13"/></symbol>
+    <symbol id="icon-percent" viewBox="0 0 24 24"><circle cx="7.5" cy="7.5" r="2.3"/><circle cx="16.5" cy="16.5" r="2.3"/><line x1="18" y1="6" x2="6" y2="18"/></symbol>
+  </defs>
+</svg>
+
+<div class="topstack">
+  <div class="banner" id="banner">
+    <span>🆕 <strong>Nouveau</strong> : la Loi Partage de la Valeur s'applique aux PME de 11 à 49 salariés depuis 2025.</span>
+    <a href="/simulateur-lpv/">Suis-je concerné(e) →</a>
+    <button class="banner-close" id="banner-close" aria-label="Fermer le bandeau">✕</button>
+  </div>
+  <nav>
+    <a href="/" class="nav-logo">
+      <svg class="nav-logo-mark" viewBox="0 0 32 32" width="24" height="24" aria-hidden="true"><use href="#icon-beanie"/></svg>
+      Capitali
+    </a>
+    <div class="nav-right">
+      <a href="#pourquoi" class="nav-link">Pourquoi Capitali</a>
+      <a href="/ressources/" class="nav-link">Guides</a>
+      <a href="/blog/" class="nav-link">Blog</a>
+      <a href="#tarifs" class="nav-link">Tarifs</a>
+      <a href="https://app.capitali.fr/login" class="nav-login">Se connecter</a>
+      <a href="https://cal.com/capitali/30min" class="nav-cta" data-cal-link="capitali/30min" data-cal-namespace="30min" data-cal-config='{"layout":"month_view","useSlotsViewOnSmallScreen":"true"}'><span class="btn-dot"></span>Réserver une démo</a>
+    </div>
+  </nav>
+</div>
+<script src="/js/common.js"></script>
+
+<section class="hero">
+  <div class="hero-inner">
+    <div class="hero-badge">PME 10-150 salariés · sans service juridique</div>
+    <h1>Fidéliser, économiser, rémunérer<br><em>grâce à l'actionnariat salarié.</em></h1>
+    <p class="hero-sub">Faire entrer vos profils clés au capital, sans sortir de trésorerie et sans monter un dossier sur mesure. Pensé pour les PME et leurs repreneurs.</p>
+    <div class="hero-ctas">
+      <a href="https://cal.com/capitali/30min" class="btn-primary" data-cal-link="capitali/30min" data-cal-namespace="30min" data-cal-config='{"layout":"month_view","useSlotsViewOnSmallScreen":"true"}'><span class="btn-dot"></span>Réserver une démo</a>
+      <a href="#comment" class="btn-ghost">Voir comment ça marche →</a>
+    </div>
+  </div>
+</section>
+
+<section class="testimonial testimonial--photo">
+  <div class="container">
+    <div class="compare-head">
+      <div class="eyebrow">Faites comme vos confrères</div>
+      <h2>Ils ont ouvert leur capital. Voilà ce que ça change.</h2>
+      <p class="compare-sub">Dans les PME non cotées, l'actionnariat salarié est passé de 4 à 9 % des tours de table entre 2015 et 2021. Ce n'est plus une pratique réservée aux grands groupes.</p>
+    </div>
+  </div>
+  <div class="testimonial-inner">
+    <div class="case-media">
+      <img src="/img/temoignages/atelier-industriel.jpg" alt="Machine d'usinage sur une ligne de production industrielle" width="1200" height="1200" loading="lazy" decoding="async">
+      <span class="case-grid"></span><span class="case-grain"></span>
+    </div>
+    <figure>
+      <blockquote>Mon directeur technique est venu me voir spontanément pour réorganiser l'atelier. En cinq ans, il n'avait jamais fait ça. Quand je lui ai demandé pourquoi maintenant, il a dit&nbsp;: <span class="said">«&nbsp;Parce que maintenant quand la boîte gagne, je gagne aussi.&nbsp;»</span> C'est ça l'actionnariat salarié. Capitali a mis ça en place en une semaine.</blockquote>
+      <figcaption>
+        <span class="who">Marc D., dirigeant</span>
+        <span class="where">PME INDUSTRIELLE · 38 SALARIÉS · PAYS DE LA LOIRE</span>
+      </figcaption>
+    </figure>
+  </div>
+
+</section>
+
+<section id="confreres" class="why">
+  <div class="why-grid is-quatre">
+    <div class="why-card reveal">
+      <svg class="why-icon"><use href="#icon-clock"/></svg>
+      <div class="why-stat">5 <span>jours</span></div>
+      <h3>Mise en place</h3>
+      <p>Du rendez-vous à la signature, montage juridique compris.</p>
+    </div>
+    <div class="why-card reveal" style="transition-delay:.05s">
+      <svg class="why-icon"><use href="#icon-coin"/></svg>
+      <div class="why-stat">0 € <span>de trésorerie</span></div>
+      <h3>Aucun décaissement</h3>
+      <p>Vous partagez de la valeur future, pas l'argent d'aujourd'hui.</p>
+    </div>
+    <div class="why-card reveal" style="transition-delay:.1s">
+      <svg class="why-icon"><use href="#icon-book"/></svg>
+      <div class="why-stat">4 ans <span>d'acquisition</span></div>
+      <h3>Fidélise dans la durée</h3>
+      <p>L'action se mérite dans le temps, là où la prime se consomme le mois même.</p>
+    </div>
+    <div class="why-card reveal" style="transition-delay:.15s">
+      <svg class="why-icon"><use href="#icon-percent"/></svg>
+      <div class="why-stat">+24 % <span>net</span></div>
+      <h3>Pour votre salarié
+        <button type="button" class="info-btn" aria-expanded="false" aria-controls="tip-net"><em>i</em></button>
+      </h3>
+      <p>À montant attribué égal, comparé à une prime.</p>
+      <div class="info-tip" id="tip-net">Calcul mécanique, à hypothèses constantes : cotisations salariales 22 %, imposition 30 %, abattement 50 % sur le gain d'acquisition et prélèvements sociaux 17,2 %. Taux provisoires, en cours de validation juridique. Le détail chiffré est dans <a href="/simulateur-aga/">le simulateur</a>.</div>
+    </div>
+  </div>
+</section>
+
+<section id="pourquoi-ouvrir" class="solution">
+  <div class="solution-inner">
+
+    <div class="solution-aside">
+      <h2 class="solution-titre">Enfin, une solution complète, <em>rapide à mettre en place.</em></h2>
+      <p class="solution-intro">Que vous soyez&nbsp;:</p>
+      <ul class="solution-publics">
+        <li>Dirigeants</li>
+        <li>Repreneurs</li>
+        <li>Transmission</li>
+      </ul>
+    </div>
+
+    <div class="solution-grid">
+      <div class="solution-card reveal">
+        <h3>Accompagnement de vos salariés</h3>
+        <ul>
+          <li>Plan de communication</li>
+          <li>Plateforme simple de suivi</li>
+        </ul>
+      </div>
+      <div class="solution-card reveal" style="transition-delay:.06s">
+        <h3>Tarifs imbattables sur le marché</h3>
+        <p>Un seul prix, sans commission, quel que soit le nombre de bénéficiaires.</p>
+        <a href="#tarifs" class="btn-ghost">Découvrir notre positionnement →</a>
+      </div>
+      <div class="solution-card reveal" style="transition-delay:.12s">
+        <h3>Mise en place rapide</h3>
+        <p>Cinq jours du rendez-vous à la signature, montage juridique compris. Rien à monter de votre côté.</p>
+      </div>
+      <div class="solution-card reveal" style="transition-delay:.18s">
+        <h3>Une question&nbsp;?</h3>
+        <p>Trente minutes pour regarder votre situation et voir si un plan a du sens pour vos profils clés.</p>
+        <a href="https://cal.com/capitali/30min" class="btn-ghost" data-cal-link="capitali/30min" data-cal-namespace="30min" data-cal-config='{"layout":"month_view","useSlotsViewOnSmallScreen":"true"}'>Réserver une démo →</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="trustband">
+  <div class="trustband-inner">
+    <p class="trustband-claim">Chaque mouvement de titres est horodaté et chaîné&nbsp;: le registre se corrige par contre-passation, jamais par réécriture.</p>
+    <div class="trustband-items">
+      <span class="trustband-item"><svg class="ico" aria-hidden="true"><use href="#icon-pin"/></svg> Hébergé dans l'UE</span>
+      <span class="trustband-item"><svg class="ico" aria-hidden="true"><use href="#icon-shield"/></svg> Conforme RGPD</span>
+      <span class="trustband-item"><svg class="ico" aria-hidden="true"><use href="#icon-book"/></svg> Registre inaltérable</span>
+    </div>
+  </div>
+</section>
+
+<section id="pourquoi" class="how">
+  <div class="container">
+    <div class="compare-head">
+      <div class="eyebrow">Pourquoi Capitali</div>
+      <h2>Une plateforme, deux publics.</h2>
+      <p class="compare-sub">Le dirigeant décide et pilote. Le salarié comprend ce qu'il reçoit et le suit dans le temps. Les deux ont leur espace.</p>
+    </div>
+  </div>
+  <div class="steps" id="comment">
+    <div class="step reveal">
+      <div class="step-num">01</div>
+      <h3>Générer les documents</h3>
+      <p>PV d'assemblée, décision d'attribution, règlement du plan, lettres aux bénéficiaires. Les plafonds sont vérifiés en direct.</p>
+    </div>
+    <div class="step reveal" style="transition-delay:.08s">
+      <div class="step-num">02</div>
+      <h3>Déployer auprès des salariés</h3>
+      <p>Plan de communication, espace dédié, acceptation en ligne. Vos salariés comprennent ce qu'ils reçoivent : c'est la moitié du bénéfice.</p>
+    </div>
+    <div class="step reveal" style="transition-delay:.16s">
+      <div class="step-num">03</div>
+      <h3>Gérer dans la durée</h3>
+      <p>Registre des mouvements, répartition du capital, échéances d'acquisition. Tenu à jour tout seul, à vie.</p>
+    </div>
+  </div>
+</section>
+
+<section id="tarifs">
+  <div class="container">
+    <div class="pricing-head">
+      <div class="eyebrow">Une solution économe</div>
+      <h2>Le prix d'un logiciel, pas d'un cabinet.</h2>
+    </div>
+    <div class="price-grid">
+      <div class="price-card us reveal">
+        <div class="price-eyebrow">Avec Capitali</div>
+        <div class="price-amount">190 €<small> / mois</small></div>
+        <div class="price-sub">Mise en place à partir de 3 500 €. Un seul prix, sans commission, un interlocuteur unique du rendez-vous à la signature.</div>
+        <ul class="price-list">
+          <li>Opération montée en quelques clics</li>
+          <li>Documents générés et signés en ligne</li>
+          <li>Registre et répartition du capital à vie</li>
+          <li>Espace salarié et suivi des échéances</li>
+        </ul>
+        <div class="price-cta"><a href="https://cal.com/capitali/30min" class="btn-primary" data-cal-link="capitali/30min" data-cal-namespace="30min" data-cal-config='{"layout":"month_view","useSlotsViewOnSmallScreen":"true"}'><span class="btn-dot"></span>Réserver une démo</a></div>
+      </div>
+      <div class="price-card them reveal" style="transition-delay:.08s">
+        <div class="price-eyebrow">Le même montage chez un avocat</div>
+        <div class="price-amount">plusieurs milliers d'€</div>
+        <div class="price-sub">Honoraires ponctuels, facturés à chaque opération, hors suivi.</div>
+        <ul class="price-list">
+          <li>Devis sur mesure, souvent 3 000 à 8 000 €</li>
+          <li>Plusieurs semaines d'allers-retours</li>
+          <li>Registre tenu à la main, sur tableur</li>
+          <li>Nouvelle facture à la prochaine opération</li>
+        </ul>
+      </div>
+    </div>
+    <p class="price-foot">Tarifs indicatifs : le montant exact dépend de votre société. On le chiffre ensemble en démo.</p>
+  </div>
+</section>
+
+<section class="testimonial">
+  <div class="testimonial-inner">
+    <figure>
+      <blockquote>On a construit Capitali parce qu'un dirigeant de PME qui veut associer trois personnes à son capital se retrouve devant le même mur qu'un groupe du CAC&nbsp;40&nbsp;: un montage sur mesure, des semaines d'allers-retours, et un registre qui finit sur un tableur. <span class="said">Ce mur n'a aucune raison d'exister.</span> Notre travail, c'est de le faire disparaître.</blockquote>
+      <figcaption>
+        <span class="who">Le mot de notre dirigeant</span>
+        <span class="where">CAPITALI</span>
+      </figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="final">
+  <div class="container">
+    <h2>Ouvrez le capital de votre entreprise.<br><em>En partant du bon pied.</em></h2>
+    <p>Démo de 30 minutes. Le parcours complet d'une attribution d'actions, de la décision au registre.</p>
+    <a href="https://cal.com/capitali/30min" class="btn-primary" data-cal-link="capitali/30min" data-cal-namespace="30min" data-cal-config='{"layout":"month_view","useSlotsViewOnSmallScreen":"true"}'><span class="btn-dot"></span>Réserver une démo</a>
+    <p class="final-note">Sans engagement · Réponse sous 24 h</p>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <svg class="footer-mark" viewBox="0 0 32 32" width="56" height="56" aria-hidden="true"><use href="#icon-beanie"/></svg>
+      <p class="footer-tag">Associer vos profils clés au capital, et préparer la continuité de l'entreprise. Pour les PME de 10 à 150 salariés.</p>
+    </div>
+    <nav class="footer-sitemap" aria-label="Plan du site">
+      <div class="footer-col">
+        <div class="footer-col-title">Produit</div>
+        <a href="#comment">Comment ça marche</a>
+        <a href="#pourquoi">Pourquoi Capitali</a>
+        <a href="#tarifs">Tarifs</a>
+      </div>
+      <div class="footer-col">
+        <div class="footer-col-title">Ressources</div>
+        <a href="/ressources/">Guides</a>
+        <a href="/blog/">Blog</a>
+        <a href="/simulateur-aga/">Simulateur AGA</a>
+        <a href="/simulateur-lpv/">Simulateur LPV</a>
+        <a href="/simulateur-ppv/">Simulateur PPV</a>
+        <a href="/livre-blanc/">Livre blanc</a>
+      </div>
+      <div class="footer-col">
+        <div class="footer-col-title">Compte</div>
+        <a href="https://app.capitali.fr/login">Se connecter</a>
+        <a href="https://cal.com/capitali/30min" data-cal-link="capitali/30min" data-cal-namespace="30min" data-cal-config='{"layout":"month_view","useSlotsViewOnSmallScreen":"true"}'>Réserver une démo</a>
+      </div>
+    </nav>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 Capitali · capitali.fr</span>
+    <span>Conforme RGPD · Hébergé dans l'UE</span>
+  </div>
+</footer>
+
+
+<script src="/js/cal.js" defer></script>
+</body>
+</html>
