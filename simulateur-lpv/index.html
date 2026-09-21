@@ -24,6 +24,8 @@
 <meta property="og:description" content="Entreprises 11-49 salariés : vérifiez en 30 secondes si l'obligation de partage de la valeur (2025-2028) s'applique à vous.">
 <meta property="og:type" content="website">
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" type="image/png" href="/favicon-32.png" sizes="32x32">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Geist:ital,wght@0,300..700;1,300..700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -99,6 +101,7 @@
       <div class="gate-subtitle">Entrez votre email pour débloquer l'outil : résultat immédiat juste après, aucun engagement.</div>
       <div class="capture-form">
         <input type="email" id="gate-email" placeholder="votre@email.com" autocomplete="email">
+        <input type="text" id="gate-website" name="website" class="hp-field" tabindex="-1" autocomplete="off" aria-hidden="true">
         <button type="button" id="gate-btn" onclick="unlockSimulator()">Accéder →</button>
       </div>
       <div class="rgpd-line">
@@ -281,6 +284,7 @@ async function unlockSimulator() {
       },
       body: JSON.stringify({
         email,
+        website: document.getElementById('gate-website').value,
         simulateur_origine: 'lpv',
         estimation_eligibilite: 'Accès simulateur (avant calcul)',
         utm_source: utm.source,
@@ -445,6 +449,7 @@ async function submitLead() {
       },
       body: JSON.stringify({
         email: capturedEmail,
+        website: document.getElementById('gate-website').value,
         siren: state.siren,
         company_name: state.companyName,
         effectif: state.effectif,

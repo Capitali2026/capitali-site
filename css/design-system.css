@@ -350,7 +350,7 @@ footer{border-top:1px solid var(--line); background:#fff;}
 .article-prose p{color:var(--ink);}
 .article-prose strong{color:var(--ink); font-weight:600;}
 .article-prose a{color:var(--green-dark); text-decoration:underline; text-underline-offset:3px; text-decoration-thickness:1px;}
-.article-prose a:hover{color:var(--green);}
+.article-prose a:hover{color:var(--ink);}
 .article-prose ul, .article-prose ol{padding-left:1.4rem; color:var(--ink);}
 .article-prose li + li{margin-top:0.4rem;}
 .article-prose ul li::marker{color:var(--green-dark);}
@@ -518,12 +518,16 @@ footer{border-top:1px solid var(--line); background:#fff;}
 .capture-icon{font-size:1.3rem;}
 .capture-title{font-weight:700; font-size:1rem;}
 .capture-subtitle{font-size:0.85rem; color:var(--muted); margin-top:0.2rem;}
-.capture-form{display:flex; gap:0.6rem;}
-.capture-form input{flex:1; padding:0.75rem 1rem; border:1px solid var(--line-strong); font-family:var(--sans); font-size:0.95rem;}
-.capture-form input:focus{outline:2px solid var(--green); outline-offset:-1px;}
-.capture-form button{padding:0.75rem 1.4rem; background:var(--green); color:#fff; border:none; font-weight:600; font-size:0.9rem; cursor:pointer; white-space:nowrap;}
+.capture-form{display:flex; flex-wrap:wrap; gap:0.6rem;}
+.capture-form input{flex:1; min-width:0; padding:0.75rem 1rem; border:1px solid var(--line-strong); font-family:var(--sans); font-size:0.95rem;}
+.capture-form input:focus{outline:2px solid var(--green-dark); outline-offset:-1px;}
+.capture-form button{padding:0.75rem 1.4rem; background:var(--ink); color:var(--paper); border:none; font-weight:600; font-size:0.9rem; cursor:pointer; white-space:nowrap;}
 .capture-form button:hover{background:var(--green-dark);}
 .capture-form button:disabled{opacity:0.6; cursor:default;}
+@media (max-width:420px){
+  .capture-form{flex-direction:column;}
+  .capture-form button{width:100%;}
+}
 .rgpd-line{display:flex; gap:0.5rem; font-size:0.78rem; color:var(--muted); align-items:flex-start;}
 .rgpd-line input{margin-top:0.2rem;}
 .capture-error{display:none; font-size:0.82rem; color:#a3311a;}
@@ -723,6 +727,11 @@ a.case-card:hover .case-media img{transform:scale(1.02);}
   .testimonial--photo .case-media{max-width:320px;}
 }
   .testimonial--compact .testimonial-inner{grid-template-columns:minmax(0,110px) minmax(0,1fr);}
+
+/* ── Honeypot anti-spam (formulaires de capture) ──
+   Hors-écran plutôt que display:none : certains bots ignorent les champs
+   display:none mais remplissent quand même les champs positionnés hors champ. */
+.hp-field{position:absolute; left:-9999px; width:1px; height:1px; overflow:hidden;}
 
 /* ── Bandeau de consentement cookies ── */
 #cookie-banner{

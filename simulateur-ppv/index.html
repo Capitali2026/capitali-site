@@ -24,6 +24,8 @@
 <meta property="og:description" content="Pour 1 000 € de budget employeur : PPV classique → 378 € net. Via un plan d'épargne salariale → jusqu'à 903 € net. Comparez pour votre entreprise.">
 <meta property="og:type" content="website">
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" type="image/png" href="/favicon-32.png" sizes="32x32">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Geist:ital,wght@0,300..700;1,300..700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -104,6 +106,7 @@
       <div class="gate-subtitle">Entrez votre email pour débloquer l'outil : résultat immédiat juste après, aucun engagement.</div>
       <div class="capture-form">
         <input type="email" id="gate-email" placeholder="votre@email.com" autocomplete="email">
+        <input type="text" id="gate-website" name="website" class="hp-field" tabindex="-1" autocomplete="off" aria-hidden="true">
         <button type="button" id="gate-btn" onclick="unlockSimulator()">Accéder →</button>
       </div>
       <div class="rgpd-line">
@@ -297,6 +300,7 @@ async function unlockSimulator() {
       },
       body: JSON.stringify({
         email,
+        website: document.getElementById('gate-website').value,
         simulateur_origine: 'ppv',
         estimation_eligibilite: 'Accès simulateur (avant calcul)',
         utm_source: utm.source,
@@ -400,6 +404,7 @@ async function submitLead() {
       },
       body: JSON.stringify({
         email: capturedEmail,
+        website: document.getElementById('gate-website').value,
         effectif: sim.effectif,
         gain_calcule: sim.gain,
         estimation_eligibilite: `PPV: budget ${fmt(sim.budget)}/sal., gain épargne salariale ${fmtSign(sim.gain)}/sal./an`,

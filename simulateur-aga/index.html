@@ -21,6 +21,8 @@
 <meta name="twitter:description" content="Comparez sur 4 ans ce que coûte une prime et ce que coûte un plan d'attribution gratuite d'actions : coût employeur, net du bénéficiaire, dilution. Simulation gratuite, sans inscription.">
 <meta name="twitter:image" content="https://capitali.fr/og/og-simulateur-aga.png">
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" type="image/png" href="/favicon-32.png" sizes="32x32">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Geist:ital,wght@0,300..700;1,300..700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -234,6 +236,7 @@
         <div id="capture-form-wrap">
           <div class="capture-form">
             <input type="email" id="capture-email" placeholder="votre@email.fr" autocomplete="email">
+            <input type="text" id="capture-website" name="website" class="hp-field" tabindex="-1" autocomplete="off" aria-hidden="true">
             <button type="button" id="capture-btn">Recevoir →</button>
           </div>
           <div class="rgpd-line">
@@ -485,6 +488,7 @@ async function submitLead() {
       // côté serveur par le même code de calcul, donc jamais désynchronisés.
       body: JSON.stringify({
         email: email,
+        website: document.getElementById('capture-website').value,
         simulateur_origine: 'aga',
         aga_inputs: readInputs(),
         utm_source: utm.source,

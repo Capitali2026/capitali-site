@@ -24,6 +24,8 @@
 <meta property="og:description" content="1 grande entreprise sur 5 a un dispositif d'actionnariat salarié, contre moins de 1 % des PME de 10 à 49 salariés. Le vrai sujet n'est pas jackpot vs risque.">
 <meta property="og:type" content="article">
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" type="image/png" href="/favicon-32.png" sizes="32x32">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Geist:ital,wght@0,300..700;1,300..700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -207,6 +209,7 @@
         <div id="capture-form-wrap">
           <div class="capture-form">
             <input type="email" id="capture-email" placeholder="votre@email.com" autocomplete="email">
+            <input type="text" id="capture-website" name="website" class="hp-field" tabindex="-1" autocomplete="off" aria-hidden="true">
             <button type="button" id="capture-btn" onclick="submitLead()">Recevoir →</button>
           </div>
           <div class="rgpd-line">
@@ -306,6 +309,7 @@ async function submitLead() {
       },
       body: JSON.stringify({
         email,
+        website: document.getElementById('capture-website').value,
         simulateur_origine: 'blog_fracture_pme',
         utm_source: utm.source,
         utm_campaign: utm.campaign,

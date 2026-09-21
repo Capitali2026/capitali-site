@@ -24,6 +24,8 @@
 <meta property="og:description" content="Obligation, dispositifs possibles, et comment en faire un levier de rétention plutôt qu'une contrainte.">
 <meta property="og:type" content="article">
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" type="image/png" href="/favicon-32.png" sizes="32x32">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Geist:ital,wght@0,300..700;1,300..700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -226,6 +228,7 @@
         <div id="capture-form-wrap">
           <div class="capture-form">
             <input type="email" id="capture-email" placeholder="votre@email.com" autocomplete="email">
+            <input type="text" id="capture-website" name="website" class="hp-field" tabindex="-1" autocomplete="off" aria-hidden="true">
             <button type="button" id="capture-btn" onclick="submitLead()">Recevoir →</button>
           </div>
           <div class="rgpd-line">
@@ -326,6 +329,7 @@ async function submitLead() {
       },
       body: JSON.stringify({
         email,
+        website: document.getElementById('capture-website').value,
         simulateur_origine: 'livre_blanc',
         utm_source: utm.source,
         utm_campaign: utm.campaign,

@@ -6,6 +6,19 @@
 <title>Simulateur PEE : Calculez le gain réel de vos salariés | Capitali</title>
 <meta name="description" content="Pour 1 000 € de budget, une prime classique donne 378 € net à votre salarié. Un PEE en donne 903 €. Faites le calcul pour votre entreprise en 30 secondes.">
 <link rel="canonical" href="https://capitali.fr/simulateur/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Capitali">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:url" content="https://capitali.fr/simulateur/">
+<meta property="og:title" content="Simulateur PEE : Calculez le gain réel de vos salariés | Capitali">
+<meta property="og:description" content="Pour 1 000 € de budget, une prime classique donne 378 € net à votre salarié. Un PEE en donne 903 €. Faites le calcul pour votre entreprise en 30 secondes.">
+<meta property="og:image" content="https://capitali.fr/og/og-accueil.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Simulateur PEE : Calculez le gain réel de vos salariés | Capitali">
+<meta name="twitter:description" content="Pour 1 000 € de budget, une prime classique donne 378 € net à votre salarié. Un PEE en donne 903 €. Faites le calcul pour votre entreprise en 30 secondes.">
+<meta name="twitter:image" content="https://capitali.fr/og/og-accueil.png">
 <meta property="og:title" content="Simulateur PEE : Calculez le gain réel de vos salariés">
 <meta property="og:description" content="Pour 1 000 € de budget employeur : prime classique → 378 € net. PEE → 903 € net. Même coût, x2,4 de résultat.">
 <meta property="og:type" content="website">
@@ -814,6 +827,7 @@
           <div id="capture-form-wrap">
             <div class="capture-form">
               <input type="email" id="capture-email" placeholder="votre@email.com" autocomplete="email">
+              <input type="text" id="capture-website" name="website" class="hp-field" tabindex="-1" autocomplete="off" aria-hidden="true">
               <button type="button" id="capture-btn" onclick="submitLead()">
                 Recevoir le PDF →
               </button>
@@ -1013,6 +1027,7 @@ async function submitLead() {
       },
       body: JSON.stringify({
         email,
+        website: document.getElementById('capture-website').value,
         effectif:         sim.effectif,
         budget_prime:     sim.budgetParSal,
         taux_abondement:  sim.tauxAbondement,

@@ -22,7 +22,7 @@
   --surface:#ffffff;         /* cartes posées sur le papier */
   --surface-elevated:#fdfcf8;/* cartes de second niveau */
   --text-strong:#4a4438;  /* texte secondaire lisible (entre --ink et --muted) */
-  --muted:#847d6c;        /* texte tertiaire, légendes */
+  --muted:#706a5c;        /* texte tertiaire, légendes — assombri pour tenir le contraste AA (4.5:1) sur --paper et --surface, cf. audit accessibilité */
 
   /* Rythme des contrôles : toute commande cliquable fait la même hauteur,
      ce qui aligne nav, boutons et champs sur une seule grille. */
