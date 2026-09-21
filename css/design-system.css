@@ -168,6 +168,8 @@ input[type="range"]::-moz-range-thumb{width:16px; height:16px; background:var(--
 .compare-head{text-align:center; margin-bottom:2.75rem;}
 .compare-head h2{font-family:var(--serif); font-weight:var(--display-weight); font-size:clamp(1.9rem, 3.6vw, 2.6rem); line-height:1.16; text-wrap:balance;}
 .compare-sub{max-width:44rem; margin:0.9rem auto 0; color:var(--text-strong); line-height:1.65; text-wrap:pretty;}
+.compare-sub a{color:var(--green-dark); text-decoration:underline; text-underline-offset:3px; text-decoration-thickness:1px;}
+.compare-sub a:hover{color:var(--ink);}
 
 /* Section « Enfin une solution complète », deux colonnes de nature différente :
    à gauche un énoncé typographique (titre gris + publics visés), à droite des
