@@ -179,6 +179,7 @@ input[type="range"]::-moz-range-thumb{width:16px; height:16px; background:var(--
 .solution{padding:var(--section-y) 1.5rem;}
 .solution-inner{display:grid; grid-template-columns:minmax(0,0.85fr) minmax(0,1.15fr); gap:3.5rem; max-width:1080px; margin:0 auto; align-items:start;}
 .solution-titre{font-family:var(--serif); font-weight:var(--display-weight); font-size:clamp(1.9rem, 3.4vw, 2.5rem); line-height:1.14; letter-spacing:-0.025em; color:var(--line-strong); text-wrap:balance;}
+.solution-positioning{margin-top:0.9rem; font-size:1rem; line-height:1.55; color:var(--text-strong); text-wrap:pretty;}
 .solution-titre em{font-style:normal; color:var(--text-strong);}
 .solution-intro{margin-top:1.5rem; font-size:0.75rem; letter-spacing:0.06em; text-transform:uppercase; color:var(--muted);}
 .solution-publics{list-style:none; margin:0.6rem 0 0; padding:0;}
@@ -717,6 +718,9 @@ a.case-card:hover .case-media img{transform:scale(1.02);}
 .testimonial figure{margin:0;}
 .testimonial figcaption{display:flex; flex-direction:column; gap:0.3rem; padding-left:2rem;}
 .testimonial .who{font-size:0.95rem; font-weight:600; letter-spacing:0.02em;}
+.founder-byline{display:flex; align-items:center; gap:0.55rem;}
+.testimonial .where a{color:inherit; text-decoration:underline; text-underline-offset:2px;}
+.testimonial .where a:hover{color:var(--green-dark);}
 .testimonial .where{font-family:var(--mono); font-size:0.76rem; letter-spacing:0.06em; color:var(--muted);}
 
 /* Avec photo : deux colonnes. À activer en ajoutant la classe sur la section
