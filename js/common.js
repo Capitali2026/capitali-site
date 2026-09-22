@@ -30,6 +30,34 @@
     }
   }
 
+  // Menu mobile : un seul .nav-toggle par page, delegue au document pour ne
+  // pas dependre de l'ordre de chargement ni dupliquer ce script par page.
+  document.addEventListener('click', function (e) {
+    var toggle = e.target.closest('.nav-toggle');
+    if (toggle) {
+      var panel = document.getElementById(toggle.getAttribute('aria-controls'));
+      if (!panel) return;
+      var open = panel.classList.toggle('is-open');
+      toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+      return;
+    }
+    document.querySelectorAll('.nav-right.is-open').forEach(function (panel) {
+      if (!panel.contains(e.target)) {
+        panel.classList.remove('is-open');
+        var btn = panel.closest('nav').querySelector('.nav-toggle');
+        if (btn) btn.setAttribute('aria-expanded', 'false');
+      }
+    });
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key !== 'Escape') return;
+    document.querySelectorAll('.nav-right.is-open').forEach(function (panel) {
+      panel.classList.remove('is-open');
+      var btn = panel.closest('nav').querySelector('.nav-toggle');
+      if (btn) btn.setAttribute('aria-expanded', 'false');
+    });
+  });
+
   document.addEventListener('DOMContentLoaded', function () {
     var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     var revealEls = document.querySelectorAll('.reveal');
