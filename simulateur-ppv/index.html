@@ -99,23 +99,7 @@
 <div class="simpage-body">
   <div class="sim-card">
 
-    <div class="gate-card" id="gate-card">
-      <div class="gate-icon">🔒</div>
-      <div class="gate-title">Accédez au simulateur</div>
-      <div class="gate-subtitle">Entrez votre email pour débloquer l'outil : résultat immédiat juste après, aucun engagement.</div>
-      <div class="capture-form">
-        <input type="email" id="gate-email" placeholder="votre@email.com" autocomplete="email">
-        <input type="text" id="gate-website" name="website" class="hp-field" tabindex="-1" autocomplete="off" aria-hidden="true">
-        <button type="button" id="gate-btn" onclick="unlockSimulator()">Accéder →</button>
-      </div>
-      <div class="rgpd-line">
-        <input type="checkbox" id="gate-rgpd">
-        <label for="gate-rgpd">J'accepte que Capitali conserve mon email pour m'envoyer mes résultats et, si je le souhaite, me recontacter. Données traitées conformément au RGPD. Désabonnement en 1 clic.</label>
-      </div>
-      <div class="capture-error" id="gate-error"></div>
-    </div>
-
-    <div class="sim-content" id="sim-content" style="display:none;">
+    <div class="sim-content" id="sim-content">
 
     <div class="sim-inputs grid-2">
 
@@ -186,7 +170,7 @@
           <div class="capture-icon">📄</div>
           <div>
             <div class="capture-title">Recevoir ma comparaison détaillée par email</div>
-            <div class="capture-subtitle">Tableau complet, barèmes en vigueur, et un point sur l'actionnariat salarié (AGA) comme alternative pour vos profils clés, envoyé à <strong id="capture-email-display"></strong>.</div>
+            <div class="capture-subtitle">Tableau complet, barèmes en vigueur, et un point sur l'actionnariat salarié (AGA) comme alternative pour vos profils clés.</div>
           </div>
         </div>
 
@@ -196,7 +180,15 @@
         </div>
 
         <div id="capture-form-wrap">
-          <button type="button" id="capture-btn" onclick="submitLead()">Recevoir par email →</button>
+          <div class="capture-form">
+            <input type="email" id="capture-email" placeholder="votre@email.com" autocomplete="email">
+            <input type="text" id="capture-website" name="website" class="hp-field" tabindex="-1" autocomplete="off" aria-hidden="true">
+            <button type="button" id="capture-btn" onclick="submitLead()">Recevoir par email →</button>
+          </div>
+          <div class="rgpd-line">
+            <input type="checkbox" id="capture-rgpd">
+            <label for="capture-rgpd">J'accepte que Capitali conserve mon email pour m'envoyer cette estimation et, si je le souhaite, me recontacter. Données traitées conformément au RGPD. Désabonnement en 1 clic.</label>
+          </div>
           <div class="capture-error" id="capture-error"></div>
         </div>
       </div>
@@ -266,56 +258,6 @@ const utm = (() => {
 })();
 
 let sim = {};
-let capturedEmail = null;
-
-async function unlockSimulator() {
-  const email = document.getElementById('gate-email').value.trim();
-  const rgpd = document.getElementById('gate-rgpd').checked;
-  const errEl = document.getElementById('gate-error');
-  const btn = document.getElementById('gate-btn');
-
-  errEl.classList.remove('visible');
-
-  if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
-    errEl.textContent = 'Veuillez saisir une adresse email valide.';
-    errEl.classList.add('visible');
-    return;
-  }
-  if (!rgpd) {
-    errEl.textContent = 'Veuillez accepter les conditions pour accéder au simulateur.';
-    errEl.classList.add('visible');
-    return;
-  }
-
-  btn.disabled = true;
-  btn.textContent = 'Vérification…';
-
-  try {
-    await fetch(LPV_ENDPOINT, {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        'Authorization': 'Bearer ' + SUPABASE_ANON_KEY,
-        'apikey': SUPABASE_ANON_KEY,
-      },
-      body: JSON.stringify({
-        email,
-        website: document.getElementById('gate-website').value,
-        simulateur_origine: 'ppv',
-        estimation_eligibilite: 'Accès simulateur (avant calcul)',
-        utm_source: utm.source,
-        utm_campaign: utm.campaign,
-      }),
-    });
-  } catch {
-    // Ne bloque pas l'accès sur un souci réseau.
-  }
-
-  capturedEmail = email;
-  document.getElementById('capture-email-display').textContent = email;
-  document.getElementById('gate-card').style.display = 'none';
-  document.getElementById('sim-content').style.display = 'block';
-}
 
 function fmt(n) { return new Intl.NumberFormat('fr-FR', { maximumFractionDigits: 0 }).format(Math.round(n)) + ' €'; }
 function fmtSign(n) {
@@ -386,10 +328,23 @@ document.getElementById('input-budget').addEventListener('input', function () {
 });
 
 async function submitLead() {
+  const email = document.getElementById('capture-email').value.trim();
+  const rgpd = document.getElementById('capture-rgpd').checked;
   const errEl = document.getElementById('capture-error');
   const btn = document.getElementById('capture-btn');
 
   errEl.classList.remove('visible');
+
+  if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+    errEl.textContent = 'Veuillez saisir une adresse email valide.';
+    errEl.classList.add('visible');
+    return;
+  }
+  if (!rgpd) {
+    errEl.textContent = 'Veuillez accepter les conditions pour recevoir votre estimation.';
+    errEl.classList.add('visible');
+    return;
+  }
 
   btn.disabled = true;
   btn.textContent = 'Envoi…';
@@ -403,8 +358,8 @@ async function submitLead() {
         'apikey': SUPABASE_ANON_KEY,
       },
       body: JSON.stringify({
-        email: capturedEmail,
-        website: document.getElementById('gate-website').value,
+        email: email,
+        website: document.getElementById('capture-website').value,
         effectif: sim.effectif,
         gain_calcule: sim.gain,
         estimation_eligibilite: `PPV: budget ${fmt(sim.budget)}/sal., gain épargne salariale ${fmtSign(sim.gain)}/sal./an`,
@@ -428,8 +383,8 @@ async function submitLead() {
   }
 }
 
-document.getElementById('gate-email').addEventListener('keydown', function (e) {
-  if (e.key === 'Enter') unlockSimulator();
+document.getElementById('capture-email').addEventListener('keydown', function (e) {
+  if (e.key === 'Enter') submitLead();
 });
 
 update();

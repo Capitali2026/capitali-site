@@ -94,23 +94,7 @@
 <div class="simpage-body">
   <div class="sim-card">
 
-    <div class="gate-card" id="gate-card">
-      <div class="gate-icon">🔒</div>
-      <div class="gate-title">Accédez au simulateur</div>
-      <div class="gate-subtitle">Entrez votre email pour débloquer l'outil : résultat immédiat juste après, aucun engagement.</div>
-      <div class="capture-form">
-        <input type="email" id="gate-email" placeholder="votre@email.com" autocomplete="email">
-        <input type="text" id="gate-website" name="website" class="hp-field" tabindex="-1" autocomplete="off" aria-hidden="true">
-        <button type="button" id="gate-btn" onclick="unlockSimulator()">Accéder →</button>
-      </div>
-      <div class="rgpd-line">
-        <input type="checkbox" id="gate-rgpd">
-        <label for="gate-rgpd">J'accepte que Capitali conserve mon email pour m'envoyer mes résultats et, si je le souhaite, me recontacter. Données traitées conformément au RGPD. Désabonnement en 1 clic.</label>
-      </div>
-      <div class="capture-error" id="gate-error"></div>
-    </div>
-
-    <div class="sim-content" id="sim-content" style="display:none;">
+    <div class="sim-content" id="sim-content">
 
     <div class="sim-inputs">
 
@@ -171,7 +155,7 @@
       <div class="capture-section">
         <div>
           <div class="capture-title">📩 Recevoir mon estimation détaillée par email</div>
-          <div class="capture-subtitle">Avec les dispositifs possibles et, si l'actionnariat salarié (AGA) vous intéresse comme alternative à la PPV, notre guide dédié, envoyé à <strong id="capture-email-display"></strong>.</div>
+          <div class="capture-subtitle">Avec les dispositifs possibles et, si l'actionnariat salarié (AGA) vous intéresse comme alternative à la PPV, notre guide dédié.</div>
         </div>
 
         <div class="capture-success" id="capture-success">
@@ -180,7 +164,15 @@
         </div>
 
         <div id="capture-form-wrap">
-          <button type="button" id="capture-btn" onclick="submitLead()">Recevoir par email →</button>
+          <div class="capture-form">
+            <input type="email" id="capture-email" placeholder="votre@email.com" autocomplete="email">
+            <input type="text" id="capture-website" name="website" class="hp-field" tabindex="-1" autocomplete="off" aria-hidden="true">
+            <button type="button" id="capture-btn" onclick="submitLead()">Recevoir par email →</button>
+          </div>
+          <div class="rgpd-line">
+            <input type="checkbox" id="capture-rgpd">
+            <label for="capture-rgpd">J'accepte que Capitali conserve mon email pour m'envoyer cette estimation et, si je le souhaite, me recontacter. Données traitées conformément au RGPD. Désabonnement en 1 clic.</label>
+          </div>
           <div class="capture-error" id="capture-error"></div>
         </div>
       </div>
@@ -196,6 +188,55 @@
   </p>
 
 </div>
+
+<section class="article-body">
+  <div class="container-narrow">
+    <div class="article-prose">
+
+      <h2 id="criteres">Les 4 critères cumulatifs</h2>
+      <p>L'obligation ne s'applique que si votre entreprise remplit <strong>les quatre conditions à la fois</strong>, telles que détaillées par le <a href="https://code.travail.gouv.fr/information/entreprises-de-11-a-49-salaries-mise-en-place-dun-dispositif-de-partage-de-la-valeur-participation-interessement-prime-de-partage-de-la-valeur-ppv" target="_blank" rel="noopener">Code du travail numérique</a>&nbsp;:</p>
+      <ul>
+        <li><strong>Effectif</strong>&nbsp;: entre 11 et 49 salariés.</li>
+        <li><strong>Rentabilité</strong>&nbsp;: un bénéfice net fiscal supérieur ou égal à 1&nbsp;% du chiffre d'affaires, sur chacun des 3 derniers exercices.</li>
+        <li><strong>Absence de dispositif existant</strong>&nbsp;: aucune participation, intéressement, PPV ou abondement sur un plan d'épargne salariale déjà en place.</li>
+        <li><strong>Hors obligation de participation</strong>&nbsp;: votre entreprise n'est pas déjà soumise à l'obligation légale de participation (à partir de 50 salariés en principe).</li>
+      </ul>
+
+      <h2 id="dispositifs">Les 4 dispositifs possibles</h2>
+      <p>Si vous êtes concerné, vous devez mettre en place <em>au moins un</em> des quatre dispositifs suivants&nbsp;:</p>
+      <ul>
+        <li><strong>La participation</strong>&nbsp;: redistribution d'une partie du bénéfice, formule de calcul légale.</li>
+        <li><strong>L'intéressement</strong>&nbsp;: versement ou épargne, lié à des objectifs de performance que vous définissez.</li>
+        <li><strong>La prime de partage de la valeur (PPV)</strong>&nbsp;: versement immédiat, le plus simple à mettre en place, mais la fiscalité la moins favorable.</li>
+        <li><strong>L'abondement</strong> sur un plan d'épargne salariale (PEE, PER collectif)&nbsp;: épargne bloquée plusieurs années, fiscalité plus favorable.</li>
+      </ul>
+      <p>Notre <a href="/livre-blanc/">livre blanc Partage de la Valeur</a> détaille le fonctionnement et les seuils de chacun.</p>
+
+      <h2 id="risques">Ce que vous risquez si vous ne faites rien</h2>
+      <p>La loi ne prévoit pas d'amende automatique&nbsp;: c'est une expérimentation pensée pour inciter, pas pour sanctionner d'emblée. Mais l'absence de dispositif alors que les critères sont réunis expose à un faisceau de risques bien réels&nbsp;: réclamation de vos salariés ou de leurs représentants, requalification d'éventuelles primes versées de façon informelle, réintégration de ces sommes dans l'assiette des cotisations sociales, et surtout la perte des exonérations sociales et fiscales attachées au dispositif que vous auriez dû mettre en place.</p>
+
+      <h2 id="calendrier">Calendrier&nbsp;: 2025-2028</h2>
+      <p>L'obligation s'applique aux exercices ouverts à compter du 1er janvier 2025. Il s'agit d'une expérimentation de 5 ans, qui prend fin le 30 novembre 2028 (<a href="https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000048480565" target="_blank" rel="noopener">loi n°&nbsp;2023-1107 du 29 novembre 2023</a>). Le bénéfice des 3 derniers exercices s'apprécie donc de façon glissante&nbsp;: vérifiez chaque année si vous franchissez le seuil.</p>
+
+      <h2 id="exclusions">Qui est exclu</h2>
+      <ul>
+        <li>Les entreprises hors de la tranche 11-49 salariés.</li>
+        <li>Celles qui ont déjà un dispositif de partage de la valeur en place.</li>
+        <li>Celles dont le bénéfice net fiscal est resté sous le seuil de 1&nbsp;% du chiffre d'affaires sur l'une des 3 dernières années.</li>
+        <li>Celles déjà soumises à l'obligation légale de participation.</li>
+      </ul>
+
+      <h2 id="faq">Questions fréquentes</h2>
+      <h3>Puis-je choisir n'importe lequel des 4 dispositifs&nbsp;?</h3>
+      <p>Oui, la loi laisse le choix du dispositif à l'entreprise&nbsp;: rien n'impose la PPV plutôt que l'intéressement ou l'abondement, par exemple.</p>
+      <h3>Je viens de passer sous le seuil de 50 salariés&nbsp;: suis-je concerné&nbsp;?</h3>
+      <p>Si vous étiez déjà soumis à l'obligation légale de participation, cette obligation continue généralement de s'appliquer pendant une période de maintien, sans basculer automatiquement vers le nouveau dispositif. Un point à confirmer avec votre expert-comptable, car les règles de maintien dépendent de votre situation exacte.</p>
+      <h3>La PPV et l'actionnariat salarié (AGA), c'est la même chose&nbsp;?</h3>
+      <p>Non. La PPV est un versement en numéraire, chargé socialement chaque année, indéfiniment. L'attribution gratuite d'actions (AGA) associe vos profils clés au capital sans sortie de trésorerie immédiate. Les deux peuvent d'ailleurs coexister&nbsp;: la PPV pour respecter l'obligation à court terme, l'AGA pour fidéliser durablement les personnes qui comptent le plus. Voir notre comparatif <a href="/blog/prime-vs-aga-cout-reel/">prime vs attribution d'actions</a>.</p>
+
+    </div>
+  </div>
+</section>
 
 <footer>
   <div class="footer-inner">
@@ -249,58 +290,6 @@ let state = {
   siren: null, companyName: null, effectif: null, formeJuridique: null,
   dispositif: null, benefice: null, manual: false,
 };
-
-let capturedEmail = null;
-
-async function unlockSimulator() {
-  const email = document.getElementById('gate-email').value.trim();
-  const rgpd = document.getElementById('gate-rgpd').checked;
-  const errEl = document.getElementById('gate-error');
-  const btn = document.getElementById('gate-btn');
-
-  errEl.classList.remove('visible');
-
-  if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
-    errEl.textContent = 'Veuillez saisir une adresse email valide.';
-    errEl.classList.add('visible');
-    return;
-  }
-  if (!rgpd) {
-    errEl.textContent = 'Veuillez accepter les conditions pour accéder au simulateur.';
-    errEl.classList.add('visible');
-    return;
-  }
-
-  btn.disabled = true;
-  btn.textContent = 'Vérification…';
-
-  try {
-    await fetch(LPV_ENDPOINT, {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        'Authorization': 'Bearer ' + SUPABASE_ANON_KEY,
-        'apikey': SUPABASE_ANON_KEY,
-      },
-      body: JSON.stringify({
-        email,
-        website: document.getElementById('gate-website').value,
-        simulateur_origine: 'lpv',
-        estimation_eligibilite: 'Accès simulateur (avant calcul)',
-        utm_source: utm.source,
-        utm_campaign: utm.campaign,
-      }),
-    });
-  } catch {
-    // Ne bloque pas l'accès sur un souci réseau : la capture définitive se
-    // refait de toute façon à l'étape "recevoir par email" en fin de parcours.
-  }
-
-  capturedEmail = email;
-  document.getElementById('capture-email-display').textContent = email;
-  document.getElementById('gate-card').style.display = 'none';
-  document.getElementById('sim-content').style.display = 'block';
-}
 
 // ── Tranches Sirene → bornes effectif (mêmes que scripts/pipeline/fill-pipeline.mjs) ──
 const TRANCHE_BOUNDS = {
@@ -431,10 +420,23 @@ function computeResult() {
 }
 
 async function submitLead() {
+  const email = document.getElementById('capture-email').value.trim();
+  const rgpd = document.getElementById('capture-rgpd').checked;
   const errEl = document.getElementById('capture-error');
   const btn = document.getElementById('capture-btn');
 
   errEl.classList.remove('visible');
+
+  if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+    errEl.textContent = 'Veuillez saisir une adresse email valide.';
+    errEl.classList.add('visible');
+    return;
+  }
+  if (!rgpd) {
+    errEl.textContent = 'Veuillez accepter les conditions pour recevoir votre estimation.';
+    errEl.classList.add('visible');
+    return;
+  }
 
   btn.disabled = true;
   btn.textContent = 'Envoi…';
@@ -448,8 +450,8 @@ async function submitLead() {
         'apikey': SUPABASE_ANON_KEY,
       },
       body: JSON.stringify({
-        email: capturedEmail,
-        website: document.getElementById('gate-website').value,
+        email: email,
+        website: document.getElementById('capture-website').value,
         siren: state.siren,
         company_name: state.companyName,
         effectif: state.effectif,
@@ -480,8 +482,8 @@ async function submitLead() {
 document.getElementById('input-siren').addEventListener('keydown', function (e) {
   if (e.key === 'Enter') lookupSiren();
 });
-document.getElementById('gate-email').addEventListener('keydown', function (e) {
-  if (e.key === 'Enter') unlockSimulator();
+document.getElementById('capture-email').addEventListener('keydown', function (e) {
+  if (e.key === 'Enter') submitLead();
 });
 </script>
 
