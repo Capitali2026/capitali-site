@@ -195,3 +195,126 @@ Note technique (passe complementaire, meme journee) : dans cette session, l'outi
 - Statut : brouillon cree
 
 Total du jour : 4 + 22 = 26 leads.
+
+## 2026-09-24
+
+- Entreprise : PSI (Précision Stéphanoise Industrie)
+- Dirigeant : Jacques Patras (dirigeant historique, repreneur en 2001)
+- Contact : contact@precision-stephanoise.fr (deduit du domaine officiel precision-stephanoise.fr)
+- Source : https://www.lejournaldesentreprises.com/article/le-stephanois-psi-rejoint-le-groupe-iserois-gonzales-2137573
+- Pourquoi : PME de mecanique de precision (15 salaries, Saint-Etienne, marches nucleaire/defense) rachetee par le groupe Gonzales en janvier 2026 : integration ou la fidelisation des techniciens qualifies est un enjeu direct.
+- Statut : nouveau
+
+- Entreprise : Fourage-CTI
+- Dirigeant : Xavier Chaigneau (nouveau dirigeant, succede a Patrick Fourage)
+- Contact : contact@fourage-cti.fr
+- Source : https://www.lejournaldesentreprises.com/article/la-societe-fourage-cti-change-de-mains-et-se-diversifie-2090727
+- Pourquoi : PME de materiels pour l'industrie des boissons (31 salaries, La Haye-Fouassiere) en transmission avec co-direction transitoire de deux ans : moment cle pour associer les cadres cles a la suite du projet.
+- Statut : nouveau
+
+- Entreprise : Mulliez Richebé
+- Dirigeant : Thomas Mulliez (4e generation, dirige depuis juillet 2026)
+- Contact : contact@mulliez-richebe.fr (deduit du domaine officiel mulliez-richebe.fr)
+- Source : https://www.lejournaldesentreprises.com/article/mulliez-richebe-la-quatrieme-generation-prend-les-renes-de-la-pme-familiale-2125741
+- Pourquoi : Cartonnerie familiale centenaire (45 salaries, Chereng, Nord) en pleine transmission intergenerationnelle : contexte ideal pour anticiper la fidelisation des cadres avant la suite.
+- Statut : nouveau
+
+- Entreprise : Armor Gouttières
+- Dirigeant : Guillaume Rondot (33 ans, succede a son pere Jehan-Francois Rondot)
+- Contact : contact@armorgouttieres.fr (deduit du domaine officiel armorgouttieres.fr)
+- Source : https://www.lejournaldesentreprises.com/article/transmission-familiale-la-tete-de-la-pme-costarmoricaine-armor-gouttieres-2146427
+- Pourquoi : PME de couverture/gouttieres (20 salaries, Graces, Cotes-d'Armor) en transmission familiale au 1er trimestre 2026 : jeune repreneur susceptible d'associer ses cadres cles a la nouvelle etape.
+- Statut : nouveau
+
+- Entreprise : Novium
+- Dirigeant : Sascha Kettler (president depuis juillet 2026, succede au fondateur Didier Stainmesse)
+- Contact : contact@novium.fr
+- Source : https://www.usinenouvelle.com/bourgogne-franche-comte/saone-et-loire/apres-plus-de-vingt-ans-chez-michelin-sascha-kettler-prend-la-tete-du-constructeur-dengins-ferroviaires-novium.FLYPVDPLZ5CZXHW2DEWU4UZ5QI.html
+- Pourquoi : Constructeur d'engins ferroviaires/BTP (107 salaries, Saint-Vallier, Saone-et-Loire) en pleine transmission progressive de la culture et de l'organisation par le fondateur : signal fort pour une AGA destinee aux cadres cles.
+- Statut : nouveau
+
+- Entreprise : ROAV7
+- Dirigeant : Jean-Paul Belfis (president) ; Paul Clais (directeur general)
+- Contact : contact@roav7.com (deduit du domaine officiel roav7.com)
+- Source : https://www.lejournaldesentreprises.com/breve/stapem-offshore-reprend-le-havrais-roav7-2099122
+- Pourquoi : Startup industrielle de traitement de donnees par drone (40 salaries, Le Havre, leader francais du secteur) racheteee par le groupe STAPEM Offshore : integration ou fideliser l'equipe technique specialisee est critique.
+- Statut : nouveau
+
+- Entreprise : Quaternaire
+- Dirigeant : Philippe Delwarde (president)
+- Contact : contact@quaternaire.fr (deduit du domaine officiel quaternaire.fr)
+- Source : https://www.lejournaldesentreprises.com/breve/la-pme-nantaise-quaternaire-ouvre-son-capital-ses-salaries-2101532
+- Pourquoi : Cabinet de conseil (77 salaries, Nantes/Paris/Lyon/Toulouse) qui a ouvert son capital aux salaries (71% de participation) dans le cadre de son projet ImpaQt 2030 : dirigeant deja convaincu par le partage du capital, terrain ideal pour un discours AGA complementaire cible sur les cadres cles.
+- Statut : nouveau
+
+- Entreprise : Normandy Transferts
+- Dirigeant : Thierry Blondel (dirigeant depuis 2015, accompagne la transition)
+- Contact : contact@dmax.fr (deduit du domaine officiel du groupe acquereur DMAX, dmax.fr)
+- Source : https://www.lejournaldesentreprises.com/article/le-groupe-de-demenagement-francilien-dmax-acquiert-normandy-transferts-2134863
+- Pourquoi : PME normande de demenagement (20 salaries) rachetee par le groupe familial DMAX fin decembre 2025 : phase d'integration ou la fidelisation des equipes specialisees est un enjeu direct.
+- Statut : nouveau
+
+- Entreprise : Veyrat-Masson
+- Dirigeant : Michel Celle (nouveau gerant) ; Sebastien Veyrat-Masson (president)
+- Contact : contact@veyrat-masson.fr (deduit du domaine officiel veyrat-masson.fr)
+- Source : https://veyrat-masson.fr/
+- Pourquoi : PME de chaudronnerie/serrurerie (20-49 salaries, Ugine, Savoie, depuis 1968) rachetee par le groupe Aura Metal en mars 2026 : changement de mains propice a un dialogue sur l'association des cadres cles a la suite.
+- Statut : nouveau
+
+- Entreprise : Alias Informatique
+- Dirigeant : Stephane Lledo (president)
+- Contact : contact@alias66.com (deduit du domaine officiel alias66.com)
+- Source : https://www.lejournaldesentreprises.com/breve/lesn-perpignanaise-alias-informatique-rejoint-le-groupe-lyonnais-xefi-2146931
+- Pourquoi : ESN perpignanaise (12 salaries, fondee en 1998) qui vient de rejoindre le groupe lyonnais Xefi : integration recente ou fideliser les techniciens cles est un enjeu pour le dirigeant.
+- Statut : nouveau
+
+- Entreprise : Transports Chalot
+- Dirigeant : Sebastien Tetier (nouveau responsable, ex-bras droit) ; Michel Chalot (fondateur, parti en retraite)
+- Contact : contact@chalot.fr (deduit du domaine officiel chalot.fr)
+- Source : https://www.lejournaldesentreprises.com/breve/le-grenoblois-groupe-brun-reprend-lalsacien-transports-chalot-2128955
+- Pourquoi : PME alsacienne de transport d'hydrocarbures (80 salaries, Strasbourg) cedee par son dirigeant fondateur parti en retraite sans repreneur familial : transmission recente et signal prioritaire pour Capitali.
+- Statut : nouveau
+
+- Entreprise : Transports Mettelle
+- Dirigeant : David Bray (LogiTrans, nouveau dirigeant) ; Christian Mettelle (cedant)
+- Contact : contact@transports-mettelle.fr
+- Source : https://www.lejournaldesentreprises.com/breve/le-normand-transports-mettelle-repris-par-les-nordistes-transports-bray-et-gardien-transports-2102466
+- Pourquoi : PME normande de transport/logistique (50 salaries, Foucarmont, Seine-Maritime) cedee par son dirigeant historique a deux transporteurs du Nord : phase d'integration propice a une discussion sur la fidelisation des cadres d'exploitation.
+- Statut : nouveau
+
+- Entreprise : Studiel (Groupe Studiel)
+- Dirigeant : Jean Savarino (president)
+- Contact : contact@studielgroup.com (deduit du domaine officiel studielgroup.com)
+- Source : https://www.lejournaldesentreprises.com (breve "Arial Industries reprend Studiel à Nice et conserve 126 de ses 130 salariés", aout 2026)
+- Pourquoi : Bureau d'ingenierie/conseil technique (130 salaries, Nice) rachete par Arial Industries en aout 2026 avec conservation explicite de 126 postes sur 130 : signal direct de preoccupation pour la retention des equipes cles.
+- Statut : nouveau
+
+- Entreprise : Le Spécialiste de l'emballage (LSE)
+- Dirigeant : Claude Luro (dirigeant depuis 2008, cedant pour depart en retraite)
+- Contact : commercial@specialiste-emballage.com
+- Source : https://www.lejournaldesentreprises.com/breve/le-negociant-basque-le-specialiste-de-lemballage-repris-par-le-groupe-dromois-alizon-2132060
+- Pourquoi : Negociant basque en emballages (21 salaries, Lahonce, Pyrenees-Atlantiques) cede par son dirigeant partant en retraite au groupe Alizon : transmission recente, terrain propice a un discours sur l'association des cadres au capital avant ou pendant la cession.
+- Statut : nouveau
+
+- Entreprise : SNIG Pharma
+- Dirigeant : non trouve (CSTI Groupe, nouvel actionnaire/president depuis decembre 2025)
+- Contact : contact@snigpharma.fr
+- Source : https://www.lejournaldesentreprises.com/breve/csti-groupe-reprend-snig-pharma-2132521
+- Pourquoi : PME de tuyauterie/chaudronnerie pour l'industrie pharmaceutique (10-19 salaries, Montagny, Rhone) integree au groupe CSTI dans le cadre de sa diversification : phase d'integration ou fideliser les savoir-faire techniques est un enjeu.
+- Statut : nouveau
+
+- Entreprise : Géo Bretagne Sud
+- Dirigeant : Emmanuel Hallay et Alain Riou (dirigeants, assurent la continuite) ; Serge Nicolas (associe, parti en retraite)
+- Contact : contact@geobretagnesud.com (deduit du domaine officiel geobretagnesud.com)
+- Source : https://www.lejournaldesentreprises.com/breve/le-groupe-nantais-geofit-reprend-geo-bretagne-sud-2110918
+- Pourquoi : Cabinet de geometres-experts (une cinquantaine de collaborateurs, quatre sites dans le Morbihan) cede au groupe Geofit suite au depart en retraite d'un des trois associes fondateurs : transmission recente et signal clair pour associer les cadres cles a la suite.
+- Statut : nouveau
+
+- Entreprise : ABE Courtage
+- Dirigeant : Lionel Rouault de la Vigne, Charles-Francois Legrand, Guillaume Doulvais et Remi Verdier (dirigeants associes)
+- Contact : contact@abecourtage.com (deduit du domaine officiel abecourtage.com)
+- Source : https://www.lejournaldesentreprises.com/breve/le-rennais-abe-courtage-fait-lacquisition-du-cabinet-nantais-integra-2126719
+- Pourquoi : Courtier en assurances rennais (74 salaries, 6,5 M EUR de CA) en croissance externe active (acquisition du cabinet nantais Integra) : dirigeants multi-associes deja sensibles aux enjeux de structuration du capital et de fidelisation des equipes.
+- Statut : nouveau
+
+Total du jour : 17 leads.
