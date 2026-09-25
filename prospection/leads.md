@@ -318,3 +318,72 @@ Total du jour : 4 + 22 = 26 leads.
 - Statut : brouillon cree
 
 Total du jour : 17 leads.
+
+## 2026-09-25
+
+Note technique : filtre qualité renforcé ce jour (exclusion stricte de tout lead dont le signal principal est une transaction deja finalisee de type "rachat par un groupe" / "integration a un groupe", meme quand l'entite rachetee est une petite PME). Volume du jour reduit en consequence (9 leads au lieu des ~25 vises) : la grande majorite des signaux trouves via WebSearch aujourd'hui correspondaient a des rachats deja actes par des groupes acquereurs (donc hors cible), et non a des dirigeants de PME encore independantes envisageant ou preparant une transmission a venir.
+
+- Entreprise : Prolann (Prolann SRMP)
+- Dirigeant : Robert Glémot (dirigeant, transmission en cours) ; enfants Marie-Lise Glémot (future présidente) et Gwendal Glémot (direction commerciale)
+- Contact : prolann@groupe-glemot.com
+- Source : https://www.lejournaldesentreprises.com/article/prolann-poursuit-sa-croissance-avant-sa-transmission-familiale-2130226
+- Pourquoi : PME de mécanique de précision pour l'aéronautique et la défense (55 salariés, Lannion, Côtes-d'Armor). Transmission familiale organisée en 2026 vers les deux enfants du dirigeant, entreprise toujours indépendante : moment clé pour aussi associer les cadres clés à la suite.
+- Statut : nouveau
+
+- Entreprise : SFCMM (Société Française de Constructions Métalliques et Mécaniques)
+- Dirigeant : Olivier Baret (dirigeant, avait lui-même repris l'entreprise de son père) ; transmission anticipée à ses fils Antoine et Pierre Baret
+- Contact : contact@sfcmm.fr
+- Source : https://www.lejournaldesentreprises.com/article/transmission-familiale-la-tete-de-lentreprise-metallurgique-nantaise-sfcmm-2122843
+- Pourquoi : PME industrielle de découpe et façonnage du métal (80 salariés, Saint-Herblain, Nantes). Transmission familiale planifiée de longue date vers la 3e génération ; un tiers du capital est déjà partagé avec une dizaine de cadres associés depuis 2015 - dirigeant déjà sensible au partage du capital avec ses cadres clés.
+- Statut : nouveau
+
+- Entreprise : Grech Immobilier
+- Dirigeant : Bernard Grech (président, en transmission) ; enfants Pierre Grech (vice-président, futur président) et Sophie Grech
+- Contact : contact@grechimmo.fr (déduit du domaine officiel grechimmo.fr)
+- Source : https://www.lejournaldesentreprises.com/breve/transmission-familiale-chez-grech-immobilier-2115163
+- Pourquoi : Agence immobilière familiale (une soixantaine de salariés, 5 agences, Toulon). Transmission familiale progressive en cours du père vers ses deux enfants, entreprise toujours indépendante : moment clé pour structurer la fidélisation des cadres avant la passation complète.
+- Statut : nouveau
+
+- Entreprise : Bidault (Bidault SAS / Bidault Menuiserie)
+- Dirigeant : Trémeur Fraval (dirigeant depuis 2005, en transmission) ; Aurélien Le Borgne (directeur général depuis décembre 2022, futur repreneur)
+- Contact : contact@bidault-batiment.fr (déduit du domaine officiel bidault-batiment.fr)
+- Source : https://www.lejournaldesentreprises.com/article/avec-larrivee-de-son-futur-repreneur-bidault-accentue-sa-digitalisation-2108344
+- Pourquoi : PME de gros oeuvre et menuiserie-charpente (environ 80 salariés cumulés, Saint-Donan, Côtes-d'Armor). Transmission progressive en cours vers un jeune repreneur indépendant depuis fin 2022 : phase de passation propice à un dialogue sur l'association des cadres clés.
+- Statut : nouveau
+
+- Entreprise : Hexaplants
+- Dirigeant : Didier et Frédérique Cadiou (fondateurs, en préparation de leur retraite)
+- Contact : contact@hexaplants.fr (déduit du domaine officiel hexaplants.fr)
+- Source : https://www.lejournaldesentreprises.com/article/breizh-rebond-reprend-la-majorite-du-capital-du-maraicher-hexaplants-2104227
+- Pourquoi : Producteur de plants maraîchers (57 salariés permanents, Saint-Méloir-des-Ondes, Ille-et-Vilaine). Fondateurs en préparation de leur départ en retraite, accompagnés par un investisseur régional dédié à la transmission (Breizh Rebond) tout en restant actionnaires et aux commandes durant la transition : signal de départ en retraite avec continuité indépendante, pas d'integration a un groupe concurrent.
+- Statut : nouveau
+
+- Entreprise : System Hydro Group (ex-activité Tecnofil Industries)
+- Dirigeant : Mathilde Angelvy (présidente) et Thomas Scellier (directeur général), anciens salariés devenus dirigeants-actionnaires
+- Contact : contact@tecnofil-industries.com
+- Source : https://www.francebleu.fr/infos/economie-social/system-hydro-group-success-story-d-une-entreprise-reprise-par-cinq-salaries-a-perpignan-8755104
+- Pourquoi : PME industrielle de captage et traitement de l'eau (Perpignan). Suite au départ à la retraite du dirigeant précédent, cinq salariés ont repris l'activité et en sont devenus propriétaires : reprise interne par les salariés, signal fort et direct pour un discours sur l'actionnariat salarié/AGA.
+- Statut : nouveau
+
+- Entreprise : Minssieux & Fils
+- Dirigeant : Johann Brocheton (nouveau directeur général, succède à Jérôme Minssieux)
+- Contact : non trouvé, voir source
+- Source : https://www.lejournaldesentreprises.com/breve/le-fonds-souverain-auvergne-rhone-alpes-accompagne-la-transmission-de-minssieux-fils-2045617
+- Pourquoi : PME de maçonnerie et gros oeuvre (10 à 19 salariés, Mornant, Rhône, savoir-faire familial transmis depuis 1805). Transmission accompagnée par le Fonds souverain régional Auvergne-Rhône-Alpes vers un repreneur indépendant du secteur BTP : entreprise reste une PME independante, pas de rachat par un groupe concurrent.
+- Statut : nouveau
+
+- Entreprise : Eurêka Solutions
+- Dirigeant : Henri Stuckert (fondateur et président, 71 ans)
+- Contact : contact@eureka-solutions.fr (déduit du domaine officiel eureka-solutions.fr)
+- Source : https://www.lejournaldesentreprises.com/article/eureka-solutions-ouvre-son-capital-ses-salaries-949228
+- Pourquoi : Éditeur et intégrateur de logiciels ERP (42 salariés, Pfastatt, Haut-Rhin). Le fondateur de 71 ans a ouvert le capital à ses salariés (23 des 42 salariés détiennent déjà 29 %) pour préparer sa transmission via un LBO progressif : cas quasi identique à la proposition de valeur de Capitali (actionnariat salarié/AGA pour préparer une transmission a venir).
+- Statut : nouveau
+
+- Entreprise : L'Angelys
+- Dirigeant : Denis Lavaud (fondateur-dirigeant)
+- Contact : contact@langelys.com (déduit du domaine officiel langelys.com)
+- Source : https://www.lejournaldesentreprises.com/article/langelys-cede-aux-cremes-glacees-lamericaine-et-part-lexport-2098480
+- Pourquoi : Fabricant artisanal de glaces et sorbets (20 à 49 salariés, Fontcouverte, Charente-Maritime). Le fondateur prépare discrètement une transmission familiale vers ses deux filles, déjà associées au capital, sur un horizon de plusieurs années : anticipation précoce d'une transmission familiale a venir.
+- Statut : nouveau
+
+Total du jour : 9 leads.
