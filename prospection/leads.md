@@ -386,4 +386,64 @@ Note technique : filtre qualité renforcé ce jour (exclusion stricte de tout le
 - Pourquoi : Fabricant artisanal de glaces et sorbets (20 à 49 salariés, Fontcouverte, Charente-Maritime). Le fondateur prépare discrètement une transmission familiale vers ses deux filles, déjà associées au capital, sur un horizon de plusieurs années : anticipation précoce d'une transmission familiale a venir.
 - Statut : brouillon cree
 
+## 2026-09-26
+
+Note technique : filtre qualité maintenu (exclusion stricte des transactions déjà finalisées de type rachat par un groupe, et des entreprises dépassant sensiblement 150 salariés). Volume du jour réduit à 8 leads : une part importante des signaux de transmission trouvés aujourd'hui via WebSearch concernait soit des ETI de plusieurs centaines de salariés (Gaches Chimie, Manufacture Cluizel, Groupe CB, Koesio, GPA, Gémy Automobiles), soit des transmissions déjà anciennes et closes (Timcod, Hélène Olivo/Olivo, Guérin-Brémaud), non retenues pour respecter les critères stricts de la mission.
+
+- Entreprise : Atelier Glotin (Pontchâteau, Loire-Atlantique)
+- Dirigeant : SCOP reprise par 15 des 19 salariés (co-gérants élus) suite au départ en retraite des fondateurs
+- Contact : contact@escaliers-glotin.fr (déduit du domaine officiel escaliers-glotin.fr)
+- Source : https://www.lejournaldesentreprises.com/breve/transmission-en-scop-pour-presquile-carrelage-et-atelier-glotin-204876
+- Pourquoi : PME de fabrication et pose d'escaliers sur mesure (19 salariés). Départ en retraite des fondateurs avec reprise interne indépendante par la quasi-totalité des salariés sous forme de SCOP : signal direct et fort pour un discours sur l'actionnariat salarié.
+- Statut : nouveau
+
+- Entreprise : Fagots et Froment (Essé, Ille-et-Vilaine)
+- Dirigeant : Béatrice Rozé (dirigeante-fondatrice)
+- Contact : contact@fagotsetfroment.fr (déduit du domaine officiel fagotsetfroment.fr)
+- Source : https://www.lejournaldesentreprises.com/article/la-boulangerie-bio-fagots-et-froment-anticipe-sa-transmission-2102495
+- Pourquoi : Boulangerie bio (40 salariés). La dirigeante a ouvert son capital à deux salariés clés (chacun 15 % via holding) pour anticiper sa transmission future, sans vente immédiate : démarche explicite de fidélisation de cadres clés par l'actionnariat avant une transmission à venir.
+- Statut : nouveau
+
+- Entreprise : Brault Métallerie (Montrevault-sur-Èvre, Maine-et-Loire)
+- Dirigeant : Emmanuelle Brault (présidente, a succédé à son père en décembre 2024)
+- Contact : contact@brault-metallerie.com (déduit du domaine officiel brault-metallerie.com)
+- Source : https://www.usinenouvelle.com/editorial/pourquoi-la-famille-est-un-ingredient-de-reussite-precieux-pour-les-dirigeants-de-pme-et-d-eti.N1163122
+- Pourquoi : PME de métallerie-serrurerie (20 à 49 salariés). Transmission familiale récente (décembre 2024) ; la nouvelle dirigeante vient de structurer sa gouvernance avec l'aide d'un cabinet de conseil, moment clé pour associer les cadres clés à la suite.
+- Statut : nouveau
+
+- Entreprise : Le PAL (Saint-Pourçain-sur-Besbre, Allier)
+- Dirigeant : Charles Bennet (président, a succédé à son père Arnaud Bennet le 1er janvier 2026)
+- Contact : contact@lepal.com (déduit du domaine officiel lepal.com)
+- Source : https://www.vichy-economie.com/carnet_economique/le-pal-une-transmission-familiale-de-pere-en-fils/
+- Pourquoi : Parc d'attractions et animalier familial et indépendant (environ 105 salariés permanents). Transmission familiale très récente (1er janvier 2026) de père en fils à la tête de l'entreprise : moment clé pour associer l'équipe de direction à la suite.
+- Statut : nouveau
+
+- Entreprise : Kiplay (Saint-Pierre-d'Entremont, Orne)
+- Dirigeant : Corinne Pradal (présidente) ; Marc Pradal (ancien dirigeant, parti en retraite, reste en soutien)
+- Contact : contact@kiplay.com (déduit du domaine officiel kiplay.com)
+- Source : https://kiplay.com/fr/smartblog/15_marc-pradal-transmet-lentreprise-kiplay-a-son.html
+- Pourquoi : Fabricant de vêtements professionnels et de sécurité (50 salariés, famille Pradal depuis 1921). Départ en retraite du dirigeant historique et transmission familiale à son épouse et ses enfants : entreprise restée indépendante, moment propice pour fidéliser les cadres clés.
+- Statut : nouveau
+
+- Entreprise : Skynet Expertise et Conseil (Nice)
+- Dirigeant : Elfie Menu et Véronique Blanc-Nannini (nouvelles dirigeantes, ont succédé à Valérie Ammirati et Christine Boutin, transmission signée fin décembre)
+- Contact : contact@skynet-ec.com (déduit du domaine officiel skynet-ec.com)
+- Source : https://www.lejournaldesentreprises.com/breve/valerie-ammirati-passe-les-renes-de-skynet-expertise-et-conseil-2110551
+- Pourquoi : Cabinet d'expertise-comptable indépendant (15 salariés). Transmission interne récente à deux collaboratrices historiques (entrées comme apprenties), entreprise restée indépendante : contexte propice pour structurer la fidélisation des futurs cadres clés.
+- Statut : nouveau
+
+- Entreprise : Chocolaterie de Puyricard (Aix-en-Provence, Bouches-du-Rhône)
+- Dirigeant : Solène Roelandts (présidente, 3e génération familiale)
+- Contact : contact@puyricard.fr (déduit du domaine officiel puyricard.fr)
+- Source : https://www.lejournaldesentreprises.com/article/la-troisieme-generation-familiale-garde-le-cap-solene-roelandts-presidente-de-la-chocolaterie-de-2080620
+- Pourquoi : Chocolaterie artisanale familiale (130 salariés). Transmission familiale à la 3e génération, entreprise restée 100 % indépendante : profil type pour accompagner la consolidation de l'équipe de direction autour de la nouvelle dirigeante.
+- Statut : nouveau
+
+- Entreprise : Groupe Larcher (Caen, Calvados)
+- Dirigeant : Antoine, Mathieu et Simon Larcher (4e génération, ont succédé à leur père en janvier 2023)
+- Contact : contact@larcher.fr (déduit du domaine officiel larcher.fr)
+- Source : https://www.lejournaldesentreprises.com/article/entreprise-larcher-le-dirigeant-divise-son-entreprise-pour-la-transmettre-ses-trois-fils-2052036
+- Pourquoi : PME de plomberie, chauffage et énergies renouvelables (120 salariés). Transmission familiale à la 4e génération, désormais scindée en trois filiales dirigées par les trois frères : entreprise indépendante en pleine réorganisation de gouvernance, moment clé pour associer les cadres clés de chaque filiale.
+- Statut : nouveau
+
 Total du jour : 9 leads.
