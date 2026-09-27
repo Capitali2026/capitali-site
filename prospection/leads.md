@@ -447,3 +447,72 @@ Note technique : filtre qualité maintenu (exclusion stricte des transactions d�
 - Statut : brouillon cree
 
 Total du jour : 9 leads.
+
+## 2026-09-27
+
+Note technique : filtre qualité maintenu (exclusion stricte des transactions déjà finalisées de type rachat par un groupe). Volume du jour réduit à 9 leads malgré un large éventail d'angles de recherche testés (secteurs BTP, industrie, tech, services, santé, agroalimentaire, textile, et régions Bretagne, Normandie, Occitanie, PACA, Grand Est, Hauts-de-France, Auvergne-Rhône-Alpes) : la grande majorité des signaux de transmission trouvés aujourd'hui via WebSearch concernaient soit des ETI de plusieurs centaines à plusieurs milliers de salariés (Groupe Lamotte, Mary Automobiles, Gattefossé, Groupe Lhotellier, Groupe Adelaïde, Groupe Lucas, Quanteo Group, KS Groupe, Groupe Nadia), soit des rachats déjà finalisés par un groupe acquéreur (Leborgne/Novalia, Suntech/Groupe Poussin, PJM/Barbacane), non retenus pour respecter les critères stricts de la mission.
+
+- Entreprise : Anaximandre (Landerneau, Finistère)
+- Dirigeant : Dimitri Boennec (repreneur, succède au fondateur Guy Mordret)
+- Contact : contact@anaximandre.com
+- Source : https://www.lejournaldesentreprises.com/finistere/breve/guy-mordret-anaximandre-lance-une-chaine-youtube-destination-des-dirigeants-de-tpe-743150 (complété par extraits de recherche croisés sur le nom des dirigeants actuels)
+- Pourquoi : Agence de communication (9 salariés, ~500 K€ de CA). Transmission effective au 1er janvier 2026 du fondateur vers un ancien collaborateur, avec entrée au capital de cinq salariés associés : signal direct d'association de cadres clés au capital lors d'une transmission récente.
+- Statut : nouveau
+
+- Entreprise : Beurel Environnement (Yffiniac, Côtes-d'Armor)
+- Dirigeant : Louise Beurel (présidente, 3e génération) et Jules Beurel (directeur de site)
+- Contact : contact@beurel-environnement.fr (déduit du domaine officiel beurel-environnement.fr)
+- Source : https://www.lejournaldesentreprises.com/article/louise-et-jules-beurel-la-troisieme-generation-arrive-la-tete-de-beurel-environnement-2139674
+- Pourquoi : PME de collecte et valorisation de déchets (12 salariés). Transmission familiale récente (fin 2025) à la 3e génération, frère et sœur de 27 et 20 ans à la tête d'une entreprise familiale depuis les années 1950, restée indépendante : moment clé pour structurer la fidélisation des futurs cadres.
+- Statut : nouveau
+
+- Entreprise : Eurotip (Pompignan, Tarn-et-Garonne)
+- Dirigeant : Romain Fourcade (repreneur, ex-directeur développement du groupe Kingspan)
+- Contact : info@eurotip-sarl.fr
+- Source : https://www.cfnews.net/L-actualite/LBO/Operations/MBI-sponsorless/Eurotip-scelle-son-MBI-sponsorless-708414
+- Pourquoi : PME d'étanchéité et résines industrielles (une dizaine de salariés, 4,4 M€ de CA). Reprise par un repreneur individuel (MBI sans sponsor) en mai 2026, entreprise restée indépendante (pas d'intégration à un groupe) : transition de dirigeant récente propice à un dialogue sur la fidélisation de l'équipe technique.
+- Statut : nouveau
+
+- Entreprise : Tacthys (Plouzané, Finistère)
+- Dirigeant : Pierre-Antoine Béal (président, ancien directeur général du groupe depuis 2017)
+- Contact : contact@tacthys.com (déduit du domaine officiel tacthys.com)
+- Source : https://www.lejournaldesentreprises.com/breve/pierre-antoine-beal-prend-la-presidence-du-groupe-tacthys-2145927
+- Pourquoi : Groupe technologique (74 salariés, 6 M€ de CA, biotechs/santé/numérique). Départ en retraite du cofondateur Pierre-Armand Thomas, succession interne par l'ancien directeur général : entreprise restée indépendante, moment clé pour fidéliser l'équipe dirigeante élargie.
+- Statut : nouveau
+
+- Entreprise : Optavis (Cesson-Sévigné, Ille-et-Vilaine)
+- Dirigeant : Karine Gorré (présidente, ex-directrice générale)
+- Contact : contact@optavis.fr
+- Source : https://www.lejournaldesentreprises.com/breve/le-fondateur-doptavis-cede-son-entreprise-2116311
+- Pourquoi : Éditeur de logiciels (40 salariés, 4,3 M€ de CA, secteur avicole/vétérinaire). Le fondateur Yannick Amaucé, parti en retraite, a cédé ses parts à sa directrice générale et à une partie des salariés (mai 2025), tout en gardant 10 % du capital : signal quasi direct d'association des cadres clés au capital lors d'un départ en retraite.
+- Statut : nouveau
+
+- Entreprise : Transports Gauthier (Craon, Mayenne)
+- Dirigeant : Samuel et Julien Gauthier (frères, codirigeants)
+- Contact : contact@transports-gauthier.fr
+- Source : https://www.lejournaldesentreprises.com/article/les-transports-gauthier-doublent-de-taille-et-se-diversifient-avec-la-reprise-dune-autre-societe-2134437
+- Pourquoi : PME familiale de transport (environ 160 salariés après intégration de Transports Roche, légèrement au-dessus de la fourchette cible mais restée indépendante). Daniel Roche, dirigeant fondateur, part en retraite et transmet son activité aux frères Gauthier avec l'appui de son frère Philippe pour la transition (janvier 2026) : signal de départ en retraite avec reprise indépendante.
+- Statut : nouveau
+
+- Entreprise : Cobalt (ex-RBTP/FATP, Fréjus, Var)
+- Dirigeant : Flavio Barbero (président) et Enzo Barbero (directeur général), fils d'Alexandre Barbero (président du groupe familial HDI)
+- Contact : contact@rbtp-sa.com (déduit du domaine historique rbtp-sa.com, site officiel de Cobalt non identifié séparément)
+- Source : https://www.lejournaldesentreprises.com/article/hdi-prepare-sa-releve-et-fusionne-ses-filiales-btp-au-sein-de-cobalt-2147047
+- Pourquoi : PME de travaux publics (fusion de deux filiales BTP, environ 110 salariés, 53 M€ de CA). Fusion opérée en juin 2026 pour préparer la transmission progressive du groupe familial indépendant à la 4e génération (les fils du dirigeant prennent la présidence et la direction générale) : moment clé pour associer les cadres clés à la nouvelle entité.
+- Statut : nouveau
+
+- Entreprise : Andlauer SAS (Rosheim, Bas-Rhin)
+- Dirigeant : Bertrand Andlauer (dirigeant) ; Benoît Andlauer (fondateur, en retraite) ; Florian Leite (directeur technique et opérationnel, entré au capital)
+- Contact : contact@andlauersas.fr (déduit du domaine officiel andlauersas.fr)
+- Source : https://www.lejournaldesentreprises.com/breve/le-groupe-andlauer-sas-sapprete-changer-de-mains-2135387
+- Pourquoi : PME alsacienne d'installation thermique et climatisation (75 salariés, 9,5 M€ de CA, plus de 50 ans d'existence). Transmission engagée en 2026 avec l'entrée au capital d'un cadre historique du groupe (directeur technique depuis 2021) à l'occasion du départ en retraite du fondateur : association explicite d'un cadre clé au capital pour assurer la continuité familiale.
+- Statut : nouveau
+
+- Entreprise : ECIP (La Rue-Saint-Pierre, Seine-Maritime)
+- Dirigeant : Loup du Ranquet (repreneur, ex-cadre chez Hensoldt)
+- Contact : contact@ecip.fr (déduit du domaine officiel ecip.fr)
+- Source : https://www.lejournaldesentreprises.com/breve/un-nouveau-dirigeant-pour-ecip-2138199
+- Pourquoi : PME normande de chaufferies et maintenance industrielle (14 salariés, 2,6 M€ de CA). Reprise par un repreneur individuel indépendant fin décembre 2025 (entreprise restée indépendante, pas d'intégration à un groupe), accompagné par des réseaux d'entrepreneurs locaux : transition de dirigeant récente propice à un dialogue sur la fidélisation de l'équipe technique.
+- Statut : nouveau
+
+Total du jour : 9 leads.
