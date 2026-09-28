@@ -516,3 +516,86 @@ Note technique : filtre qualit√© maintenu (exclusion stricte des transactions d√
 - Statut : brouillon cree
 
 Total du jour : 9 leads.
+
+## 2026-09-28
+
+Note technique : recherche menee via 5 agents paralleles couvrant differentes zones/angles (Ouest France, Sud France, Est/Centre France, tension de recrutement/AGA, cession en Ile-de-France), plus des recherches complementaires directes. Le quota de recherches WebSearch de la session (200 requetes, partage entre tous les agents) a ete epuise avant la fin de plusieurs recherches regionales (PACA, Corse, Hauts-de-France, Grand Est, Centre-Val de Loire, sante, commerce), ce qui a limite le volume du jour a 11 leads au lieu des ~25 vises. Plusieurs pistes candidates ont ete ecartees pour respecter le filtre qualite strict : Gaches Chimie (entite trop grande, 100-199 salaries et groupe familial de ~450 personnes), Hades et Bousquie (reprises en SCOP mais signal ancien, 2017 ou non date avec precision), Groupe Lempereur (850 salaries, hors cible), BVO Menuiserie (reprise par les salaries mais datant de 2009, signal trop ancien), Transports Lamorthe (raison sociale exacte non confirmee dans les extraits), France Teinture (reprise apres redressement judiciaire, signal de detresse et non une transmission patrimoniale volontaire).
+
+- Entreprise : Embell'Facade
+- Dirigeant : Michel Mahe (fondateur, parti en retraite) ; Sylvie Le Gal et Anthony Degrez (co-dirigeants depuis mars 2022)
+- Contact : contact@embell-facade.com
+- Source : https://www.bretagne-economique.com/actualites/transmission-lentreprise-embellfacade-peaule-56-reprise-en-scop-par-ses-salaries/
+- Pourquoi : Entreprise de facades/isolation thermique (Peaule, Morbihan, 27 salaries). Depart en retraite du fondateur avec reprise interne par les salaries sous forme de SCOP (12 des 27 salaries devenus associes), transmission anticipee et preparee sur pres de 3 ans : signal fort de type depart en retraite avec reprise interne independante.
+- Statut : nouveau
+
+- Entreprise : Energies de Loire
+- Dirigeant : David Leroueil et Gregoire Papion (co-fondateurs) ; Aurelien Goyeau (DAF, egalement actionnaire)
+- Contact : contact@energiesdeloire.com
+- Source : https://www.lejournaldesentreprises.com/article/energies-de-loire-ouvre-son-capital-ses-collaborateurs-2125437
+- Pourquoi : PME du photovoltaique (Cande, Maine-et-Loire, 120 salaries). Les dirigeants ont ouvert le capital a leurs collaborateurs (87% de participation) explicitement pour "fideliser les collaborateurs" : signal direct et temoignage explicite sur l'actionnariat salarie comme levier de fidelisation.
+- Statut : nouveau
+
+- Entreprise : Arom Traiteur (Groupe AROM / S.E.R.T. - Societe d'Exploitation Restauration Traiteur)
+- Dirigeant : Didier Oudin (president) ; transmission en cours vers son fils Jeremie Oudin (directeur general, futur president)
+- Contact : contact@groupe-arom.com (deduit du domaine officiel groupe-arom.com)
+- Source : https://www.hebdovinchine.com/arom-traiteur-oudin-didier-jeremie-transmission/
+- Pourquoi : PME de restauration/traiteur (Eysines, Gironde, 50-99 salaries, ~5,8 M EUR de CA). Transmission familiale pere-fils en preparation depuis plusieurs annees ("je prepare ma retraite depuis 7 ans, depuis que Jeremie est revenu de Singapour") : signal clair de transmission familiale a venir.
+- Statut : nouveau
+
+- Entreprise : SRCI-P2MI
+- Dirigeant : Loic Bonicel et Florent Bonicel (duo pere-fils, repreneurs independants depuis le 31 mars 2026, succedent a Frederic Vaysse Labonde)
+- Contact : contact@srci-p2mi.com
+- Source : https://bfc-industries.com/en/industrialists/srci-p2mi
+- Pourquoi : PME industrielle de structures metalliques (Le Creusot, Saone-et-Loire, 10-19 salaries) reprise debut 2026 par un duo independant (pas un groupe) suite au depart du dirigeant historique : transition de gouvernance tres recente, fenetre ideale pour structurer la fidelisation des cadres cles.
+- Statut : nouveau
+
+- Entreprise : GEP Gravure
+- Dirigeant : Lahcen Qeqeh, Jody Maurand et Anais Qeqeh (trio de cadres historiques, repreneurs depuis le 31 mars 2026, succedent a Gerard Maurand)
+- Contact : contact@gep-gravure.com
+- Source : https://bfc-industries.com/actualite/la-societe-gep-gravure-reprise-par-3-de-ses-cadres
+- Pourquoi : PME de gravure/usinage de precision pour horlogerie/parfumerie (Saint-Vit, Doubs, 24 salaries) reprise en interne par 3 cadres lors du depart du dirigeant fondateur : signal quasi ideal de reprise par les cadres cles, exactement le type de transition que Capitali accompagne.
+- Statut : nouveau
+
+- Entreprise : Metallerie Pavelot
+- Dirigeant : Marc-Antoine Fernet (a integre l'entreprise en 2023, repreneur independant des actifs depuis le 1er septembre 2025)
+- Contact : contact@metallerie-pavelot.com
+- Source : https://bfc-industries.com/actualite/nouveau-depart-pour-la-metallerie-pavelot
+- Pourquoi : Entreprise artisanale de metallerie/serrurerie industrielle (Dijon, Cote-d'Or) reprise en interne par un cadre suite au depart du dirigeant precedent, en phase de structuration et de croissance. Point de vigilance : effectif total possiblement proche ou legerement en dessous de 10 salaries, a qualifier avant approche commerciale.
+- Statut : nouveau
+
+- Entreprise : SFI Multimedia (Societe Francaise d'Information)
+- Dirigeant : Catherine Bocquet (dirigeante historique depuis 1995, cedante) ; nouvelle direction assuree par 7 salaries/cadres repreneurs
+- Contact : contact@sfi.fr
+- Source : https://www.lyoncapitale.fr/actualite/a-saint-etienne-l-agence-numerique-sfi-rachetee-par-sept-de-ses-salaries
+- Pourquoi : Agence web/e-commerce (Saint-Etienne, Loire, 21 salaries, ~1,5 M EUR de CA) rachetee par 7 de ses salaries apres que la dirigeante a mis en place des 2016 un comite de direction avec attribution d'actions gratuites pour preparer sa succession : cas d'usage quasi identique au produit Capitali (AGA pour fideliser et transmettre), la nouvelle direction pourrait vouloir etendre l'actionnariat a d'autres cadres.
+- Statut : nouveau
+
+- Entreprise : Saire
+- Dirigeant : Antony Chabod (repreneur independant depuis decembre 2023, ex-directeur des operations du groupe FM Industries-Sycrilor)
+- Contact : contact@moules-beton-saire.com (deduit du domaine officiel moules-beton-saire.com)
+- Source : https://bfc-industries.com/actualite/saire-le-fabricant-haut-saonois-de-moules-metalliques-fete-ses-35-ans
+- Pourquoi : PME industrielle de 35 ans (fabrication de moules metalliques pour le beton, Port-sur-Saone, Haute-Saone) reprise en 2023 par un dirigeant independant venu de l'exterieur (pas un groupe), actuellement en phase de developpement a l'export et de structuration de son equipe d'encadrement.
+- Statut : nouveau
+
+- Entreprise : Les Zelles
+- Dirigeant : Laurent Demasles (president)
+- Contact : contact@leszelles.fr (deduit du domaine officiel leszelles.fr)
+- Source : https://www.usinenouvelle.com/editorial/le-fabricant-vosgien-de-fenetres-les-zelles-repris-par-ses-salaries.N1119059
+- Pourquoi : PME industrielle familiale de fabrication de fenetres PVC/aluminium (La Bresse, Vosges). Le dirigeant a mis en place un actionnariat salarie (attribution d'actions a l'ensemble des salaries) pour associer ses equipes au capital : signal direct de temoignage sur l'actionnariat salarie comme levier de fidelisation.
+- Statut : nouveau
+
+- Entreprise : La Nouvelle Imprimerie
+- Dirigeant : Amandine Roux, Severine Durot et Remi Foret (trois anciens salaries, co-dirigeants) ; Jean-Christophe Leac (dirigeant historique, parti en retraite)
+- Contact : contact@nouvelle-imprimerie.fr
+- Source : https://www.lejournaldesentreprises.com/breve/la-nouvelle-imprimerie-guerande-ete-reprise-par-ses-salaries-2125644
+- Pourquoi : Imprimerie (Guerande/Saint-Nazaire, Loire-Atlantique) reprise par trois anciens salaries suite au depart en retraite du dirigeant historique : signal fort de depart en retraite avec reprise interne independante par des cadres cles.
+- Statut : nouveau
+
+- Entreprise : Atelier Fanik
+- Dirigeant : Gwenael Kerleroux (repreneur independant depuis mars 2026)
+- Contact : atelier.fanik@wanadoo.fr
+- Source : https://www.lejournaldesentreprises.com/article/recemment-repris-limprimeur-atelier-fanik-va-diversifier-ses-clients-et-renforcer-son-2145466
+- Pourquoi : Imprimerie/serigraphie (Pluduno, Cotes-d'Armor, 13 salaries, ~900 K EUR de CA) reprise par un repreneur individuel independant en mars 2026 (pas un groupe), en phase de diversification de sa clientele : transition de dirigeant tres recente, propice a un dialogue sur la fidelisation de l'equipe.
+- Statut : nouveau
+
+Total du jour : 11 leads.
