@@ -616,7 +616,7 @@ Note technique : recherche menee via 5 agents paralleles couvrant differentes zo
 - Contact : contact@gravor.com
 - Source : https://www.lejournaldesentreprises.com/article/au-mans-lentreprise-du-patrimoine-vivant-gravor-change-de-dirigeant-2111273
 - Pourquoi : Entreprise du Patrimoine Vivant (miroiterie d'art, gravure/sablage/laquage du verre, Le Mans, Sarthe, 22 salaries). Reprise le 1er janvier 2025 par un repreneur individuel independant, succedant a la dirigeante precedente : entreprise restee independante apres cette transmission recente, moment propice pour associer les profils cles au capital.
-- Statut : nouveau
+- Statut : brouillon cree
 
 - Entreprise : Groupe Carré
 - Dirigeant : Frédéric Carré (président, 2e generation) ; Charley Ferra (directeur general, nouvel actionnaire)
@@ -630,7 +630,7 @@ Note technique : recherche menee via 5 agents paralleles couvrant differentes zo
 - Contact : contact@sasmaurin.com
 - Source : https://www.echodumardi.com/economie/depuis-75-ans-maurin-un-deboucheur-polyvalent-tout-terrain/
 - Pourquoi : PME familiale independante de debouchage/assainissement (Montfavet, Avignon, PACA, 75 salaries). Transmission intergenerationnelle en cours : le fondateur retraite reste present, la 2e generation dirige, et la 3e generation integre deja l'entreprise : transmission familiale a structurer/securiser, cas d'usage typique pour une AGA.
-- Statut : nouveau
+- Statut : brouillon cree
 
 - Entreprise : Fizzy Distribution
 - Dirigeant : Christian Autié (nouveau dirigeant, ex-cadre dirigeant Auchan Retail Vietnam / Me Group International)
