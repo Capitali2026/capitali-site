@@ -599,3 +599,44 @@ Note technique : recherche menee via 5 agents paralleles couvrant differentes zo
 - Statut : brouillon cree
 
 Total du jour : 11 leads.
+
+## 2026-09-29
+
+Note technique : recherche menee via 5 agents paralleles couvrant differentes zones/angles (Ouest, Sud, Est/Centre, Nord/Ile-de-France, tension de recrutement/temoignages AGA). Le quota de recherches WebSearch de la session (200 requetes, partage entre l'agent principal et tous les agents) a ete epuise tres rapidement : chaque agent n'a pu effectuer qu'entre ~24 et ~55 requetes avant coupure, ce qui a fortement limite le volume du jour a 5 leads au lieu des ~25 vises. Deux pistes remontees par les agents ont ete explicitement ecartees apres verification complementaire : CIV France (deja integree au groupe Etix Everywhere, transaction finalisee, hors cible) et MDL Europe (reprise en SCOP mais datant d'octobre 2022, signal trop ancien). Deux autres pistes (Breteault, Autodistribution Garonne Arnaudies) ont ete verifiees mais non retenues faute de signal suffisamment recent ou suffisamment qualifie. Recommandation : le budget WebSearch partage entre agents paralleles est insuffisant pour ce niveau de volume vise ; envisager une recherche plus sequentielle ou un quota de requetes plus eleve pour les prochaines sessions.
+
+- Entreprise : Générale de Bureautique
+- Dirigeant : Éric Bélile
+- Contact : non trouvé, voir source
+- Source : https://www.lejournaldesentreprises.com/article/plutot-que-dempocher-4-millions-deuros-ce-patron-nantais-prefere-ceder-son-entreprise-ses-salaries-95824
+- Pourquoi : PME nantaise (Nantes/Saint-Herblain, 42-45 salaries, distributeur Ricoh/Olivetti). Le dirigeant a temoigne publiquement avoir refuse une offre de rachat par un fonds/grand groupe pour ceder son entreprise a ses propres salaries et preserver l'emploi : signal direct d'un dirigeant de PME independante attache a associer ses collaborateurs au capital pour la perennite de l'entreprise, structure restee independante.
+- Statut : nouveau
+
+- Entreprise : Grav'Or
+- Dirigeant : Antoine de Labretoigne du Mazel
+- Contact : contact@gravor.com
+- Source : https://www.lejournaldesentreprises.com/article/au-mans-lentreprise-du-patrimoine-vivant-gravor-change-de-dirigeant-2111273
+- Pourquoi : Entreprise du Patrimoine Vivant (miroiterie d'art, gravure/sablage/laquage du verre, Le Mans, Sarthe, 22 salaries). Reprise le 1er janvier 2025 par un repreneur individuel independant, succedant a la dirigeante precedente : entreprise restee independante apres cette transmission recente, moment propice pour associer les profils cles au capital.
+- Statut : nouveau
+
+- Entreprise : Groupe Carré
+- Dirigeant : Frédéric Carré (président, 2e generation) ; Charley Ferra (directeur general, nouvel actionnaire)
+- Contact : non trouvé, voir source
+- Source : https://www.lejournaldesentreprises.com/breve/le-groupe-carre-ouvre-son-capital-son-directeur-general-2129841
+- Pourquoi : PME familiale de metallerie/serrurerie (Tournefeuille, Occitanie, 150 salaries, ~21,6 M EUR de CA prevu 2025), dirigee par le fils du fondateur. Le president vient d'ouvrir volontairement le capital du groupe a son directeur general pour l'associer : signal direct d'actionnariat destine a fideliser un cadre cle.
+- Statut : nouveau
+
+- Entreprise : SAS Maurin
+- Dirigeant : Magali Maurin et Didier Limongi (co-dirigeants, 2e generation)
+- Contact : contact@sasmaurin.com
+- Source : https://www.echodumardi.com/economie/depuis-75-ans-maurin-un-deboucheur-polyvalent-tout-terrain/
+- Pourquoi : PME familiale independante de debouchage/assainissement (Montfavet, Avignon, PACA, 75 salaries). Transmission intergenerationnelle en cours : le fondateur retraite reste present, la 2e generation dirige, et la 3e generation integre deja l'entreprise : transmission familiale a structurer/securiser, cas d'usage typique pour une AGA.
+- Statut : nouveau
+
+- Entreprise : Fizzy Distribution
+- Dirigeant : Christian Autié (nouveau dirigeant, ex-cadre dirigeant Auchan Retail Vietnam / Me Group International)
+- Contact : non trouvé, voir source
+- Source : https://www.lejournaldesentreprises.com/breve/la-pme-nordiste-fizzy-distribution-change-de-mains-2132640
+- Pourquoi : PME familiale nordiste (Sars-et-Rosieres, Nord, fondee en 1978, 80 salaries, 16,9 M EUR de CA 2024, confiserie/jouets "Candy Concept"). Reprise recente par un repreneur individuel independant (MBI, accompagne en minoritaire par Finorpa SCR et Bpifrance) : la famille fondatrice cede, mais la structure reste independante, hors giron d'un groupe acheteur.
+- Statut : nouveau
+
+Total du jour : 5 leads.
