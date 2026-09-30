@@ -640,3 +640,30 @@ Note technique : recherche menee via 5 agents paralleles couvrant differentes zo
 - Statut : nouveau
 
 Total du jour : 5 leads.
+
+## 2026-09-30
+
+Note technique : recherche menee via 4 agents paralleles (Ouest France, Sud France, Est/Centre France, Ile-de-France + temoignages actionnariat salarie/tension de recrutement), completee par des recherches directes de l'agent principal. Le quota WebSearch partage de la session a de nouveau ete un facteur limitant fort : l'agent Ile-de-France/temoignages a atteint 0 lead qualifiant avant epuisement de son quota, l'agent Est/Centre France a egalement obtenu 0 lead qualifiant (plusieurs pistes candidates ecartees : Olivo/transaction deja finalisee en 2019, Pipard Freres hors perimetre regional assigne, Andlauer SAS deja liste, Groupe Hiolle/CIV/Cougnaud hors gabarit ou non confirmes), tandis que les agents Sud France et Ouest France n'ont chacun trouve qu'1 lead qualifiant avant leur propre epuisement de quota. Les recherches complementaires menees directement par l'agent principal (une trentaine de requetes supplementaires sur des angles varies : temoignages actionnariat salarie, SCOP, tension de recrutement, secteurs agroalimentaire/sante/BTP/transport/viticulture/hotellerie, Corse et DOM-TOM, presse regionale nommee) ont tres majoritairement remonte des etudes macro-economiques (INSEE, Bpifrance, Grant Thornton, CCI) ou des cas deja rejetes par les criteres stricts (transactions deja finalisees comme Sepal, Corbin/Andlauer deja listes, ou entites hors gabarit comme Bodemer 1450 salaries, Sovec 330 salaries, Sodel 160 salaries, France Air/Airvance Group 2000 salaries) plutot que des signaux nommes et recents exploitables. Seul le lead Pipard Freres, initialement ecarte par l'agent Est/Centre pour une raison de perimetre regional et non de qualite, a pu etre recupere et qualifie directement. Volume du jour tres reduit en consequence : 3 leads au lieu des ~25 vises. Aucune transaction deja finalisee n'a ete forcee pour combler le volume.
+
+- Entreprise : Winelia
+- Dirigeant : Jean-Luc Gaidon (fondateur)
+- Contact : non trouve, voir source
+- Source : https://www.objectifgard.com/economie/bagnolsceze-chez-winelia-un-exemple-de-transition-en-douceur-7078.php
+- Pourquoi : PME de conseil/formation (e-learning, formalisation de processus industriels, clients type CEA/Orano) basee a Bagnols-sur-Ceze (Gard, Occitanie). Le dirigeant-fondateur, en fin de carriere, a mis en place un plan de succession sur 10 ans avec un futur repreneur interne (Alexis Sambugaro) : transmission planifiee et encore en cours, entreprise toujours independante.
+- Statut : nouveau
+
+- Entreprise : La Collecte Medicale
+- Dirigeant : Patrice de La Theardiere (fondateur, 67 ans)
+- Contact : non trouve, voir source
+- Source : https://www.lejournaldesentreprises.com/article/patrice-de-la-theardiere-confie-ses-enfants-la-gouvernance-de-la-collecte-medicale-2099073
+- Pourquoi : PME independante de collecte de dechets medicaux (DASRI, Chateaubourg, Ille-et-Vilaine, ~80 salaries, ~9 M EUR de CA en 2023). Transmission familiale en cours : le fondateur a transmis des parts egales a ses quatre enfants (deux d'entre eux co-directeurs generaux) tout en restant actionnaire majoritaire avec son epouse - transaction pas finalisee, entreprise toujours independante.
+- Statut : nouveau
+
+- Entreprise : Pipard Freres
+- Dirigeant : Antoine Pipard (25 ans, gerant) ; son pere et son oncle (dirigeants historiques, depart en retraite prevu dans 2-3 ans)
+- Contact : non trouve, voir source
+- Source : https://www.lejournaldesentreprises.com/article/pipard-freres-ou-lart-de-la-transmission-96559
+- Pourquoi : PME de charpente/construction de batiments agricoles (Drouges, Ille-et-Vilaine, Bretagne, 13 salaries, 2,8 M EUR de CA). Transmission familiale a la 3e generation en cours de preparation : Antoine Pipard et ses deux cousins sont progressivement formes par leur pere et oncle avant le depart en retraite de ces derniers d'ici 2-3 ans - transaction pas encore finalisee, entreprise toujours independante.
+- Statut : nouveau
+
+Total du jour : 3 leads.
