@@ -667,3 +667,128 @@ Note technique : recherche menee via 4 agents paralleles (Ouest France, Sud Fran
 - Statut : nouveau
 
 Total du jour : 3 leads.
+
+## 2026-10-01
+
+Note technique : recherche menee via 7 agents paralleles successifs (5 initiaux couvrant Ouest France, Sud France, Est/Centre France, Nord/Ile-de-France/DOM-TOM et temoignages actionnariat salarie/SCOP, puis 2 agents complementaires sur Occitanie/PACA et Ile-de-France/DOM-TOM pour combler les zones non couvertes). Chaque agent disposait d'un quota independant de 200 requetes WebSearch, integralement consomme dans la quasi-totalite des cas, ce qui a limite la couverture complete de certaines zones : aucun lead qualifie trouve en Grand Est/Bourgogne-Franche-Comte/Auvergne-Rhone-Alpes/Centre-Val de Loire (uniquement des pistes hors gabarit ou deja finalisees), et aucun lead qualifie trouve dans les DOM-TOM malgre une quarantaine de requetes dediees a la presse locale (Clicanoo, Zinfos974, Imaz Press, France-Antilles, La 1ere) : les entreprises nommees identifiees etaient soit trop petites, soit trop grandes, soit sans signal de transmission confirme. Plusieurs pistes candidates ont ete explicitement ecartees pour respecter le filtre qualite strict : transactions deja finalisees par un groupe acheteur (Groupe Derrey/Gedimat Bleger, Pol Agret/Comyces Industries), reprises suite a liquidation/redressement judiciaire (La Meusienne, Bergere de France - exclues comme signal de detresse et non de transmission patrimoniale volontaire), signaux trop anciens ou deja evalues (Breteault deja ecarte le 2026-09-29, Enygea/WC Loc, DLH Energy, Euro-Tech, Brasserie Duyck, Clair de Lorraine), entites hors gabarit ou trop petites/trop etablies sans signal de transmission (Gabarres de Bergerac, Maison Salge, Kubli, Giffard), et un signal de succession ambigu/non confirme (Captels). 17 leads qualifies retenus au final, plusieurs avec un point de vigilance sur l'effectif exact a verifier avant prospection (note dans le champ Pourquoi).
+
+- Entreprise : Mismo
+- Dirigeant : Antoine Lebreton (president) et Alexandre Lebreton (directeur general delegue), fils du fondateur Alain Lebreton
+- Contact : contact@mismo.fr (deduit, domaine non confirme par recherche dediee)
+- Source : https://www.lejournaldesentreprises.com/breve/mismo-le-fondateur-transmet-lentreprise-ses-fils-132648
+- Pourquoi : PME informatique independante de La Haie-Fouassiere (Loire-Atlantique, 148 salaries). Transmission familiale deja engagee du fondateur vers ses deux fils, entreprise en phase de relance de croissance : moment cle pour structurer l'actionnariat des cadres cles qui accompagnent la nouvelle generation.
+- Statut : nouveau
+
+- Entreprise : Sofico Bretagne
+- Dirigeant : Aurelie Gouriten (a succede a son pere Michel Gouriten, fondateur)
+- Contact : contact@soficobretagne.fr (deduit, domaine non confirme par recherche dediee)
+- Source : https://www.lejournaldesentreprises.com/article/aurelie-gouriten-sofico-mon-pere-applique-ses-propres-conseils-en-transmission-1693549
+- Pourquoi : Cabinet d'expertise comptable independant (Morlaix/Brest/Guingamp/Saint-Pol-de-Leon, Finistere, 55 salaries). Transmission familiale realisee a la fille du fondateur, qui poursuit le developpement du cabinet : profil pertinent pour associer les cadres cles au capital dans la duree.
+- Statut : nouveau
+
+- Entreprise : Groix et Nature
+- Dirigeant : Marianne Guyader (directrice generale, fille du fondateur Christian Guyader)
+- Contact : contact@groixetnature.com (deduit, domaine non confirme par recherche dediee)
+- Source : https://www.lejournaldesentreprises.com/article/groix-et-nature-la-conserverie-mitonne-sa-croissance-sur-lile-35016
+- Pourquoi : Conserverie artisanale familiale independante (ile de Groix, Morbihan, ~33 salaries sur deux sites). Dirigee par la generation suivante, en phase de croissance autonome, sans rattachement a un groupe : contexte propice a la fidelisation des cadres cles.
+- Statut : nouveau
+
+- Entreprise : Normandie Patrimoine (ex-Levitre)
+- Dirigeant : Cedric Levitre (3e generation, a succede a son pere)
+- Contact : contact@normandie-patrimoine.fr (deduit, domaine non confirme par recherche dediee)
+- Source : https://www.lejournaldesentreprises.com/article/normandie-patrimoine-nouveau-depart-64777
+- Pourquoi : PME de menuiserie et restauration de patrimoine (Saint-Etienne-du-Rouvray, Seine-Maritime, 15 salaries). Transmission familiale intergenerationnelle, dirigeant encore seul aux commandes, repositionnement haut de gamme : moment cle pour fideliser compagnons et cadres cles via une AGA.
+- Statut : nouveau
+
+- Entreprise : Burodoc
+- Dirigeant : Benjamin Semard (ancien salarie depuis 12 ans, repreneur interne)
+- Contact : contact@burodoc.fr (deduit, domaine non confirme par recherche dediee)
+- Source : https://www.lejournaldesentreprises.com/breve/le-repreneur-de-burodoc-recoit-le-soutien-de-reseau-entreprendre-normandie-seine-eure-2095262
+- Pourquoi : PME d'amenagement d'espaces de bureau (Darnetal, Seine-Maritime). Reprise interne par un salarie-cadre lors du depart du dirigeant historique, entreprise restee independante. Point de vigilance : effectif estime a environ 8 salaries, legerement sous le seuil de 10 vise, a qualifier avant approche commerciale.
+- Statut : nouveau
+
+- Entreprise : Trefilerie d'Acier de Bretagne
+- Dirigeant : Raoul Colas des Francs (ingenieur de 52 ans, entre au capital en minoritaire et dirige l'entreprise) ; Christophe de Veyrac (dirigeant historique, parti en retraite)
+- Contact : non trouve, voir source
+- Source : https://www.lemondedudroit.fr/deals/88693-cornet-vincent-segurel-accompagne-le-dirigeant-de-la-trefilerie-d-acier-de-bretagne-pour-la-transmission-de-l-entreprise-a-breizh-rebond.html
+- Pourquoi : PME industrielle (fils et treillis en acier pour le beton arme, Chateaubourg, Ille-et-Vilaine, 20-49 salaries, 33,5 M EUR de CA). Depart en retraite du dirigeant historique, transmission accompagnee par l'investisseur regional de transition Breizh Rebond (prise de participation majoritaire) avec maintien d'une direction operationnelle independante, pas de groupe industriel acheteur : signal fort de depart en retraite avec continuite independante.
+- Statut : nouveau
+
+- Entreprise : Champeil SA (Champeil Asset Management)
+- Dirigeant : Axel Champeil (president-directeur general, fils du fondateur Jean-Louis Champeil)
+- Contact : axel.champeil@champeil.com
+- Source : https://www.lejournaldesentreprises.com/breve/champeil-asset-management-devient-entreprise-dinvestissement-113488
+- Pourquoi : Societe de gestion de patrimoine et de courtage familiale et independante (Bordeaux, fondee en 1982), en pleine structuration suite au passage au statut d'entreprise d'investissement. Transmission familiale deja engagee avec le fils desormais aux commandes, dirigeant toujours independant : profil propice a structurer l'actionnariat des cadres cles. Point de vigilance : effectif exact non confirme, a verifier qu'il atteint bien 10 salaries.
+- Statut : nouveau
+
+- Entreprise : De Grimm
+- Dirigeant : Fabienne Massip (co-dirigeante avec son frere Olivier Massip)
+- Contact : non trouve, voir source
+- Source : https://www.institut-savoirfaire.fr/print/pdf/node/2227 ; https://www.marques-de-france.fr/listing/de-grimm/
+- Pourquoi : Maison familiale de maroquinerie independante (Bordeaux, fondee en 1945), transmise sur 4 generations, aujourd'hui dirigee par la fratrie Massip, laureate du programme Bpifrance "Les Acceleres - Savoir-Faire d'Exception". Point de vigilance : effectif precis non confirme, a verifier qu'il atteint bien 10 salaries avant approche.
+- Statut : nouveau
+
+- Entreprise : Ciuch Solutions (Ciuch Industrie)
+- Dirigeant : Francis Ciuch (fondateur, passe de PDG a president, conserve 75% du capital) ; Sylvain Bele (ex-directeur operationnel, nouveau directeur general)
+- Contact : non trouve, voir source
+- Source : https://www.lejournaldesentreprises.com/breve/ciuch-reorganise-son-comite-de-direction-2046815
+- Pourquoi : Fabricant de convoyeurs automatises (Tourcoing, Nord, ~130 salaries). Le fondateur a reorganise la gouvernance pour preparer la suite : passation de la direction generale a un cadre cle et entree de 4 membres du comite de direction au capital, tout en restant actionnaire majoritaire : signal fort de structuration en amont d'une transmission et de fidelisation de cadres cles.
+- Statut : nouveau
+
+- Entreprise : Lemahieu
+- Dirigeant : Martin Breuvart (repreneur independant depuis 2018) ; capital recemment ouvert a 5 entrepreneurs regionaux
+- Contact : contact@lemahieu.com
+- Source : https://www.lejournaldesentreprises.com/breve/lemahieu-accueille-de-nouveaux-entrants-au-capital-2103669
+- Pourquoi : PME de lingerie "fabrique en France" (Saint-Andre-lez-Lille, Nord, 92 salaries). Reprise par un entrepreneur individuel independant puis recapitalisee par des investisseurs regionaux, sans groupe acheteur : dirigeant independant en pleine structuration du capital, pertinent pour associer des cadres au capital.
+- Statut : nouveau
+
+- Entreprise : Cap Formation
+- Dirigeant : Fabrice Robert (directeur general, elu en janvier 2026) ; Nadege Nedelec (presidente du conseil d'administration)
+- Contact : contact@capformation.org
+- Source : https://www.lejournaldesentreprises.com/breve/cap-formation-se-transforme-en-scop-2140766
+- Pourquoi : Organisme de formation professionnelle (Loire-Atlantique/Mayenne, 44 salaries). Transformation en Scop suite au depart en retraite de l'ancien dirigeant, 17 des 44 salaries devenus associes au capital : signal tres recent (2026) et direct de depart en retraite avec reprise interne independante.
+- Statut : nouveau
+
+- Entreprise : Benedetti SA
+- Dirigeant : Anne Benedetti (presidente, nouvellement presidente de la CCI de Vaucluse) ; Florian Benedetti (fils, au developpement commercial)
+- Contact : Benedetti-sa@wanadoo.fr
+- Source : https://www.echodumardi.com/dossier/avignon-benedetti-sa-113-ans-dhistoire-dans-le-batiment/
+- Pourquoi : Entreprise familiale independante de traitement de facades et isolation thermique exterieure (Avignon, Vaucluse, 113 ans d'histoire, ~50 salaries). 3e generation aux commandes avec la 4e deja impliquee : transmission familiale intergenerationnelle en cours, moment cle pour fideliser les cadres cles.
+- Statut : nouveau
+
+- Entreprise : Goubier Industrie (Goubier SA)
+- Dirigeant : Maxime Claux (repreneur independant depuis juin 2024)
+- Contact : contact@goubier-tolerie.com (deduit du domaine officiel goubier-tolerie.com)
+- Source : https://www.lepetitjournal.net/82-tarn-et-garonne/2025/09/16/goubier-sa-une-entreprise-qui-y-croit-dur-comme-fer/
+- Pourquoi : PME de tolerie/chaudronnerie industrielle (Montauban, Tarn-et-Garonne, fondee en 1959, 20-49 salaries). Reprise individuelle independante en 2024 (pas un groupe), en phase de relance de croissance post-reprise : transition de dirigeant recente, propice a un dialogue sur la fidelisation de l'equipe.
+- Statut : nouveau
+
+- Entreprise : Marius Bernard
+- Dirigeant : Margaux Baillet (directrice generale depuis 2023, a succede a son pere Patrick Baillet)
+- Contact : contact@marius-bernard.fr (deduit du domaine officiel marius-bernard.fr)
+- Source : https://www.lsa-conso.fr/portrait-rencontre-avec-margaux-baillet-la-directrice-generale-de-la-pme-marius-bernard,460347
+- Pourquoi : Conserverie/epicerie fine provencale familiale independante (Saint-Chamas, Bouches-du-Rhone, depuis 1958, 75 salaries). Transmission familiale recente du pere a la fille, entreprise en phase d'expansion nationale : moment cle pour associer les cadres cles au capital.
+- Statut : nouveau
+
+- Entreprise : Mariton
+- Dirigeant : Sabine Mariton (petite-fille du fondateur, reprise en MBO avec 2 cadres : Yoann Deltorre et Sandrine Navarro)
+- Contact : non trouve, voir source
+- Source : https://www.lejournaldesentreprises.com/article/mariton-continue-de-derouler-ses-stores-en-famille-131779
+- Pourquoi : Fabricant independant de stores interieurs et moustiquaires sur-mesure (Saint-Chamas, Bouches-du-Rhone, ~25 M EUR de CA). Reprise a la 3e generation familiale associee a deux cadres cles dans le cadre d'un MBO (financement Bpifrance/Sofipaca) : configuration actionnariale deja alignee avec la logique AGA, signal quasi ideal.
+- Statut : nouveau
+
+- Entreprise : SAM78
+- Dirigeant : Henry Comperat (repreneur independant depuis novembre 2025)
+- Contact : contact@sam78.fr (deduit du domaine officiel sam78.fr)
+- Source : https://www.cra.asso.fr (temoignages repreneurs, delegation Ile-de-France Ouest - URL article specifique non retrouvee)
+- Pourquoi : PME de menuiserie aluminium, metallerie et vitrerie sur-mesure (Jouars-Pontchartrain, Yvelines, plus de 30 ans d'activite, ~1,9 M EUR de CA). Reprise independante recente (novembre 2025), hors groupe, phase de consolidation : transition de dirigeant tres recente, propice a un dialogue sur la fidelisation de l'equipe.
+- Statut : nouveau
+
+- Entreprise : YD Creation
+- Dirigeant : non trouve (cedant : Didier Moraud, qui a cede l'entreprise en septembre 2025)
+- Contact : non trouve, voir source
+- Source : https://www.cra.asso.fr (temoignages cedants, delegation Paris - URL article specifique non retrouvee)
+- Pourquoi : PME d'etancheite industrielle et maintenance de toitures industrielles (20 salaries, ~2,5 M EUR de CA). Transmission volontaire recente (2025) d'une PME independante via le reseau CRA : signal de cession recente ; nom du repreneur a identifier lors d'une prochaine recherche pour obtenir un contact direct.
+- Statut : nouveau
+
+Total du jour : 17 leads.
