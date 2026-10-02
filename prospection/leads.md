@@ -792,3 +792,44 @@ Note technique : recherche menee via 7 agents paralleles successifs (5 initiaux 
 - Statut : nouveau
 
 Total du jour : 17 leads.
+
+## 2026-10-02
+
+Note technique : recherche menée via 5 agents parallèles (Ouest France, Sud France, Est/Centre France, Nord/Île-de-France/DOM-TOM, témoignages actionnariat salarié/tension de recrutement), complétée par des recherches directes de l'agent principal. Comme les jours précédents, le quota WebSearch de la session a de nouveau été un facteur très limitant : les agents Nord/IDF/DOM-TOM et témoignages actionnariat salarié n'ont trouvé aucun lead qualifié (quota épuisé avant d'aboutir), l'agent Sud France n'a trouvé qu'1 piste (Gaches Chimie, écartée : ETI d'environ 450 salariés et 220 M€ de CA, déjà écartée pour ce motif le 2026-09-27), et l'agent Ouest France n'a trouvé qu'1 piste (BCF Life Sciences, écartée : effectif d'environ 240 salariés, au-dessus du gabarit visé, et datation de l'article incertaine). Seul l'agent Est/Centre France, via la source bfc-industries.com (annuaire industriel de Bourgogne-Franche-Comté, déjà productive le 2026-09-28), a produit des leads solides. Les recherches complémentaires menées directement par l'agent principal (recherches ville par ville, presse économique régionale, SCOP, transport routier, menuiserie/chaudronnerie) ont très majoritairement remonté des études macro-économiques (Bpifrance Le Lab, CCI, INSEE, plan gouvernemental "Objectif Reprises") plutôt que des cas nommés et récents, ou des pistes explicitement écartées pour cause de rachat déjà finalisé par un groupe (Nord Engrenages, 2JTech/Silvadec, Récréa), de taille trop grande (Baker Tilly France, Groupe Oui Care, Piriou), de signal trop ancien (Michel Vassal Paysagistes, Hervé Durand/SCOP Maine-et-Loire, Groupe Daval, Insitoo Group, Menuiserie Dupré, Sofinor/Bois-Grenier), ou d'effectif trop faible (2JTech, 6 salariés). Volume du jour réduit en conséquence : 6 leads au lieu des ~25 visés. Aucune transaction déjà finalisée n'a été forcée pour combler le volume.
+
+- Entreprise : Établissements Métallurgiques Comtois (E.M.C)
+- Dirigeant : David Martin (dirigeant depuis le 29 août 2025, a racheté l'entreprise aux précédents propriétaires Christophe et Edwige Garressus)
+- Contact : non trouvé, voir source
+- Source : https://bfc-industries.com/actualite/david-martin-est-aux-commandes-de-la-societe-etablissements-metallurgiques-comtois-e-m-c
+- Pourquoi : PME de mécanique/tôlerie (Remondans-Vaivre, Doubs). Reprise indépendante récente (lettre d'intention mars 2025, cession finalisée août 2025) suite au départ des dirigeants historiques, hors tout groupe acquéreur : moment clé pour le nouveau dirigeant d'associer ses cadres clés à la suite.
+- Statut : nouveau
+
+- Entreprise : MGO (Mécanique Générale et d'Outillage)
+- Dirigeant : Cyril Clopet (a succédé à Michel Reveillon fin 2024)
+- Contact : non trouvé, voir source
+- Source : https://bfc-industries.com/actualite/cyril-clopet-succede-a-michel-reveillon-a-la-tete-de-mgo
+- Pourquoi : PME industrielle à deux sites (Varanges, Côte-d'Or ; Gray, Haute-Saône). Reprise indépendante (entrepreneur individuel, pas un groupe) ; le nouveau dirigeant structure l'entreprise (certification ISO 9001 en cours) peu après la transmission, contexte propice à une démarche de fidélisation des cadres via actionnariat.
+- Statut : nouveau
+
+- Entreprise : AR.STAMP et AR.TECH
+- Dirigeant : Michael Frachebois
+- Contact : non trouvé, voir source
+- Source : https://bfc-industries.com/actualite/michael-frachebois-aux-commandes-des-societes-haut-saonoises-de-decoupage-ar-stamp-et-ar-tech
+- Pourquoi : Reprise indépendante de deux sociétés de découpage en Haute-Saône par un dirigeant individuel (signal de reprise interne/indépendante, pas par un grand groupe). Point de vigilance : date précise de la reprise et effectif exact non confirmés au-delà de l'extrait de recherche.
+- Statut : nouveau
+
+- Entreprise : PMB Plast
+- Dirigeant : Philippe Boulette-Scola
+- Contact : non trouvé, voir source
+- Source : https://bfc-industries.com/actualites/categorie/rachat-transmission-entreprise
+- Pourquoi : PME de plasturgie (moulage/injection, fondée en 1964, reconvertie vers le secteur médical) en Bourgogne-Franche-Comté. Reprise indépendante finalisée fin avril 2026 par un entrepreneur individuel, hors groupe acquéreur : transition de dirigeant très récente.
+- Statut : nouveau
+
+- Entreprise : Design Production
+- Dirigeant : Aodren Cosnier (repreneur depuis le 4 mai 2026 ; ancien directeur marketing de l'entreprise pendant deux ans, 16 ans chez Legallais, premier client de l'entreprise)
+- Contact : non trouvé, voir source
+- Source : https://www.lejournaldesentreprises.com/breve/la-pme-de-commerce-de-quincaillerie-design-production-change-de-main-2143035
+- Pourquoi : PME normande de fabrication de garde-corps et quincaillerie inox (Troarn, Calvados, créée en 1999, 2,5 M€ de CA en 2025). Reprise indépendante très récente (mai 2026) par un repreneur individuel déjà familier de l'entreprise, hors groupe acquéreur : moment clé pour associer les cadres clés à la nouvelle étape.
+- Statut : nouveau
+
+Total du jour : 6 leads.
