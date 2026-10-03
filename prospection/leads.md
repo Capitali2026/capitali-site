@@ -833,3 +833,30 @@ Note technique : recherche menée via 5 agents parallèles (Ouest France, Sud Fr
 - Statut : nouveau
 
 Total du jour : 6 leads.
+
+## 2026-10-03
+
+Note technique : recherche menée via 5 agents parallèles (Ouest France, Sud France, Centre-Est France, Nord/Est/Île-de-France, thématique transverse). Le quota WebSearch de la session (200 requêtes) est partagé entre tous les agents lancés en parallèle et a été épuisé avant que la plupart d'entre eux n'atteignent leur objectif de 5-6 leads chacun : les agents Sud France et Centre-Est France n'ont trouvé aucun lead exploitable (toutes les pistes examinées étaient soit des transactions déjà finalisées, soit hors gabarit de taille, soit de simples statistiques macro sans entreprise nommée), l'agent thématique transverse n'a trouvé aucun lead passant le filtre complet (plusieurs pistes intéressantes repérées mais non vérifiables avant épuisement du quota), l'agent Nord/Est/IDF n'a trouvé qu'1 lead, et l'agent Ouest France a trouvé 2 leads avant d'être coupé. Volume du jour très réduit en conséquence : 3 leads au lieu des ~25 visés. Aucune transaction déjà finalisée n'a été forcée pour combler le volume. Recommandation pour les prochaines sessions : augmenter le budget WebSearch de la session ou réduire le nombre d'agents lancés en parallèle pour que chacun dispose d'un quota suffisant.
+
+- Entreprise : Actalarm
+- Dirigeant : Pascal Guégan
+- Contact : contact@actalarm.fr (déduit du domaine officiel actalarm.fr)
+- Source : https://www.lejournaldesentreprises.com/article/actalarm-fait-entrer-un-nouvel-associe-son-capital-et-ouvre-une-agence-dans-le-morbihan-2046398
+- Pourquoi : PME de sécurité électronique (Trégunc, Finistère, Bretagne, ~35 salariés). Le fondateur envisage sa retraite dans environ 7 ans et prépare une transmission familiale et interne en cours en faisant entrer sa fille et un salarié de longue date au capital : signal fort de transmission à venir, transaction pas encore finalisée.
+- Statut : nouveau
+
+- Entreprise : Sygmatel
+- Dirigeant : Olivier de La Chevasnerie
+- Contact : non trouvé, voir source
+- Source : https://www.lejournaldesentreprises.com/article/sygmatel-ouvre-le-capital-de-lentreprise-ses-salaries-le-crowdfunding-95432
+- Pourquoi : Entreprise de services électriques (Saint-Herblain, Loire-Atlantique, Pays de la Loire). Le dirigeant a explicitement ouvert le capital à ses salariés (40% des salariés devenus actionnaires via crowdfunding) et souhaite poursuivre l'ouverture du capital tout en gardant l'entreprise familiale : signal direct et explicite d'intérêt pour l'actionnariat salarié.
+- Statut : nouveau
+
+- Entreprise : IDP Agencement
+- Dirigeant : non trouvé
+- Contact : non trouvé, voir source
+- Source : https://www.lejournaldesentreprises.com/breve/idp-agencement-cherche-un-repreneur-apres-son-placement-en-redressement-judiciaire-2146702
+- Pourquoi : PME d'agencement/menuiserie/signalétique (Neuville-en-Ferrain, Nord, Hauts-de-France, ~26 salariés), placée en redressement judiciaire et recherchant activement un repreneur : signal de recherche de repreneur avant transaction. Point de vigilance : signal motivé par une difficulté financière plutôt qu'une transmission planifiée sereinement, à qualifier avec prudence avant approche commerciale.
+- Statut : nouveau
+
+Total du jour : 3 leads.
