@@ -860,3 +860,51 @@ Note technique : recherche menée via 5 agents parallèles (Ouest France, Sud Fr
 - Statut : nouveau
 
 Total du jour : 3 leads.
+
+## 2026-10-04
+
+Note technique : recherche menée uniquement via WebSearch (standard + extended), sans agents parallèles. De très nombreuses pistes explorées (transmission familiale, recherche de repreneur, tension de recrutement, actionnariat salarié) se sont révélées non exploitables : transactions déjà finalisées (rachat par un groupe), entreprises hors gabarit de taille (ETI de plusieurs centaines à plusieurs milliers de salariés), entreprises en redressement/liquidation judiciaire jugées trop fragiles pour une démarche AGA sereine, ou doublons avec des entreprises déjà listées les jours précédents (ex. Armor Gouttières, Mulliez Richebé, Quaternaire, Thiriez Literie, Lemahieu, SFCMM, Minssieux & Fils, Tacthys, Goubault Imprimeur, Prestalim's, Cobalt, Groupe Larcher). Volume du jour réduit en conséquence : 6 leads au lieu des ~25 visés. Aucune transaction déjà finalisée ni aucune entreprise hors gabarit n'a été forcée pour combler le volume.
+
+- Entreprise : Espace Couvert
+- Dirigeant : Johannes Egger (avec ses enfants Camille et Maxime Egger, en cours de transmission)
+- Contact : nadine.hamm@espace-couvert.com (adresse de contact directement affichée dans les extraits de recherche, domaine officiel espace-couvert.com)
+- Source : https://www.lejournaldesentreprises.com/article/transmission-familiale-pour-le-loueur-espace-couvert-2077477
+- Pourquoi : PME de location de structures et bâtiments démontables (Reichstett, Bas-Rhin, Grand Est, 22 salariés, 6,5 M€ de CA). Transmission familiale en cours et progressive : le fondateur Johannes Egger prépare depuis plusieurs mois le passage de relais à ses deux enfants (Camille, directrice administrative et financière, et Maxime, directeur technique), accompagné par un comité stratégique (coach, expert-comptable, ancien dirigeant de PME). Transaction clairement non finalisée.
+- Statut : nouveau
+
+- Entreprise : Domaine Luneau-Papin
+- Dirigeant : Marie Chartier-Luneau et Pierre-Marie Luneau (codirigeants, 9e génération)
+- Contact : contact@domaineluneaupapin.com (adresse affichée sur les pages officielles du domaine)
+- Source : https://www.lejournaldesentreprises.com/article/vignoble-le-domaine-luneau-papin-reequilibre-ses-ventes-entre-la-france-et-linternational-2147316
+- Pourquoi : Domaine viticole indépendant (Le Landreau, Loire-Atlantique, Pays de la Loire, env. 10 salariés, 1,2 M€ de CA, muscadet). Les codirigeants se disent ouverts à l'arrivée d'un investisseur au capital d'ici 3 à 5 ans tout en restant majoritaires : signal direct de préparation d'une transmission/ouverture de capital à venir, transaction pas du tout engagée.
+- Statut : nouveau
+
+- Entreprise : PFPCA (Pâtes Fraîches Provence Côte d'Azur)
+- Dirigeant : Mathias Ruger
+- Contact : non trouvé, voir source
+- Source : https://www.lejournaldesentreprises.com/article/pates-fraiches-provence-cote-dazur-nous-devons-consacrer-3-4-heures-par-jour-au-recrutement-2049960
+- Pourquoi : PME agroalimentaire, fabrication artisanale de pâtes fraîches (Vallauris, Alpes-Maritimes, PACA, 24 salariés, 2,5-3 M€ de CA). Témoignage direct du dirigeant sur une tension de recrutement forte et chronique ("3 à 4 heures par jour consacrées au recrutement") freinant le développement : signal de crise de recrutement/fidélisation.
+- Statut : nouveau
+
+- Entreprise : Saliou Menuiserie
+- Dirigeant : Laurent Saliou (fondateur, reprise par Stéphanie et Maël Faouen)
+- Contact : non trouvé, voir source
+- Source : https://www.lejournaldesentreprises.com/article/reprise-saliou-menuiserie-veut-se-renforcer-sur-la-menuiserie-interieure-1671165
+- Pourquoi : PME de menuiserie intérieure/extérieure et isolation (Saint-Quay-Perros, Côtes-d'Armor, Bretagne, 16 salariés, 2,2 M€ de CA). Départ en retraite anticipé du fondateur avec reprise interne et indépendante par deux salariés entrés dans l'entreprise en vue de la reprise : le fondateur reste associé pour accompagner la transition, signal de transmission avec reprise interne.
+- Statut : nouveau
+
+- Entreprise : Gueno D
+- Dirigeant : Damien Gueno (succède à son père Dominique Gueno)
+- Contact : non trouvé, voir source
+- Source : https://www.lejournaldesentreprises.com/breve/les-pme-et-grandes-entreprises-rencontrent-des-difficultes-de-recrutement-similaires-selon-une-etude-2096837
+- Pourquoi : PME de plomberie, chauffage et électricité (Trégueux, Côtes-d'Armor, Bretagne, 10-19 salariés, ~6,9 M€ de CA). Transmission familiale récente (fiche RCS mise à jour en juillet 2026) : le fils Damien Gueno a succédé à son père Dominique à la tête de l'entreprise indépendante, signal de transmission familiale toute récente dans une PME qui reste indépendante.
+- Statut : nouveau
+
+- Entreprise : Normandie Piscines
+- Dirigeant : Jérôme Lapasset (sa fille Andréa Lapasset se prépare à prendre la suite)
+- Contact : non trouvé, voir source
+- Source : https://www.lejournaldesentreprises.com/article/passage-de-temoin-en-vue-pour-normandie-piscines-181323
+- Pourquoi : PME de construction et entretien de piscines (Carpiquet, Calvados, Normandie, effectif précis non confirmé mais PME de petite taille, activité depuis 60 ans). Transmission familiale à venir sur un horizon de 5 ans : Andréa Lapasset, 25 ans, se forme actuellement (École des Managers de la CCI de Caen) pour succéder à son père et reprendre l'entreprise fondée par son grand-père, 3e génération. Signal clair de préparation de transmission, transaction non engagée.
+- Statut : nouveau
+
+Total du jour : 6 leads.
