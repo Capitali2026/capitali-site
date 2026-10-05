@@ -908,3 +908,44 @@ Note technique : recherche menée uniquement via WebSearch (standard + extended)
 - Statut : nouveau
 
 Total du jour : 6 leads.
+
+## 2026-10-05
+
+Note technique : recherche menée via 5 agents parallèles (Ouest France, Sud France, Est/Centre France, Nord/Île-de-France/DOM-TOM, thématique transverse), complétée par des recherches directes de l'agent principal une fois les agents terminés. Le quota WebSearch partagé de la session a de nouveau été le facteur le plus limitant : 3 des 5 agents (Sud France, Est/Centre France, thématique transverse) ont terminé avec 0 lead faute de requêtes disponibles, et les 2 autres (Ouest France à 0, Nord/IDF/DOM-TOM à 1 lead) ont également été coupés en cours de route. Seul 1 lead (Cuppens Aménagement) a pu être validé par les agents. Les recherches complémentaires menées directement par l'agent principal après la fin des agents (budget encore disponible à ce moment) ont permis d'identifier 4 leads additionnels en ciblant des brèves nominatives récentes de lejournaldesentreprises.com (reprises par cadres historiques ou repreneurs indépendants, ouverture de capital aux cadres, départ en retraite avec reprise indépendante). Volume du jour très réduit en conséquence : 5 leads au lieu des ~25 visés. Aucune transaction déjà finalisée par un groupe acquéreur, ni aucune entreprise hors gabarit, n'a été forcée pour combler le volume. Recommandation récurrente : le quota WebSearch partagé entre tous les agents d'une même session (200 requêtes) est structurellement insuffisant pour ce niveau de volume visé avec 5 agents en parallèle ; une recherche plus séquentielle, avec moins d'agents ou un budget de requêtes plus élevé, permettrait probablement un meilleur rendement.
+
+- Entreprise : Cuppens Aménagement
+- Dirigeant : Antoine Carrette (entré comme apprenti contrôleur de gestion en 1999, devenu directeur général, puis actionnaire majoritaire via sa holding Jala)
+- Contact : non trouvé, voir source
+- Source : https://www.lagazettefrance.fr/article/loos-cuppens-amenagement-une-affaire-de-famille ; https://www.lemondedudroit.fr/deals/100704-bignon-lebray-accompagne-antoine-carrette-actionnaire-majoritaire-de-la-societe-jala-dans-le-cadre-de-la-reprise-de-cuppens.html
+- Pourquoi : PME d'agencement intérieur (cloisons, plâtrerie, plafonds, menuiserie), 50 à 99 salariés, Loos, Nord. Rachat progressif engagé en 2019 et finalisé en juillet 2025 par un cadre interne (directeur général depuis de longues années, entré comme apprenti en 1999) devenu actionnaire majoritaire : reprise interne/indépendante récente suite au départ du dirigeant historique, moment propice pour ce nouveau dirigeant d'associer à son tour ses propres cadres clés au capital.
+- Statut : nouveau
+
+- Entreprise : ED Ouest (ED Group)
+- Dirigeant : Kevin Grolleau et Hugo Marsollier (fondateurs-dirigeants, 2013)
+- Contact : contact@ed-ouest.fr (déduit du domaine officiel ed-ouest.fr)
+- Source : https://www.lejournaldesentreprises.com/breve/ed-ouest-ouvre-son-capital-ses-cadres-et-bpifrance-2146287
+- Pourquoi : PME de couverture, charpente métallique, étanchéité et photovoltaïque (Nantes, Loire-Atlantique, 100 salariés, 17 M€ de CA, réseau de 10 agences de Bordeaux à Quimper). Les fondateurs ont ouvert le capital à plusieurs cadres du groupe et à Bpifrance pour initier une nouvelle phase de croissance (ouverture de 4 agences supplémentaires) : signal direct d'association de cadres clés au capital pour fidéliser l'encadrement, cas d'usage quasi identique à la proposition de valeur de Capitali.
+- Statut : nouveau
+
+- Entreprise : Schweitzer SAS
+- Dirigeant : François-Xavier Chompret (par ailleurs directeur général de DZ Aluminium) et David Michel (ex-militaire de carrière, nommé directeur général), repreneurs indépendants ; cédants la famille Schweitzer
+- Contact : non trouvé, voir source
+- Source : https://www.lejournaldesentreprises.com/breve/schweitzer-sas-change-de-mains-2134306
+- Pourquoi : PME familiale de charpente/menuiserie métallique (acier et aluminium), fondée en 1973, 49 salariés, ~9 M€ de CA, sites à Bindernheim (Bas-Rhin) et Remiremont (Vosges). Reprise récente par deux repreneurs individuels indépendants (hors tout groupe acquéreur), soutenus par Bpifrance, Société Générale et la Caisse d'Épargne : transition de dirigeant toute récente, moment clé pour les nouveaux dirigeants d'associer les cadres clés à la suite.
+- Statut : nouveau
+
+- Entreprise : Le Moulin de Hurtigheim
+- Dirigeant : Raoul Becker (dirigeant cédant, famille Becker depuis 1969) ; repris par un couple de repreneurs indépendants
+- Contact : non trouvé, voir source
+- Source : https://www.lejournaldesentreprises.com/breve/le-moulin-de-hurtigheim-change-de-mains-2101860
+- Pourquoi : Minoterie familiale indépendante (Hurtigheim, Bas-Rhin, 5 générations, 10 salariés, ~1,6-2 M€ de CA). Reprise par un couple de repreneurs indépendants (accompagnement MBA Capital Strasbourg) à l'occasion du départ en retraite du dirigeant historique, hors tout groupe acquéreur : signal classique de départ en retraite avec continuité indépendante, taille idéale pour une démarche AGA.
+- Statut : nouveau
+
+- Entreprise : Actuaplast
+- Dirigeant : Fabrice Collet (nouveau président-directeur général) et Céline Le Gallic (directrice générale), deux cadres historiques repreneurs
+- Contact : contact@actuaplast.fr (déduit du domaine officiel actuaplast.fr)
+- Source : https://www.lejournaldesentreprises.com/breve/actuaplast-repris-par-deux-cadres-historiques-2098334
+- Pourquoi : PME industrielle de plasturgie (pièces techniques plastiques pour automobile, machinisme agricole et aéronautique), La Forêt-Fouesnant, Finistère, Bretagne, 95 salariés, 16,5 M€ de CA. Reprise en MBO par deux cadres historiques de l'entreprise (hors tout groupe acquéreur) : signal quasi idéal de reprise par les cadres clés eux-mêmes, exactement le type de transition que Capitali accompagne.
+- Statut : nouveau
+
+Total du jour : 5 leads.
