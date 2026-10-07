@@ -948,4 +948,59 @@ Note technique : recherche menée via 5 agents parallèles (Ouest France, Sud Fr
 - Pourquoi : PME industrielle de plasturgie (pièces techniques plastiques pour automobile, machinisme agricole et aéronautique), La Forêt-Fouesnant, Finistère, Bretagne, 95 salariés, 16,5 M€ de CA. Reprise en MBO par deux cadres historiques de l'entreprise (hors tout groupe acquéreur) : signal quasi idéal de reprise par les cadres clés eux-mêmes, exactement le type de transition que Capitali accompagne.
 - Statut : nouveau
 
+## 2026-10-07
+
+Note technique : recherche menée uniquement via WebSearch (outil disponible et fonctionnel), avec plus de 100 requêtes réparties sur de nombreux secteurs (mécanique, menuiserie, paysage, dispositifs médicaux, emballage, BTP, agroalimentaire, textile, cosmétique, etc.) et régions. Beaucoup de requêtes n'ont renvoyé que des articles généraux/statistiques sur la transmission d'entreprise en France (baromètres, plans gouvernementaux) ou des opérations déjà présentes dans ce fichier, sans nom d'entreprise nouveau et récent exploitable. Plusieurs signaux prometteurs ont été écartés soit parce que la transaction pointait vers un groupe acquéreur (ex. Rey SA repris par son concurrent Oriol, Cartospé Packaging cédé au groupe Emballages Gheysens), soit parce que l'opération datait de plusieurs années (GT2i 2022, Benewmedical fin 2023, Antares, Delaboudinière), soit par duplication avec des leads déjà listés (Saliou Menuiserie, Transports Chalot, R. Brunone/Brunone Innovation, Actuaplast, Goubault Imprimeur). Au final, 7 leads répondant strictement aux critères (PME française indépendante, signal récent, pas de transaction déjà finalisée par un groupe) ont pu être validés aujourd'hui — nombre réel inférieur aux ~25 visés, communiqué sans forcer le volume ni réintroduire des leads exclus.
+
+- Entreprise : Groupe Monnot (Raoul Monnot / Monnot Prod)
+- Dirigeant : Olivier Casier (nouveau président depuis le 1er avril 2026), succède à Éric Monnot
+- Contact : contact@monnot-prod.com (domaine officiel monnot-prod.com)
+- Source : https://www.lagazettefrance.fr/article/transmission-interne-le-groupe-monnot-ouvre-un-nouveau-chapitre
+- Pourquoi : PME industrielle de mécanique de précision et conception de machines-outils pour la tonnellerie, Beaune (Côte-d'Or), fondée en 1934, 80 salariés. Éric Monnot, après plus de 40 ans à la tête de l'entreprise, a transmis 100 % du capital à un collectif de six cadres de l'entreprise (reprise interne, hors tout groupe acquéreur), effective au 1er avril 2026 : signal de départ en retraite avec reprise interne par les cadres clés, cas quasi idéal pour Capitali.
+- Statut : nouveau
+
+- Entreprise : MicroMécanique
+- Dirigeant : Julien Roussel (nouveau dirigeant, accompagné de trois cadres : Guillaume Ploquin, Frédéric LeBras, Maxime Richard), succède à Patrick Démots
+- Contact : info@micro-mecanique.com (adresse affichée sur le site officiel micro-mecanique.com)
+- Source : https://www.lejournaldesentreprises.com/article/patrick-demots-cede-micromecanique-julien-roussel-et-trois-cadres-de-lentreprise-2114587
+- Pourquoi : PME industrielle d'outillage de haute précision (carbure de tungstène), Verrières-en-Anjou (Maine-et-Loire), croissance de 15-20 %/an. Patrick Démots (dirigeant depuis 2010) a cédé l'entreprise à un repreneur indépendant épaulé par trois cadres de l'entreprise, hors tout groupe acquéreur : transition récente, moment propice pour le nouveau dirigeant d'associer à son tour ses cadres clés au capital.
+- Statut : nouveau
+
+- Entreprise : Le Coadou SAS
+- Dirigeant : Valérie Goossens (nouvelle dirigeante, par ailleurs gérante de JET Productions et CAP2TECH), succède à la famille Le Coadou
+- Contact : non trouvé, voir source
+- Source : https://www.lejournaldesentreprises.com/breve/rachat-de-lentreprise-dusinage-mecanique-le-coadou-2092857
+- Pourquoi : PME d'usinage mécanique de précision (aéronautique, automobile, médical), Gaillon (Eure), 31 salariés, créée en 1956 et restée familiale jusqu'à cette reprise. Rachat par une entrepreneure indépendante (hors tout groupe industriel) : transition de dirigeant récente, occasion pour la nouvelle dirigeante de structurer la fidélisation des équipes clés.
+- Statut : nouveau
+
+- Entreprise : Kissenberger
+- Dirigeant : Émilien Munier (nouveau propriétaire, repreneur indépendant), succède à Thierry Kissenberger
+- Contact : non trouvé, voir source
+- Source : https://www.lagazettefrance.fr/article/transmission-de-la-menuiserie-kissenberger-a-nancy-par-arceane ; https://fusacq.com/buzz/arceane-accompagne-la-transmission-de-kiessenberger-a-emilien-munier-a257063
+- Pourquoi : PME de menuiserie/fermetures (fenêtres, volets, portes), Messein, près de Nancy (Meurthe-et-Moselle), environ 10 salariés, ~3 M€ de CA, fondée en 1981. Thierry Kissenberger (dirigeant depuis 2001) a cédé l'intégralité de ses parts à un repreneur indépendant (hors tout groupe), opération finalisée le 26 décembre 2025 : départ en retraite récent avec reprise indépendante, taille idéale pour une démarche AGA.
+- Statut : nouveau
+
+- Entreprise : Vauthelin Paysages
+- Dirigeant : Sarah et Quentin Rieu (nouveaux dirigeants, reprise interne), succèdent à Didier Vauthelin
+- Contact : non trouvé, voir source
+- Source : https://www.lejournaldesentreprises.com/article/lentreprise-vauthelin-paysages-change-de-mains-2092162
+- Pourquoi : PME de paysagisme (création et entretien de jardins), Plougastel-Daoulas (Finistère), environ 50 salariés. Didier Vauthelin, fondateur en 2009, a transmis l'entreprise à Sarah Rieu (sa directrice opérationnelle depuis une dizaine d'années) et son conjoint Quentin : départ en retraite du fondateur avec reprise interne par une cadre clé, exactement le profil visé par Capitali.
+- Statut : nouveau
+
+- Entreprise : G&C Clinibed (Clinibed)
+- Dirigeant : Bastien Geiler et Johanna Meunier (nouveaux repreneurs indépendants), succèdent à Yannick et Isabelle Yhuel
+- Contact : non trouvé, voir source
+- Source : https://www.lejournaldesentreprises.com/breve/clinibed-change-de-mains-2114988
+- Pourquoi : PME de literie médicalisée pour professionnels de santé, hôpitaux et Ehpad, Wattrelos (Nord), fondée en 1989, environ 15 salariés. Transmission familiale récente vers deux repreneurs indépendants se lançant dans l'entrepreneuriat (hors tout groupe acquéreur) : moment clé pour structurer la fidélisation de l'équipe en place.
+- Statut : nouveau
+
+- Entreprise : Les Cartonnages Gourio
+- Dirigeant : Olivier Campy (nouveau dirigeant, ex-président de Sanden Manufacturing Europe), succède à Jacques Daquin
+- Contact : non trouvé, voir source
+- Source : https://www.lejournaldesentreprises.com/article/les-cartonnages-gourio-changent-de-mains-2099967 ; https://www.lemondedudroit.fr/deals/93314-cornet-vincent-segurel-accompagne-olivier-campy-dans-le-cadre-de-l-acquisition-de-la-societe-les-cartonnages-gourio.html
+- Pourquoi : PME d'emballage carton ondulé, Pommeret (Côtes-d'Armor), fondée en 1976, 34 salariés, 6 M€ de CA. Reprise par un dirigeant indépendant (hors tout groupe d'emballage) suite au départ du précédent repreneur : nouveau dirigeant en phase de prise de fonctions, moment propice pour associer les cadres clés à la suite.
+- Statut : nouveau
+
+Total du jour : 7 leads.
+
 Total du jour : 5 leads.
