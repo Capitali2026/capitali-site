@@ -1004,3 +1004,51 @@ Note technique : recherche menée uniquement via WebSearch (outil disponible et 
 Total du jour : 7 leads.
 
 Total du jour : 5 leads.
+
+## 2026-10-08
+
+Note technique : la collecte du jour a été menee via 4 agents de recherche paralleles (couvrant chacun un decoupage sectoriel/regional/signal distinct) puis des recherches complementaires directes, soit plus de 150 requetes WebSearch au total. Deux limites techniques ont fortement reduit le volume : (1) l'operateur "site:" (ex. site:linkedin.com/posts, site:ouest-france.fr, site:actu.fr) n'a presque jamais filtre correctement les resultats, rendant l'angle posts LinkedIn et presse regionale nommee quasiment inexploitable ; (2) l'outil WebSearch a surtout renvoye des syntheses agregees (etudes Bpifrance/EY, barometres nationaux, contexte macro) plutot que des listes de resultats nommes, sauf sur lejournaldesentreprises.com qui reste bien indexe. De nombreuses pistes prometteuses ont ete ecartees : transaction deja finalisee par un groupe acheteur (ex. Lubexcel/Groupe Dubreuil, Arka Sentinelle Prevention, clinique urologique nantaise, Chateau Virant), taille hors cible (Lorban TP ecarte en cours de verification : ~400 salaries et 50 M EUR de CA, profil ETI et non PME malgre le signal de transmission a la 3e generation), doublon avec la base existante (Pipard Freres, Groix et Nature, Armor Goutieres, Mulliez Richebe, Groupe Larcher, Soprolux), ou source trop ancienne/non verifiable pour constituer un signal recent (Breteault, Atlantic Conditionnement, Les Coteaux Nantais). Au final, 6 leads repondant strictement aux criteres ont pu etre valides aujourd'hui — nombre reel nettement inferieur aux ~25 vises, communique sans forcer le volume ni reintroduire des leads exclus.
+
+- Entreprise : Château de Pourcieux
+- Dirigeant : Michel d'Espagnet
+- Contact : chateau@pourcieux.com
+- Source : https://la-provence-verte.net/activites/terroir-pourcieux-chateau-de-pourcieux_167.html
+- Pourquoi : Domaine viticole familial indépendant du Var (AOP Côtes de Provence / Côtes de Provence Sainte-Victoire), propriété de la famille d'Espagnet depuis 1760. Les 7e et 8e générations, Michel d'Espagnet et ses enfants Alix et Rémi, se partagent déjà la direction du domaine : signal de transmission familiale en cours, PME agricole/viticole indépendante sans groupe acheteur. Information basée sur un extrait de recherche.
+- Statut : nouveau
+
+- Entreprise : Vignobles Famille Quiot (Maison Quiot)
+- Dirigeant : Florence Quiot
+- Contact : vignoblesfamillequiot@gmail.com
+- Source : https://www.echodumardi.com/?p=23068
+- Pourquoi : Domaine viticole familial indépendant de Châteauneuf-du-Pape (13e génération de vignerons depuis 1748, PACA). Florence Quiot, fille du fondateur Jérôme Quiot, vient de lancer en 2026 un projet baptisé « Mère & Fille » avec sa propre fille Nolwenn Quiot : signal explicite et récent de transmission familiale en cours vers la génération suivante.
+- Statut : nouveau
+
+- Entreprise : Festilight (Festigroup)
+- Dirigeant : Pierre Maroilley et Matthieu Canu (fils et gendre), succèdent à Didier Maroilley
+- Contact : contact@festilight.fr (domaine deduit d'un document technique mentionnant une adresse en @festilight.fr ; un autre annuaire tiers cite plutôt festilight.com, à vérifier avant envoi)
+- Source : https://www.lejournaldesentreprises.com/article/apres-une-transmission-familiale-laubois-festilight-vise-une-croissance-perenne-et-stable-2112332
+- Pourquoi : Fabricant de décorations lumineuses (groupe Festigroup), Villechétif (Aube, Grand Est), environ 85 salariés. Transmission familiale récente (fin 2024) de Didier Maroilley vers son fils et son gendre, qui visent désormais une croissance pérenne : nouvelle génération aux commandes d'une PME indépendante, moment propice pour structurer la fidélisation des cadres clés via une AGA.
+- Statut : nouveau
+
+- Entreprise : Herrmann TP
+- Dirigeant : Marc Hatt (nouveau directeur général) et Julien Weinling, succèdent à Eric Herrmann
+- Contact : non trouvé, voir source
+- Source : https://www.lejournaldesentreprises.com/article/herrmann-tp-reprend-les-fondations-de-son-capital-2115701
+- Pourquoi : Entreprise familiale de travaux publics à Surbourg (Bas-Rhin), fondée en 1945, 65 salariés, ~15 M€ de CA. Fin 2024, Eric Herrmann (3e génération) a transmis l'entreprise à deux cadres internes (Marc Hatt, directeur général depuis 20 ans dans la maison, et Julien Weinling, conducteur de travaux) pour préserver l'identité de l'entreprise. Nuance à noter : l'opération est un LBO où Bpifrance et Capital Grand Est détiennent la majorité du capital à titre d'investisseurs financiers, les deux cadres assurant la direction opérationnelle — profil pertinent pour étendre l'actionnariat à d'autres cadres clés.
+- Statut : nouveau
+
+- Entreprise : GIT (Gestion Immobilière Tissinié)
+- Dirigeant : Laurent Tissinié
+- Contact : non trouvé, voir source
+- Source : https://www.lejournaldesentreprises.com/article/je-transmets-peu-peu-mon-entreprise-lun-de-mes-anciens-salaries-2097767
+- Pourquoi : Structure niçoise de gestion immobilière (environ 8 salariés, taille inférieure à la cible 10-150 mais PME indépendante pertinente). Le dirigeant prépare étape par étape la cession à un ancien collaborateur revenu dans le projet, en expliquant vouloir éviter une vente à un groupe : signal direct de cession/transmission à venir, non encore finalisée.
+- Statut : nouveau
+
+- Entreprise : Dullac (P.F.C. / Dullac Wilsun)
+- Dirigeant : Christofer Guillard et Emmanuel Vignaud, succèdent à Pierre Fridrici
+- Contact : contact@dullac.fr (domaine déduit d'une adresse de contact affichée dans un avis de marché public BOAMP)
+- Source : https://www.lejournaldesentreprises.com/breve/changement-de-capitaine-la-tete-de-lentreprise-varoise-dullac-2135253
+- Pourquoi : PME varoise de marquage publicitaire et sérigraphie (La Garde), 30 salariés, 4,5 M€ de CA. Après 23 ans à la tête de l'entreprise, le fondateur a cédé la direction à deux repreneurs indépendants (hors tout groupe) : transition de dirigeant récente, les nouveaux dirigeants sont des cibles naturelles pour fidéliser l'équipe en place via une AGA.
+- Statut : nouveau
+
+Total du jour : 6 leads.
