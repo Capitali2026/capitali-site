@@ -1052,3 +1052,37 @@ Note technique : la collecte du jour a été menee via 4 agents de recherche par
 - Statut : nouveau
 
 Total du jour : 6 leads.
+
+## 2026-10-09
+
+Note technique : journée exceptionnellement difficile malgré un tres grand nombre de requetes WebSearch (plus de 80) couvrant volontairement de nombreux secteurs (BTP, industrie, mecanique, plasturgie, emballage, agroalimentaire, traiteur, biscuiterie, transport, logistique, ESN/informatique, nettoyage, assurance/courtage, immobilier, nautisme, vin/spiritueux, automobile, veterinaire, pressing, horticulture, etc.) et de nombreuses regions. L'outil WebSearch a tres majoritairement renvoye des articles de fond generiques sur la transmission d'entreprise en France (etudes Bpifrance, EY, CCI, plans gouvernementaux) plutot que des cas d'entreprises precises et recentes, ou des cas d'entreprises deja presentes dans ce fichier, ou des transactions deja finalisees avec un groupe acheteur (donc hors cible). Volume du jour tres reduit en consequence (4 leads au lieu des ~25 vises) : aucun lead n'a ete invente ni force pour combler le volume, conformement a la consigne.
+
+- Entreprise : Helen Traiteur
+- Dirigeant : Arnaud Louis (petit-fils du fondateur, a succédé à son père Eric-Helen Louis comme président)
+- Contact : contact@helen.fr (domaine officiel helen.fr ; une adresse plus précise, vramos@helen.fr, apparaît dans un annuaire tiers pour le contact commercial)
+- Source : https://www.lejournaldesentreprises.com/article/apres-la-transmission-familiale-helen-traiteur-veut-maintenir-une-croissance-annuelle-de-10-2097955
+- Pourquoi : Traiteur événementiel familial fondé en 1959 à Morières-lès-Avignon (Vaucluse), 90 salariés, 13,5 M€ de CA. Transmission familiale à la 3e génération tout juste achevée (le père a définitivement transmis la présidence à son fils) : entreprise restée totalement indépendante, moment clé pour associer les cadres clés à la suite.
+- Statut : nouveau
+
+- Entreprise : Maison Goustine (ex-Jean David Traiteur)
+- Dirigeant : Jean-David Cohen (fondateur) ; Arnaud Tescari (directeur général, nouvel associé) et Romain Arnone (chef exécutif, nouvel associé)
+- Contact : contact@maisongoustine.fr (domaine officiel déduit, maisongoustine.fr)
+- Source : https://www.lejournaldesentreprises.com/breve/la-pme-marseillaise-jean-david-traiteur-devient-maison-goustine-et-accueille-deux-nouveaux-associes-2137479
+- Pourquoi : Traiteur événementiel marseillais (environ 15 salariés, quelques M€ de CA). Le fondateur associe deux cadres clés (directeur général et chef exécutif) au tour de table et renomme l'entreprise pour préparer son avenir sans lui être personnellement associé : signal direct d'association de profils clés au capital en amont d'une transmission.
+- Statut : nouveau
+
+- Entreprise : Biscuiterie Jeannette
+- Dirigeant : Benoît Martinet (ex-directeur général depuis 2019, devenu président et actionnaire majoritaire le 4 décembre 2025)
+- Contact : contact@jeannette1850.com (domaine officiel déduit, jeannette1850.com)
+- Source : https://www.lejournaldesentreprises.com/article/benoit-martinet-dg-de-la-biscuiterie-jeannette-rachete-lentreprise-pour-faire-voyager-les-madeleines-2133200
+- Pourquoi : Biscuiterie artisanale normande à Colombelles (Calvados), 23 salariés, 4,6 M€ de CA. Le directeur général a racheté l'entreprise à son actionnaire historique (passation officialisée le 4 décembre 2025) et en est devenu actionnaire majoritaire : exemple direct d'un cadre clé associé au capital lors d'une transmission, entreprise restée indépendante.
+- Statut : nouveau
+
+- Entreprise : Ruban Bleu
+- Dirigeant : Côme de Veyrinas (a succédé à son père Thibault de Veyrinas)
+- Contact : contact@rubanbleu.com (domaine officiel déduit, rubanbleu.com)
+- Source : https://www.lejournaldesentreprises.com/article/come-de-veyrinas-succede-son-pere-la-tete-du-fabricant-de-bateaux-electriques-ruban-bleu-2125659
+- Pourquoi : Fabricant de bateaux électriques à Vigneux-de-Bretagne, près de Nantes (8 salariés, taille légèrement inférieure à la cible 10-150 mais PME indépendante pertinente), 2 M€ de CA. Transmission familiale récente (juillet 2025) : le fils succède au père après 19 ans à la tête de l'entreprise, capital désormais 100 % familial, nouveau dirigeant en phase de lancement de nouveaux projets de développement.
+- Statut : nouveau
+
+Total du jour : 4 leads.
