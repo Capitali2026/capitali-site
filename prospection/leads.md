@@ -1086,3 +1086,51 @@ Note technique : journée exceptionnellement difficile malgré un tres grand nom
 - Statut : nouveau
 
 Total du jour : 4 leads.
+
+## 2026-10-10
+
+Note technique : volume fortement réduit aujourd'hui. Le lancement initial de cinq agents de recherche en parallèle (un par angle régional/sectoriel) a épuisé un quota de recherche WebSearch partagé pour ce tour avant que chacun ait pu produire des leads exploitables (quatre des cinq agents n'ont livré aucun lead valide, le cinquième un seul lead jugé hors-cible). La recherche a ensuite été poursuivie directement en session principale, mais l'outil WebSearch a renvoyé de façon récurrente des synthèses macro-économiques (études Bpifrance, Insee, CCI, baromètres EY/Deloitte) plutôt que des listes d'extraits bruts nommant des PME précises, ce qui a fortement ralenti l'identification de signaux individuels datés et vérifiables. Après une trentaine de requêtes ciblées supplémentaires (multiples secteurs et régions), seuls 6 leads ont pu être confirmés avec un signal réel, récent et conforme aux critères stricts (PME française indépendante, transaction pas encore finalisée). Aucun lead de qualité insuffisante n'a été ajouté pour combler le volume.
+
+- Entreprise : Maisons Jubault (Pavillons Jubault)
+- Dirigeant : Wilfried Yger (codirigeant, ex-directeur d'exploitation depuis 14 ans) et Julien Grégoire (codirigeant, ex-KPMG)
+- Contact : non trouvé, voir source
+- Source : https://www.lejournaldesentreprises.com/article/le-constructeur-rennais-maisons-jubault-repris-par-son-directeur-dexploitation-et-un-associe-2147781
+- Pourquoi : Constructeur de maisons individuelles indépendant à Montgermont, près de Rennes (6,9 M€ de CA). Repris le 31 juillet 2026 par son directeur d'exploitation historique et un associé externe, sans intervention d'un groupe : transmission récente par reprise interne/managériale.
+- Statut : nouveau
+
+- Entreprise : Sanit Confort
+- Dirigeant : Dominique Le Saint (gérant depuis 2013)
+- Contact : non trouvé, voir source
+- Source : https://www.lejournaldesentreprises.com/article/sanit-confort-recolte-les-fruits-de-lextension-de-ses-marches-et-de-son-positionnement-2072303
+- Pourquoi : PME de plomberie, chauffage et climatisation à Plérin (Côtes-d'Armor), 35 salariés. Le gérant prépare activement la reprise de l'entreprise par quatre de ses salariés (signal daté du 3 juillet 2026) : transmission à venir vers des cadres clés, entreprise encore indépendante.
+- Statut : nouveau
+
+- Entreprise : AMT (Atelier Mécanique et Technique)
+- Dirigeant : Cameron Grieve (gérant depuis 1997)
+- Contact : non trouvé, voir source
+- Source : https://www.lejournaldesentreprises.com/entreprise/atelier-mecanique-et-technique
+- Pourquoi : PME de mécanique industrielle à Souleuvre-en-Bocage (Calvados), 10 à 19 salariés. Le dirigeant, 65 ans, s'apprête à vendre son entreprise selon un article de juillet 2026 : cession envisagée, pas encore finalisée, entreprise toujours indépendante.
+- Statut : nouveau
+
+- Entreprise : VDCom
+- Dirigeant : Denis Mabileau et Vincent Godard (cadres dirigeants, détiennent désormais la majorité du capital)
+- Contact : non trouvé, voir source
+- Source : https://www.lejournaldesentreprises.com/article/le-vendeen-vdcom-se-diversifie-vers-linformatique-pour-se-defaire-de-sa-dependance-loperateur-sfr-2140966
+- Pourquoi : PME de télécoms/informatique au Poiré-sur-Vie (Vendée), environ 50 salariés. L'entreprise est détenue majoritairement par deux de ses cadres depuis le retrait progressif de son fondateur : transmission interne déjà engagée, cadres clés devenus actionnaires, hors tout rachat par un groupe.
+- Statut : nouveau
+
+- Entreprise : BADT Levage
+- Dirigeant : Xavier Laurence (35 ans, a repris l'entreprise fondée par son père Jean-Louis Laurence)
+- Contact : contact@badt-levage.com (déduit du domaine officiel badt-levage.com)
+- Source : https://www.lejournaldesentreprises.com/article/xavier-laurence-reprend-lentreprise-familiale-badt-levage-et-ambitionne-de-setendre-2094940
+- Pourquoi : PME de systèmes de levage (ponts roulants, palans) à Grand-Quevilly (Seine-Maritime), 21 salariés, 4,4 M€ de CA. Transmission familiale récente : le fils, entré dans l'entreprise dix ans plus tôt comme chargé d'affaires, en a repris les commandes.
+- Statut : nouveau
+
+- Entreprise : Akris Group (site historique Sumca)
+- Dirigeant : Trevor Hird (directeur général) et deux autres directeurs, devenus actionnaires majoritaires
+- Contact : non trouvé, voir source
+- Source : https://www.lejournaldesentreprises.com/article/avec-arkea-au-capital-les-dirigeants-dakris-group-veulent-doper-leur-activite-internationale-2114735
+- Pourquoi : PME industrielle d'outillage de précision à Ambrières-les-Vallées (Mayenne), environ 70 salariés sur plusieurs sites. Reprise par les dirigeants (MBO, soutenue en minoritaire par Arkéa Capital) suite au départ en retraite du dirigeant historique après 44 ans : cadres clés devenus actionnaires, hors tout rachat par un groupe concurrent.
+- Statut : nouveau
+
+Total du jour : 6 leads.
