@@ -1134,3 +1134,65 @@ Note technique : volume fortement réduit aujourd'hui. Le lancement initial de c
 - Statut : nouveau
 
 Total du jour : 6 leads.
+
+## 2026-10-11
+
+Note technique : l'opérateur "site:" s'est révélé largement inopérant aujourd'hui sur l'outil WebSearch (de nombreuses requêtes "site:lejournaldesentreprises.com ..." ont renvoyé des résultats d'autres domaines), ce qui a fortement réduit l'efficacité des recherches ciblées par source. Plus de 70 requêtes WebSearch ont été menées sur des angles variés (secteurs : BTP, industrie, textile, cosmétique, transport, négoce ; régions : Normandie, Bretagne, Hauts-de-France, Grand Est, PACA, Occitanie, Nouvelle-Aquitaine, Auvergne-Rhône-Alpes, Centre-Val-de-Loire, Corse ; signaux : transmission familiale, départ en retraite, tension de recrutement, actionnariat salarié), mais la grande majorité des résultats ont été soit des études macro-économiques génériques (Bpifrance, EY, Grant Thornton, Banque de France), soit des doublons avec des entreprises déjà listées les jours précédents (R.Brunone, Maisons Jubault, Groupe Monnot, Kissenberger, Actuaplast, etc.), soit des transactions déjà finalisées par un groupe acheteur (écartées : par exemple le transporteur bisontin Jeantet repris par 2L Logistics, ou Bio Nettoyage/ANP Industrie Services, cette dernière étant une reprise d'une société en difficulté par un concurrent). Une piste (« Jmv Metal Work », Vendée) mentionnée dans un résultat de recherche agrégé n'a pas pu être revérifiée de façon indépendante (aucune autre source ne confirme l'existence de cette entreprise sous ce nom) et a donc été écartée par prudence, conformément à l'exigence de ne jamais inventer un lead. Volume du jour réduit en consé­quence : 8 leads au lieu des ~25 visés, aucune transaction déjà finalisée ni aucun lead non vérifiable n'ayant été forcé pour combler le volume.
+
+- Entreprise : System M3
+- Dirigeant : Julien Desclée de Maredsous (repreneur, contrôle majoritaire à 51 % depuis mars 2026) ; Antoine Sangy (dirigeant précédent depuis 2014, reste actionnaire à 49 % et accompagne la transition)
+- Contact : non trouvé, voir source
+- Source : https://www.lejournaldesentreprises.com/article/investissements-recrutements-le-repreneur-de-system-m3-appuie-sur-laccelerateur-2146956
+- Pourquoi : PME havraise d'aménagement de véhicules utilitaires. Reprise indépendante très récente (prise de contrôle majoritaire en mars 2026, hors tout groupe), avec maintien du dirigeant précédent comme actionnaire minoritaire pendant 3 ans pour accompagner son successeur : moment clé pour ce dernier d'associer à son tour ses cadres clés au capital.
+- Statut : nouveau
+
+- Entreprise : ED-Trans
+- Dirigeant : Emmanuel Deret (fondateur en 2004, toujours aux commandes)
+- Contact : non trouvé, voir source
+- Source : https://www.lejournaldesentreprises.com/breve/ed-trans-anticipe-une-transmission-aux-salaries-en-2028-2093898
+- Pourquoi : Organisateur de transport indépendant du Mans (Sarthe), 108 salariés, environ 75 M€ de CA. Le fondateur anticipe et prépare explicitement une transmission à ses salariés à l'horizon 2028, en visant 100 M€ de CA d'ici là : signal direct et rare d'un dirigeant qui planifie une transmission salariale à venir, transaction non encore engagée.
+- Statut : nouveau
+
+- Entreprise : Domotex
+- Dirigeant : François Segard (dirigeant historique depuis 38 ans, part en retraite et accompagne la transition) ; Marc Delvaux (repreneur, investisseur majoritaire)
+- Contact : non trouvé, voir source (site officiel domotex.com)
+- Source : https://www.lejournaldesentreprises.com/breve/la-pme-lilloise-domotex-est-reprise-par-marc-delvaux-2069469
+- Pourquoi : PME de conception et distribution de tissus à Saint-André-lez-Lille (Nord), 30 salariés, environ 11 M€ de CA. Départ en retraite du dirigeant historique après 38 ans, avec une période de transition assurée ; reprise par un investisseur indépendant, hors tout groupe concurrent du secteur.
+- Statut : nouveau
+
+- Entreprise : Tintilier Fils
+- Dirigeant : Julien Lingrand et Thomas Sebzda (duo de repreneurs indépendants)
+- Contact : non trouvé, voir source
+- Source : https://www.lejournaldesentreprises.com/breve/le-negociant-tintilier-fils-change-de-main-2140486
+- Pourquoi : PME familiale de négoce de matériaux de construction (tôles, fers, bois) à La Gorgue (Nord), fondée en 1977. Reprise récente par un duo d'entrepreneurs régionaux indépendants, hors tout groupe de négoce : transition de dirigeants propice à une démarche de fidélisation de l'équipe en place.
+- Statut : nouveau
+
+- Entreprise : Concept Alu PVC
+- Dirigeant : Franck Vanesse (fondateur en 1992, cédant) ; Thierry Di Renzo (repreneur, accompagné d'IRD Invest et BTP Capital Investissement)
+- Contact : non trouvé, voir source
+- Source : https://www.lejournaldesentreprises.com/breve/concept-alu-pvc-change-de-main-2141940
+- Pourquoi : PME familiale de menuiserie aluminium à Marly-lez-Valenciennes (Nord), 42 salariés, 9,8 M€ de CA en 2025. Transmission récente avec un cédant qui reste impliqué pour assurer une transition progressive ; reprise par un indépendant adossé à des investisseurs minoritaires, hors tout groupe concurrent du bâtiment.
+- Statut : nouveau
+
+- Entreprise : Terraco
+- Dirigeant : Philippe Brin et Nathalie Ric-Desmoulins (fondateurs en 2008, cédants) ; Olivier Plagnol (repreneur indépendant, accompagné en minoritaire par le fonds Connect Pro)
+- Contact : non trouvé, voir source
+- Source : https://www.lejournaldesentreprises.com/breve/le-groupe-terraco-specialiste-des-textiles-promotionnels-change-de-mains-avec-connect-pro-2081230
+- Pourquoi : Groupe varois de textiles promotionnels basé à Cogolin, avec une entité commerciale et financière de 7 personnes en France (le site de production de 100 personnes est au Portugal). Transmission récente portée par un repreneur indépendant hors tout groupe concurrent. Point de vigilance : l'essentiel de l'effectif du groupe est hors de France, à vérifier avant approche commerciale.
+- Statut : nouveau
+
+- Entreprise : Mise en Scène
+- Dirigeant : Tristan Fontvielle (repreneur indépendant depuis le 31 mars 2026)
+- Contact : non trouvé, voir source
+- Source : https://www.rcf.fr/economie-et-societe/reseau-entreprendre (podcast du 21 avril 2026, nouveau lauréat du Réseau Entreprendre Charente-Maritime)
+- Pourquoi : PME charentaise-maritime de location de matériel son et lumière pour spectacles et événements. Reprise indépendante très récente, lauréate du Réseau Entreprendre Charente-Maritime, hors tout groupe du secteur. Point de vigilance : effectif précis non confirmé, probablement proche ou en dessous du seuil de 10 salariés, à qualifier avant approche commerciale.
+- Statut : nouveau
+
+- Entreprise : Ker Kibell (marque Ma Kibell)
+- Dirigeant : couple de primo-entrepreneurs (repreneurs via MBI, nom précis non confirmé avec certitude dans les sources)
+- Contact : contact@makibell.com (déduit du domaine officiel makibell.com)
+- Source : https://www.cfnews.net/L-actualite/LBO/Operations/MBI/Ker-Kibell-se-parfume-au-MBI-primaire-527261
+- Pourquoi : Fabricant breton de cosmétiques artisanaux (Trémuson, Côtes-d'Armor), environ 4 M€ de CA, une vingtaine de magasins en Bretagne. Reprise indépendante récente par un couple de primo-entrepreneurs (MBI), 15 ans après la création de l'entreprise, hors tout groupe cosmétique concurrent.
+- Statut : nouveau
+
+Total du jour : 8 leads.
