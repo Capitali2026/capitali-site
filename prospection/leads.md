@@ -843,7 +843,7 @@ Note technique : recherche menée via 5 agents parallèles (Ouest France, Sud Fr
 - Contact : contact@actalarm.fr (déduit du domaine officiel actalarm.fr)
 - Source : https://www.lejournaldesentreprises.com/article/actalarm-fait-entrer-un-nouvel-associe-son-capital-et-ouvre-une-agence-dans-le-morbihan-2046398
 - Pourquoi : PME de sécurité électronique (Trégunc, Finistère, Bretagne, ~35 salariés). Le fondateur envisage sa retraite dans environ 7 ans et prépare une transmission familiale et interne en cours en faisant entrer sa fille et un salarié de longue date au capital : signal fort de transmission à venir, transaction pas encore finalisée.
-- Statut : nouveau
+- Statut : brouillon cree
 
 - Entreprise : Sygmatel
 - Dirigeant : Olivier de La Chevasnerie
@@ -870,14 +870,14 @@ Note technique : recherche menée uniquement via WebSearch (standard + extended)
 - Contact : nadine.hamm@espace-couvert.com (adresse de contact directement affichée dans les extraits de recherche, domaine officiel espace-couvert.com)
 - Source : https://www.lejournaldesentreprises.com/article/transmission-familiale-pour-le-loueur-espace-couvert-2077477
 - Pourquoi : PME de location de structures et bâtiments démontables (Reichstett, Bas-Rhin, Grand Est, 22 salariés, 6,5 M€ de CA). Transmission familiale en cours et progressive : le fondateur Johannes Egger prépare depuis plusieurs mois le passage de relais à ses deux enfants (Camille, directrice administrative et financière, et Maxime, directeur technique), accompagné par un comité stratégique (coach, expert-comptable, ancien dirigeant de PME). Transaction clairement non finalisée.
-- Statut : nouveau
+- Statut : brouillon cree
 
 - Entreprise : Domaine Luneau-Papin
 - Dirigeant : Marie Chartier-Luneau et Pierre-Marie Luneau (codirigeants, 9e génération)
 - Contact : contact@domaineluneaupapin.com (adresse affichée sur les pages officielles du domaine)
 - Source : https://www.lejournaldesentreprises.com/article/vignoble-le-domaine-luneau-papin-reequilibre-ses-ventes-entre-la-france-et-linternational-2147316
 - Pourquoi : Domaine viticole indépendant (Le Landreau, Loire-Atlantique, Pays de la Loire, env. 10 salariés, 1,2 M€ de CA, muscadet). Les codirigeants se disent ouverts à l'arrivée d'un investisseur au capital d'ici 3 à 5 ans tout en restant majoritaires : signal direct de préparation d'une transmission/ouverture de capital à venir, transaction pas du tout engagée.
-- Statut : nouveau
+- Statut : brouillon cree
 
 - Entreprise : PFPCA (Pâtes Fraîches Provence Côte d'Azur)
 - Dirigeant : Mathias Ruger
@@ -925,7 +925,7 @@ Note technique : recherche menée via 5 agents parallèles (Ouest France, Sud Fr
 - Contact : contact@ed-ouest.fr (déduit du domaine officiel ed-ouest.fr)
 - Source : https://www.lejournaldesentreprises.com/breve/ed-ouest-ouvre-son-capital-ses-cadres-et-bpifrance-2146287
 - Pourquoi : PME de couverture, charpente métallique, étanchéité et photovoltaïque (Nantes, Loire-Atlantique, 100 salariés, 17 M€ de CA, réseau de 10 agences de Bordeaux à Quimper). Les fondateurs ont ouvert le capital à plusieurs cadres du groupe et à Bpifrance pour initier une nouvelle phase de croissance (ouverture de 4 agences supplémentaires) : signal direct d'association de cadres clés au capital pour fidéliser l'encadrement, cas d'usage quasi identique à la proposition de valeur de Capitali.
-- Statut : nouveau
+- Statut : brouillon cree
 
 - Entreprise : Schweitzer SAS
 - Dirigeant : François-Xavier Chompret (par ailleurs directeur général de DZ Aluminium) et David Michel (ex-militaire de carrière, nommé directeur général), repreneurs indépendants ; cédants la famille Schweitzer
@@ -946,7 +946,7 @@ Note technique : recherche menée via 5 agents parallèles (Ouest France, Sud Fr
 - Contact : contact@actuaplast.fr (déduit du domaine officiel actuaplast.fr)
 - Source : https://www.lejournaldesentreprises.com/breve/actuaplast-repris-par-deux-cadres-historiques-2098334
 - Pourquoi : PME industrielle de plasturgie (pièces techniques plastiques pour automobile, machinisme agricole et aéronautique), La Forêt-Fouesnant, Finistère, Bretagne, 95 salariés, 16,5 M€ de CA. Reprise en MBO par deux cadres historiques de l'entreprise (hors tout groupe acquéreur) : signal quasi idéal de reprise par les cadres clés eux-mêmes, exactement le type de transition que Capitali accompagne.
-- Statut : nouveau
+- Statut : brouillon cree
 
 ## 2026-10-07
 
@@ -957,14 +957,14 @@ Note technique : recherche menée uniquement via WebSearch (outil disponible et 
 - Contact : contact@monnot-prod.com (domaine officiel monnot-prod.com)
 - Source : https://www.lagazettefrance.fr/article/transmission-interne-le-groupe-monnot-ouvre-un-nouveau-chapitre
 - Pourquoi : PME industrielle de mécanique de précision et conception de machines-outils pour la tonnellerie, Beaune (Côte-d'Or), fondée en 1934, 80 salariés. Éric Monnot, après plus de 40 ans à la tête de l'entreprise, a transmis 100 % du capital à un collectif de six cadres de l'entreprise (reprise interne, hors tout groupe acquéreur), effective au 1er avril 2026 : signal de départ en retraite avec reprise interne par les cadres clés, cas quasi idéal pour Capitali.
-- Statut : nouveau
+- Statut : brouillon cree
 
 - Entreprise : MicroMécanique
 - Dirigeant : Julien Roussel (nouveau dirigeant, accompagné de trois cadres : Guillaume Ploquin, Frédéric LeBras, Maxime Richard), succède à Patrick Démots
 - Contact : info@micro-mecanique.com (adresse affichée sur le site officiel micro-mecanique.com)
 - Source : https://www.lejournaldesentreprises.com/article/patrick-demots-cede-micromecanique-julien-roussel-et-trois-cadres-de-lentreprise-2114587
 - Pourquoi : PME industrielle d'outillage de haute précision (carbure de tungstène), Verrières-en-Anjou (Maine-et-Loire), croissance de 15-20 %/an. Patrick Démots (dirigeant depuis 2010) a cédé l'entreprise à un repreneur indépendant épaulé par trois cadres de l'entreprise, hors tout groupe acquéreur : transition récente, moment propice pour le nouveau dirigeant d'associer à son tour ses cadres clés au capital.
-- Statut : nouveau
+- Statut : brouillon cree
 
 - Entreprise : Le Coadou SAS
 - Dirigeant : Valérie Goossens (nouvelle dirigeante, par ailleurs gérante de JET Productions et CAP2TECH), succède à la famille Le Coadou
@@ -1014,21 +1014,21 @@ Note technique : la collecte du jour a été menee via 4 agents de recherche par
 - Contact : chateau@pourcieux.com
 - Source : https://la-provence-verte.net/activites/terroir-pourcieux-chateau-de-pourcieux_167.html
 - Pourquoi : Domaine viticole familial indépendant du Var (AOP Côtes de Provence / Côtes de Provence Sainte-Victoire), propriété de la famille d'Espagnet depuis 1760. Les 7e et 8e générations, Michel d'Espagnet et ses enfants Alix et Rémi, se partagent déjà la direction du domaine : signal de transmission familiale en cours, PME agricole/viticole indépendante sans groupe acheteur. Information basée sur un extrait de recherche.
-- Statut : nouveau
+- Statut : brouillon cree
 
 - Entreprise : Vignobles Famille Quiot (Maison Quiot)
 - Dirigeant : Florence Quiot
 - Contact : vignoblesfamillequiot@gmail.com
 - Source : https://www.echodumardi.com/?p=23068
 - Pourquoi : Domaine viticole familial indépendant de Châteauneuf-du-Pape (13e génération de vignerons depuis 1748, PACA). Florence Quiot, fille du fondateur Jérôme Quiot, vient de lancer en 2026 un projet baptisé « Mère & Fille » avec sa propre fille Nolwenn Quiot : signal explicite et récent de transmission familiale en cours vers la génération suivante.
-- Statut : nouveau
+- Statut : brouillon cree
 
 - Entreprise : Festilight (Festigroup)
 - Dirigeant : Pierre Maroilley et Matthieu Canu (fils et gendre), succèdent à Didier Maroilley
 - Contact : contact@festilight.fr (domaine deduit d'un document technique mentionnant une adresse en @festilight.fr ; un autre annuaire tiers cite plutôt festilight.com, à vérifier avant envoi)
 - Source : https://www.lejournaldesentreprises.com/article/apres-une-transmission-familiale-laubois-festilight-vise-une-croissance-perenne-et-stable-2112332
 - Pourquoi : Fabricant de décorations lumineuses (groupe Festigroup), Villechétif (Aube, Grand Est), environ 85 salariés. Transmission familiale récente (fin 2024) de Didier Maroilley vers son fils et son gendre, qui visent désormais une croissance pérenne : nouvelle génération aux commandes d'une PME indépendante, moment propice pour structurer la fidélisation des cadres clés via une AGA.
-- Statut : nouveau
+- Statut : brouillon cree
 
 - Entreprise : Herrmann TP
 - Dirigeant : Marc Hatt (nouveau directeur général) et Julien Weinling, succèdent à Eric Herrmann
@@ -1049,7 +1049,7 @@ Note technique : la collecte du jour a été menee via 4 agents de recherche par
 - Contact : contact@dullac.fr (domaine déduit d'une adresse de contact affichée dans un avis de marché public BOAMP)
 - Source : https://www.lejournaldesentreprises.com/breve/changement-de-capitaine-la-tete-de-lentreprise-varoise-dullac-2135253
 - Pourquoi : PME varoise de marquage publicitaire et sérigraphie (La Garde), 30 salariés, 4,5 M€ de CA. Après 23 ans à la tête de l'entreprise, le fondateur a cédé la direction à deux repreneurs indépendants (hors tout groupe) : transition de dirigeant récente, les nouveaux dirigeants sont des cibles naturelles pour fidéliser l'équipe en place via une AGA.
-- Statut : nouveau
+- Statut : brouillon cree
 
 Total du jour : 6 leads.
 
@@ -1062,28 +1062,28 @@ Note technique : journée exceptionnellement difficile malgré un tres grand nom
 - Contact : contact@helen.fr (domaine officiel helen.fr ; une adresse plus précise, vramos@helen.fr, apparaît dans un annuaire tiers pour le contact commercial)
 - Source : https://www.lejournaldesentreprises.com/article/apres-la-transmission-familiale-helen-traiteur-veut-maintenir-une-croissance-annuelle-de-10-2097955
 - Pourquoi : Traiteur événementiel familial fondé en 1959 à Morières-lès-Avignon (Vaucluse), 90 salariés, 13,5 M€ de CA. Transmission familiale à la 3e génération tout juste achevée (le père a définitivement transmis la présidence à son fils) : entreprise restée totalement indépendante, moment clé pour associer les cadres clés à la suite.
-- Statut : nouveau
+- Statut : brouillon cree
 
 - Entreprise : Maison Goustine (ex-Jean David Traiteur)
 - Dirigeant : Jean-David Cohen (fondateur) ; Arnaud Tescari (directeur général, nouvel associé) et Romain Arnone (chef exécutif, nouvel associé)
 - Contact : contact@maisongoustine.fr (domaine officiel déduit, maisongoustine.fr)
 - Source : https://www.lejournaldesentreprises.com/breve/la-pme-marseillaise-jean-david-traiteur-devient-maison-goustine-et-accueille-deux-nouveaux-associes-2137479
 - Pourquoi : Traiteur événementiel marseillais (environ 15 salariés, quelques M€ de CA). Le fondateur associe deux cadres clés (directeur général et chef exécutif) au tour de table et renomme l'entreprise pour préparer son avenir sans lui être personnellement associé : signal direct d'association de profils clés au capital en amont d'une transmission.
-- Statut : nouveau
+- Statut : brouillon cree
 
 - Entreprise : Biscuiterie Jeannette
 - Dirigeant : Benoît Martinet (ex-directeur général depuis 2019, devenu président et actionnaire majoritaire le 4 décembre 2025)
 - Contact : contact@jeannette1850.com (domaine officiel déduit, jeannette1850.com)
 - Source : https://www.lejournaldesentreprises.com/article/benoit-martinet-dg-de-la-biscuiterie-jeannette-rachete-lentreprise-pour-faire-voyager-les-madeleines-2133200
 - Pourquoi : Biscuiterie artisanale normande à Colombelles (Calvados), 23 salariés, 4,6 M€ de CA. Le directeur général a racheté l'entreprise à son actionnaire historique (passation officialisée le 4 décembre 2025) et en est devenu actionnaire majoritaire : exemple direct d'un cadre clé associé au capital lors d'une transmission, entreprise restée indépendante.
-- Statut : nouveau
+- Statut : brouillon cree
 
 - Entreprise : Ruban Bleu
 - Dirigeant : Côme de Veyrinas (a succédé à son père Thibault de Veyrinas)
 - Contact : contact@rubanbleu.com (domaine officiel déduit, rubanbleu.com)
 - Source : https://www.lejournaldesentreprises.com/article/come-de-veyrinas-succede-son-pere-la-tete-du-fabricant-de-bateaux-electriques-ruban-bleu-2125659
 - Pourquoi : Fabricant de bateaux électriques à Vigneux-de-Bretagne, près de Nantes (8 salariés, taille légèrement inférieure à la cible 10-150 mais PME indépendante pertinente), 2 M€ de CA. Transmission familiale récente (juillet 2025) : le fils succède au père après 19 ans à la tête de l'entreprise, capital désormais 100 % familial, nouveau dirigeant en phase de lancement de nouveaux projets de développement.
-- Statut : nouveau
+- Statut : brouillon cree
 
 Total du jour : 4 leads.
 
@@ -1124,7 +1124,7 @@ Note technique : volume fortement réduit aujourd'hui. Le lancement initial de c
 - Contact : contact@badt-levage.com (déduit du domaine officiel badt-levage.com)
 - Source : https://www.lejournaldesentreprises.com/article/xavier-laurence-reprend-lentreprise-familiale-badt-levage-et-ambitionne-de-setendre-2094940
 - Pourquoi : PME de systèmes de levage (ponts roulants, palans) à Grand-Quevilly (Seine-Maritime), 21 salariés, 4,4 M€ de CA. Transmission familiale récente : le fils, entré dans l'entreprise dix ans plus tôt comme chargé d'affaires, en a repris les commandes.
-- Statut : nouveau
+- Statut : brouillon cree
 
 - Entreprise : Akris Group (site historique Sumca)
 - Dirigeant : Trevor Hird (directeur général) et deux autres directeurs, devenus actionnaires majoritaires
@@ -1193,7 +1193,7 @@ Note technique : l'opérateur "site:" s'est révélé largement inopérant aujou
 - Contact : contact@makibell.com (déduit du domaine officiel makibell.com)
 - Source : https://www.cfnews.net/L-actualite/LBO/Operations/MBI/Ker-Kibell-se-parfume-au-MBI-primaire-527261
 - Pourquoi : Fabricant breton de cosmétiques artisanaux (Trémuson, Côtes-d'Armor), environ 4 M€ de CA, une vingtaine de magasins en Bretagne. Reprise indépendante récente par un couple de primo-entrepreneurs (MBI), 15 ans après la création de l'entreprise, hors tout groupe cosmétique concurrent.
-- Statut : nouveau
+- Statut : brouillon cree
 
 Total du jour : 8 leads.
 
@@ -1206,7 +1206,7 @@ Note technique : journée particulièrement difficile pour la recherche de leads
 - Contact : contact@renocare.fr (déduit du domaine officiel renocare.fr)
 - Source : https://www.cfnews.net/L-actualite/LBO/Operations/MBI/Renocare-confie-ses-cles-a-un-search-fund-726199
 - Pourquoi : PME de couverture et rénovation de toitures au Pays Basque et dans les Landes (Bayonne), fondée en 2017. Reprise indépendante récente (MBI via search fund, 3 août 2026), hors tout groupe du bâtiment : moment clé pour le repreneur d'associer les équipes clés à la suite de l'opération.
-- Statut : nouveau
+- Statut : brouillon cree
 
 - Entreprise : Huard (Établissements Huard)
 - Dirigeant : cédant Frédéric Huard (fils du fondateur) ; repreneur ex-cadre de TotalEnergies, nom non confirmé dans les extraits
@@ -1241,7 +1241,7 @@ Note technique : journée particulièrement difficile pour la recherche de leads
 - Contact : info@francecollectivites.fr (trouvé via annuaire tiers, à confirmer sur francecollectivites.fr)
 - Source : https://www.cfnews.net/L-actualite/LBO/Operations/MBO/France-Collectivites-soigne-sa-transmission-723304
 - Pourquoi : Distributeur francilien (Frépillon, Val-d'Oise) de dispositifs médicaux de marques premium, environ 35 M€ de CA. Transmission du fondateur vers une équipe de direction via un MBO permettant à plusieurs cadres clés de reprendre une partie du capital (fin juin 2026) : signal quasi direct d'association des cadres clés au capital. Point de vigilance : effectif précis non confirmé (CA élevé pour un distributeur), à qualifier avant approche commerciale pour vérifier le respect du seuil de 150 salariés.
-- Statut : nouveau
+- Statut : brouillon cree
 
 - Entreprise : Minelec
 - Dirigeant : non trouvé (repris par un duo de dirigeants)
@@ -1255,6 +1255,6 @@ Note technique : journée particulièrement difficile pour la recherche de leads
 - Contact : contact@asselin.fr (déduit du domaine officiel asselin.fr)
 - Source : https://www.cfnews.net/L-actualite/Build-up/Asselin-charpente-sa-transmission-710234
 - Pourquoi : PME de Thouars (Deux-Sèvres) spécialisée dans la charpente, menuiserie et ébénisterie pour la restauration du patrimoine historique (constructeur de la frégate l'Hermione), environ 14-17 M€ de CA. Le dirigeant, sans successeur parmi ses quatre enfants, anticipe sa transmission (juin 2026) vers un investisseur indépendant. Point de vigilance : effectif selon les sources entre 99 et 199 salariés, à vérifier précisément avant approche commerciale pour confirmer le respect du seuil de 150 salariés.
-- Statut : nouveau
+- Statut : brouillon cree
 
 Total du jour : 8 leads.
