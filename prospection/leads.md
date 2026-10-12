@@ -1196,3 +1196,65 @@ Note technique : l'opérateur "site:" s'est révélé largement inopérant aujou
 - Statut : nouveau
 
 Total du jour : 8 leads.
+
+## 2026-10-12
+
+Note technique : journée particulièrement difficile pour la recherche de leads individualisés. Plus de 90 requêtes WebSearch ont été menées sur des angles variés (presse économique régionale par département, BODACC, pharmacies/concessions auto/cabinets de courtage indépendants, offres d'emploi "succession dirigeant", posts LinkedIn via WebSearch, lauréats Réseau Entreprendre/Initiative France). La quasi-totalité de ces requêtes n'a renvoyé que des études macro-économiques génériques sur la transmission d'entreprise (Bpifrance, plan "Objectif Reprises", pacte Papin, baromètres EY/Grant Thornton) sans jamais nommer d'entreprise précise, ou des articles trop anciens (parfois détectés via l'identifiant interne des articles cfnews.net, qui a permis d'écarter par prudence plusieurs pistes non datées ou dont la date s'est révélée ancienne : Bilcocq Duval confirmé daté de 2022 malgré une formulation au présent, Cabi-Caillol et La Faïencerie de Charolles non datables avec certitude, BEB non daté avec certitude, AGS avec une date affichée incohérente avec les métadonnées de la page — toutes écartées). Le filon qui a fini par fonctionner est la rubrique MBI/MBO de cfnews.net, qui recense des reprises indépendantes récentes (hors tout groupe concurrent) datées et vérifiables. Volume du jour réduit en conséquence : 8 leads au lieu des ~25 visés, aucune transaction déjà finalisée par un groupe concurrent ni aucun lead non vérifiable n'ayant été forcé pour combler le volume.
+
+- Entreprise : Renocare
+- Dirigeant : non trouvé (repreneur via search fund, nom non confirmé dans les extraits)
+- Contact : contact@renocare.fr (déduit du domaine officiel renocare.fr)
+- Source : https://www.cfnews.net/L-actualite/LBO/Operations/MBI/Renocare-confie-ses-cles-a-un-search-fund-726199
+- Pourquoi : PME de couverture et rénovation de toitures au Pays Basque et dans les Landes (Bayonne), fondée en 2017. Reprise indépendante récente (MBI via search fund, 3 août 2026), hors tout groupe du bâtiment : moment clé pour le repreneur d'associer les équipes clés à la suite de l'opération.
+- Statut : nouveau
+
+- Entreprise : Huard (Établissements Huard)
+- Dirigeant : cédant Frédéric Huard (fils du fondateur) ; repreneur ex-cadre de TotalEnergies, nom non confirmé dans les extraits
+- Contact : non trouvé, voir source
+- Source : https://www.cfnews.net/L-actualite/LBO/Operations/MBI/Le-courant-passe-entre-Huard-et-un-repreneur-721028
+- Pourquoi : PME francilienne de génie électrique, climatique et services multi-techniques du bâtiment (Bièvres, Essonne), environ 11 M€ de CA, plus de 50 ans d'existence. Transmission familiale (2e génération) vers un repreneur indépendant en MBI (9 juillet 2026), hors tout groupe du BTP.
+- Statut : nouveau
+
+- Entreprise : Patry (Patry Groupe)
+- Dirigeant : Laurence Patry (dirigeante sortante depuis 30 ans, petite-fille du fondateur) ; nouveau dirigeant externe Louis Vandamme, adossé au fonds lyonnais Origine Partners
+- Contact : non trouvé, voir source
+- Source : https://www.cfnews.net/L-actualite/LBO/Operations/MBI/Patry-sur-les-rails-d-un-MBI-738122
+- Pourquoi : PME familiale francilienne (Paris) de translation de charges sur rails et manutention ferroviaire, environ 10 M€ de CA, plus de 65 ans d'existence. Transmission après trois générations d'actionnariat familial vers un dirigeant externe en MBI (29 septembre 2026) : moment de transition propice à une démarche d'association des cadres clés au capital.
+- Statut : nouveau
+
+- Entreprise : Smap (Smap Peinture)
+- Dirigeant : cédant non nommé dans les extraits ; repreneur Gautier Sinniger, associé à deux fonds
+- Contact : non trouvé, voir source
+- Source : https://www.cfnews.net/L-actualite/LBO/Operations/MBI/Smap-s-applique-un-MBI-729094
+- Pourquoi : PME bretonne de peinture, revêtements sols/murs et ravalement de façade, environ 6 M€ de CA. Cession récente par son dirigeant à un repreneur indépendant en MBI (1er juillet 2026), hors tout groupe du bâtiment.
+- Statut : nouveau
+
+- Entreprise : Groupe FMC
+- Dirigeant : non trouvé
+- Contact : non trouvé, voir source
+- Source : https://www.cfnews.net/L-actualite/LBO/Operations/MBI/Groupe-FMC-ventile-son-tour-de-table-747059
+- Pourquoi : PME girondine d'installation et de maintenance de systèmes de chauffage, climatisation et ventilation, environ 14 M€ de CA. Opération récente de MBI (tour de table, courant octobre 2026), hors tout groupe concurrent du secteur. Point de vigilance : effectif précis non confirmé, à qualifier avant approche commerciale.
+- Statut : nouveau
+
+- Entreprise : France Collectivités
+- Dirigeant : Cyril Haëntjens (fondateur en 2000, dirigeant sortant après plus de 25 ans) ; nouvelle dirigeante Anna Liemethong
+- Contact : info@francecollectivites.fr (trouvé via annuaire tiers, à confirmer sur francecollectivites.fr)
+- Source : https://www.cfnews.net/L-actualite/LBO/Operations/MBO/France-Collectivites-soigne-sa-transmission-723304
+- Pourquoi : Distributeur francilien (Frépillon, Val-d'Oise) de dispositifs médicaux de marques premium, environ 35 M€ de CA. Transmission du fondateur vers une équipe de direction via un MBO permettant à plusieurs cadres clés de reprendre une partie du capital (fin juin 2026) : signal quasi direct d'association des cadres clés au capital. Point de vigilance : effectif précis non confirmé (CA élevé pour un distributeur), à qualifier avant approche commerciale pour vérifier le respect du seuil de 150 salariés.
+- Statut : nouveau
+
+- Entreprise : Minelec
+- Dirigeant : non trouvé (repris par un duo de dirigeants)
+- Contact : non trouvé, voir source
+- Source : https://www.cfnews.net/L-actualite/LBO/Operations/MBI/Minelec-embarque-un-MBI-720582
+- Pourquoi : PME rennaise de réparation et maintenance d'électronique embarquée pour véhicules (agricole, poids lourds, travaux publics), fondée en 1998. Reprise récente par un duo de dirigeants en MBI (avril 2026), hors tout groupe concurrent.
+- Statut : nouveau
+
+- Entreprise : Asselin
+- Dirigeant : François Asselin (président, env. 62 ans, dirigeant depuis 1993, entreprise fondée par son père en 1957)
+- Contact : contact@asselin.fr (déduit du domaine officiel asselin.fr)
+- Source : https://www.cfnews.net/L-actualite/Build-up/Asselin-charpente-sa-transmission-710234
+- Pourquoi : PME de Thouars (Deux-Sèvres) spécialisée dans la charpente, menuiserie et ébénisterie pour la restauration du patrimoine historique (constructeur de la frégate l'Hermione), environ 14-17 M€ de CA. Le dirigeant, sans successeur parmi ses quatre enfants, anticipe sa transmission (juin 2026) vers un investisseur indépendant. Point de vigilance : effectif selon les sources entre 99 et 199 salariés, à vérifier précisément avant approche commerciale pour confirmer le respect du seuil de 150 salariés.
+- Statut : nouveau
+
+Total du jour : 8 leads.
