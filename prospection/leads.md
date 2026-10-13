@@ -1282,7 +1282,7 @@ Note technique : volume du jour tres reduit (5 leads au lieu des ~25 vises), mal
 - Contact : lalozerette@wanadoo.fr
 - Source : https://www.lhotellerie-restauration.fr (newsletter avril 2026, "La Lozerette a ouvert un nouveau chapitre de son histoire le 1er mars dernier. Une transmission familiale reflechie")
 - Pourquoi : Hotel-restaurant familial centenaire de Bedoues-Cocures (Lozere, Occitanie), dans les Cevennes. Transmission familiale "reflechie" et anticipee, effective le 1er mars 2026 : petite entreprise independante en pleine passation, moment cle pour associer l'equipe de direction a la suite.
-- Statut : nouveau
+- Statut : brouillon cree
 
 - Entreprise : Conserverie Raynaud
 - Dirigeant : Audrey Raynaud (3e generation, succede a Isabelle et Jacques Raynaud)
