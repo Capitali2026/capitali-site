@@ -1258,3 +1258,44 @@ Note technique : journée particulièrement difficile pour la recherche de leads
 - Statut : brouillon cree
 
 Total du jour : 8 leads.
+
+## 2026-10-13
+
+Note technique : volume du jour tres reduit (5 leads au lieu des ~25 vises), malgre plus de 80 requetes WebSearch testees sur de tres nombreux angles (presse economique regionale par departement et par secteur - BTP, industrie, agroalimentaire, sante, commerce, services, nettoyage, transport sanitaire, funeraire, concession automobile, boulangerie -, La Gazette France, CFNews, Le Monde du Droit, trophees regionaux de la transmission, recherches LinkedIn via site:linkedin.com/posts). Deux facteurs expliquent cette baisse : (1) Le Journal des Entreprises, source principale des jours precedents, est en redressement judiciaire depuis fin mai 2026 et a ete repris par Overlord Group en juillet 2026 sans sa redaction permanente (35 journalistes non repris), ce qui a fortement reduit le nombre de breves nommant des PME precises et recentes trouvables via WebSearch aujourd'hui. (2) Le filtre d'exclusion stricte des transactions deja finalisees (rachat par un groupe) a ecarte la grande majorite des signaux trouves aujourd'hui (ex. Eldim/Cema Technologies, Armor Nettoyage, Chapelu Freres/MBI, Le Roy Logistique) ou la taille depassait le seuil de 150 salaries (Groupe Polmar ~200-280 salaries, Groupe Rampa ~600 salaries groupe/280 filiale TP, Paul Lhotellier/groupe normand ~1700 salaries, Groupe Cougnaud ~1500 salaries, Groupe Wattez effectif incertain mais probablement superieur a 150). Seuls les 5 leads ci-dessous respectent strictement l'ensemble des criteres (PME francaise independante de taille adequate, transaction pas encore finalisee, signal recent et verifiable).
+
+- Entreprise : Issipa
+- Dirigeant : Olivier Bidaut (president d'honneur, a cede ses parts) ; Paul Bidaut (directeur general) et Simon Bidaut (directeur general adjoint)
+- Contact : non trouve, voir source
+- Source : https://www.lagazettefrance.fr/article/aisne-le-groupe-issipa-transmis-a-la-nouvelle-generation
+- Pourquoi : Groupe de negoce agricole et viticole (six filiales, environ 60 collaborateurs), base a Monceau-le-Waast (Aisne, Hauts-de-France). Transmission familiale effective le 1er juillet 2026 : le fondateur a officiellement cede ses parts a ses deux fils, qui dirigent desormais le groupe. Entreprise toujours independante, aucun rachat par un groupe exterieur.
+- Statut : nouveau
+
+- Entreprise : Chapuis Freres
+- Dirigeant : non trouve
+- Contact : non trouve, voir source
+- Source : https://info.fr/dijon-trophees-entreprises-cote-dor-2026-laureats-11-entreprises/
+- Pourquoi : PME familiale de Saint-Marc-sur-Seine (Cote-d'Or, Bourgogne-Franche-Comte), revendeur-reparateur de materiel de traite (10 a 19 salaries selon une offre d'emploi recente), fondee en 1895. Primee dans la categorie transmission d'entreprise aux Trophees des entreprises de Cote-d'Or, 11e edition, le 8 juin 2026 : signal direct de transmission familiale en cours, entreprise toujours independante.
+- Statut : nouveau
+
+- Entreprise : La Lozerette
+- Dirigeant : non trouve (famille proprietaire depuis 1926, exploitation sur trois generations)
+- Contact : lalozerette@wanadoo.fr
+- Source : https://www.lhotellerie-restauration.fr (newsletter avril 2026, "La Lozerette a ouvert un nouveau chapitre de son histoire le 1er mars dernier. Une transmission familiale reflechie")
+- Pourquoi : Hotel-restaurant familial centenaire de Bedoues-Cocures (Lozere, Occitanie), dans les Cevennes. Transmission familiale "reflechie" et anticipee, effective le 1er mars 2026 : petite entreprise independante en pleine passation, moment cle pour associer l'equipe de direction a la suite.
+- Statut : nouveau
+
+- Entreprise : Conserverie Raynaud
+- Dirigeant : Audrey Raynaud (3e generation, succede a Isabelle et Jacques Raynaud)
+- Contact : non trouve, voir source
+- Source : https://www.vaucluse.fr/information-transversale/actualites-109/conserverie-raynaud-des-petits-plats-dans-les-boites-9552/
+- Pourquoi : Conserverie artisanale familiale de plats cuisines et sauces (10 a 19 salaries), Pernes-les-Fontaines (Vaucluse, PACA), fondee en 1954. Transmission intrafamiliale a la troisieme generation, Audrey Raynaud ayant pris la direction depuis environ un an (article de juin 2025) : entreprise toujours independante, transmission recente et en cours de consolidation.
+- Statut : nouveau
+
+- Entreprise : H. Reynaud Fils
+- Dirigeant : non trouve (actionnaires familiaux, cinquieme generation) ; Gabriel Lalande nomme directeur general pour assurer la continuite manageriale
+- Contact : non trouve, voir source
+- Source : https://www.lemondedudroit.fr/deals/97741-bblm-avocats-accompagne-les-actionnaires-du-groupe-familial-h-reynaud-fils-dans-la-mise-en-place-de-leur-strategie-de-transmission-a-la-cinquieme-generation.html
+- Pourquoi : Groupe familial drômois (Montbrun-les-Bains, Auvergne-Rhone-Alpes), leader francais de la production et du negoce d'huiles essentielles (filiale operationnelle de 50 a 99 salaries, 62 M€ de CA), fonde en 1898. Les actionnaires familiaux viennent de structurer, avec l'appui d'un cabinet d'avocats, leur strategie de transmission a la cinquieme generation via un OBO primaire destine a assurer l'avenir du groupe en toute independance : signal direct de transmission familiale anticipee, entreprise non rachetee par un groupe concurrent.
+- Statut : nouveau
+
+Total du jour : 5 leads.
