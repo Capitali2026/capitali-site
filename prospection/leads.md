@@ -1375,7 +1375,7 @@ Note technique : cinquieme journee consecutive a un volume tres faible. Pour ela
 - Contact : contact@beillevaire.com (deduit du domaine officiel fromagerie-beillevaire.com / beillevaire.com ; une adresse visite@beillevaire.com destinee aux visites touristiques a egalement ete trouvee dans des extraits d'offices de tourisme)
 - Source : https://www.lejournaldesentreprises.com/article/la-succession-saffine-la-fromagerie-beillevaire-1580081
 - Pourquoi : Transmission familiale en cours a la tete de cette fromagerie artisanale independante : le fondateur a transmis la direction operationnelle a son fils Fabrice, et un second fils (Mathieu) vient d'integrer l'entreprise. Point de vigilance avant approche : un article distinct evoque aussi une ouverture minoritaire du capital a Unigrains (partenaire financier, pas une prise de controle par un groupe concurrent), a verifier plus en detail. Information tiree d'extraits de recherche, sans lecture complete des articles.
-- Statut : nouveau
+- Statut : brouillon cree
 
 - Entreprise : Chateau Castelneau (Entre-deux-Mers, Gironde)
 - Dirigeant : Loic de Roquefeuil (proprietaire-exploitant depuis 1988)
