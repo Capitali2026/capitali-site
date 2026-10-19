@@ -1397,7 +1397,7 @@ Note technique : la veille a ete menee via 8 agents de recherche lances en deux 
 - Contact : contact@pff-facades.com (domaine trouve via un annuaire professionnel tiers, a confirmer ; aucune adresse plus precise trouvee)
 - Source : https://www.lejournaldesentreprises.com/article/soutenu-par-son-academie-et-sur-un-marche-porteur-pff-facade-se-prepare-accelerer-2106950
 - Pourquoi : PME de facade/isolation thermique (BTP) de 80 salaries a Norroy-le-Veneur (Moselle, Grand Est). Le dirigeant evoque un marche en croissance freine par le manque de main-d'oeuvre qualifiee, au point d'avoir cree sa propre ecole de formation interne (PFF Academy) : signal de tension de recrutement/fidelisation. Information tiree d'extraits d'articles, sans lecture complete.
-- Statut : nouveau
+- Statut : brouillon cree
 
 - Entreprise : MovNtec
 - Dirigeant : non trouve (un co-dirigeant est cite dans l'extrait mais son nom n'apparait pas)
@@ -1411,7 +1411,7 @@ Note technique : la veille a ete menee via 8 agents de recherche lances en deux 
 - Contact : jean.gaubert12@wanadoo.fr (adresse citee dans l'article avec le numero de telephone de l'officine)
 - Source : https://www.lequotidiendupharmacien.fr/gestion-de-lofficine/officine-aveyronnaise-cherche-repreneur
 - Pourquoi : titulaire depuis 37 ans d'une officine fondee en 1836 a Saint-Sernin-sur-Rance (Aveyron, Occitanie, pharmacie la plus proche a 20 km), elle cherche un successeur sans succes a ce jour : signal de retraite sans repreneur identifie. Information tiree d'un extrait d'article, sans lecture complete.
-- Statut : nouveau
+- Statut : brouillon cree
 
 - Entreprise : Pharmacie Chivit
 - Dirigeant : Martine Chivit
@@ -1425,14 +1425,14 @@ Note technique : la veille a ete menee via 8 agents de recherche lances en deux 
 - Contact : contact@adampack.com (domaine deduit d'une fiche entreprises.gouv.fr/Usine Nouvelle ; aucune adresse plus precise trouvee)
 - Source : https://www.lejournaldesentreprises.com/article/le-pdg-dadam-jean-charles-rinn-espere-donner-la-majorite-du-capital-de-sa-pme-un-fonds-de-dotation-2109148
 - Pourquoi : dirigeant fondateur (racheteur en 1996, LBO en 2009) qui a deja transfere 25 % du capital de sa caisserie (bois pour vins et spiritueux, ~60-70 salaries, ~12 M EUR de CA, Sainte-Helene, Gironde) a un fonds de dotation et espere lui en donner la majorite, pour garantir la perennite de l'entreprise apres son propre depart et eviter un rachat financier externe : signal clair de preparation active d'une transmission par un dirigeant encore aux commandes. Information tiree de plusieurs extraits, sans lecture complete.
-- Statut : nouveau
+- Statut : brouillon cree
 
 - Entreprise : Cedreo (editeur du logiciel 3D SaaS pour l'architecture/renovation, Saint-Herblain, Loire-Atlantique)
 - Dirigeant : Mickael Keromnes (fondateur et gerant)
 - Contact : contact@cedreo.com (deduit des mentions legales du domaine officiel cedreo.com)
 - Source : https://www.lejournaldesentreprises.com/breve/cedreo-ouvre-son-capital-tous-ses-salaries-2054997
 - Pourquoi : temoignage direct du dirigeant sur l'attribution d'actions gratuites a l'ensemble de ses salaries (43 salaries a l'epoque de l'article, 6,5 % du capital desormais detenu par les salaries) pour les remercier et les associer au developpement de l'entreprise. PME independante, non rachetee. Information tiree d'un extrait, sans lecture complete.
-- Statut : nouveau
+- Statut : brouillon cree
 
 - Entreprise : Coperbee (ESN / conseil en informatique, Lapeyrouse-Fossat, Haute-Garonne)
 - Dirigeant : Jean Barret-Castan (fondateur et president)
@@ -1446,7 +1446,7 @@ Note technique : la veille a ete menee via 8 agents de recherche lances en deux 
 - Contact : contact@drogueriemonvoisin.fr (domaine confirme via une fiche d'accessibilite officielle)
 - Source : https://www.24matins.fr/strasbourg-un-droguiste-offre-5-000-euros-a-quiconque-laidera-a-trouver-un-repreneur-1145738
 - Pourquoi : commerce de droguerie-papeterie-electromenager a Strasbourg (Grand Est). Le gerant, proche de la retraite, n'a pas de successeur et offre 5 000 EUR de recompense a qui lui presentera un repreneur : signal de cession imminente sans repreneur identifie. Information tiree d'un extrait, sans lecture complete.
-- Statut : nouveau
+- Statut : brouillon cree
 
 - Entreprise : Pharmacie Presani (Rivehaute, Pyrenees-Atlantiques)
 - Dirigeant : Joel Presani (titulaire depuis 27 ans)
@@ -1460,7 +1460,7 @@ Note technique : la veille a ete menee via 8 agents de recherche lances en deux 
 - Contact : contact@telelogos.com
 - Source : https://www.lejournaldesentreprises.com/breve/telelogos-ouvert-son-capital-aux-salaries-370025
 - Pourquoi : PME independante (~60-65 salaries, ~7 M EUR de CA, non cotee en bourse apres verification dediee). Temoignage direct et repete : l'entreprise a ouvert son capital a l'ensemble de ses salaries en 2019, 2021 et 2024 (confirme par son propre document RSE), avec adhesion des deux tiers des collaborateurs lors de la premiere operation : signal d'actionnariat salarie fort et recurrent. Information tiree d'extraits, sans lecture complete.
-- Statut : nouveau
+- Statut : brouillon cree
 
 Conformement a la consigne de ne jamais forcer le volume en reintroduisant un lead de transaction deja finalisee, hors seuil de taille, ou hors criteres (y compris Pates Colomba, ecarte pour signal trop ambigu, et Debevre Ventilation, ecarte car cession sous contrainte judiciaire), 10 leads sont ajoutes aujourd'hui. Le constat deja documente les jours precedents se confirme : le quota WebSearch partage entre agents paralleles reste le principal facteur limitant du volume, bien plus que la disponibilite reelle de signaux sur le marche. Le lancement de 8 agents en 2 vagues sequentielles (plutot qu'une seule vague de 5) a permis de deplafonner partiellement le quota et de faire remonter le volume a 10 leads, contre 0 a 3 les jours precedents — une piste a retester et affiner pour les prochaines journees.
 
