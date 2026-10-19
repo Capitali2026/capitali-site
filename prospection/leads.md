@@ -1387,3 +1387,81 @@ Note technique : cinquieme journee consecutive a un volume tres faible. Pour ela
 Conformement a la consigne de ne jamais forcer le volume en reintroduisant un lead de transaction deja finalisee ou hors criteres (y compris la laiterie de Pamplie, exclue ici pour incompatibilite de statut juridique avec le produit Capitali), 3 leads sont ajoutes aujourd'hui. Constat a faire remonter avec insistance, pour la cinquieme journee consecutive de volume tres faible (0, 0, 1, 1, puis 3 leads du 14 au 18 octobre, loin de l'objectif de 25/jour) : le probleme semble desormais clairement structurel a cet environnement de veille (WebFetch/curl bloques vers toutes les sources externes, dependance totale a l'outil WebSearch qui renvoie majoritairement des syntheses macro/institutionnelles plutot que des breves nommant des PME precises, et degradation du Journal des Entreprises qui etait la source la plus productive jusqu'a mi-octobre). Une evolution d'outillage (acces direct aux pages sources via WebFetch, API Pappers/BODACC, ou abonnement a une source specialisee transmission/BTP) semble necessaire pour retrouver un volume proche de l'objectif.
 
 Total du jour : 3 leads.
+
+## 2026-10-19
+
+Note technique : la veille a ete menee via 8 agents de recherche lances en deux vagues de 5 puis 3 (par secteur/region/type de signal), chacune se heurtant a un quota WebSearch partage par tour (200 appels, partage entre tous les agents actifs simultanement) qui s'est epuise avant la fin de chaque vague, limitant fortement l'approfondissement de chaque piste. La grande majorite des pistes rencontrees ont ete ecartees : annonces anonymisees sans nom d'entreprise ni dirigeant (portails France Travail/UIMM/Transentreprise, tres frequentes sur les signaux retraite/cession en commerce et restauration), transactions deja finalisees (Eldim/Cema Technologies, K France/Sparring Capital, Embalsace, Delaboudiniere/Myrium), entreprises hors seuil de taille (Charier, Fidel Fillaud, Groupe Idea, Groupe Mousset), ou signal trop faible/ambigu (ouverture de capital a un investisseur minoritaire sans lien avec une transmission ou une fidelisation salariale). Un lead (Debevre Ventilation, filiale du Groupe AH) a egalement ete ecarte malgre un signal de recherche de repreneur car la societe est en redressement judiciaire : il s'agit d'une cession sous contrainte judiciaire plutot que d'une demarche volontaire de valorisation avant transmission, hors du positionnement de Capitali. 10 leads conformes aux criteres stricts ont pu etre valides et sont ajoutes ci-dessous.
+
+- Entreprise : PFF Façade
+- Dirigeant : David Arslan (president)
+- Contact : contact@pff-facades.com (domaine trouve via un annuaire professionnel tiers, a confirmer ; aucune adresse plus precise trouvee)
+- Source : https://www.lejournaldesentreprises.com/article/soutenu-par-son-academie-et-sur-un-marche-porteur-pff-facade-se-prepare-accelerer-2106950
+- Pourquoi : PME de facade/isolation thermique (BTP) de 80 salaries a Norroy-le-Veneur (Moselle, Grand Est). Le dirigeant evoque un marche en croissance freine par le manque de main-d'oeuvre qualifiee, au point d'avoir cree sa propre ecole de formation interne (PFF Academy) : signal de tension de recrutement/fidelisation. Information tiree d'extraits d'articles, sans lecture complete.
+- Statut : nouveau
+
+- Entreprise : MovNtec
+- Dirigeant : non trouve (un co-dirigeant est cite dans l'extrait mais son nom n'apparait pas)
+- Contact : non trouve, voir source
+- Source : https://www.lejournaldesentreprises.com/article/avec-larrivee-des-gigafactories-le-recrutement-suivra-t-il-dans-les-hauts-de-france-2077148
+- Pourquoi : PME industrielle basee a Ruitz (Pas-de-Calais, Hauts-de-France), laureate du Grand Prix des Trophees de l'Industrie. Un co-dirigeant temoigne avoir mis pres de dix mois a recruter un acheteur et evoque des difficultes similaires sur des postes RH, finance et maintenance : signal de tension de recrutement. Information tiree d'un extrait, article complet non lu (probablement payant).
+- Statut : nouveau
+
+- Entreprise : Officine de Saint-Sernin-sur-Rance (Pharmacie Gaubert)
+- Dirigeant : Martine Gaubert
+- Contact : jean.gaubert12@wanadoo.fr (adresse citee dans l'article avec le numero de telephone de l'officine)
+- Source : https://www.lequotidiendupharmacien.fr/gestion-de-lofficine/officine-aveyronnaise-cherche-repreneur
+- Pourquoi : titulaire depuis 37 ans d'une officine fondee en 1836 a Saint-Sernin-sur-Rance (Aveyron, Occitanie, pharmacie la plus proche a 20 km), elle cherche un successeur sans succes a ce jour : signal de retraite sans repreneur identifie. Information tiree d'un extrait d'article, sans lecture complete.
+- Statut : nouveau
+
+- Entreprise : Pharmacie Chivit
+- Dirigeant : Martine Chivit
+- Contact : non trouve, voir source
+- Source : https://www.lequotidiendupharmacien.fr/un-depart-la-retraite-menace
+- Pourquoi : titulaire de 64 ans a Saint-Leon-sur-l'Isle (Dordogne, Nouvelle-Aquitaine), souhaitait partir en retraite sans avoir trouve de repreneur : signal de retraite sans succession. Point de vigilance : article date de 2023, situation a reverifier avant approche (resolution ou fermeture possibles depuis). Information tiree d'un extrait, sans lecture complete.
+- Statut : nouveau
+
+- Entreprise : Adam (caisserie Adam / Adampack)
+- Dirigeant : Jean-Charles Rinn (PDG et actionnaire unique avec son epouse Helene Rinn)
+- Contact : contact@adampack.com (domaine deduit d'une fiche entreprises.gouv.fr/Usine Nouvelle ; aucune adresse plus precise trouvee)
+- Source : https://www.lejournaldesentreprises.com/article/le-pdg-dadam-jean-charles-rinn-espere-donner-la-majorite-du-capital-de-sa-pme-un-fonds-de-dotation-2109148
+- Pourquoi : dirigeant fondateur (racheteur en 1996, LBO en 2009) qui a deja transfere 25 % du capital de sa caisserie (bois pour vins et spiritueux, ~60-70 salaries, ~12 M EUR de CA, Sainte-Helene, Gironde) a un fonds de dotation et espere lui en donner la majorite, pour garantir la perennite de l'entreprise apres son propre depart et eviter un rachat financier externe : signal clair de preparation active d'une transmission par un dirigeant encore aux commandes. Information tiree de plusieurs extraits, sans lecture complete.
+- Statut : nouveau
+
+- Entreprise : Cedreo (editeur du logiciel 3D SaaS pour l'architecture/renovation, Saint-Herblain, Loire-Atlantique)
+- Dirigeant : Mickael Keromnes (fondateur et gerant)
+- Contact : contact@cedreo.com (deduit des mentions legales du domaine officiel cedreo.com)
+- Source : https://www.lejournaldesentreprises.com/breve/cedreo-ouvre-son-capital-tous-ses-salaries-2054997
+- Pourquoi : temoignage direct du dirigeant sur l'attribution d'actions gratuites a l'ensemble de ses salaries (43 salaries a l'epoque de l'article, 6,5 % du capital desormais detenu par les salaries) pour les remercier et les associer au developpement de l'entreprise. PME independante, non rachetee. Information tiree d'un extrait, sans lecture complete.
+- Statut : nouveau
+
+- Entreprise : Coperbee (ESN / conseil en informatique, Lapeyrouse-Fossat, Haute-Garonne)
+- Dirigeant : Jean Barret-Castan (fondateur et president)
+- Contact : non trouve, voir source (domaine officiel probable coperbee.fr non confirme avec certitude)
+- Source : https://www.lejournaldesentreprises.com/article/coperbee-parie-sur-lorganisation-horizontale-pour-seduire-ses-salaries-418640
+- Pourquoi : le dirigeant a ouvert 30 % du capital de l'entreprise a ses salaries dans une logique explicite de fidelisation et d'organisation horizontale (38 a 52 salaries selon les sources, ~1,6 M EUR de CA) : temoignage direct. PME independante, non rachetee. Information tiree de plusieurs extraits, sans lecture complete.
+- Statut : nouveau
+
+- Entreprise : Droguerie Monvoisin
+- Dirigeant : Jean-Francois Feldmann (gerant)
+- Contact : contact@drogueriemonvoisin.fr (domaine confirme via une fiche d'accessibilite officielle)
+- Source : https://www.24matins.fr/strasbourg-un-droguiste-offre-5-000-euros-a-quiconque-laidera-a-trouver-un-repreneur-1145738
+- Pourquoi : commerce de droguerie-papeterie-electromenager a Strasbourg (Grand Est). Le gerant, proche de la retraite, n'a pas de successeur et offre 5 000 EUR de recompense a qui lui presentera un repreneur : signal de cession imminente sans repreneur identifie. Information tiree d'un extrait, sans lecture complete.
+- Statut : nouveau
+
+- Entreprise : Pharmacie Presani (Rivehaute, Pyrenees-Atlantiques)
+- Dirigeant : Joel Presani (titulaire depuis 27 ans)
+- Contact : non trouve, voir source (telephone trouve dans l'extrait : 05 59 38 68 58)
+- Source : https://www.lequotidiendupharmacien.fr/exercice-pro/un-sursis-pour-la-pharmacie-de-rivehaute
+- Pourquoi : officine rurale menacee de fermeture definitive faute de repreneur (sursis accorde jusqu'a mi-octobre 2025 pour trouver un acquereur, apres reunion avec l'ARS Nouvelle-Aquitaine et les elus locaux) : signal fort de retraite sans succession. Information tiree d'un extrait, sans lecture complete.
+- Statut : nouveau
+
+- Entreprise : Telelogos (editeur de logiciels, Beaucouze, Maine-et-Loire)
+- Dirigeant : Christophe Billaud (directeur general) ; Christophe Justeau (president)
+- Contact : contact@telelogos.com
+- Source : https://www.lejournaldesentreprises.com/breve/telelogos-ouvert-son-capital-aux-salaries-370025
+- Pourquoi : PME independante (~60-65 salaries, ~7 M EUR de CA, non cotee en bourse apres verification dediee). Temoignage direct et repete : l'entreprise a ouvert son capital a l'ensemble de ses salaries en 2019, 2021 et 2024 (confirme par son propre document RSE), avec adhesion des deux tiers des collaborateurs lors de la premiere operation : signal d'actionnariat salarie fort et recurrent. Information tiree d'extraits, sans lecture complete.
+- Statut : nouveau
+
+Conformement a la consigne de ne jamais forcer le volume en reintroduisant un lead de transaction deja finalisee, hors seuil de taille, ou hors criteres (y compris Pates Colomba, ecarte pour signal trop ambigu, et Debevre Ventilation, ecarte car cession sous contrainte judiciaire), 10 leads sont ajoutes aujourd'hui. Le constat deja documente les jours precedents se confirme : le quota WebSearch partage entre agents paralleles reste le principal facteur limitant du volume, bien plus que la disponibilite reelle de signaux sur le marche. Le lancement de 8 agents en 2 vagues sequentielles (plutot qu'une seule vague de 5) a permis de deplafonner partiellement le quota et de faire remonter le volume a 10 leads, contre 0 a 3 les jours precedents — une piste a retester et affiner pour les prochaines journees.
+
+Total du jour : 10 leads.
