@@ -1472,14 +1472,14 @@ Total du jour : 10 leads.
 - Contact : contact@louismoreau.com
 - Source : https://www.lemondedudroit.fr/deals/105900-veil-jourde-conseil-credit-agricole-domaine-louis-moreau.html
 - Pourquoi : domaine viticole independant a Chablis (Beines, Yonne), environ 20-49 salaries, 50-52 ha. Operation de financement (Credit Agricole, conseil Veil Jourde) visant explicitement a preparer la transmission familiale aux filles des dirigeants actuels (7e generation), horizon 2032 : transmission familiale a venir, dirigeants encore aux commandes. Information tiree d'extraits, sans lecture complete.
-- Statut : nouveau
+- Statut : brouillon cree
 
 - Entreprise : Les Vins J.J Bréban (LES VINS BREBAN - LVB)
 - Dirigeant : Jean-Jacques Bréban (PDG, fondateur toujours aux commandes) ; transmission en cours a ses enfants Laurent Bréban et Julie Bréban
 - Contact : julie.breban@vinsbreban.com
 - Source : https://www.lejournaldesentreprises.com/article/jean-jacques-breban-voit-la-vie-en-rose-129896
 - Pourquoi : negociant en vins de Provence base a Brignoles (Var), SAS familiale d'environ 30 salaries, 29 M EUR de CA en 2024. Transmission familiale en cours et non finalisee : le fondateur reste PDG tandis que ses deux enfants travaillent deja a ses cotes en vue de lui succeder, aucune cession a un tiers ou a un groupe n'a eu lieu.
-- Statut : nouveau
+- Statut : brouillon cree
 
 - Entreprise : Garage des Calanques
 - Dirigeant : Stéphane Corbier
