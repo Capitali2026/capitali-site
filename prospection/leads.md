@@ -1465,3 +1465,29 @@ Note technique : la veille a ete menee via 8 agents de recherche lances en deux 
 Conformement a la consigne de ne jamais forcer le volume en reintroduisant un lead de transaction deja finalisee, hors seuil de taille, ou hors criteres (y compris Pates Colomba, ecarte pour signal trop ambigu, et Debevre Ventilation, ecarte car cession sous contrainte judiciaire), 10 leads sont ajoutes aujourd'hui. Le constat deja documente les jours precedents se confirme : le quota WebSearch partage entre agents paralleles reste le principal facteur limitant du volume, bien plus que la disponibilite reelle de signaux sur le marche. Le lancement de 8 agents en 2 vagues sequentielles (plutot qu'une seule vague de 5) a permis de deplafonner partiellement le quota et de faire remonter le volume a 10 leads, contre 0 a 3 les jours precedents — une piste a retester et affiner pour les prochaines journees.
 
 Total du jour : 10 leads.
+
+## 2026-10-20
+- Entreprise : Domaine Louis Moreau
+- Dirigeant : Louis Moreau et Anne Moreau (6e generation, dirigeants actuels)
+- Contact : contact@louismoreau.com
+- Source : https://www.lemondedudroit.fr/deals/105900-veil-jourde-conseil-credit-agricole-domaine-louis-moreau.html
+- Pourquoi : domaine viticole independant a Chablis (Beines, Yonne), environ 20-49 salaries, 50-52 ha. Operation de financement (Credit Agricole, conseil Veil Jourde) visant explicitement a preparer la transmission familiale aux filles des dirigeants actuels (7e generation), horizon 2032 : transmission familiale a venir, dirigeants encore aux commandes. Information tiree d'extraits, sans lecture complete.
+- Statut : nouveau
+
+- Entreprise : Les Vins J.J Bréban (LES VINS BREBAN - LVB)
+- Dirigeant : Jean-Jacques Bréban (PDG, fondateur toujours aux commandes) ; transmission en cours a ses enfants Laurent Bréban et Julie Bréban
+- Contact : julie.breban@vinsbreban.com
+- Source : https://www.lejournaldesentreprises.com/article/jean-jacques-breban-voit-la-vie-en-rose-129896
+- Pourquoi : negociant en vins de Provence base a Brignoles (Var), SAS familiale d'environ 30 salaries, 29 M EUR de CA en 2024. Transmission familiale en cours et non finalisee : le fondateur reste PDG tandis que ses deux enfants travaillent deja a ses cotes en vue de lui succeder, aucune cession a un tiers ou a un groupe n'a eu lieu.
+- Statut : nouveau
+
+- Entreprise : Garage des Calanques
+- Dirigeant : Stéphane Corbier
+- Contact : non trouvé, voir source
+- Source : https://madeinmarseille.net/?p=210385
+- Pourquoi : garage automobile multimarque familial a La Ciotat (Bouches-du-Rhone), nouveaux locaux de 1000 m2 depuis 2025, environ une vingtaine de mecaniciens. L'article indique qu'une nouvelle generation familiale rejoint progressivement l'entreprise : transmission familiale en cours, dirigeant historique encore aux commandes, aucune cession a un tiers. Information tiree d'un extrait, sans lecture complete.
+- Statut : nouveau
+
+Recherche menee aujourd'hui sur 9 angles distincts (BTP/industrie Nord-Est, agroalimentaire/commerce Sud, services/sante Ouest-Centre, tension de recrutement/fidelisation, transmission familiale/retraite via BODACC et presse, annonces de cession bpifrance/cra/fusacq, Auvergne-Rhone-Alpes toutes secteurs, commerce/artisanat de detail, transport/logistique), completes par une quinzaine de recherches additionnelles cibles. Plusieurs pistes identifiees ont ete explicitement ecartees car hors criteres : Besnard (Orne, cession par ses actionnaires financiers a un repreneur industriel deja finalisee), Gautier Semences (transmission familiale reelle mais effectif d'environ 160-180 salaries, au-dessus du seuil de 150), Insitoo Group (Lille, depart en retraite du fondateur et cession aux salaries, mais transaction deja actee depuis janvier 2024, donc hors critere "transaction pas encore faite"), ainsi que plusieurs cas de transports routiers et d'hotellerie-restauration deja rachetes par un groupe. Le constat des jours precedents se confirme et s'accentue : apres pres d'un mois de veille quotidienne, le gisement de signaux non dupliques et strictement conformes aux criteres (PME francaise independante 10-150 salaries, dirigeant encore aux commandes, transaction pas encore faite) se tarit nettement. Volume reel et assume, sans reintroduction de leads hors criteres pour combler le quota.
+
+Total du jour : 3 leads.
