@@ -1491,3 +1491,23 @@ Total du jour : 10 leads.
 Recherche menee aujourd'hui sur 9 angles distincts (BTP/industrie Nord-Est, agroalimentaire/commerce Sud, services/sante Ouest-Centre, tension de recrutement/fidelisation, transmission familiale/retraite via BODACC et presse, annonces de cession bpifrance/cra/fusacq, Auvergne-Rhone-Alpes toutes secteurs, commerce/artisanat de detail, transport/logistique), completes par une quinzaine de recherches additionnelles cibles. Plusieurs pistes identifiees ont ete explicitement ecartees car hors criteres : Besnard (Orne, cession par ses actionnaires financiers a un repreneur industriel deja finalisee), Gautier Semences (transmission familiale reelle mais effectif d'environ 160-180 salaries, au-dessus du seuil de 150), Insitoo Group (Lille, depart en retraite du fondateur et cession aux salaries, mais transaction deja actee depuis janvier 2024, donc hors critere "transaction pas encore faite"), ainsi que plusieurs cas de transports routiers et d'hotellerie-restauration deja rachetes par un groupe. Le constat des jours precedents se confirme et s'accentue : apres pres d'un mois de veille quotidienne, le gisement de signaux non dupliques et strictement conformes aux criteres (PME francaise independante 10-150 salaries, dirigeant encore aux commandes, transaction pas encore faite) se tarit nettement. Volume reel et assume, sans reintroduction de leads hors criteres pour combler le quota.
 
 Total du jour : 3 leads.
+
+## 2026-10-21
+
+Note technique : recherche menee sur 4 angles paralleles (industrie/BTP Grand Est-Hauts-de-France-Normandie-PACA ; commerce/transport/agroalimentaire Nouvelle-Aquitaine-Occitanie-Auvergne-Rhone-Alpes ; services/sante/tech Ile-de-France-Centre-Val de Loire-Bourgogne-Franche-Comte ; LinkedIn posts/bpifrance-transmission/cra.asso.fr/BODACC tous secteurs), completee par une quinzaine de recherches additionnelles cote presse economique generaliste, CCI et SCOP. Volume du jour tres reduit (2 leads au lieu des ~25 vises), pour deux raisons convergentes constatees independamment par plusieurs recherches : (1) lejournaldesentreprises.com, source la plus productive des semaines precedentes, traverse une perturbation editoriale majeure (redressement judiciaire fin mai 2026, reprise par le groupe Overlord fin juillet 2026, licenciement de la redaction permanente), ce qui a nettement reduit le flux de breves recentes et nominatives indexees pour octobre 2026 ; (2) les canaux bpifrance-transmission, cra.asso.fr, cession-commerce et BODACC ne renvoient via WebSearch que de la documentation generique/procedurale (jamais d'annonces individuelles datees et nominatives), et l'operateur site:linkedin.com/posts ne fait remonter que des pages de profils ou articles tiers, jamais d'extraits de posts individuels exploitables. Aucun lead hors criteres (transaction deja finalisee, effectif hors cible, entreprise non independante) n'a ete force pour combler le volume.
+
+- Entreprise : Sogapeint
+- Dirigeant : Pascal Capdevila (transmet la direction à son fils Lucas Capdevila)
+- Contact : non trouvé, voir source
+- Source : https://gazette-du-midi.fr/au-sommaire/entreprises/a-toulouse-sogapeint-conjugue-succession-familiale-investissement-et
+- Pourquoi : PME de peinture/bâtiment (environ 20-49 salariés selon Pappers/Xerfi, ~15 M€ de CA, siège à Blagnac/Beauzelle, Haute-Garonne). Succession familiale en cours : le dirigeant historique Pascal Capdevila transmet la direction à son fils Lucas, dans un contexte d'investissement et de recrutements — moment clé pour associer les cadres clés à la suite. Information tirée d'extraits de recherche.
+- Statut : nouveau
+
+- Entreprise : Nerys Group
+- Dirigeant : non trouvé (holding reprise à 100% par ses salariés ; dirigée désormais par Sylvain Bistagne et Luc Desruelle, anciens cadres)
+- Contact : non trouvé, voir source
+- Source : https://www.lejournaldesentreprises.com/breve/le-groupe-nerys-present-dans-les-bouches-du-rhone-et-en-rhone-alpes-repris-100-par-ses-salaries-2112921
+- Pourquoi : Holding indépendante de 25 salariés (Gardanne, Bouches-du-Rhône, + sites Isère/Savoie), spécialisée en systèmes d'essais/mesure pour l'aéronautique, le spatial, la défense et le nucléaire. Les trois fondateurs se sont retirés progressivement sur 3 ans et la dernière fondatrice (Caroline Couvert) vient de partir ; la totalité du capital a été reprise par une vingtaine de salariés : signal direct et fort de reprise interne/actionnariat salarié à la suite d'un départ de dirigeants fondateurs.
+- Statut : nouveau
+
+Total du jour : 2 leads.
