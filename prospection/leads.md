@@ -1521,3 +1521,25 @@ Le seul candidat nominatif remonte par un agent (Micro Lynx, imprimerie rennaise
 Ce resultat confirme et aggrave la tendance observee depuis le 14 octobre (0, 0, 1, 1, 3, 3, 2, puis 0 lead du 14 au 22 octobre, loin de l'objectif de 25/jour) : apres un mois de veille quotidienne sur les memes sources accessibles via WebSearch seul (sans WebFetch/curl), le vivier de signaux nominatifs faciles a trouver semble structurellement epuise, aggrave par la degradation editoriale du Journal des Entreprises (source la plus productive jusqu'a mi-octobre, desormais sous redressement judiciaire/groupe Overlord). Conformement a la consigne de ne jamais forcer le volume en reintroduisant des leads hors criteres ou deja presents, aucun nouveau lead n'est ajoute aujourd'hui.
 
 Total du jour : 0 lead.
+
+## 2026-10-23
+
+Note technique : recherche menee aujourd'hui via 4 agents paralleles couvrant des angles distincts (industrie/metallerie/BTP hors Bretagne-Pays de la Loire ; commerce/agroalimentaire/artisanat/sante-paramedical/hotellerie-restauration a l'echelle nationale ; tech/ESN/conseil avec priorite sur le signal tension de recrutement et temoignages AGA/actionnariat salarie ; transport/logistique/BTP second oeuvre et plateformes de cession nommees), representant au total plus de 165 requetes WebSearch. Resultat : 2 leads valides au total (3 des 4 agents n'ont trouve aucun lead exploitable).
+
+Ce resultat confirme la tendance observee depuis le 14 octobre (0, 0, 1, 1, 3, 3, 2, 0, 0, puis 2 aujourd'hui, loin de l'objectif de 25/jour) : apres plus d'un mois de veille quotidienne sur les memes sources accessibles via WebSearch seul (sans WebFetch/curl), le vivier de signaux nominatifs faciles a trouver reste structurellement epuise. Plusieurs agents rapportent avoir atteint une limite de quota de requetes WebSearch avant d'avoir pu explorer toutes les pistes prevues (palmares employeurs PME/ESN, presse professionnelle sante/veterinaire, CCI locales par trophee). Nombreuses pistes serieuses explorees puis ecartees car transaction deja finalisee, hors fourchette 10-150 salaries, hors France, ou signal trop ancien (details dans les rapports d'agents de cette session) : VD Industry/Eribel France, KS Groupe, Leman Industries/Metalis Group, Miroiteries Dubrulle, Lhotellier, Prevote, Ocelorn, PMGP, Dr Patrick Laine (cabinet medical solo, hors cible PME).
+
+- Entreprise : Maison Beucher
+- Dirigeant : Julien Beucher (avec sa soeur Elise Beucher et son beau-frere Francois Thomas)
+- Contact : non trouve, voir source
+- Source : https://www.lejournaldesentreprises.com/article/la-cinquieme-generation-prend-les-renes-de-la-maison-beucher-2120635
+- Pourquoi : Transmission familiale a la 5e generation dans cette charcuterie-boucherie-traiteur fondee en 1895 a Chateaugiron (Ille-et-Vilaine). PME de 55 salaries (~10 M EUR de CA, trois magasins et quatre marches) : passation recente propice a un dialogue sur la fidelisation des cadres cles de l'entreprise familiale.
+- Statut : nouveau
+
+- Entreprise : Graines d'Ici (nouveau MIN de Nantes)
+- Dirigeant : Thibaut Lebeaupin (rachat progressif des parts, co-gerance avec ses parents Jean Lebeaupin et famille)
+- Contact : non trouve, voir source
+- Source : https://www.lejournaldesentreprises.com/article/berjac-jean-lebeaupin-vito-distribution-graines-dici-sur-le-nouveau-min-de-nantes-les-fils-prennent-133414
+- Pourquoi : Transmission familiale en cours chez ce grossiste en fruits et legumes du nouveau MIN de Nantes : le fils rachete progressivement les parts de ses parents, entreprise toujours independante pendant la passation.
+- Statut : nouveau
+
+Total du jour : 2 leads.
