@@ -1543,3 +1543,25 @@ Ce resultat confirme la tendance observee depuis le 14 octobre (0, 0, 1, 1, 3, 3
 - Statut : nouveau
 
 Total du jour : 2 leads.
+
+## 2026-10-24
+
+Note technique : recherche menee aujourd'hui via 5 agents paralleles couvrant des angles distincts (industrie/BTP Grand Est-Hauts-de-France-Normandie ; tech/services/sante Ile-de-France-Centre-Pays de la Loire ; commerce/agroalimentaire/viticulture Occitanie-PACA-Nouvelle-Aquitaine ; tension de recrutement/fidelisation et temoignages AGA tous secteurs ; annonces de cession Bpifrance-transmission/CRA/BODACC sur Bretagne-Auvergne-Rhone-Alpes-Bourgogne-Franche-Comte), representant au total plus de 165 requetes WebSearch. Resultat : 2 leads valides au total (3 des 5 agents n'ont trouve aucun lead exploitable dans leur perimetre assigne).
+
+Ce resultat confirme la tendance observee depuis le 14 octobre (0, 0, 1, 1, 3, 3, 2, 0, 0, 2, puis 2 aujourd'hui, loin de l'objectif de 25/jour) : le vivier de signaux nominatifs faciles a trouver via WebSearch seul (sans WebFetch/curl) reste structurellement epuise sur les sources habituelles. Plusieurs agents rapportent avoir ecarte des pistes serieuses car transaction deja finalisee, entite trop grande (effectif hors fourchette 10-150 salaries), ou signal trop ancien/deja realise : AMT (Atelier Mecanique et Technique) et Schweitzer SAS (deja presents dans la liste des 30 derniers jours), Groupe Polmar (~280 salaries, trop grand), Dumortier (rachat par GX deja finalise), Groupe Debroas (transmission familiale deja ancienne, MBO en cours sans signal avant-cession), Groupe Bodemer (~1800 salaries, trop grand), Tréfilerie d'Acier de Bretagne (deja present dans la liste), Clinique veterinaire du Gabereau (simple recrutement de croissance, pas un signal de succession/retention).
+
+- Entreprise : Gachès Chimie
+- Dirigeant : Pierre Gachès (président, 69 ans, dirige depuis 1992 ; transmission en cours à ses filles Caroline Gachès et Olivia Gachès)
+- Contact : non trouvé, voir source
+- Source : https://www.lejournaldesentreprises.com/article/gaches-chimie-se-transmet-la-troisieme-generation-familiale-2109440
+- Pourquoi : Transmission familiale en cours (pas encore finalisée) vers la 3e génération chez ce distributeur de produits chimiques fondé en 1948 à Escalquens (Haute-Garonne), environ 50-99 salariés selon un extrait Altares/Xerfi : le dirigeant passe progressivement le flambeau à ses deux filles.
+- Statut : nouveau
+
+- Entreprise : SOC Giteau
+- Dirigeant : Aurore Dumant-Giteau (a succédé à son père Jacky Giteau après plusieurs années de sollicitation ; co-gérante avec Florent Dumant)
+- Contact : non trouvé, voir source
+- Source : https://www.pappers.fr/entreprise/332710904 ; contexte de succession via https://www.lsa-conso.fr/ils-portent-l-heritage-familial,219510
+- Pourquoi : Transmission familiale chez cette menuiserie bois/PVC/alu de Meslay-du-Maine (Mayenne, 20-49 salariés selon extrait Pappers) : la fille du fondateur a longtemps refusé puis a repris la direction de la PME familiale, entreprise restée independante.
+- Statut : nouveau
+
+Total du jour : 2 leads.
