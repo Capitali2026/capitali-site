@@ -1565,3 +1565,25 @@ Ce resultat confirme la tendance observee depuis le 14 octobre (0, 0, 1, 1, 3, 3
 - Statut : nouveau
 
 Total du jour : 2 leads.
+
+## 2026-10-25
+
+Note technique : recherche menee aujourd'hui via 5 agents paralleles couvrant des angles distincts (BTP/industrie/metallerie Bretagne-Pays de la Loire-Normandie-Grand Est-Hauts-de-France ; commerce/agroalimentaire/artisanat/viticulture Nouvelle-Aquitaine-Occitanie-PACA-Auvergne-Rhone-Alpes ; tech/ESN/conseil/sante avec priorite temoignages AGA et tension de recrutement, national ; transmission familiale/retraite via BODACC et presse sur Centre-Val de Loire-Ile-de-France-Bourgogne-Franche-Comte-Hauts-de-France ; transport/logistique/distribution et plateformes de cession nominatives, national), representant au total plus de 200 requetes WebSearch. Chacun des 5 agents a signale avoir atteint la limite de son budget WebSearch avant d'avoir couvert l'integralite de son perimetre assigne, confirmant pour la douzieme journee consecutive (0, 0, 1, 1, 3, 3, 2, 0, 0, 2, 2, puis 2 aujourd'hui, du 14 au 25 octobre) le constat structurel deja documente : le vivier de signaux nominatifs faciles a trouver via WebSearch seul (sans WebFetch/curl, avec un quota de requetes partage et limitant) reste tres restreint, loin de l'objectif de 25 leads/jour.
+
+Un lead propose par un agent (Insitoo, ESN lilloise) a ete explicitement ecarte car deja examine et rejete lors de la veille du 2026-10-20 (transaction de transmission deja actee depuis janvier 2024, signal trop ancien). De nombreuses autres pistes serieuses ont ete explorees puis ecartees car transaction deja finalisee par un groupe acheteur externe (Groupe Lucas, Normabaie, GX/Dumortier, Zuccari/HGB, Groupe Battais/Delepierre, Socofri/TC Concept, Voyages Goujeau, Transports Catroux, Les Routiers de l'Est, Domaine de Combet, Alain Tramier, Hotel La Caravelle, Confiserie 1844/Clavel), hors fourchette de taille (Fonderie de Bretagne 266 salaries, Baker Tilly France ~2000 salaries, mc2i ~1600 salaries, Sfeir ~300 salaries), signal trop ancien ou non reconfirme en 2025-2026 (Groupe Montmur/ex-Lahaye, Union Matériaux), ou non nominatif (nombreuses annonces anonymisees UIMM/CAPEB/Fusacq/opportunites-industrielles, type "depart a la retraite" sans nom d'entreprise exploitable).
+
+- Entreprise : Mulliez Richebé
+- Dirigeant : Thomas Mulliez (4e generation, a repris la direction mi-2025, succedant a son pere Bruno Mulliez parti a la retraite)
+- Contact : non trouvé, voir source (domaine probable mulliez-richebe.fr/.com apercu dans un extrait, non confirme)
+- Source : https://www.lejournaldesentreprises.com/article/mulliez-richebe-la-quatrieme-generation-prend-les-renes-de-la-pme-familiale-2125741 ; https://www.lagazettefrance.fr/article/cartonnage-mulliez-richebe-un-siecle-de-reussite-familiale
+- Pourquoi : Transmission familiale fraichement actee (4e generation) dans cette entreprise centenaire de cartonnage/emballages carton et PLV a Chereng (Nord, Hauts-de-France), 45 salaries, ~9 M EUR de CA : le dirigeant historique vient de ceder la direction a son fils, sans intervention d'un groupe acheteur externe. Information tiree d'extraits de deux articles de presse regionale, sans lecture complete.
+- Statut : nouveau
+
+- Entreprise : Webmecanik
+- Dirigeant : Sophie Panot (nouvelle Presidente, conserve ses fonctions de CRO) ; fondateur sortant : Stephane Couleaud
+- Contact : contact@webmecanik.com
+- Source : https://www.lejournaldesentreprises.com/breve/lediteur-annecien-de-logiciels-webmecanik-repris-par-ses-managers-2122544 ; https://www.frenchweb.fr/webmecanik-opte-pour-la-continuite-avec-une-reprise-capitalistique-par-ses-dirigeants/455709
+- Pourquoi : Editeur de logiciel de marketing automation base a Annecy (Haute-Savoie), 22 salaries, 2,2 M EUR de CA. Le fondateur a cede ses parts a trois cadres de l'entreprise (reprise interne/independante, aucun groupe acheteur externe) : signal de depart du fondateur avec reprise par des cadres cles, contexte propice a une AGA pour associer d'autres cadres au capital. Information tiree d'extraits de presse, sans lecture complete.
+- Statut : nouveau
+
+Total du jour : 2 leads.
