@@ -1584,7 +1584,7 @@ Un lead propose par un agent (Insitoo, ESN lilloise) a ete explicitement ecarte 
 - Contact : contact@webmecanik.com
 - Source : https://www.lejournaldesentreprises.com/breve/lediteur-annecien-de-logiciels-webmecanik-repris-par-ses-managers-2122544 ; https://www.frenchweb.fr/webmecanik-opte-pour-la-continuite-avec-une-reprise-capitalistique-par-ses-dirigeants/455709
 - Pourquoi : Editeur de logiciel de marketing automation base a Annecy (Haute-Savoie), 22 salaries, 2,2 M EUR de CA. Le fondateur a cede ses parts a trois cadres de l'entreprise (reprise interne/independante, aucun groupe acheteur externe) : signal de depart du fondateur avec reprise par des cadres cles, contexte propice a une AGA pour associer d'autres cadres au capital. Information tiree d'extraits de presse, sans lecture complete.
-- Statut : nouveau
+- Statut : brouillon cree
 
 Total du jour : 2 leads.
 
@@ -1606,6 +1606,6 @@ Ce resultat confirme pour la treizieme journee consecutive (0, 0, 1, 1, 3, 3, 2,
 - Contact : contact@sfcmm.fr (domaine confirmé via une offre d'emploi officielle de l'entreprise)
 - Source : https://www.lejournaldesentreprises.com/article/transmission-familiale-la-tete-de-lentreprise-metallurgique-nantaise-sfcmm-2122843
 - Pourquoi : transmission familiale en cours, non finalisée — Olivier Baret (qui avait lui-même repris l'entreprise à son père en 1983) transmet progressivement à ses deux fils via rachat des titres de la holding, à l'occasion des 60 ans de cette entreprise de métallurgie à Saint-Herblain (Loire-Atlantique). 80 salariés, 25 M€ de CA, dans la cible 10-150 salariés. Information tirée d'extraits de recherche, sans lecture complète.
-- Statut : nouveau
+- Statut : brouillon cree
 
 Total du jour : 2 leads.
