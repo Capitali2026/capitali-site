@@ -1587,3 +1587,25 @@ Un lead propose par un agent (Insitoo, ESN lilloise) a ete explicitement ecarte 
 - Statut : nouveau
 
 Total du jour : 2 leads.
+
+## 2026-10-26
+
+Note technique : recherche menee aujourd'hui via 5 agents paralleles couvrant des angles distincts (industrie/BTP/metallerie/mecanique/menuiserie Auvergne-Rhone-Alpes-Centre-Val de Loire-Bourgogne-Franche-Comte-Ile-de-France ; commerce/agroalimentaire/artisanat/viticulture/hotellerie Nouvelle-Aquitaine-Occitanie-PACA-Bretagne-Pays de la Loire ; tech/ESN/editeurs de logiciels/sante-paramedical national avec priorite temoignages AGA et tension de recrutement ; transmission familiale/retraite via presse regionale et BODACC toutes regions ; transport/logistique/pharmacie/garages/experts-comptables Corse-DOM-Centre-Val de Loire-Bourgogne-Franche-Comte), representant au total plus de 155 requetes WebSearch. Trois des cinq agents ont signale avoir atteint la limite de leur quota WebSearch avant d'avoir couvert l'integralite de leur perimetre assigne.
+
+Ce resultat confirme pour la treizieme journee consecutive (0, 0, 1, 1, 3, 3, 2, 0, 0, 2, 2, 2, puis 2 aujourd'hui, du 14 au 26 octobre) le constat structurel deja documente : le vivier de signaux nominatifs faciles a trouver via WebSearch seul (sans WebFetch/curl, avec un quota de requetes partage et limitant) reste tres restreint, loin de l'objectif de 25 leads/jour. Plusieurs agents rapportent n'avoir trouve que des annonces anonymisees (portail UIMM Opportunites Industrielles, France Travail, Fusacq) sans nom d'entreprise ni de dirigeant exploitable, ou des cas nominatifs deja ecartes les jours precedents ou hors criteres. Un lead propose (Groupe Polmar, distribution automobile, Normandie, transmission familiale au fils Paul Evrard) a ete explicitement ecarte car deja identifie et rejete le 2026-10-24 pour un effectif hors fourchette (~280 salaries). Plusieurs autres pistes serieuses ont ete explorees puis ecartees car transaction deja finalisee (Edipoles, Legisway, Inforum, Cegid, ST Groupe, Sterimed, VD Industry/Eribel France rachete par le groupe Haerens, Semin, GX/Dumortier), hors fourchette de taille (Groupe Lucas ~800-1000 salaries, Clinique Developpement, Celfy ~300 salaries), ou signal trop faible/non nominatif (Scierie Raboterie Lemaire, cave cooperative du Var, Groupe Chadotel dont la taille reelle n'a pas pu etre confirmee dans la fourchette cible).
+
+- Entreprise : Biscuiterie des Îles
+- Dirigeant : Clément Le Goff (président ; transmission en cours vers la 5e génération familiale, avec Julien et Bastien Le Goff)
+- Contact : non trouvé, voir source (aucun domaine officiel identifié dans les extraits disponibles)
+- Source : https://www.lejournaldesentreprises.com/article/biscuiterie-des-iles-nous-voulons-apporter-nos-idees-sans-risquer-de-gacher-ce-qui-ete-fait-1844096
+- Pourquoi : transmission familiale en cours mais pas finalisée — la 5e génération (Julien et Clément Le Goff) prépare la reprise complète de cette biscuiterie artisanale de Belle-Isle-en-Terre (Côtes-d'Armor, Bretagne) sur un horizon d'environ deux ans. Entreprise toujours indépendante, effectif 20-49 salariés. Information tirée d'extraits de recherche, sans lecture complète.
+- Statut : nouveau
+
+- Entreprise : SFCMM (Société Française de Cintrage et Mécano-soudure Métallique)
+- Dirigeant : Olivier Baret (président, cède progressivement aux fils Antoine Baret et Pierre Baret)
+- Contact : contact@sfcmm.fr (domaine confirmé via une offre d'emploi officielle de l'entreprise)
+- Source : https://www.lejournaldesentreprises.com/article/transmission-familiale-la-tete-de-lentreprise-metallurgique-nantaise-sfcmm-2122843
+- Pourquoi : transmission familiale en cours, non finalisée — Olivier Baret (qui avait lui-même repris l'entreprise à son père en 1983) transmet progressivement à ses deux fils via rachat des titres de la holding, à l'occasion des 60 ans de cette entreprise de métallurgie à Saint-Herblain (Loire-Atlantique). 80 salariés, 25 M€ de CA, dans la cible 10-150 salariés. Information tirée d'extraits de recherche, sans lecture complète.
+- Statut : nouveau
+
+Total du jour : 2 leads.
