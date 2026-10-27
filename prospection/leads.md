@@ -1609,3 +1609,23 @@ Ce resultat confirme pour la treizieme journee consecutive (0, 0, 1, 1, 3, 3, 2,
 - Statut : brouillon cree
 
 Total du jour : 2 leads.
+
+## 2026-10-27
+
+Note technique : recherche menee aujourd'hui en session unique (pas d'agents paralleles), avec plus de 70 requetes WebSearch couvrant de nombreux angles (presse economique nationale et regionale, CCI/trophees de la reprise, secteurs industrie/BTP/agroalimentaire/transport/sante/services/commerce/tech, LinkedIn via WebSearch uniquement). Ce resultat confirme pour la quinzieme journee consecutive le constat structurel deja documente les jours precedents : le vivier de signaux nominatifs exploitables via WebSearch seul (sans WebFetch/curl) reste tres restreint, loin de l'objectif de 25 leads/jour. La grande majorite des resultats de recherche renvoyaient soit des etudes macro/politiques publiques (plan "Objectif Reprises", rapport Gregoire, baro Grant Thornton, pacte Dutreil) sans nom d'entreprise exploitable, soit des annonces anonymisees (portail UIMM, France Travail), soit des cas nominatifs deja ecartes car hors criteres : transaction deja finalisee de type rachat par un groupe (Pol Agret/Comyces Industries, Etablissements Remy Meder/SFCF-Cofime, GX/Dumortier, Klege, InovaYa/Alsys), entreprise hors fourchette de taille (Groupe Bodemer ~1400 salaries, Enygea/WC Loc groupe >1000 salaries), signal trop ancien (confiserie Barnier 2017, Les Chevaliers d'Argouges 2023, Imprim'Services ~2024), ou doublon avec une entree des 30 derniers jours (ED Ouest, Maisons Jubault, Actuaplast, Lemahieu, Domotex, Evre Metal).
+
+- Entreprise : Faust SAS (ETS Faust)
+- Dirigeant : Mohamed Faress (repreneur indépendant, ingénieur ayant dirigé pendant plus de 15 ans une première entreprise)
+- Contact : non trouvé, voir source (aucun site officiel identifié dans les extraits disponibles)
+- Source : https://www.lejournaldesentreprises.com/breve/faust-sas-change-de-mains-2133375
+- Pourquoi : transmission familiale d'une PME alsacienne de tôlerie fine, découpe laser et chaudronnerie (fondée en 1979 à Duttlenheim, Bas-Rhin, environ 30 salariés) vers un repreneur indépendant, avec l'appui du cabinet strasbourgeois MBA Capital. Entreprise toujours indépendante, dans la fourchette cible : moment clé pour associer les cadres clés à la suite de la reprise. Information tirée d'extraits de recherche, sans lecture complète.
+- Statut : nouveau
+
+- Entreprise : Maison Alsacienne de Biscuiterie
+- Dirigeant : Raphaël Kiesele (repreneur, ex-directeur général de la confiserie Adam) ; Jean-Marc Muller (fondateur, parti en retraite)
+- Contact : contact@maison-alsacienne-biscuiterie.com (déduit du domaine officiel maison-alsacienne-biscuiterie.com)
+- Source : https://www.cfnews.net/L-actualite/LBO/Operations/MBI/Maison-Alsacienne-de-Biscuiterie-goute-un-MBI-553857 ; https://www.lejournaldesentreprises.com/article/la-maison-alsacienne-de-biscuiterie-mise-sur-lexport-et-la-diversification-2145426
+- Pourquoi : départ à la retraite du fondateur (Jean-Marc Muller) de cette biscuiterie artisanale alsacienne (Riquewihr, Haut-Rhin ; environ 85 salariés permanents, jusqu'à 200 en période de forte activité ; 12 à 17 M€ de CA selon les sources), avec reprise par un nouveau dirigeant indépendant (Raphaël Kiesele) via MBI. Entreprise toujours une PME indépendante dans la fourchette cible : phase de transition propice à un dialogue sur la fidélisation des cadres clés. Information tirée d'extraits de recherche, sans lecture complète.
+- Statut : nouveau
+
+Total du jour : 2 leads.
