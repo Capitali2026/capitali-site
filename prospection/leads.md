@@ -1626,6 +1626,6 @@ Note technique : recherche menee aujourd'hui en session unique (pas d'agents par
 - Contact : contact@maison-alsacienne-biscuiterie.com (déduit du domaine officiel maison-alsacienne-biscuiterie.com)
 - Source : https://www.cfnews.net/L-actualite/LBO/Operations/MBI/Maison-Alsacienne-de-Biscuiterie-goute-un-MBI-553857 ; https://www.lejournaldesentreprises.com/article/la-maison-alsacienne-de-biscuiterie-mise-sur-lexport-et-la-diversification-2145426
 - Pourquoi : départ à la retraite du fondateur (Jean-Marc Muller) de cette biscuiterie artisanale alsacienne (Riquewihr, Haut-Rhin ; environ 85 salariés permanents, jusqu'à 200 en période de forte activité ; 12 à 17 M€ de CA selon les sources), avec reprise par un nouveau dirigeant indépendant (Raphaël Kiesele) via MBI. Entreprise toujours une PME indépendante dans la fourchette cible : phase de transition propice à un dialogue sur la fidélisation des cadres clés. Information tirée d'extraits de recherche, sans lecture complète.
-- Statut : nouveau
+- Statut : brouillon cree
 
 Total du jour : 2 leads.
