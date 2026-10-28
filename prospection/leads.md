@@ -1629,3 +1629,105 @@ Note technique : recherche menee aujourd'hui en session unique (pas d'agents par
 - Statut : brouillon cree
 
 Total du jour : 2 leads.
+
+## 2026-10-28
+
+- Entreprise : Les Grillages Wunschel
+- Dirigeant : Philippe Wunschel (avec Nathalie Wunschel, directrice administrative et financière) ; fils Hugo Wunschel en préparation de la reprise depuis 2018
+- Contact : non trouvé, voir source
+- Source : https://www.lejournaldesentreprises.com/article/les-grillages-wunschel-maillent-de-pere-en-fils-313003
+- Pourquoi : Entreprise familiale de fabrication de grillage métallique (Châtenois, Bas-Rhin), 4e génération. Le fils a rejoint l'entreprise en 2018 pour préparer la suite, les parents restant aux commandes : transmission familiale en cours, non finalisée.
+- Statut : nouveau
+
+- Entreprise : CORNU SAS
+- Dirigeant : Gilles Lemarchand (dirigeant depuis 15 ans)
+- Contact : contact@carrosseriecornu.fr
+- Source : https://adnormandie.fr/wp-content/uploads/2026/01/Normandie-Accelerateur-Communique-de-Presse.pdf
+- Pourquoi : PME de carrosserie industrielle et équipements forestiers (Sées, Orne), sélectionnée en janvier 2026 dans le programme « Normandie Accélérateur » (Région/Bpifrance), dont un volet vise explicitement à faire évoluer la gouvernance pour préparer une transmission future : signal direct de préparation de cession/transmission à venir, non réalisée.
+- Statut : nouveau
+
+- Entreprise : La Chaudronnerie de l'Est
+- Dirigeant : non trouvé
+- Contact : non trouvé, voir source
+- Source : https://www.lejournaldesentreprises.com/article/la-chaudronnerie-de-lest-nous-formons-des-soudeurs-et-des-chaudronniers-sur-mesure-grace-france-2091282
+- Pourquoi : PME de chaudronnerie (Saints-Geosmes, Haute-Marne, environ 80 salariés, 17 M€ de CA) confrontée à une forte tension de recrutement sur les métiers de soudeurs/chaudronniers, au point de monter une formation sur-mesure cofinancée avec la Région Grand Est et France Travail : tension de recrutement avérée sur des postes clés.
+- Statut : nouveau
+
+- Entreprise : Guérin France
+- Dirigeant : non trouvé
+- Contact : contact@filtres-guerin.com (déduit du domaine filtres-guerin.com)
+- Source : https://www.lejournaldesentreprises.com/breve/guerin-france-recrute-des-chaudronniers-et-des-soudeurs-373422
+- Pourquoi : PME de filtration métallique (Condé-sur-Vire, Manche, environ 80 salariés) qui recrute activement chaudronniers et soudeurs : tension de recrutement avérée sur des compétences clés.
+- Statut : nouveau
+
+- Entreprise : ER Ingénierie
+- Dirigeant : Christian Faivre (fondateur), transmission en cours à ses trois fils Romaric, Alexis et Maxime Faivre
+- Contact : contact@eringenierie.com (déduit du domaine eringenierie.com)
+- Source : https://www.lejournaldesentreprises.com/article/comment-er-ingenierie-va-passer-du-pere-ses-trois-fils-638611
+- Pourquoi : Fabricant de machines industrielles spéciales (Custines, Meurthe-et-Moselle). Le fondateur transmet progressivement l'entreprise à ses trois fils depuis 2018-2020, sans date de départ fixée : transmission familiale en cours, dirigeant encore impliqué.
+- Statut : nouveau
+
+- Entreprise : Couverture Lanoë
+- Dirigeant : Christian Lanoë (cédant, fondateur) ; Nicolas Pellieux (associé repreneur)
+- Contact : non trouvé, voir source
+- Source : https://www.7jours.fr/sujets/batiment/page/2/
+- Pourquoi : Entreprise artisanale de couverture (Ercé-en-Lamée, Ille-et-Vilaine, Bretagne). Après 43 ans d'activité, le fondateur part en retraite et transmet à son associé : départ en retraite du fondateur avec reprise interne/indépendante.
+- Statut : nouveau
+
+- Entreprise : Le Marre (Atelier Le Marre)
+- Dirigeant : André Le Marre (fondateur, parti en retraite) ; Cyril Glangetas (nouveau dirigeant indépendant)
+- Contact : non trouvé, voir source
+- Source : https://www.lejournaldesentreprises.com/article/cyril-glangetas-reprend-le-marre-133930
+- Pourquoi : PME d'agencement/menuiserie (Pont-Scorff, Morbihan, environ 800 k€ de CA) cédée par son fondateur faisant valoir ses droits à la retraite à un dirigeant indépendant voisin (pas un groupe) : reprise interne/indépendante, l'entreprise reste une PME autonome.
+- Statut : nouveau
+
+- Entreprise : Serazin
+- Dirigeant : Marc Serazin (fondateur) ; Laurent Diesnis (nouveau dirigeant) ; Jean-Philippe Lars (salarié historique devenu actionnaire)
+- Contact : non trouvé, voir source
+- Source : https://www.lejournaldesentreprises.com/article/laurent-diesnis-aux-commandes-de-serazin-95127
+- Pourquoi : PME d'agencement de magasins (Ploëren, Morbihan, environ 5 M€ de CA, 50-80 chantiers/an). Transmission progressive organisée par le fondateur, avec un salarié historique entrant au capital au moment de la reprise par le nouveau dirigeant : signal très proche de la thèse Capitali (actionnariat salarié au moment d'une transmission).
+- Statut : nouveau
+
+- Entreprise : Transports Lahaye (Groupe Lahaye Global Logistics)
+- Dirigeant : Patrick Lahaye (président) ; transmission en cours à ses fils Matthieu Lahaye et Jean-Baptiste Lahaye (tous deux directeurs généraux)
+- Contact : contact@lahaye-sa.fr (domaine à confirmer)
+- Source : https://www.lejournaldesentreprises.com/article/la-nouvelle-generation-de-lahaye-investit-pour-continuer-la-route-2079614
+- Pourquoi : Groupe de transport/logistique familial (Vern-sur-Seiche, Bretagne). Transmission à la 3e génération explicitement en cours, le président préparant la gouvernance avec ses deux fils déjà en place comme directeurs généraux.
+- Statut : nouveau
+
+- Entreprise : EPHISENS
+- Dirigeant : non trouvé (cabinet fondé en 1983 par Robert Blache ; direction actuelle non identifiée)
+- Contact : non trouvé, voir source
+- Source : https://fiscalonline.com/on-en-parle/Le-cabinet-comptable-EPHISENS-ouvre-son-capital-a-ses-salaries-une-nouvelle-etape-dans-la-croissance-de-l-entreprise
+- Pourquoi : Premier cabinet d'expertise comptable des Hautes-Alpes (60 collaborateurs, 4 sites) ; a explicitement ouvert son capital à ses cadres pour les associer aux décisions et les fidéliser : témoignage direct d'actionnariat salarié pour retenir des profils clés.
+- Statut : nouveau
+
+- Entreprise : Pharmacie de Miradoux
+- Dirigeant : non trouvé
+- Contact : non trouvé, voir source
+- Source : https://www.lequotidiendupharmacien.fr/exercice-pro/pharmacie-gersoise-cherche-repreneur
+- Pourquoi : Officine rurale gersoise (Miradoux) en recherche active de repreneur, avec risque de fermeture faute de successeur identifié : cession envisagée mais non réalisée.
+- Statut : nouveau
+
+- Entreprise : Pharmacie de Dienville
+- Dirigeant : non trouvé
+- Contact : non trouvé, voir source
+- Source : https://www.lequotidiendupharmacien.fr/exercice-pro/politique-de-sante/quand-sos-villages-rime-avec-le-sos-dun-pharmacien
+- Pourquoi : Officine (Dienville, Aube) dont le titulaire cherche un successeur depuis 35 ans sans succès : signal fort et durable d'une cession envisagée mais jamais aboutie.
+- Statut : nouveau
+
+- Entreprise : Domaine du Paternel
+- Dirigeant : Jean-Christophe Santini (avec son frère Olivier et sa sœur Laetitia, 3e génération) ; Victor Santini (4e génération) vient de rejoindre l'entreprise
+- Contact : contact@domainedupaternel.com (déduit du domaine domainedupaternel.com)
+- Source : https://fr.gaultmillau.com/fr/wineries/domaine-du-paternel
+- Pourquoi : Domaine viticole familial de Cassis (PACA, environ 50 ha, AOC Cassis/Bandol/Côtes de Provence) actuellement dirigé par la 3e génération, avec l'arrivée récente de la 4e génération : transmission familiale en cours vers la génération suivante, sans rachat ni intégration à un groupe.
+- Statut : nouveau
+
+- Entreprise : Cepton Stratégies
+- Dirigeant : Jean Reboullet (fondateur-président ; statut à reconfirmer, une source évoque un passage à "senior advisor")
+- Contact : contact@ceptonstrategies.com (domaine à confirmer)
+- Source : https://www.consultor.fr/articles/dans-le-conseil-on-cotoie-des-gens-pas-marrants-je-nai-pas-voulu-ca-pour-cepton-jean-reboullet
+- Pourquoi : Cabinet de conseil en stratégie (pharma/biotech/medtech, Paris, effectif estimé 25-100 personnes) dont le fondateur prépare la transmission via la promotion progressive de consultants au rang d'associate partners : signal de préparation de relève interne. Information tirée d'extraits de recherche, statut du dirigeant à reconfirmer.
+- Statut : nouveau
+
+Total du jour : 14 leads (objectif de 25 non atteint — le quota de recherches web disponible pour cette session a été épuisé avant d'avoir pu couvrir tous les secteurs/régions prévus ; aucun lead de transaction déjà finalisée par un groupe n'a été ajouté pour combler le volume, conformément au filtre qualité strict demandé).
