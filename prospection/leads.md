@@ -1731,3 +1731,21 @@ Total du jour : 2 leads.
 - Statut : nouveau
 
 Total du jour : 14 leads (objectif de 25 non atteint — le quota de recherches web disponible pour cette session a été épuisé avant d'avoir pu couvrir tous les secteurs/régions prévus ; aucun lead de transaction déjà finalisée par un groupe n'a été ajouté pour combler le volume, conformément au filtre qualité strict demandé).
+
+## 2026-10-29
+
+- Entreprise : Chaudronnerie Pouclet (Pouclet SARL)
+- Dirigeant : Jean-Marc Pouclet
+- Contact : non trouvé, voir source
+- Source : https://www.lejournaldesentreprises.com/article/la-famille-soude-la-croissance-de-la-chaudronnerie-pouclet-219918
+- Pourquoi : Sous-traitant en chaudronnerie fondé en 1981 (11 salariés, Vendée), PME familiale indépendante. Jean-Marc Pouclet et son épouse prévoient de transmettre les rênes à leurs deux enfants, avec un départ en retraite annoncé à horizon deux ans : transmission familiale en cours, non finalisée. Information tirée d'un extrait, sans lecture complète ; date exacte de l'article à reconfirmer.
+- Statut : nouveau
+
+- Entreprise : Plus2sens
+- Dirigeant : François-Pierre Salamand (fondateur)
+- Contact : contact@plus2sens.com (déduit du domaine officiel)
+- Source : https://www.lejournaldesentreprises.com/breve/lagence-plus2sens-prepare-lavenir-en-faisant-entrer-3-collaboratrices-au-capital-2113051
+- Pourquoi : Agence lyonnaise de relations publiques et communication d'influence (13-15 salariés, 1,4 M€ de CA), PME indépendante. Le fondateur a fait entrer 3 collaboratrices clés au capital explicitement pour préparer l'avenir de l'entreprise : signal direct de fidélisation de profils clés et de préparation de transmission interne, avant toute cession. Information tirée d'un extrait, sans lecture complète.
+- Statut : nouveau
+
+Total du jour : 2 leads (objectif de 25 largement non atteint). Recherche menée via 5 angles sectoriels en parallèle (industrie/BTP, commerce-artisanat-santé, tech/services, agroalimentaire-viticulture-hôtellerie, transport/BODACC) plus recherches complémentaires directes, soit plus de 100 requêtes WebSearch au total. La quasi-totalité des signaux trouvés ont été écartés pour l'un des motifs suivants : entreprise déjà listée dans les 30 derniers jours, transaction déjà finalisée (repreneur déjà en place), effectif hors fourchette 10-150 salariés, ou annonces anonymisées (UIMM, France Travail) sans nom d'entreprise identifiable rendant tout contact impossible. Aucun lead de transaction déjà finalisée ni d'entreprise hors profil n'a été ajouté pour combler le volume, conformément au filtre qualité strict demandé.
