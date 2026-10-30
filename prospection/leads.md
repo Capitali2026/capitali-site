@@ -1644,7 +1644,7 @@ Total du jour : 2 leads.
 - Contact : contact@carrosseriecornu.fr
 - Source : https://adnormandie.fr/wp-content/uploads/2026/01/Normandie-Accelerateur-Communique-de-Presse.pdf
 - Pourquoi : PME de carrosserie industrielle et équipements forestiers (Sées, Orne), sélectionnée en janvier 2026 dans le programme « Normandie Accélérateur » (Région/Bpifrance), dont un volet vise explicitement à faire évoluer la gouvernance pour préparer une transmission future : signal direct de préparation de cession/transmission à venir, non réalisée.
-- Statut : nouveau
+- Statut : brouillon cree
 
 - Entreprise : La Chaudronnerie de l'Est
 - Dirigeant : non trouvé
@@ -1658,14 +1658,14 @@ Total du jour : 2 leads.
 - Contact : contact@filtres-guerin.com (déduit du domaine filtres-guerin.com)
 - Source : https://www.lejournaldesentreprises.com/breve/guerin-france-recrute-des-chaudronniers-et-des-soudeurs-373422
 - Pourquoi : PME de filtration métallique (Condé-sur-Vire, Manche, environ 80 salariés) qui recrute activement chaudronniers et soudeurs : tension de recrutement avérée sur des compétences clés.
-- Statut : nouveau
+- Statut : brouillon cree
 
 - Entreprise : ER Ingénierie
 - Dirigeant : Christian Faivre (fondateur), transmission en cours à ses trois fils Romaric, Alexis et Maxime Faivre
 - Contact : contact@eringenierie.com (déduit du domaine eringenierie.com)
 - Source : https://www.lejournaldesentreprises.com/article/comment-er-ingenierie-va-passer-du-pere-ses-trois-fils-638611
 - Pourquoi : Fabricant de machines industrielles spéciales (Custines, Meurthe-et-Moselle). Le fondateur transmet progressivement l'entreprise à ses trois fils depuis 2018-2020, sans date de départ fixée : transmission familiale en cours, dirigeant encore impliqué.
-- Statut : nouveau
+- Statut : brouillon cree
 
 - Entreprise : Couverture Lanoë
 - Dirigeant : Christian Lanoë (cédant, fondateur) ; Nicolas Pellieux (associé repreneur)
@@ -1693,7 +1693,7 @@ Total du jour : 2 leads.
 - Contact : contact@lahaye-sa.fr (domaine à confirmer)
 - Source : https://www.lejournaldesentreprises.com/article/la-nouvelle-generation-de-lahaye-investit-pour-continuer-la-route-2079614
 - Pourquoi : Groupe de transport/logistique familial (Vern-sur-Seiche, Bretagne). Transmission à la 3e génération explicitement en cours, le président préparant la gouvernance avec ses deux fils déjà en place comme directeurs généraux.
-- Statut : nouveau
+- Statut : brouillon cree
 
 - Entreprise : EPHISENS
 - Dirigeant : non trouvé (cabinet fondé en 1983 par Robert Blache ; direction actuelle non identifiée)
@@ -1721,14 +1721,14 @@ Total du jour : 2 leads.
 - Contact : contact@domainedupaternel.com (déduit du domaine domainedupaternel.com)
 - Source : https://fr.gaultmillau.com/fr/wineries/domaine-du-paternel
 - Pourquoi : Domaine viticole familial de Cassis (PACA, environ 50 ha, AOC Cassis/Bandol/Côtes de Provence) actuellement dirigé par la 3e génération, avec l'arrivée récente de la 4e génération : transmission familiale en cours vers la génération suivante, sans rachat ni intégration à un groupe.
-- Statut : nouveau
+- Statut : brouillon cree
 
 - Entreprise : Cepton Stratégies
 - Dirigeant : Jean Reboullet (fondateur-président ; statut à reconfirmer, une source évoque un passage à "senior advisor")
 - Contact : contact@ceptonstrategies.com (domaine à confirmer)
 - Source : https://www.consultor.fr/articles/dans-le-conseil-on-cotoie-des-gens-pas-marrants-je-nai-pas-voulu-ca-pour-cepton-jean-reboullet
 - Pourquoi : Cabinet de conseil en stratégie (pharma/biotech/medtech, Paris, effectif estimé 25-100 personnes) dont le fondateur prépare la transmission via la promotion progressive de consultants au rang d'associate partners : signal de préparation de relève interne. Information tirée d'extraits de recherche, statut du dirigeant à reconfirmer.
-- Statut : nouveau
+- Statut : brouillon cree
 
 Total du jour : 14 leads (objectif de 25 non atteint — le quota de recherches web disponible pour cette session a été épuisé avant d'avoir pu couvrir tous les secteurs/régions prévus ; aucun lead de transaction déjà finalisée par un groupe n'a été ajouté pour combler le volume, conformément au filtre qualité strict demandé).
 
@@ -1746,7 +1746,7 @@ Total du jour : 14 leads (objectif de 25 non atteint — le quota de recherches 
 - Contact : contact@plus2sens.com (déduit du domaine officiel)
 - Source : https://www.lejournaldesentreprises.com/breve/lagence-plus2sens-prepare-lavenir-en-faisant-entrer-3-collaboratrices-au-capital-2113051
 - Pourquoi : Agence lyonnaise de relations publiques et communication d'influence (13-15 salariés, 1,4 M€ de CA), PME indépendante. Le fondateur a fait entrer 3 collaboratrices clés au capital explicitement pour préparer l'avenir de l'entreprise : signal direct de fidélisation de profils clés et de préparation de transmission interne, avant toute cession. Information tirée d'un extrait, sans lecture complète.
-- Statut : nouveau
+- Statut : brouillon cree
 
 Total du jour : 2 leads (objectif de 25 largement non atteint). Recherche menée via 5 angles sectoriels en parallèle (industrie/BTP, commerce-artisanat-santé, tech/services, agroalimentaire-viticulture-hôtellerie, transport/BODACC) plus recherches complémentaires directes, soit plus de 100 requêtes WebSearch au total. La quasi-totalité des signaux trouvés ont été écartés pour l'un des motifs suivants : entreprise déjà listée dans les 30 derniers jours, transaction déjà finalisée (repreneur déjà en place), effectif hors fourchette 10-150 salariés, ou annonces anonymisées (UIMM, France Travail) sans nom d'entreprise identifiable rendant tout contact impossible. Aucun lead de transaction déjà finalisée ni d'entreprise hors profil n'a été ajouté pour combler le volume, conformément au filtre qualité strict demandé.
 
