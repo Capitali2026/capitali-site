@@ -1772,7 +1772,7 @@ Note technique : troisième jour consécutif de recherche très difficile (suite
 - Contact : contact@2jtech.fr (déduit du domaine officiel 2jtech.fr identifié dans une offre d'emploi de l'entreprise)
 - Source : https://www.lejournaldesentreprises.com/breve/gautier-lefevre-reprend-la-chaudronnerie-2jtech-arzal-2130476
 - Pourquoi : Chaudronnerie industrielle et navale (équipements de calage et chariots de manutention pour bateaux, Arzal, Morbihan). Fondée en 2010 par Guillaume Joly puis intégrée en 2020 au groupe Silvadec, l'entreprise vient d'être rachetée à 100 % par Gautier Lefèvre, ingénieur indépendant, qui en redevient le dirigeant-propriétaire hors de tout groupe. Moment clé pour structurer la fidélisation de l'encadrement technique dans une PME qui retrouve son indépendance. Information tirée d'extraits de recherche, sans lecture complète de l'article.
-- Statut : nouveau
+- Statut : brouillon cree
 
 - Entreprise : Imprim'Services
 - Dirigeant : Fabien Cabirou (repreneur) ; cédant Freddy Barbot
