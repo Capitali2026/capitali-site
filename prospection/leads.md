@@ -1782,3 +1782,23 @@ Note technique : troisième jour consécutif de recherche très difficile (suite
 - Statut : nouveau
 
 Total du jour : 2 leads (objectif de 25 largement non atteint, troisième jour consécutif de recherche très difficile). Aucun lead de transaction déjà finalisée par un groupe, d'entreprise hors profil de taille, ou de signal non daté avec confiance n'a été ajouté pour combler le volume, conformément au filtre qualité strict demandé.
+
+## 2026-11-01
+
+Note technique : quatrième jour consécutif de recherche très difficile. Recherche menée via 5 angles sectoriels en parallèle (industrie/BTP, commerce-artisanat-santé, tech/numérique/services, agroalimentaire-viticulture-hôtellerie, tension de recrutement + témoignages directs d'actionnariat salarié), soit plus de 190 requêtes WebSearch au total. Confirme le constat des jours précédents : la presse économique (notamment Le Journal des Entreprises, affaibli depuis son rachat par le groupe Overlord en juillet 2026) publie très peu de brèves nommant des PME précises et datées avec un signal exploitable ; la plupart des résultats sont soit des études macro, soit des annonces anonymisées sans nom d'entreprise, soit des transactions déjà finalisées par un groupe ou un fonds (écartées par principe), soit hors fourchette d'effectif 10-150 salariés. Deux pistes supplémentaires (Ambulances Duguesclin, 2e génération déjà en place depuis plusieurs années ; Pépinière Fleurs des Cévennes, transmission déjà actée en 2018) ont été écartées car la transmission y est déjà totalement achevée plutôt qu'en cours ou à venir, et aucun contact n'a pu être identifié. L'angle tension de recrutement/témoignages directs d'AGA n'a produit aucun lead exploitable (signaux soit déjà listés, soit hors profil de taille, soit non datés avec confiance). Deux leads ont pu être validés avec un niveau de confiance suffisant.
+
+- Entreprise : Brasserie Moulins d'Ascq
+- Dirigeant : Alban Decoster (co-gérant depuis 2015, reprend la direction) ; succède à Mathieu Lepoutre (fondateur en 1999, parti à la retraite, reste impliqué via le comité stratégique)
+- Contact : contact@moulinsdascq.com (déduit du domaine officiel moulinsdascq.com)
+- Source : https://www.lagazettefrance.fr/article/alban-decoster-prend-les-renes-de-la-brasserie-moulins-d-ascq
+- Pourquoi : Brasserie bio artisanale indépendante (Villeneuve-d'Ascq, Nord, environ 10-12 salariés). Le fondateur Mathieu Lepoutre part à la retraite et transmet la direction à son co-gérant interne Alban Decoster, sans rachat par un groupe externe : transmission/succession interne non finalisée vers un repreneur indépendant. Information tirée d'extraits de recherche, sans lecture complète de l'article ni confirmation de la date exacte de la passation.
+- Statut : nouveau
+
+- Entreprise : Grech Immobilier
+- Dirigeant : Bernard Grech (président sortant, élu CCI du Var) ; transmission en cours à ses enfants Sophie Grech (directrice générale depuis 12 ans) et Pierre Grech (appelé à devenir président et actionnaire majoritaire)
+- Contact : contact@grechimmo.com (déduit du domaine officiel grechimmo.com, confirmé via fiche FNAIM)
+- Source : https://www.lejournaldesentreprises.com/breve/transmission-familiale-chez-grech-immobilier-2115163
+- Pourquoi : Agence immobilière familiale fondée en 1962 (Var/Toulon/Boulogne-Billancourt, environ 50 salariés), transmission familiale en cours (rachat progressif des parts du père par ses deux enfants) : transaction non finalisée, dirigeant historique encore impliqué. Information tirée d'extraits de recherche, sans lecture complète de l'article.
+- Statut : nouveau
+
+Total du jour : 2 leads (objectif de 25 largement non atteint, quatrième jour consécutif de recherche très difficile). Aucun lead de transaction déjà finalisée par un groupe, d'entreprise hors profil de taille, de transmission déjà totalement achevée sans signal frais, ou de signal non daté avec confiance n'a été ajouté pour combler le volume, conformément au filtre qualité strict demandé.
