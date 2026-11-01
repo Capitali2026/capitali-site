@@ -1792,13 +1792,13 @@ Note technique : quatrième jour consécutif de recherche très difficile. Reche
 - Contact : contact@moulinsdascq.com (déduit du domaine officiel moulinsdascq.com)
 - Source : https://www.lagazettefrance.fr/article/alban-decoster-prend-les-renes-de-la-brasserie-moulins-d-ascq
 - Pourquoi : Brasserie bio artisanale indépendante (Villeneuve-d'Ascq, Nord, environ 10-12 salariés). Le fondateur Mathieu Lepoutre part à la retraite et transmet la direction à son co-gérant interne Alban Decoster, sans rachat par un groupe externe : transmission/succession interne non finalisée vers un repreneur indépendant. Information tirée d'extraits de recherche, sans lecture complète de l'article ni confirmation de la date exacte de la passation.
-- Statut : nouveau
+- Statut : brouillon cree
 
 - Entreprise : Grech Immobilier
 - Dirigeant : Bernard Grech (président sortant, élu CCI du Var) ; transmission en cours à ses enfants Sophie Grech (directrice générale depuis 12 ans) et Pierre Grech (appelé à devenir président et actionnaire majoritaire)
 - Contact : contact@grechimmo.com (déduit du domaine officiel grechimmo.com, confirmé via fiche FNAIM)
 - Source : https://www.lejournaldesentreprises.com/breve/transmission-familiale-chez-grech-immobilier-2115163
-- Pourquoi : Agence immobilière familiale fondée en 1962 (Var/Toulon/Boulogne-Billancourt, environ 50 salariés), transmission familiale en cours (rachat progressif des parts du père par ses deux enfants) : transaction non finalisée, dirigeant historique encore impliqué. Information tirée d'extraits de recherche, sans lecture complète de l'article.
-- Statut : nouveau
+- Pourquoi : Agence immobilière familiale fondée en 1962 (Var/Toulon/Boulogne-Billancourt, environ 50 salariés), transmission familiale en cours (rachat progressif des parts du père par ses deux enfants) : transaction non finalisée, dirigeant historique encore impliqué. Information tirée d'extraits de recherche, sans lecture complète de l'article. Note agent de redaction (2026-11-01) : doublon de l'entree du 2026-09-25 (meme source, meme entreprise, Contact : contact@grechimmo.fr) pour laquelle un brouillon a deja ete cree. Pas de nouveau brouillon envoye a grechimmo.com pour eviter un double contact ; a fusionner/nettoyer manuellement si besoin.
+- Statut : brouillon cree
 
 Total du jour : 2 leads (objectif de 25 largement non atteint, quatrième jour consécutif de recherche très difficile). Aucun lead de transaction déjà finalisée par un groupe, d'entreprise hors profil de taille, de transmission déjà totalement achevée sans signal frais, ou de signal non daté avec confiance n'a été ajouté pour combler le volume, conformément au filtre qualité strict demandé.
