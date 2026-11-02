@@ -1802,3 +1802,37 @@ Note technique : quatrième jour consécutif de recherche très difficile. Reche
 - Statut : brouillon cree
 
 Total du jour : 2 leads (objectif de 25 largement non atteint, quatrième jour consécutif de recherche très difficile). Aucun lead de transaction déjà finalisée par un groupe, d'entreprise hors profil de taille, de transmission déjà totalement achevée sans signal frais, ou de signal non daté avec confiance n'a été ajouté pour combler le volume, conformément au filtre qualité strict demandé.
+
+## 2026-11-02
+
+Note technique : recherche menée via 7 angles sectoriels en parallèle (industrie/BTP, commerce-santé-services, transmission familiale/retraite, tension de recrutement/fidélisation, annonces de cession + témoignages directs AGA, agroalimentaire/agriculture, transport-logistique/immobilier/services B2B), soit plus de 190 requêtes WebSearch au total. Cinquième jour consécutif de recherche très difficile : la quasi-totalité des pistes explorées ont été écartées pour transaction déjà finalisée par un groupe/fonds, signal trop ancien (souvent 2010-2023), annonce anonymisée sans nom d'entreprise exploitable, ou entreprise hors fourchette d'effectif 10-150 salariés. Quatre leads ont pu être validés avec un niveau de confiance suffisant.
+
+- Entreprise : Nodus Factory
+- Dirigeant : Yves Laurant (fondateur et président)
+- Contact : contact@nodusfactory.com (déduit du domaine mentionné dans les résultats de recherche)
+- Source : https://www.bateaux.com/article/51971/nodus-factory-prepare-sa-transition-manageriale-et-s-oriente-vers-une-gouvernance-partagee
+- Pourquoi : PME bretonne (Sarzeau, Morbihan, environ 12 salariés), fabricant de connecteurs textiles pour ostréiculture/nautisme/BTP, croissance de +48% en 2025. Le fondateur Yves Laurant prépare son départ de la direction (fin septembre 2026) et une transition vers une gouvernance partagée, avec des cadres déjà actionnaires au capital : signal direct d'intérêt pour l'actionnariat salarié/AGA avant toute cession, dirigeant encore aux commandes. Information tirée d'extraits de recherche, sans lecture complète de l'article.
+- Statut : nouveau
+
+- Entreprise : Fagots et Froment (SARL Le Pain du Rozay)
+- Dirigeant : Béatrice Rozé
+- Contact : non trouvé, voir source
+- Source : https://www.lejournaldesentreprises.com/article/la-boulangerie-bio-fagots-et-froment-anticipe-sa-transmission-2102495
+- Pourquoi : Boulangerie bio familiale d'environ 40 salariés à Essé (Ille-et-Vilaine). La dirigeante Béatrice Rozé anticipe sa transmission ; deux salariés clés (Amandine Douard, Gwenhaël Ribault) rachètent déjà 15% des parts via une holding, amorçant une transmission vers les salariés : transaction en cours, pas encore finalisée. Information tirée d'extraits de recherche, sans lecture complète de l'article ; aucun domaine web officiel identifié dans les résultats.
+- Statut : nouveau
+
+- Entreprise : Régis Père et Fils
+- Dirigeant : Jean-Jacques Régis (président) ; transmission en cours à ses fils Arnaud et Michel Régis, déjà codirigeants
+- Contact : non trouvé, voir source
+- Source : https://www.lejournaldesentreprises.com/article/regis-pere-et-fils-deux-siecles-forges-dans-le-metal-et-laluminium-2126059
+- Pourquoi : PME familiale de métallerie/menuiserie aluminium (48 salariés, environ 12 M€ de CA) à Puget-sur-Argens (Var). Transmission familiale en cours du père vers ses deux fils déjà installés comme codirigeants, dirigeant historique encore impliqué. Information tirée d'extraits de recherche, sans lecture complète de l'article ; aucun domaine web officiel identifié dans les résultats.
+- Statut : nouveau
+
+- Entreprise : Masfer (M.A.S.FER)
+- Dirigeant : Philippe Catinaud (fondateur sortant) ; succession vers Joan Ballay (repreneur interne)
+- Contact : contact@masfer.fr (déduit du domaine officiel masfer.fr)
+- Source : https://www.echodumardi.com/economie/masfer-une-transmission-en-douceur-pour-cette-entreprise-de-creation-haute-couture-en-acier-et-aluminium/
+- Pourquoi : PME artisanale de ferronnerie/métallerie/menuiserie aluminium au Thor (Vaucluse). Transmission en douceur du fondateur vers un repreneur interne ("fils spirituel"), succession indépendante hors groupe, transaction encore en cours. Information tirée d'extraits de recherche (article possiblement daté de mi-2025, signal encore pertinent compte tenu de la nature progressive de la transmission), sans lecture complète de l'article.
+- Statut : nouveau
+
+Total du jour : 4 leads (objectif de 25 largement non atteint, cinquième jour consécutif de recherche très difficile). Aucun lead de transaction déjà finalisée par un groupe, d'entreprise hors profil de taille, ou de signal non daté avec confiance n'a été ajouté pour combler le volume, conformément au filtre qualité strict demandé.
