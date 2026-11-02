@@ -1812,7 +1812,7 @@ Note technique : recherche menée via 7 angles sectoriels en parallèle (industr
 - Contact : contact@nodusfactory.com (déduit du domaine mentionné dans les résultats de recherche)
 - Source : https://www.bateaux.com/article/51971/nodus-factory-prepare-sa-transition-manageriale-et-s-oriente-vers-une-gouvernance-partagee
 - Pourquoi : PME bretonne (Sarzeau, Morbihan, environ 12 salariés), fabricant de connecteurs textiles pour ostréiculture/nautisme/BTP, croissance de +48% en 2025. Le fondateur Yves Laurant prépare son départ de la direction (fin septembre 2026) et une transition vers une gouvernance partagée, avec des cadres déjà actionnaires au capital : signal direct d'intérêt pour l'actionnariat salarié/AGA avant toute cession, dirigeant encore aux commandes. Information tirée d'extraits de recherche, sans lecture complète de l'article.
-- Statut : nouveau
+- Statut : brouillon cree
 
 - Entreprise : Fagots et Froment (SARL Le Pain du Rozay)
 - Dirigeant : Béatrice Rozé
@@ -1833,6 +1833,6 @@ Note technique : recherche menée via 7 angles sectoriels en parallèle (industr
 - Contact : contact@masfer.fr (déduit du domaine officiel masfer.fr)
 - Source : https://www.echodumardi.com/economie/masfer-une-transmission-en-douceur-pour-cette-entreprise-de-creation-haute-couture-en-acier-et-aluminium/
 - Pourquoi : PME artisanale de ferronnerie/métallerie/menuiserie aluminium au Thor (Vaucluse). Transmission en douceur du fondateur vers un repreneur interne ("fils spirituel"), succession indépendante hors groupe, transaction encore en cours. Information tirée d'extraits de recherche (article possiblement daté de mi-2025, signal encore pertinent compte tenu de la nature progressive de la transmission), sans lecture complète de l'article.
-- Statut : nouveau
+- Statut : brouillon cree
 
 Total du jour : 4 leads (objectif de 25 largement non atteint, cinquième jour consécutif de recherche très difficile). Aucun lead de transaction déjà finalisée par un groupe, d'entreprise hors profil de taille, ou de signal non daté avec confiance n'a été ajouté pour combler le volume, conformément au filtre qualité strict demandé.
