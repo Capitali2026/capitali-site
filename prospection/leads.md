@@ -1836,3 +1836,16 @@ Note technique : recherche menée via 7 angles sectoriels en parallèle (industr
 - Statut : brouillon cree
 
 Total du jour : 4 leads (objectif de 25 largement non atteint, cinquième jour consécutif de recherche très difficile). Aucun lead de transaction déjà finalisée par un groupe, d'entreprise hors profil de taille, ou de signal non daté avec confiance n'a été ajouté pour combler le volume, conformément au filtre qualité strict demandé.
+
+## 2026-11-03
+
+Note technique : sixième jour consécutif de recherche très difficile. Recherche menée via 7 agents en parallèle sur des angles sectoriels distincts (industrie/BTP/métallerie, commerce/artisanat/santé, tech/ESN/services, agroalimentaire/viticulture/hôtellerie, transport/logistique/immobilier B2B, transmission familiale/BODACC/presse régionale, tension de recrutement/témoignages directs AGA), représentant plus de 200 requêtes WebSearch au total. Le quota de recherche WebSearch partagé de la session s'est épuisé pour 6 des 7 agents avant la fin de leur plan de recherche, limitant fortement la couverture. La quasi-totalité des pistes nommées trouvées ont été écartées pour l'un des motifs suivants : transaction déjà finalisée (rachat par un groupe/fonds déjà acté), entreprise hors fourchette d'effectif 10-150 salariés (vérifié notamment via Pappers pour Enygea Services : 250-499 salariés, donc écartée malgré un bon témoignage sur l'actionnariat des cadres), annonce anonymisée sans nom d'entreprise exploitable (portails UIMM, Fusacq), ou signal insuffisamment daté/vérifié pour être présenté avec confiance comme non finalisé (pistes Victor Mary/Groupe Mary et Celestin Nettoyage écartées pour cette raison). Un seul lead a pu être validé avec un niveau de confiance suffisant.
+
+- Entreprise : Micro Lynx
+- Dirigeant : Olivier et Gwénaëlle Venien (fondateurs) ; transmission en cours à leurs enfants Charly et Joanna Venien
+- Contact : non trouvé, voir source (aucun domaine officiel confirmé avec certitude dans les résultats de recherche malgré plusieurs requêtes dédiées)
+- Source : https://www.lejournaldesentreprises.com/article/avec-la-nouvelle-generation-limprimerie-rennaise-micro-lynx-se-donne-un-autre-regard-2077408
+- Pourquoi : Imprimerie indépendante à Rennes (environ 34 salariés, 10 M€ de CA selon Xerfi), spécialisée dans l'impression numérique/offset petites séries. Les fondateurs préparent la transmission familiale de l'entreprise à leurs deux enfants (rachat de parts annoncé avant l'été 2024) : transmission familiale non finalisée au moment de l'article, dirigeants historiques encore impliqués. Information tirée d'extraits de recherche, sans lecture complète de l'article ni confirmation que l'opération s'est bien conclue depuis — à vérifier avant tout contact.
+- Statut : nouveau
+
+Total du jour : 1 lead (objectif de 25 largement non atteint, sixième jour consécutif de recherche très difficile, aggravé aujourd'hui par un épuisement précoce du quota WebSearch partagé sur 6 agents sur 7). Aucun lead de transaction déjà finalisée par un groupe, d'entreprise hors profil de taille (notamment Enygea, écartée après vérification Pappers), ou de signal non daté/vérifié avec confiance n'a été ajouté pour combler le volume, conformément au filtre qualité strict demandé.
