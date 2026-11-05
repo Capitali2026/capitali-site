@@ -378,6 +378,7 @@ Note technique : filtre qualité renforcé ce jour (exclusion stricte de tout le
 - Source : https://www.lejournaldesentreprises.com/article/eureka-solutions-ouvre-son-capital-ses-salaries-949228
 - Pourquoi : Éditeur et intégrateur de logiciels ERP (42 salariés, Pfastatt, Haut-Rhin). Le fondateur de 71 ans a ouvert le capital à ses salariés (23 des 42 salariés détiennent déjà 29 %) pour préparer sa transmission via un LBO progressif : cas quasi identique à la proposition de valeur de Capitali (actionnariat salarié/AGA pour préparer une transmission a venir).
 - Statut : brouillon cree
+- Note agent de redaction (2026-11-05) : aucun brouillon n'existait en realite dans Gmail pour ce contact malgre ce statut (verifie via recherche dediee) ; un brouillon a ete cree aujourd'hui a contact@eureka-solutions.fr en traitant le doublon du 2026-11-05 (meme entreprise, meme contact).
 
 - Entreprise : L'Angelys
 - Dirigeant : Denis Lavaud (fondateur-dirigeant)
@@ -1872,21 +1873,22 @@ Note technique : huitième jour consécutif de recherche très difficile. Recher
 - Contact : contact@eureka-solutions.fr (déduit du domaine officiel eureka-solutions.fr, confirmé via un annuaire tiers)
 - Source : https://www.lejournaldesentreprises.com/article/eureka-solutions-ouvre-son-capital-ses-salaries-949228 ; voir aussi https://www.solutions-numeriques.com/communiques/eureka-solutions-ouvre-son-capital-a-ses-collaborateurs
 - Pourquoi : PME éditrice de progiciels ERP (Pfastatt, Haut-Rhin, 42 salariés, 3,6 M€ de CA). Le fondateur-président Henri Stuckert a ouvert le capital à ses équipes (29 % des actions détenues par 23 des 42 collaborateurs) pour mettre le modèle d'actionnariat en cohérence avec sa vision de partage de la valeur et préparer la transmission de l'entreprise en conservant son indépendance : témoignage direct et récent d'un dirigeant de PME sur l'actionnariat salarié comme outil de fidélisation des cadres et de préparation de transmission, avant toute cession.
-- Statut : nouveau
+- Statut : brouillon cree
+- Note agent de redaction (2026-11-05) : doublon de l'entree du 2026-09-25 (meme entreprise, meme contact contact@eureka-solutions.fr). Cette entree-la etait marquee "brouillon cree" mais aucun brouillon reel n'existait dans Gmail ; un brouillon a donc ete cree aujourd'hui a partir de cette fiche-ci pour combler le manque. A fusionner/nettoyer manuellement si besoin.
 
 - Entreprise : Château Lagrézette (Alain Dominique Perrin SA Château Lagrézette)
 - Dirigeant : Sonia Perrin (succède à son père Alain-Dominique Perrin, propriétaire du domaine depuis 1980)
 - Contact : contact@lagrezette.fr (déduit du domaine officiel)
 - Source : https://www.purepeople.com/diapo/apres-cartier-alain-dominique-perrin-transmet-les-renes-de-son-joyau-viticole-acquis-il-y-a-pres-dun-demi-siecle_a551021/1
 - Pourquoi : Domaine viticole indépendant à Cahors (Lot), environ 20-49 salariés selon un annuaire professionnel. Transmission familiale 2026 du père vers sa fille, dirigeant historique encore impliqué : transaction non finalisée, signal direct de transmission familiale avant toute cession externe. Information tirée d'extraits de recherche, sans lecture complète de l'article.
-- Statut : nouveau
+- Statut : brouillon cree
 
 - Entreprise : Aarc (chaudronnerie et tuyauterie industrielle de précision)
 - Dirigeant : Dominique Vincent (gérant), associé avec Franck Parrot et Pierre Lamy
 - Contact : aarc@aarc.fr (adresse affichée sur le site officiel aarc.fr, confirmée par recherche dédiée)
 - Source : https://www.lejournaldesentreprises.com/breve/wanecque-metallerie-na-pas-rachete-aarc-178824
 - Pourquoi : PME girondine de chaudronnerie/tuyauterie industrielle (Blanquefort, 23 salariés, 2,85 M€ de CA, fondée en 1994). Le gérant, proche de la retraite, cherche toujours un repreneur après l'échec des négociations exclusives avec un repreneur potentiel (Wanecque Métallerie) : transmission à venir, non finalisée, dirigeant encore aux commandes. Information tirée d'extraits de recherche, sans lecture complète de l'article.
-- Statut : nouveau
+- Statut : brouillon cree
 
 - Entreprise : Pipard Frères
 - Dirigeant : famille Pipard (entreprise fondée par le grand-père, reprise par ses deux fils, génération actuelle en préparation de transmission vers ses propres enfants)
