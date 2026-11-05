@@ -1862,3 +1862,37 @@ Note technique : septième jour consécutif de recherche très difficile. Plus d
 - Statut : nouveau
 
 Total du jour : 1 lead (objectif de 25 largement non atteint, septième jour consécutif de recherche très difficile). Aucun lead de transaction déjà finalisée par un groupe, de doublon des 30 derniers jours, d'entreprise hors profil de taille, ou de signal non daté/vérifié avec confiance n'a été ajouté pour combler le volume, conformément au filtre qualité strict demandé.
+
+## 2026-11-05
+
+Note technique : huitième jour consécutif de recherche très difficile. Recherche menée via 5 agents en parallèle sur des angles sectoriels distincts (industrie/BTP/métallerie, commerce/artisanat/santé, tech/ESN/services B2B, agroalimentaire/viticulture/hôtellerie, transport/logistique/immobilier + tension de recrutement/témoignages directs AGA), complétée par des recherches de vérification manuelles, soit plus de 200 requêtes WebSearch au total. Le quota WebSearch partagé de l'environnement s'est à nouveau épuisé pour plusieurs agents avant la fin de leur plan de recherche (notamment sur les angles commerce/santé et tech/ESN), limitant fortement la couverture. Plusieurs pistes ont été écartées après vérification manuelle : Marinelec Technologies (Quimper) a été écartée car la transmission évoquée par un agent est en réalité déjà finalisée (Pascal Citeau a transmis l'entreprise à Geoffroy Lacoin, désormais actionnaire majoritaire) ; Auditia (cabinet d'expertise comptable, Saint-Nazaire) a été écartée après vérification Pappers confirmant un effectif de 100 à 199 salariés, hors fourchette cible 10-150 ; un hôtel familial des Issambres (Var, famille Sauvan, 4 générations) présentait un signal de transmission très pertinent mais son nom commercial exact n'a pas pu être confirmé avec certitude dans les résultats disponibles, donc écarté par prudence plutôt que de risquer un nom inventé. Les pistes anonymisées (portails Fusacq, UIMM/opportunites-industrielles) décrivant des dirigeants de PME cherchant un repreneur avant la retraite restent nombreuses mais sans nom d'entreprise exploitable. Quatre leads ont pu être validés avec un niveau de confiance suffisant.
+
+- Entreprise : Eurêka Solutions
+- Dirigeant : Henri Stuckert (fondateur-président)
+- Contact : contact@eureka-solutions.fr (déduit du domaine officiel eureka-solutions.fr, confirmé via un annuaire tiers)
+- Source : https://www.lejournaldesentreprises.com/article/eureka-solutions-ouvre-son-capital-ses-salaries-949228 ; voir aussi https://www.solutions-numeriques.com/communiques/eureka-solutions-ouvre-son-capital-a-ses-collaborateurs
+- Pourquoi : PME éditrice de progiciels ERP (Pfastatt, Haut-Rhin, 42 salariés, 3,6 M€ de CA). Le fondateur-président Henri Stuckert a ouvert le capital à ses équipes (29 % des actions détenues par 23 des 42 collaborateurs) pour mettre le modèle d'actionnariat en cohérence avec sa vision de partage de la valeur et préparer la transmission de l'entreprise en conservant son indépendance : témoignage direct et récent d'un dirigeant de PME sur l'actionnariat salarié comme outil de fidélisation des cadres et de préparation de transmission, avant toute cession.
+- Statut : nouveau
+
+- Entreprise : Château Lagrézette (Alain Dominique Perrin SA Château Lagrézette)
+- Dirigeant : Sonia Perrin (succède à son père Alain-Dominique Perrin, propriétaire du domaine depuis 1980)
+- Contact : contact@lagrezette.fr (déduit du domaine officiel)
+- Source : https://www.purepeople.com/diapo/apres-cartier-alain-dominique-perrin-transmet-les-renes-de-son-joyau-viticole-acquis-il-y-a-pres-dun-demi-siecle_a551021/1
+- Pourquoi : Domaine viticole indépendant à Cahors (Lot), environ 20-49 salariés selon un annuaire professionnel. Transmission familiale 2026 du père vers sa fille, dirigeant historique encore impliqué : transaction non finalisée, signal direct de transmission familiale avant toute cession externe. Information tirée d'extraits de recherche, sans lecture complète de l'article.
+- Statut : nouveau
+
+- Entreprise : Aarc (chaudronnerie et tuyauterie industrielle de précision)
+- Dirigeant : Dominique Vincent (gérant), associé avec Franck Parrot et Pierre Lamy
+- Contact : aarc@aarc.fr (adresse affichée sur le site officiel aarc.fr, confirmée par recherche dédiée)
+- Source : https://www.lejournaldesentreprises.com/breve/wanecque-metallerie-na-pas-rachete-aarc-178824
+- Pourquoi : PME girondine de chaudronnerie/tuyauterie industrielle (Blanquefort, 23 salariés, 2,85 M€ de CA, fondée en 1994). Le gérant, proche de la retraite, cherche toujours un repreneur après l'échec des négociations exclusives avec un repreneur potentiel (Wanecque Métallerie) : transmission à venir, non finalisée, dirigeant encore aux commandes. Information tirée d'extraits de recherche, sans lecture complète de l'article.
+- Statut : nouveau
+
+- Entreprise : Pipard Frères
+- Dirigeant : famille Pipard (entreprise fondée par le grand-père, reprise par ses deux fils, génération actuelle en préparation de transmission vers ses propres enfants)
+- Contact : non trouvé, voir source (aucun site web officiel identifié dans les résultats de recherche)
+- Source : https://www.lejournaldesentreprises.com/article/pipard-freres-ou-lart-de-la-transmission-96559
+- Pourquoi : Entreprise familiale de charpente/construction bois (Drouges, Ille-et-Vilaine, 13 salariés, environ 2,8-3,2 M€ de CA). Troisième génération à la tête de l'entreprise, qui prépare activement la transmission à la génération suivante : transmission familiale en cours, non finalisée. Information tirée d'extraits de recherche, sans lecture complète de l'article.
+- Statut : nouveau
+
+Total du jour : 4 leads (objectif de 25 largement non atteint, huitième jour consécutif de recherche très difficile malgré une mobilisation de 5 agents en parallèle). Aucun lead de transaction déjà finalisée par un groupe (une piste, Marinelec Technologies, a été écartée après vérification manuelle pour ce motif précis malgré un premier signal favorable), d'entreprise hors profil de taille (Auditia écartée après vérification Pappers), de doublon des 30 derniers jours, ou de nom d'entreprise non confirmé avec certitude (hôtel des Issambres) n'a été ajouté pour combler le volume, conformément au filtre qualité strict demandé.
