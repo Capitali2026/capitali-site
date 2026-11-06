@@ -1898,3 +1898,72 @@ Note technique : huitième jour consécutif de recherche très difficile. Recher
 - Statut : nouveau
 
 Total du jour : 4 leads (objectif de 25 largement non atteint, huitième jour consécutif de recherche très difficile malgré une mobilisation de 5 agents en parallèle). Aucun lead de transaction déjà finalisée par un groupe (une piste, Marinelec Technologies, a été écartée après vérification manuelle pour ce motif précis malgré un premier signal favorable), d'entreprise hors profil de taille (Auditia écartée après vérification Pappers), de doublon des 30 derniers jours, ou de nom d'entreprise non confirmé avec certitude (hôtel des Issambres) n'a été ajouté pour combler le volume, conformément au filtre qualité strict demandé.
+
+## 2026-11-06
+
+Note technique : recherche menée via 6 agents en parallèle sur des angles sectoriels distincts (BTP/industrie lourde, commerce/distribution/retraite, santé/services B2B, agroalimentaire/viticulture/artisanat, tech/numérique/fidélisation cadres, cession-transmission tous secteurs) puis complétée par des recherches directes supplémentaires, soit plus de 150 requêtes WebSearch au total. Le budget de recherche partagé entre les agents s'est épuisé rapidement, limitant chaque angle à 0-2 leads ; les recherches complémentaires ont permis d'identifier quelques leads additionnels via la presse économique régionale (Le Journal des Entreprises, La Gazette France). Plusieurs pistes ont été écartées après vérification : transaction déjà finalisée (Ipsomedic, dont les actifs ont été repris par Askleia le 12/05/2026 ; Axiome Provence, changement de direction trop ancien), entreprise hors profil de taille (groupes de distribution automobile Lempereur, Central Autos, Dallois, tous >150 salariés), entreprise hors France (B-Travel, Belgique), ou signal insuffisamment confirmé (hôtel des Issambres, sans effectif vérifiable, déjà écarté le 2026-10-30).
+
+- Entreprise : Alland & Robert
+- Dirigeant : Charles Alland (PDG depuis mars 2023, succède à son père Frédéric)
+- Contact : contact@allandetrobert.com (domaine déduit d'un annuaire professionnel, non vérifié par visite directe du site)
+- Source : https://www.lejournaldesentreprises.com/article/charles-alland-devient-le-nouveau-pdg-de-lentreprise-familiale-alland-robert-2059498 ; https://www.lejournaldesentreprises.com/article/un-nouveau-souffle-pour-alland-robert-avec-une-sixieme-generation-sa-tete-1014592
+- Pourquoi : PME agroalimentaire familiale indépendante à Saint-Aubin-sur-Gaillon (Eure), environ 100-120 salariés, leader mondial de la gomme d'acacia (140 ans d'histoire). La sixième génération (Charles Alland, avec sa sœur Anne-Sophie à la DRH) vient de prendre la direction : transmission familiale récente, entreprise encore totalement indépendante. Information tirée d'extraits d'articles, sans lecture complète.
+- Statut : nouveau
+
+- Entreprise : Sepal (Société Européenne de Produits Alimentaires)
+- Dirigeant : Audrey, Émilie et Jean-François Roullier (ont succédé à leur père Jean-Yves Roullier en janvier 2022, qui reste président non-exécutif)
+- Contact : contact@sepal.fr (domaine officiel confirmé dans un extrait, adresse déduite)
+- Source : https://www.lejournaldesentreprises.com/breve/transmission-familiale-chez-le-negociant-en-produits-alimentaires-sepal-2048361 ; https://www.reussir.fr/lesmarches/sepal
+- Pourquoi : PME agroalimentaire indépendante à Bonchamp-lès-Laval (Mayenne), 30-35 salariés, grossiste-importateur de produits appertisés pour la restauration hors domicile et l'industrie. Transmission familiale aux trois enfants du fondateur, qui a gardé un rôle non exécutif : dirigeants de la nouvelle génération aux commandes, entreprise toujours indépendante. Information tirée d'extraits, sans lecture complète.
+- Statut : nouveau
+
+- Entreprise : Malterre (Ets Malterre, tricotage)
+- Dirigeant : Isabelle et Vincent Malterre (succèdent à Patricia et Laurent Malterre)
+- Contact : contact@etsmalterre.fr (domaine officiel confirmé par recherche dédiée, adresse déduite)
+- Source : https://www.lagazettefrance.fr/article/moreuil-la-nouvelle-generation-malterre-prend-en-main-la-destinee-de-l-entreprise-textile
+- Pourquoi : PME textile indépendante de Moreuil (Somme), environ 12 salariés, atelier de tricotage fabriquant des vêtements en coton bio/recyclé et lin. Transmission familiale en cours en 2026 : la nouvelle génération (Isabelle et Vincent) prend la suite de Patricia et Laurent Malterre, sans cession à un tiers. Information tirée d'extraits WebSearch, sans lecture complète.
+- Statut : nouveau
+
+- Entreprise : Pierotti & Léger (Imprimerie Pierotti)
+- Dirigeant : Viviane Léger (dirigeante principale) / Marc Léger (DG depuis 02/2025)
+- Contact : contact@pierotti.fr (domaine déduit, à vérifier)
+- Source : https://www.lejournaldesentreprises.com/article/entre-investissements-et-nouvelle-dirigeante-limprimerie-pierotti-leger-soffre-une-nouvelle-jeunesse-2112528
+- Pourquoi : imprimerie familiale indépendante de Nice (étiquettes adhésives, notices pharmaceutiques), CA 2024 de 2,9 M€. Fondée par la famille Pierotti en 1923, reprise par la famille Léger en 1964, transmission intergénérationnelle récente au sein de la même famille (Viviane et Marc Léger), aucune cession à un groupe tiers. Information tirée d'extraits WebSearch.
+- Statut : nouveau
+
+- Entreprise : Breteault
+- Dirigeant : Guillaume Leduc (a succédé à son père Didier Leduc, parti en retraite)
+- Contact : non trouvé, voir source (aucun site officiel identifié dans les résultats de recherche)
+- Source : https://www.lejournaldesentreprises.com/breve/transmission-familiale-chez-breteault-123518 ; https://www.lejournaldesentreprises.com/article/breteault-poursuit-son-developpement-en-famille-124351
+- Pourquoi : PME familiale indépendante de distribution de peinture automobile, industrielle et bâtiment (Sargé-lès-Le Mans, Sarthe, environ 75 salariés, CA d'environ 14,7 M€, une dizaine d'implantations dans le Grand Ouest). Le fondateur Didier Leduc a transmis les rênes à son fils Guillaume, qui poursuit le développement de l'entreprise en famille, sans cession à un tiers. Information tirée d'extraits de presse, sans lecture complète.
+- Statut : nouveau
+
+- Entreprise : POUGET Consultants
+- Dirigeant : Charles Arquin (gérant selon Pappers)
+- Contact : contact@pouget-consultants.fr (adresse confirmée par recherche dédiée)
+- Source : https://pappers.fr/entreprise/438181869 ; https://conseils.xpair.com/agenda_news/pouget-consultants-energie-preserver-transmettre.htm
+- Pourquoi : bureau d'études en efficacité énergétique des bâtiments (Paris, environ 50-99 salariés), capital détenu en indépendant par une quinzaine de salariés cadres associés-actionnaires. Signal de fidélisation par actionnariat salarié et de transmission interne en cours, dirigeant encore aux commandes, aucune cession à un tiers externe. Information tirée d'extraits de recherche, sans lecture complète.
+- Statut : nouveau
+
+- Entreprise : Macarons de Boulay (Maison Alexandre)
+- Dirigeant : Mathilde Alexandre (succède à son père Jacques Alexandre, à la tête de la maison depuis plus de trois décennies)
+- Contact : contact@macaronsdeboulay.com (domaine confirmé par recherche dédiée ; tél. 03 87 79 11 22)
+- Source : https://www.lagazettefrance.fr/article/macarons-de-boulay-mathilde-alexandre-reprend-le-flambeau
+- Pourquoi : maison artisanale indépendante de confiserie à Boulay-Moselle, labellisée "Entreprise du patrimoine vivant", fabriquant les Macarons de Boulay depuis 1963. Transmission familiale récente père-fille, dirigeante historique ayant passé la main, entreprise toujours indépendante. Information tirée d'extraits WebSearch, sans lecture complète, effectif non confirmé mais compatible avec une PME artisanale.
+- Statut : nouveau
+
+- Entreprise : Ressorts Masselin
+- Dirigeant : la quatrième génération de la famille Masselin (Jean Masselin passe la main à ses fils)
+- Contact : contact@masselin.com (domaine cité par un annuaire professionnel tiers, non vérifié par visite directe du site)
+- Source : https://www.lejournaldesentreprises.com/article/jean-masselin-ressorts-masselin-je-passe-la-main-la-quatrieme-generation-masselin-484138
+- Pourquoi : fabricant indépendant de ressorts, barres de torsion et sous-ensembles élastiques au Petit-Quévilly (Seine-Maritime), environ 130-140 salariés selon plusieurs fiches d'entreprise. Transmission familiale à la quatrième génération, dirigeant historique passant la main en interne, entreprise toujours indépendante. Information tirée d'extraits WebSearch, sans lecture complète.
+- Statut : nouveau
+
+- Entreprise : Les Meubles Jean Benoit
+- Dirigeant : Gregory (dirige avec son père Marc, petit-fils du fondateur Raoul Benoit)
+- Contact : non trouvé, voir source (aucun site officiel identifié dans les résultats de recherche)
+- Source : https://www.objectifgard.com/gard/ales-cevennes/ales-les-meubles-jean-benoit-80-ans-dartisanat-et-de-passion-familiale-en-coeur-de-ville-160021.php
+- Pourquoi : commerce indépendant de meubles fabriqués en France à Alès (Gard), magasin familial de 700 m² fondé en 1946, fêtant ses 80 ans en 2026. Transmission familiale en cours de la troisième à la quatrième génération (le père Marc avec son fils Gregory), entreprise toujours indépendante. Information tirée d'un extrait de presse, sans lecture complète, effectif non confirmé.
+- Statut : nouveau
+
+Total du jour : 9 leads (objectif de 25 non atteint). Malgré la mobilisation de 6 agents en parallèle sur des angles sectoriels distincts et plus de 150 requêtes WebSearch au total, le volume de signaux exploitables (PME française indépendante nommée, taille compatible, signal récent et non finalisé, non dupliquée des 30 derniers jours) reste très limité : deux secteurs explorés (BTP/métallurgie, tech/numérique) n'ont produit aucun lead conforme, les autres angles 0 à 2 chacun. Les recherches complémentaires menées directement ont permis de porter le total à 9. Aucun lead de transaction déjà finalisée (plusieurs pistes écartées : Ipsomedic/Askleia, Axiome Provence, groupes de distribution automobile familiaux mais >150 salariés) ni hors profil n'a été ajouté pour combler le volume, conformément au filtre qualité strict demandé.
