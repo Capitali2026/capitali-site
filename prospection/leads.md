@@ -1908,28 +1908,28 @@ Note technique : recherche menée via 6 agents en parallèle sur des angles sect
 - Contact : contact@allandetrobert.com (domaine déduit d'un annuaire professionnel, non vérifié par visite directe du site)
 - Source : https://www.lejournaldesentreprises.com/article/charles-alland-devient-le-nouveau-pdg-de-lentreprise-familiale-alland-robert-2059498 ; https://www.lejournaldesentreprises.com/article/un-nouveau-souffle-pour-alland-robert-avec-une-sixieme-generation-sa-tete-1014592
 - Pourquoi : PME agroalimentaire familiale indépendante à Saint-Aubin-sur-Gaillon (Eure), environ 100-120 salariés, leader mondial de la gomme d'acacia (140 ans d'histoire). La sixième génération (Charles Alland, avec sa sœur Anne-Sophie à la DRH) vient de prendre la direction : transmission familiale récente, entreprise encore totalement indépendante. Information tirée d'extraits d'articles, sans lecture complète.
-- Statut : nouveau
+- Statut : brouillon cree
 
 - Entreprise : Sepal (Société Européenne de Produits Alimentaires)
 - Dirigeant : Audrey, Émilie et Jean-François Roullier (ont succédé à leur père Jean-Yves Roullier en janvier 2022, qui reste président non-exécutif)
 - Contact : contact@sepal.fr (domaine officiel confirmé dans un extrait, adresse déduite)
 - Source : https://www.lejournaldesentreprises.com/breve/transmission-familiale-chez-le-negociant-en-produits-alimentaires-sepal-2048361 ; https://www.reussir.fr/lesmarches/sepal
 - Pourquoi : PME agroalimentaire indépendante à Bonchamp-lès-Laval (Mayenne), 30-35 salariés, grossiste-importateur de produits appertisés pour la restauration hors domicile et l'industrie. Transmission familiale aux trois enfants du fondateur, qui a gardé un rôle non exécutif : dirigeants de la nouvelle génération aux commandes, entreprise toujours indépendante. Information tirée d'extraits, sans lecture complète.
-- Statut : nouveau
+- Statut : brouillon cree
 
 - Entreprise : Malterre (Ets Malterre, tricotage)
 - Dirigeant : Isabelle et Vincent Malterre (succèdent à Patricia et Laurent Malterre)
 - Contact : contact@etsmalterre.fr (domaine officiel confirmé par recherche dédiée, adresse déduite)
 - Source : https://www.lagazettefrance.fr/article/moreuil-la-nouvelle-generation-malterre-prend-en-main-la-destinee-de-l-entreprise-textile
 - Pourquoi : PME textile indépendante de Moreuil (Somme), environ 12 salariés, atelier de tricotage fabriquant des vêtements en coton bio/recyclé et lin. Transmission familiale en cours en 2026 : la nouvelle génération (Isabelle et Vincent) prend la suite de Patricia et Laurent Malterre, sans cession à un tiers. Information tirée d'extraits WebSearch, sans lecture complète.
-- Statut : nouveau
+- Statut : brouillon cree
 
 - Entreprise : Pierotti & Léger (Imprimerie Pierotti)
 - Dirigeant : Viviane Léger (dirigeante principale) / Marc Léger (DG depuis 02/2025)
 - Contact : contact@pierotti.fr (domaine déduit, à vérifier)
 - Source : https://www.lejournaldesentreprises.com/article/entre-investissements-et-nouvelle-dirigeante-limprimerie-pierotti-leger-soffre-une-nouvelle-jeunesse-2112528
 - Pourquoi : imprimerie familiale indépendante de Nice (étiquettes adhésives, notices pharmaceutiques), CA 2024 de 2,9 M€. Fondée par la famille Pierotti en 1923, reprise par la famille Léger en 1964, transmission intergénérationnelle récente au sein de la même famille (Viviane et Marc Léger), aucune cession à un groupe tiers. Information tirée d'extraits WebSearch.
-- Statut : nouveau
+- Statut : brouillon cree
 
 - Entreprise : Breteault
 - Dirigeant : Guillaume Leduc (a succédé à son père Didier Leduc, parti en retraite)
@@ -1943,21 +1943,21 @@ Note technique : recherche menée via 6 agents en parallèle sur des angles sect
 - Contact : contact@pouget-consultants.fr (adresse confirmée par recherche dédiée)
 - Source : https://pappers.fr/entreprise/438181869 ; https://conseils.xpair.com/agenda_news/pouget-consultants-energie-preserver-transmettre.htm
 - Pourquoi : bureau d'études en efficacité énergétique des bâtiments (Paris, environ 50-99 salariés), capital détenu en indépendant par une quinzaine de salariés cadres associés-actionnaires. Signal de fidélisation par actionnariat salarié et de transmission interne en cours, dirigeant encore aux commandes, aucune cession à un tiers externe. Information tirée d'extraits de recherche, sans lecture complète.
-- Statut : nouveau
+- Statut : brouillon cree
 
 - Entreprise : Macarons de Boulay (Maison Alexandre)
 - Dirigeant : Mathilde Alexandre (succède à son père Jacques Alexandre, à la tête de la maison depuis plus de trois décennies)
 - Contact : contact@macaronsdeboulay.com (domaine confirmé par recherche dédiée ; tél. 03 87 79 11 22)
 - Source : https://www.lagazettefrance.fr/article/macarons-de-boulay-mathilde-alexandre-reprend-le-flambeau
 - Pourquoi : maison artisanale indépendante de confiserie à Boulay-Moselle, labellisée "Entreprise du patrimoine vivant", fabriquant les Macarons de Boulay depuis 1963. Transmission familiale récente père-fille, dirigeante historique ayant passé la main, entreprise toujours indépendante. Information tirée d'extraits WebSearch, sans lecture complète, effectif non confirmé mais compatible avec une PME artisanale.
-- Statut : nouveau
+- Statut : brouillon cree
 
 - Entreprise : Ressorts Masselin
 - Dirigeant : la quatrième génération de la famille Masselin (Jean Masselin passe la main à ses fils)
 - Contact : contact@masselin.com (domaine cité par un annuaire professionnel tiers, non vérifié par visite directe du site)
 - Source : https://www.lejournaldesentreprises.com/article/jean-masselin-ressorts-masselin-je-passe-la-main-la-quatrieme-generation-masselin-484138
 - Pourquoi : fabricant indépendant de ressorts, barres de torsion et sous-ensembles élastiques au Petit-Quévilly (Seine-Maritime), environ 130-140 salariés selon plusieurs fiches d'entreprise. Transmission familiale à la quatrième génération, dirigeant historique passant la main en interne, entreprise toujours indépendante. Information tirée d'extraits WebSearch, sans lecture complète.
-- Statut : nouveau
+- Statut : brouillon cree
 
 - Entreprise : Les Meubles Jean Benoit
 - Dirigeant : Gregory (dirige avec son père Marc, petit-fils du fondateur Raoul Benoit)
@@ -1977,7 +1977,7 @@ Note technique : recherche menée via 5 agents en parallèle sur des angles sect
 - Contact : contact@celfy.fr (déduit du domaine celfy.fr)
 - Source : https://www.lejournaldesentreprises.com/article/marc-rollet-devrait-passer-la-main-de-celfy-nicolas-madelaine-en-2029-2124290
 - Pourquoi : PME normande de plomberie/chauffage/climatisation (Cormelles-le-Royal/Grentheville, Calvados) dont le président prévoit de passer la main à son DG vers 2029 — transmission à venir, pas encore réalisée. L'entreprise a déjà ouvert 20% de son capital à 58 salariés via la structure "Dans-le-Mille" (hausse à 30% envisagée en 2029) pour les fidéliser : démarche d'actionnariat salarié déjà engagée, exactement le type de structuration que propose Capitali. Information tirée d'un extrait de recherche (synthèse d'articles), sans lecture complète.
-- Statut : nouveau
+- Statut : brouillon cree
 
 - Entreprise : Onelec
 - Dirigeant : Alain Bahuon (fondateur-président)
@@ -1992,6 +1992,7 @@ Note technique : recherche menée via 5 agents en parallèle sur des angles sect
 - Source : https://www.lejournaldesentreprises.com/article/la-manufacture-cluizel-fait-perdurer-une-tradition-familiale-des-chocolats-dexception-2116195
 - Pourquoi : transmission familiale en cours — le dirigeant a refusé des offres de rachat pour que l'entreprise reste familiale, et des parts ont déjà été transmises aux enfants, actuellement en formation pour la reprise. Chocolaterie agroalimentaire indépendante à Damville (Eure, Normandie). Attention : effectif estimé à 171-180 salariés selon certaines fiches, légèrement au-dessus de la fourchette cible de 10-150 — à requalifier avant approche. Information tirée d'un extrait de recherche, sans lecture complète.
 - Statut : nouveau
+- Note agent de redaction (2026-11-07) : brouillon non cree pour l'instant, en raison du doute explicite ci-dessus sur l'effectif (171-180 salaries, au-dessus de la fourchette cible). A requalifier avant d'envoyer un premier email.
 
 - Entreprise : Joker Courses
 - Dirigeant : Jean-Charles Giafferi (fondateur) ; direction générale actuelle assurée par Roger Alves
