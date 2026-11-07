@@ -1967,3 +1967,37 @@ Note technique : recherche menée via 6 agents en parallèle sur des angles sect
 - Statut : nouveau
 
 Total du jour : 9 leads (objectif de 25 non atteint). Malgré la mobilisation de 6 agents en parallèle sur des angles sectoriels distincts et plus de 150 requêtes WebSearch au total, le volume de signaux exploitables (PME française indépendante nommée, taille compatible, signal récent et non finalisé, non dupliquée des 30 derniers jours) reste très limité : deux secteurs explorés (BTP/métallurgie, tech/numérique) n'ont produit aucun lead conforme, les autres angles 0 à 2 chacun. Les recherches complémentaires menées directement ont permis de porter le total à 9. Aucun lead de transaction déjà finalisée (plusieurs pistes écartées : Ipsomedic/Askleia, Axiome Provence, groupes de distribution automobile familiaux mais >150 salariés) ni hors profil n'a été ajouté pour combler le volume, conformément au filtre qualité strict demandé.
+
+## 2026-11-07
+
+Note technique : recherche menée via 5 agents en parallèle sur des angles sectoriels distincts (industrie/BTP Nord-Est, commerce/santé Sud-Ouest, tech/agroalimentaire/ESN, BODACC/Pappers tous secteurs, industrie/BTP Ouest-Centre), puis complétée par des recherches directes supplémentaires, soit plus de 150 requêtes WebSearch au total. Le budget de recherche partagé entre les agents s'est épuisé très rapidement sur plusieurs angles (deux agents sur cinq ont terminé avec 0 lead conforme, faute de budget de recherche restant), ce qui a fortement limité le volume. Le constat récurrent : la presse économique ne couvre presque toujours la transmission d'entreprise qu'une fois la transaction actée (donc exclue par le filtre), rendant les signaux "avant transaction" rares à trouver par simple recherche web. Plusieurs pistes ont été écartées après vérification : transaction de contrôle déjà réalisée ou en cours de clôture via MBO/MBI (Minssieux & Fils, Obiou Société d'Électronique, Groupe Roulliaud), entreprise hors profil de taille (Groupe Roulliaud ~220-250 salariés, Groupe Bodemer ~1 800 salariés, groupe Mary Automobiles ~2 058 salariés, cabinet de conseil Vertone probable ETI), signal trop ancien ou dirigeant actuel non confirmé (Enix, témoignage de 2021), entreprise trop petite au sens PME visée (cabinets individuels de kinésithérapie/orthophonie, charcuterie-traiteur Lejetté), ou annonces anonymisées sans nom d'entreprise exploitable (agences Laforêt/Century 21, garage du Mans, UIMM Opportunités industrielles). Aucun lead de transaction déjà finalisée par un groupe acheteur n'a été ajouté pour combler le volume, conformément au filtre qualité strict demandé.
+
+- Entreprise : Celfy (ex-Entreprise Larcher)
+- Dirigeant : Marc Rollet (président) ; succession prévue avec Nicolas Madelaine (directeur général)
+- Contact : contact@celfy.fr (déduit du domaine celfy.fr)
+- Source : https://www.lejournaldesentreprises.com/article/marc-rollet-devrait-passer-la-main-de-celfy-nicolas-madelaine-en-2029-2124290
+- Pourquoi : PME normande de plomberie/chauffage/climatisation (Cormelles-le-Royal/Grentheville, Calvados) dont le président prévoit de passer la main à son DG vers 2029 — transmission à venir, pas encore réalisée. L'entreprise a déjà ouvert 20% de son capital à 58 salariés via la structure "Dans-le-Mille" (hausse à 30% envisagée en 2029) pour les fidéliser : démarche d'actionnariat salarié déjà engagée, exactement le type de structuration que propose Capitali. Information tirée d'un extrait de recherche (synthèse d'articles), sans lecture complète.
+- Statut : nouveau
+
+- Entreprise : Onelec
+- Dirigeant : Alain Bahuon (fondateur-président)
+- Contact : non trouvé, voir source (un domaine one-elec.com apparaît dans certains résultats mais n'a pas pu être confirmé avec certitude comme appartenant à cette société)
+- Source : https://www.creditmutuel-equity.eu/en/news/press-releases/onlec.html (relayé par cfnews.net, « Onelec redispatche son capital »)
+- Pourquoi : distributeur indépendant de matériel électrique à destination des professionnels du BTP, à Andrézieux-Bouthéon (Loire). Le fondateur annonce vouloir transmettre l'entreprise dans un horizon de 3-4 ans à deux cadres dirigeants (DG et DAF) — signal explicite et nominatif de succession anticipée, transaction pas encore réalisée. Information tirée d'un extrait de communiqué/recherche, sans lecture complète.
+- Statut : nouveau
+
+- Entreprise : Manufacture Cluizel (chocolaterie Michel Cluizel)
+- Dirigeant : Marc Paul Maurice Cluizel (directeur général, 3e/4e génération familiale)
+- Contact : contact@cluizel.com (déduit du domaine officiel cluizel.com)
+- Source : https://www.lejournaldesentreprises.com/article/la-manufacture-cluizel-fait-perdurer-une-tradition-familiale-des-chocolats-dexception-2116195
+- Pourquoi : transmission familiale en cours — le dirigeant a refusé des offres de rachat pour que l'entreprise reste familiale, et des parts ont déjà été transmises aux enfants, actuellement en formation pour la reprise. Chocolaterie agroalimentaire indépendante à Damville (Eure, Normandie). Attention : effectif estimé à 171-180 salariés selon certaines fiches, légèrement au-dessus de la fourchette cible de 10-150 — à requalifier avant approche. Information tirée d'un extrait de recherche, sans lecture complète.
+- Statut : nouveau
+
+- Entreprise : Joker Courses
+- Dirigeant : Jean-Charles Giafferi (fondateur) ; direction générale actuelle assurée par Roger Alves
+- Contact : non trouvé, voir source (aucun site officiel identifié dans les résultats de recherche)
+- Source : https://www.lejournaldesentreprises.com/article/chez-joker-courses-la-transmission-se-fait-en-interne-392553 ; https://www.lejournaldesentreprises.com/article/joker-courses-nous-nous-diversifions-dans-la-logistique-et-le-commerce-1380631
+- Pourquoi : PME indépendante de transport urgent/coursier et logistique à Colmar (Haut-Rhin, Alsace), créée en 1999. Le fondateur a cédé des parts de l'entreprise à plusieurs cadres dirigeants environ 20 ans après sa création, convaincu que la transmission ne pouvait se faire qu'en interne plutôt que via une cession externe — illustration directe de la démarche de fidélisation des cadres clés par l'actionnariat que promeut Capitali. Information tirée d'extraits de recherche, sans lecture complète ; date précise de l'opération de cession interne non précisée dans les extraits.
+- Statut : nouveau
+
+Total du jour : 4 leads (objectif de 25 non atteint). Cinq agents ont été mobilisés en parallèle sur des angles sectoriels et régionaux distincts, complétés par plus de 20 recherches directes supplémentaires. Le budget de recherche WebSearch partagé s'est épuisé avant que plusieurs agents aient pu finaliser leur angle (deux agents sur cinq n'ont remonté aucun lead conforme), ce qui a limité le volume davantage que les jours précédents. Le filtre qualité strict (exclusion des transactions déjà finalisées ou en cours de clôture via MBO/MBI, des entreprises hors fourchette de taille PME, des signaux trop anciens ou anonymisés) a par ailleurs écarté une vingtaine de pistes par ailleurs plausibles. Aucun lead non conforme n'a été ajouté pour combler le volume.
