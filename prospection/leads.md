@@ -2002,3 +2002,37 @@ Note technique : recherche menée via 5 agents en parallèle sur des angles sect
 - Statut : nouveau
 
 Total du jour : 4 leads (objectif de 25 non atteint). Cinq agents ont été mobilisés en parallèle sur des angles sectoriels et régionaux distincts, complétés par plus de 20 recherches directes supplémentaires. Le budget de recherche WebSearch partagé s'est épuisé avant que plusieurs agents aient pu finaliser leur angle (deux agents sur cinq n'ont remonté aucun lead conforme), ce qui a limité le volume davantage que les jours précédents. Le filtre qualité strict (exclusion des transactions déjà finalisées ou en cours de clôture via MBO/MBI, des entreprises hors fourchette de taille PME, des signaux trop anciens ou anonymisés) a par ailleurs écarté une vingtaine de pistes par ailleurs plausibles. Aucun lead non conforme n'a été ajouté pour combler le volume.
+
+## 2026-11-08
+
+Note technique : recherche menée via une soixantaine de requêtes WebSearch directes, croisant secteurs (textile, agroalimentaire/chocolaterie, artifices, traiteur/événementiel, BTP, auto, pharmacie, viticulture, ESN, négoce matériaux, métallerie, etc.), régions (Bretagne, Normandie, Occitanie, Hauts-de-France, Grand Est, PACA, Auvergne-Rhône-Alpes, Pays de la Loire, Centre-Val de Loire, Bourgogne-Franche-Comté, Corse) et types de signaux (cession/transmission à venir, transmission familiale en cours, départ en retraite, tension de recrutement). Constat récurrent, cohérent avec les jours précédents : la très grande majorité des résultats concerne soit des études macro/contexte (Institut Sapiens, Bpifrance, INSEE, EY, baromètres divers) sans nom d'entreprise exploitable, soit des transactions déjà finalisées (rachats par un groupe, MBO déjà clos, successions familiales déjà effectives depuis plusieurs années) explicitement exclues par le filtre qualité. Plusieurs pistes plausibles ont été écartées après vérification : transaction déjà actée (Tréfilerie d'Acier de Bretagne cédée à Breizh Rebond, ABC Créations Bretagne, maroquinier Texier racheté par Renaissance Industries, chocolatier Monbana en cours de rachat par le groupe Buton, Carrosserie Beltramelli, Geslin SAS en 2015, Frémont Affûtage, Roger Orfèvre, Savonnerie des Alpilles), entreprise hors fourchette de taille (Groupe Polmar ~300-500 salariés, Maison Planchot 180 salariés, Groupe Quéguiner 1165 salariés), ou signal trop vague/anonymisé pour être exploitable (annonces UIMM/France Travail de cession sans nom d'entreprise, offres anonymisées de garages ou pharmacies). Aucun lead de transaction déjà finalisée n'a été ajouté pour combler le volume, conformément au filtre qualité strict demandé.
+
+- Entreprise : Jacques Couturier Organisation (artifices JCO)
+- Dirigeant : Jacques Couturier (fondateur-président, 72 ans)
+- Contact : contact@artifice-couturier.fr (déduit du domaine artifice-couturier.fr)
+- Source : https://www.lejournaldesentreprises.com/breve/lartificier-couturier-prepare-sa-transmission-356161
+- Pourquoi : PME indépendante d'artifices/spectacles pyrotechniques à Rives-de-l'Yon (Vendée), 25 salariés, 5 M€ de CA, créée en 1988. Le fondateur, âgé de 72 ans et toujours aux commandes, prépare la transmission de l'entreprise familiale à ses enfants (fille et fils, qui travaillent déjà avec lui) — transaction pas encore réalisée, signal direct de transmission familiale à venir. Information tirée d'un extrait de recherche (brève de presse économique), sans lecture complète de la page.
+- Statut : nouveau
+
+- Entreprise : Les Tissages Perrin (groupe Perrin & Fils)
+- Dirigeant : Jean-François Perrin (4e génération, reste président du conseil de surveillance) ; direction opérationnelle reprise par ses fils Jean-Laurent et Jean-Hugues Perrin
+- Contact : contact@tissages-perrin.com (déduit d'un domaine mentionné dans une fiche de salon professionnel, non vérifié par une visite directe du site)
+- Source : https://www.lejournaldesentreprises.com/article/perrin-et-fils-38-sy-prendre-suffisamment-tot-22063
+- Pourquoi : PME familiale indépendante du tissage de soie/textile technique (Le Grand-Lemps, Isère), environ 100 salariés. Transmission familiale à la 4e génération en cours : le fondateur a transmis la direction opérationnelle à ses fils jumeaux mais reste au conseil de surveillance pendant la phase de transition, qu'il décrit lui-même comme s'étalant sur plusieurs années — transaction non finalisée. Information tirée d'extraits de recherche croisés (presse économique + annuaires professionnels), sans lecture complète.
+- Statut : nouveau
+
+- Entreprise : Chocolaterie Daniel Stoffel
+- Dirigeant : Martine Stoffel (dirigeante actuelle, 2e génération) ; 3e génération (Louis et Camille Stoffel) en cours d'intégration
+- Contact : contact@daniel-stoffel.fr (déduit du domaine daniel-stoffel.fr)
+- Source : https://www.lejournaldesentreprises.com/breve/la-3e-generation-integre-la-chocolaterie-stoffel-2076655
+- Pourquoi : chocolaterie artisanale familiale indépendante à Haguenau (Bas-Rhin, Alsace), 72 salariés, environ 10 M€ de CA. La 3e génération intègre progressivement l'entreprise aux côtés de la dirigeante actuelle — transmission familiale en préparation, pas encore finalisée. Information tirée d'un extrait de recherche (brève de presse économique), sans lecture complète.
+- Statut : nouveau
+
+- Entreprise : Groupe Arom (traiteur événementiel, enseignes Lacoste Traiteur, Dabawala, Laeco)
+- Dirigeant : Didier Oudin (président, père) et Jérémie Oudin (co-président/directeur général, fils)
+- Contact : contact@groupe-arom.com (déduit du domaine groupe-arom.com ; un contact nominatif b.portier@groupe-arom.com a également été repéré dans un annuaire professionnel)
+- Source : https://www.lejournaldesentreprises.com/article/entreprises-familiales-quand-la-continuite-rassure-127850
+- Pourquoi : groupe traiteur/réceptif familial indépendant à Eysines (Gironde), environ 70 salariés, 13 M€ de CA. Transmission familiale en cours depuis 2013 : le fils a été progressivement associé à la direction (DG en 2017, co-président aujourd'hui) aux côtés de son père qui reste président — transaction non finalisée. Information tirée d'extraits de recherche croisés (presse économique), sans lecture complète.
+- Statut : nouveau
+
+Total du jour : 4 leads (objectif de 25 non atteint). Malgré une soixantaine de requêtes WebSearch couvrant de nombreux secteurs, régions et types de signaux, la quasi-totalité des résultats concernait soit du contenu macro/institutionnel sans nom d'entreprise, soit des transactions déjà finalisées explicitement exclues par le filtre qualité (rachats par un groupe déjà actés, MBO/successions déjà effectifs depuis plusieurs années). Ce constat est cohérent avec celui des jours précédents : les signaux "avant transaction" nominatifs et récents restent rares dans la presse économique accessible via recherche web ouverte. Aucun lead non conforme n'a été ajouté pour combler le volume.
