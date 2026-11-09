@@ -2036,3 +2036,135 @@ Note technique : recherche menée via une soixantaine de requêtes WebSearch dir
 - Statut : nouveau
 
 Total du jour : 4 leads (objectif de 25 non atteint). Malgré une soixantaine de requêtes WebSearch couvrant de nombreux secteurs, régions et types de signaux, la quasi-totalité des résultats concernait soit du contenu macro/institutionnel sans nom d'entreprise, soit des transactions déjà finalisées explicitement exclues par le filtre qualité (rachats par un groupe déjà actés, MBO/successions déjà effectifs depuis plusieurs années). Ce constat est cohérent avec celui des jours précédents : les signaux "avant transaction" nominatifs et récents restent rares dans la presse économique accessible via recherche web ouverte. Aucun lead non conforme n'a été ajouté pour combler le volume.
+
+## 2026-11-09
+
+Note technique : recherche menée via 3 agents en parallèle (répartis par secteur/région) puis complétée par une passe de recherche directe, tous utilisant exclusivement WebSearch (WebFetch/curl bloqués dans cet environnement). Plusieurs pistes solides ont été écartées pour respecter le filtre qualité : transactions déjà finalisées avec un groupe acquéreur externe (ex. distribution automobile Polmar/Mary/Lempereur/Bodemer d'ETI trop grandes ou déjà transmises, Ascora/IK Partners, Groupe Leader Insurance/Ardonagh), entreprises hors cible (trop petites, ex. restaurant indépendant en appel à repreneur sans salarié) ou doublons avec des leads déjà présents dans ce fichier (Bidault Menuiserie, Soprolux, déjà listés le 2026-09-25). 18 leads retenus sur un objectif de 25 : le taux de contact direct trouvé reste limité malgré une recherche dédiée systématique par domaine officiel pour chaque entreprise.
+
+- Entreprise : Lumen (fabricant nantais d'enseignes lumineuses)
+- Dirigeant : Frédéric Mainguet (fondateur, reste président de la holding) ; Xavier Mathelin (nouveau président de Lumen SAS)
+- Contact : non trouvé, voir source (aucun domaine officiel confirmé malgré recherche dédiée)
+- Source : https://www.lejournaldesentreprises.com/article/le-fabricant-nantais-denseignes-lumineuses-lumen-organise-sa-transmission-progressive-2127424
+- Pourquoi : PME familiale du Loroux-Bottereau (Pays de la Loire, ~100 salariés, 15 M€ de CA, fondée en 1931). Le fondateur organise explicitement une transmission progressive vers son successeur pour pérenniser l'entreprise avant son départ complet : transmission familiale/managériale en cours (signal 2), transaction non finalisée.
+- Statut : nouveau
+
+- Entreprise : Biscuiterie Jeannette (Jeannette 1850)
+- Dirigeant : Benoît Martinet (PDG, a repris l'entreprise à titre individuel en décembre 2025)
+- Contact : contact@jeannette1850.com (domaine déduit via le catalogue de l'entreprise, non vérifié directement)
+- Source : https://www.lejournaldesentreprises.com/article/benoit-martinet-dg-de-la-biscuiterie-jeannette-rachete-lentreprise-pour-faire-voyager-les-madeleines-2133200
+- Pourquoi : biscuiterie artisanale indépendante de Colombelles (Calvados, Normandie, 23 salariés, 4,6 M€ de CA). Le dirigeant, désormais seul aux commandes, annonce vouloir ouvrir 5 % du capital à ses collaborateurs dès 2026 pour en faire des associés : signal direct et explicite (signal 5), dirigeant indépendant encore aux commandes.
+- Statut : nouveau
+
+- Entreprise : Charcuterie Leforgeais (salaisons)
+- Dirigeant : Olivier Leforgeais (père) et Nathan Leforgeais (fils, 3e génération), co-dirigeants
+- Contact : contact@leforgeais.fr (domaine confirmé via annuaire officiel d'accessibilité ERP)
+- Source : https://www.teamfrance-export.fr/actualites/success-sotry-charcuterie-leforgeais ; https://www.reussir.fr/porc/la-rse-investissement-gagnant-pour-la-charcuterie-leforgeais
+- Pourquoi : entreprise familiale de salaisons à Saint-Laurent-de-Cuves (Manche, Normandie, 35 salariés). Transmission familiale progressive père-fils en cours, entreprise encore indépendante : signal 2.
+- Statut : nouveau
+
+- Entreprise : Kieffer Menuiserie
+- Dirigeant : Sébastien Kieffer (président du directoire), Christelle Laurent (DG)
+- Contact : non trouvé, voir source (tél. 03 26 08 09 08, 13 rue de Thillois, 51370 Ormes)
+- Source : https://www.lejournaldesentreprises.com/article/kieffer-menuiserie-parie-sur-la-formation-pour-grandir-et-recruter-2145760
+- Pourquoi : PME de menuiserie à Ormes (Marne, Grand Est, 30 salariés, 4,3 M€ de CA). Plan de formation financé pour faire face aux difficultés de recrutement de dessinateurs/techniciens clés : tension de recrutement/fidélisation (signal 4).
+- Statut : nouveau
+
+- Entreprise : Atlantique Fer Construction (AFC)
+- Dirigeant : Cédric Berthelot (nouveau dirigeant, montera à 100 % du capital à terme) ; Denis Daudin (ancien dirigeant, reste en soutien commercial)
+- Contact : non trouvé, voir source
+- Source : https://www.lejournaldesentreprises.com/article/transmission-en-douceur-au-sein-datlantique-fer-construction-2119496
+- Pourquoi : PME de métallerie/construction métallique à Chemillé-en-Anjou (Maine-et-Loire, Pays de la Loire, 6,4 M€ de CA). Transmission interne en douceur sur 4 ans pour renforcer l'équipe avant le départ complet de l'ancien dirigeant : signal 2/3, transaction non finalisée.
+- Statut : nouveau
+
+- Entreprise : Andlauer SAS (installation chauffage/climatisation)
+- Dirigeant : Benoît Andlauer (dirigeant historique, départ en cours) ; Bertrand Andlauer (DG actuel) ; Florian Leite (directeur technique, vient d'entrer au capital)
+- Contact : non trouvé, voir source
+- Source : https://www.lejournaldesentreprises.com/breve/le-groupe-andlauer-sas-sapprete-changer-de-mains-2135387
+- Pourquoi : groupe familial BTP de Rosheim (Bas-Rhin, Grand Est, 75 salariés, 9,5 M€ de CA). Transmission progressive interne liée au départ en retraite du dirigeant historique, entreprise encore familiale et indépendante : signal 1/2.
+- Statut : nouveau
+
+- Entreprise : BR Audit (cabinet d'expertise comptable, audit et conseil)
+- Dirigeant : Fondateurs Denis Rion et Philippe Briday ; repreneurs associés au capital : Benjamin et Quentin Vernoux (Quentin Vernoux, directeur général)
+- Contact : non trouvé, voir source (domaine non confirmé malgré recherche dédiée)
+- Source : https://www.banquepopulaire.fr/bpbfc/communication/br-audit-accelere-son-developpement-aux-cotes-de-bfc-croissance-et-bpifrance-et-engage-sa-transmission-en-associant-ses-managers/ ; https://www.lyoncapitale.fr/actualite/br-audit-prepare-sa-transmission-avec-bfc-croissance-et-bpifrance
+- Pourquoi : cabinet comptable basé à Mâcon (Bourgogne-Franche-Comté, 11 M€ de CA, 120 collaborateurs, 10 bureaux) qui "engage sa transmission en associant ses managers" au capital, accompagné par Bpifrance et BFC Croissance : signal direct et explicite (signal 5), transmission managériale interne.
+- Statut : nouveau
+
+- Entreprise : Transports Louis Maillot
+- Dirigeant : famille Maillot (dirigeants non nommés individuellement dans la source)
+- Contact : non trouvé, voir source
+- Source : https://www.cfnews.net/Breves/Transports-Louis-Maillot-s-achemine-vers-un-confrere-396571
+- Pourquoi : entreprise de transport familiale fondée en 1986, en cours de transmission à un confrère pour permettre le départ en retraite des dirigeants actuels ; transaction non finalisée au moment de l'article (signal 1/3).
+- Statut : nouveau
+
+- Entreprise : Marquis Transports (transport et logistique)
+- Dirigeant : Maxime Marquis (3e génération, a pris la tête en 2025), succédant à la génération précédente de la famille Marquis
+- Contact : non trouvé, voir source
+- Source : https://www.lejournaldesentreprises.com/article/avec-la-troisieme-generation-aux-commandes-marquis-transports-prepare-lavenir-2129034
+- Pourquoi : PME de transport-logistique de Téteghem (Hauts-de-France, 80 salariés, 12 M€ de CA, fondée en 1961). La 3e génération familiale vient de prendre la tête de l'entreprise, encore indépendante : transmission familiale en cours (signal 2).
+- Statut : nouveau
+
+- Entreprise : Gestion Immobilière Tissinié (GIT)
+- Dirigeant : Laurent Tissinié (fondateur/dirigeant), transmission progressive vers Thierry Mirabello (ancien salarié, devenu directeur général)
+- Contact : non trouvé, voir source
+- Source : https://www.lejournaldesentreprises.com/article/je-transmets-peu-peu-mon-entreprise-lun-de-mes-anciens-salaries-2097767
+- Pourquoi : agence immobilière indépendante de Nice (PACA) dont le fondateur, approchant de la retraite, prépare depuis plusieurs années une transmission étape par étape à un ancien collaborateur plutôt qu'à un groupe externe : signal 3 direct.
+- Statut : nouveau
+
+- Entreprise : Cap Fournier (distribution automobile, concessions Hyundai)
+- Dirigeant : Philippe Fournier (président), transmission en cours vers son fils Antoine Fournier (4e génération)
+- Contact : non trouvé, voir source
+- Source : https://journalauto.com/distribution/cap-fournier-de-la-passion-de-generation-en-generation/
+- Pourquoi : concessionnaire automobile indépendant (Corbeil-Essonnes et Étampes en Essonne/Ile-de-France, et Auxerre), transmission familiale progressive sur plusieurs années vers la 4e génération : signal 2.
+- Statut : nouveau
+
+- Entreprise : Clavel Assurances (courtage en assurances)
+- Dirigeant : Hervé Clavel (fondateur), transmission du capital au management mené par Arnaud Pous (directeur général)
+- Contact : contact@assurancesclavel.com (domaine confirmé via le site officiel du cabinet)
+- Source : https://www.cfnews.net/L-actualite/LBO/Operations/MBO/Clavel-Assurances-donne-le-volant-a-ses-managers-730855
+- Pourquoi : courtier en assurances indépendant. Signal direct et récent (article du 15/09/2026) : 40 ans après sa création, le fondateur cède son capital à l'équipe dirigeante via un MBO interne, sans intervention d'un groupe externe : signal 5.
+- Statut : nouveau
+
+- Entreprise : Enza (cabinet de conseil en transformation des organisations)
+- Dirigeant : Céline Saurel et Pierre Mendiondou (fondateurs, 2010)
+- Contact : contact@enza-conseil.fr (domaine enza-conseil.fr identifié via une fiche d'offre d'emploi, non vérifié directement)
+- Source : https://www.cfnews.net/L-actualite/LBO/Operations/MBO/Enza-poursuit-sa-transmission-721172
+- Pourquoi : cabinet de conseil indépendant (environ 60 consultants, bureaux Paris et Lyon) qui "poursuit sa transmission" en 2026 en faisant monter davantage son management au capital, après une première ouverture en 2022 : signal 5 (actionnariat managérial progressif).
+- Statut : nouveau
+
+- Entreprise : Chocolaterie Pralus (groupe familial roannais)
+- Dirigeant : François Pralus (fondateur-dirigeant, 65 ans) ; succession vers son fils Hugo Pralus
+- Contact : contact@chocolats-pralus.com (domaine confirmé via recherche dédiée)
+- Source : https://www.lejournaldesentreprises.com/article/pralus-ouvre-son-capital-prepare-sa-succession-et-entame-une-nouvelle-phase-de-croissance-2125322
+- Pourquoi : PME agroalimentaire familiale de Roanne (Auvergne-Rhône-Alpes). Le dirigeant historique ouvre son capital à des investisseurs régionaux et prépare explicitement sa succession vers la génération suivante : signal 1/2, fenêtre idéale pour associer les cadres clés avant la transmission.
+- Statut : nouveau
+
+- Entreprise : Pharmacie de Rivehaute
+- Dirigeant : Joël Presani (titulaire depuis 27 ans)
+- Contact : non trouvé, voir source (petite officine rurale, pas de site identifié)
+- Source : https://www.lequotidiendupharmacien.fr/exercice-pro/un-sursis-pour-la-pharmacie-de-rivehaute
+- Pourquoi : officine indépendante des Pyrénées-Atlantiques (Nouvelle-Aquitaine) dont le titulaire approche de la retraite et n'a pas trouvé de repreneur : recherche active de transmission (signal 1).
+- Statut : nouveau
+
+- Entreprise : Château d'Aydie / Vignobles Laplace
+- Dirigeant : famille Laplace (plusieurs frères/sœurs, 3e-4e génération)
+- Contact : contact@famillelaplace.com (domaine famillelaplace.com identifié via une fiche professionnelle ; adresse à vérifier avant usage)
+- Source : https://www.reussir.fr/vigne/batir-un-projet-de-transmission-de-son-domaine-viticole-avec-un-conseiller
+- Pourquoi : domaine viticole familial indépendant du Madiran (Pyrénées-Atlantiques, Nouvelle-Aquitaine) ayant engagé un projet de transmission familiale avec un conseiller externe, impliquant plusieurs générations : signal 2.
+- Statut : nouveau
+
+- Entreprise : Rascol Marcel & Fils
+- Dirigeant : Philippe et Sandrine Rascol, avec leurs fils Cyril et Tristan Rascol
+- Contact : non trouvé, voir source
+- Source : https://www.lejournaldesentreprises.com/article/rascol-marcol-fils-rejoint-ligp-jambon-de-lacaune-apres-avoir-renforce-son-outil-de-production-2147210
+- Pourquoi : entreprise familiale agroalimentaire (charcuterie, IGP Jambon de Lacaune) du Tarn (Occitanie), fondée en 1936, aujourd'hui portée par la 4e génération avec les parents toujours aux commandes : transmission familiale en cours, structure indépendante (signal 2).
+- Statut : nouveau
+
+- Entreprise : Monreysse (concession agricole Fendt / Espace Émeraude)
+- Dirigeant : Francis et Monique Monreysse, avec l'arrivée de Jeanne Monreysse (nouvelle génération)
+- Contact : contact@monreysse.com (domaine confirmé via monreysse.com)
+- Source : https://www.reussir.fr/agriculture-massif-central/jeanne-monreysse-poursuit-laventure-familiale
+- Pourquoi : PME familiale de distribution/négoce de matériel agricole dans le Cantal (Auvergne-Rhône-Alpes, une quarantaine de salariés sur plusieurs sites), avec l'arrivée récente d'une nouvelle génération au sein de la direction : transmission familiale en cours (signal 2).
+- Statut : nouveau
+
+Total du jour : 18 leads (objectif de 25 non atteint, filtre qualité strict maintenu : aucune transaction déjà finalisée avec un groupe acquéreur externe, aucun doublon des 30 derniers jours).
