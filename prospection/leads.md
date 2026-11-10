@@ -2168,3 +2168,55 @@ Note technique : recherche menée via 3 agents en parallèle (répartis par sect
 - Statut : nouveau
 
 Total du jour : 18 leads (objectif de 25 non atteint, filtre qualité strict maintenu : aucune transaction déjà finalisée avec un groupe acquéreur externe, aucun doublon des 30 derniers jours).
+
+## 2026-11-10
+- Entreprise : BADT Levage
+- Dirigeant : Xavier Laurence (a repris l'entreprise familiale fondée par son père Jean-Louis Laurence et son associé Serge Boutonnier en 1994)
+- Contact : contact@badt-levage.fr (adresse générique du domaine officiel badt-levage.fr)
+- Source : https://www.lejournaldesentreprises.com/article/xavier-laurence-reprend-lentreprise-familiale-badt-levage-et-ambitionne-de-setendre-2094940
+- Pourquoi : PME industrielle indépendante de Seine-Maritime (Grand-Quevilly, levage et ponts roulants, 21 salariés, 4,4 M€ de CA). Transmission familiale récente du père au fils, structure restée indépendante : signal 2.
+- Statut : nouveau
+
+- Entreprise : Soprolux
+- Dirigeant : Stéphanie Peuron-Dolez (directrice générale depuis 2017, pilote l'étape finale de la transmission du capital vers la nouvelle génération)
+- Contact : contact@soprolux.com (adresse générique déduite du domaine officiel soprolux.com)
+- Source : https://www.lejournaldesentreprises.com/article/comment-lalsacien-soprolux-organise-la-transmission-de-son-capital-sur-le-temps-long-2142781
+- Pourquoi : PME familiale indépendante de négoce agroalimentaire à Strasbourg (37 salariés, 15,7 M€ de CA). Transmission du capital vers la nouvelle génération engagée depuis plus de dix ans, dernière étape pas encore achevée : signal 1/2, dirigeante encore aux commandes.
+- Statut : nouveau
+
+- Entreprise : Goubault Imprimeur
+- Dirigeant : Nicolas Rouger, Marine Ravanne et Lina Rizk (trois anciens salariés, repreneurs en juillet 2025 ; ancien dirigeant Dominique Goubault, arrière-petit-fils du fondateur)
+- Contact : non trouvé, voir source
+- Source : https://www.lejournaldesentreprises.com/article/un-trio-de-salaries-va-ecrire-la-suite-de-goubault-imprimeur-2126416
+- Pourquoi : imprimerie indépendante nantaise (La Chapelle-sur-Erdre, environ 40 salariés) reprise en 2025 par trois salariés via un rachat interne (MBO), qui vient d'absorber l'imprimerie ValPG en septembre 2026 : structure en pleine croissance qui pourrait vouloir structurer l'association de ses nouveaux cadres clés via une AGA : signal 5.
+- Statut : nouveau
+
+- Entreprise : Maisons Jubault (Pavillons Jubault)
+- Dirigeant : Wilfried Yger et Julien Grégoire (ex-directeur d'exploitation et associé, codirigeants depuis le 31 juillet 2026)
+- Contact : non trouvé, voir source
+- Source : https://www.lejournaldesentreprises.com/article/le-constructeur-rennais-maisons-jubault-repris-par-son-directeur-dexploitation-et-un-associe-2147781
+- Pourquoi : constructeur de maisons individuelles indépendant de Rennes/Montgermont (6,9 M€ de CA), créé par la famille Jubault en 1983, repris en interne par son directeur d'exploitation et un associé : signal 5, actionnariat managérial dans une structure restée indépendante.
+- Statut : nouveau
+
+- Entreprise : Bidault SAS / Bidault Menuiserie
+- Dirigeant : Trémeur Fraval (président depuis 2005), transmission progressive du capital vers Aurélien Le Borgne (directeur général depuis début 2026)
+- Contact : non trouvé, voir source
+- Source : https://www.lejournaldesentreprises.com/article/avec-larrivee-de-son-futur-repreneur-bidault-accentue-sa-digitalisation-2108344
+- Pourquoi : PME indépendante de menuiserie bois/PVC et bâtiment à Saint-Donan (Côtes-d'Armor, environ 80 salariés au total pour les deux entités, 8 M€ de CA). Le DG, entré dans l'entreprise en 2022, prend progressivement la majorité du capital pendant que le dirigeant historique reste présent : signal 5, transmission en cours, pas encore finalisée.
+- Statut : nouveau
+
+- Entreprise : AMT (Atelier Mécanique et Technique)
+- Dirigeant : Cameron Grieve (dirigeant depuis 1997, environ 65 ans)
+- Contact : non trouvé, voir source
+- Source : https://www.lejournaldesentreprises.com/article/indecis-sur-la-cession-de-son-entreprise-le-dirigeant-damt-fait-une-randonnee-avec-un-coach-pour-2146798
+- Pourquoi : petite PME industrielle indépendante de mécanique de précision à Souleuvre-en-Bocage (Calvados, 11 salariés). Dirigeant proche de la retraite qui envisage de céder son entreprise mais n'a pas encore franchi le pas : signal 1 direct, le plus pertinent pour Capitali.
+- Statut : nouveau
+
+- Entreprise : Axe Informatique (Axe Group)
+- Dirigeant : direction historique du groupe (36 ans de croissance organique avant l'opération)
+- Contact : contact@axeinfo.fr (adresse générique du domaine officiel axeinfo.fr)
+- Source : https://www.cfnews.net/L-actualite/LBO/Operations/MBO/Axe-Informatique-se-tourne-vers-un-premier-fonds-538283
+- Pourquoi : intégrateur indépendant de logiciels de gestion pour PME à Grenoble (effectif officiel de 20 à 49 salariés selon le registre du commerce ; le chiffre d'affaires annoncé par la presse spécialisée, plus élevé, mériterait vérification). Entrée pour la première fois d'un fonds d'investissement en 2025 dans le cadre d'un MBO pour préparer la transmission du capital autour de la direction : signal 5.
+- Statut : nouveau
+
+Total du jour : 7 leads. Objectif de 25 non atteint malgré une recherche élargie sur de nombreux angles (toutes les régions françaises, une quinzaine de secteurs, les cinq types de signaux, pharmacies, BODACC, bpifrance-transmission, cra.asso.fr, LinkedIn via WebSearch). De nombreux signaux trouvés ce jour ont dû être rejetés pour rester strictement fidèle au filtre qualité : transactions déjà finalisées avec un repreneur ou un groupe externe (ex. Edipoles, Kovacic, Technival, FPMA, Idea Industries, Maison Barnier), entreprises dépassant 150 salariés (ex. Groupe Lhotellier, Groupe Mentor, Mary Automobiles, Acieo, Cars Rouillard, Riaux, Guyader Gastronomie, Groupe Polmar), ou doublons avec les 30 derniers jours (ex. Marquis Transports, Concept Alu PVC, System M3, Nodus Factory, Monreysse). Aucun lead de transaction déjà finalisée n'a été réintroduit pour combler le volume.
