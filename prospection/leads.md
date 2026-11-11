@@ -2033,7 +2033,7 @@ Note technique : recherche menée via une soixantaine de requêtes WebSearch dir
 - Contact : contact@groupe-arom.com (déduit du domaine groupe-arom.com ; un contact nominatif b.portier@groupe-arom.com a également été repéré dans un annuaire professionnel)
 - Source : https://www.lejournaldesentreprises.com/article/entreprises-familiales-quand-la-continuite-rassure-127850
 - Pourquoi : groupe traiteur/réceptif familial indépendant à Eysines (Gironde), environ 70 salariés, 13 M€ de CA. Transmission familiale en cours depuis 2013 : le fils a été progressivement associé à la direction (DG en 2017, co-président aujourd'hui) aux côtés de son père qui reste président — transaction non finalisée. Information tirée d'extraits de recherche croisés (presse économique), sans lecture complète.
-- Statut : nouveau
+- Statut : brouillon cree
 
 Total du jour : 4 leads (objectif de 25 non atteint). Malgré une soixantaine de requêtes WebSearch couvrant de nombreux secteurs, régions et types de signaux, la quasi-totalité des résultats concernait soit du contenu macro/institutionnel sans nom d'entreprise, soit des transactions déjà finalisées explicitement exclues par le filtre qualité (rachats par un groupe déjà actés, MBO/successions déjà effectifs depuis plusieurs années). Ce constat est cohérent avec celui des jours précédents : les signaux "avant transaction" nominatifs et récents restent rares dans la presse économique accessible via recherche web ouverte. Aucun lead non conforme n'a été ajouté pour combler le volume.
 
@@ -2053,7 +2053,7 @@ Note technique : recherche menée via 3 agents en parallèle (répartis par sect
 - Contact : contact@jeannette1850.com (domaine déduit via le catalogue de l'entreprise, non vérifié directement)
 - Source : https://www.lejournaldesentreprises.com/article/benoit-martinet-dg-de-la-biscuiterie-jeannette-rachete-lentreprise-pour-faire-voyager-les-madeleines-2133200
 - Pourquoi : biscuiterie artisanale indépendante de Colombelles (Calvados, Normandie, 23 salariés, 4,6 M€ de CA). Le dirigeant, désormais seul aux commandes, annonce vouloir ouvrir 5 % du capital à ses collaborateurs dès 2026 pour en faire des associés : signal direct et explicite (signal 5), dirigeant indépendant encore aux commandes.
-- Statut : nouveau
+- Statut : brouillon cree
 
 - Entreprise : Charcuterie Leforgeais (salaisons)
 - Dirigeant : Olivier Leforgeais (père) et Nathan Leforgeais (fils, 3e génération), co-dirigeants
@@ -2241,7 +2241,7 @@ Total du jour : 7 leads. Objectif de 25 non atteint malgré une recherche élarg
 - Contact : contact@energiesdeloire.com
 - Source : https://www.lejournaldesentreprises.com/article/energies-de-loire-ouvre-son-capital-ses-collaborateurs-2125437
 - Pourquoi : développeur photovoltaïque indépendant basé à Candé (Maine-et-Loire), environ 110 salariés. Témoignage direct : l'entreprise a ouvert son capital à ses collaborateurs, environ 90 des 110 salariés (87 % des éligibles) sont devenus actionnaires, démarche de fidélisation par l'actionnariat salarié : signal 5. Les trois fondateurs restent actionnaires majoritaires, entreprise indépendante.
-- Statut : nouveau
+- Statut : brouillon cree
 
 - Entreprise : Nestenn Armor
 - Dirigeant : Jean-Luc Jégard
@@ -2283,7 +2283,7 @@ Total du jour : 7 leads. Objectif de 25 non atteint malgré une recherche élarg
 - Contact : contact@helen.fr
 - Source : https://www.lejournaldesentreprises.com/article/apres-la-transmission-familiale-helen-traiteur-veut-maintenir-une-croissance-annuelle-de-10-2097955
 - Pourquoi : traiteur événementiel indépendant basé à Morières-lès-Avignon (Vaucluse), fondé en 1959. Transmission familiale récente : Arnaud Louis, petit-fils du fondateur, prend la direction après le retrait de son père : signal 2, transmission familiale (effectif précis à confirmer selon les sources, PME indépendante).
-- Statut : nouveau
+- Statut : brouillon cree
 
 - Entreprise : Moulin de Hurtigheim
 - Dirigeant : famille Becker (cédants, 5e génération) ; repris par un couple indépendant
