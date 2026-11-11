@@ -2220,3 +2220,97 @@ Total du jour : 18 leads (objectif de 25 non atteint, filtre qualité strict mai
 - Statut : nouveau
 
 Total du jour : 7 leads. Objectif de 25 non atteint malgré une recherche élargie sur de nombreux angles (toutes les régions françaises, une quinzaine de secteurs, les cinq types de signaux, pharmacies, BODACC, bpifrance-transmission, cra.asso.fr, LinkedIn via WebSearch). De nombreux signaux trouvés ce jour ont dû être rejetés pour rester strictement fidèle au filtre qualité : transactions déjà finalisées avec un repreneur ou un groupe externe (ex. Edipoles, Kovacic, Technival, FPMA, Idea Industries, Maison Barnier), entreprises dépassant 150 salariés (ex. Groupe Lhotellier, Groupe Mentor, Mary Automobiles, Acieo, Cars Rouillard, Riaux, Guyader Gastronomie, Groupe Polmar), ou doublons avec les 30 derniers jours (ex. Marquis Transports, Concept Alu PVC, System M3, Nodus Factory, Monreysse). Aucun lead de transaction déjà finalisée n'a été réintroduit pour combler le volume.
+
+## 2026-11-11
+- Entreprise : Herrmann TP
+- Dirigeant : Eric Herrmann (cédant, 3e génération) ; nouveaux dirigeants Marc Hatt (directeur général) et Julien Weinling
+- Contact : non trouvé, voir source
+- Source : https://www.lejournaldesentreprises.com/article/herrmann-tp-reprend-les-fondations-de-son-capital-2115701
+- Pourquoi : PME de travaux publics indépendante à Surbourg (Bas-Rhin), 65 salariés, ~12 M€ de CA. Eric Herrmann, 3e génération, transmet la direction à deux cadres internes (Marc Hatt, 20 ans d'ancienneté, et Julien Weinling) via un LBO avec prise de participation minoritaire de Bpifrance et Capital Grand Est : reprise interne/indépendante, signal 3.
+- Statut : nouveau
+
+- Entreprise : ECIP
+- Dirigeant : Franck Levillain (fondateur, parti en retraite fin 2025) ; nouveau dirigeant Loup du Ranquet
+- Contact : non trouvé, voir source
+- Source : https://www.lejournaldesentreprises.com/breve/un-nouveau-dirigeant-pour-ecip-2138199
+- Pourquoi : PME normande indépendante de 10-19 salariés (installation/maintenance de chaufferies/chaudronnerie industrielle, La Rue-Saint-Pierre, Seine-Maritime). Franck Levillain, fondateur en 2003, part à la retraite fin décembre 2025 ; reprise par un repreneur indépendant (Loup du Ranquet, pas un groupe) accompagné par le CRA/Réseau Entreprendre Normandie : départ en retraite avec reprise indépendante, signal 3.
+- Statut : nouveau
+
+- Entreprise : Energies de Loire (EDL)
+- Dirigeant : Aurélien Goyeau, Grégoire Papion, David Leroueil (co-fondateurs et co-actionnaires majoritaires)
+- Contact : contact@energiesdeloire.com
+- Source : https://www.lejournaldesentreprises.com/article/energies-de-loire-ouvre-son-capital-ses-collaborateurs-2125437
+- Pourquoi : développeur photovoltaïque indépendant basé à Candé (Maine-et-Loire), environ 110 salariés. Témoignage direct : l'entreprise a ouvert son capital à ses collaborateurs, environ 90 des 110 salariés (87 % des éligibles) sont devenus actionnaires, démarche de fidélisation par l'actionnariat salarié : signal 5. Les trois fondateurs restent actionnaires majoritaires, entreprise indépendante.
+- Statut : nouveau
+
+- Entreprise : Nestenn Armor
+- Dirigeant : Jean-Luc Jégard
+- Contact : contact@nestenn.com (adresse générique déduite du domaine du réseau national nestenn.com, aucune adresse propre à l'agence trouvée)
+- Source : https://www.lejournaldesentreprises.com/article/apres-avoir-cree-nestenn-armor-il-y-20-ans-jean-luc-jegard-prepare-sa-transmission-2122056
+- Pourquoi : PME de services immobiliers indépendante (réseau de 5 agences, agglomération de Saint-Brieuc, Côtes-d'Armor), 43 salariés, 4,1 M€ de CA en 2024. Signal direct et fort : le fondateur, aux commandes depuis 20 ans, prépare sa transmission prévue autour de 2028 — transaction pas encore réalisée, signal 1.
+- Statut : nouveau
+
+- Entreprise : Bos Aménagement
+- Dirigeant : Thomas Rouillé (fondateur, quitte l'entreprise) — successeur non précisé dans les sources
+- Contact : non trouvé, voir source
+- Source : https://www.lejournaldesentreprises.com/breve/le-fondateur-de-bos-amenagement-quitte-son-entreprise-2048961
+- Pourquoi : PME indépendante d'agencement d'espaces tertiaires et négoce de mobilier de bureau à Saint-Jacques-de-la-Lande (Rennes), 25 salariés. Le fondateur quitte l'entreprise 15 ans après sa création, sans rachat par un groupe mentionné : signal de départ de dirigeant fondateur, pas de transaction finalisée identifiée.
+- Statut : nouveau
+
+- Entreprise : Vauthelin Paysages
+- Dirigeant : Didier Vauthelin (fondateur, parti en retraite) ; repris par Sarah et Quentin Rieu
+- Contact : non trouvé, voir source
+- Source : https://www.lejournaldesentreprises.com/article/lentreprise-vauthelin-paysages-change-de-mains-2092162
+- Pourquoi : PME indépendante de paysagisme (environ 50 salariés) à Plougastel-Daoulas (Finistère). Didier Vauthelin, 56 ans, a transmis progressivement puis définitivement l'entreprise à sa directrice d'exploitation Sarah Rieu et son conjoint Quentin, après 6 ans de préparation : signal 3, départ en retraite avec reprise interne/indépendante (pas de groupe acquéreur).
+- Statut : nouveau
+
+- Entreprise : Mathieu Lustrerie
+- Dirigeant : Régis Mathieu (54 ans), transmission en cours à sa fille Inès Mathieu (26 ans)
+- Contact : contact@mathieulustrerie.com (déduit du domaine officiel, aucune adresse plus précise affichée)
+- Source : https://www.hec.edu/fr/dare/strategie-leadership/ce-que-tout-dirigeant-d-entreprise-familiale-devrait-apprendre-du-cas-mathieu-lustrerie
+- Pourquoi : manufacture indépendante de lustrerie de luxe (Gargas/Apt, Vaucluse), 20-49 salariés. Cas documenté par HEC Paris de transmission familiale en cours : le dirigeant prépare sa fille, récemment arrivée dans l'entreprise, à lui succéder : signal 2, transmission familiale en cours.
+- Statut : nouveau
+
+- Entreprise : Grav'Or (Gravor)
+- Dirigeant : Isabelle Ratiskol (dirigeante sortante) ; repris par Antoine de Labretoigne du Mazel
+- Contact : gravor@gravor.com
+- Source : https://www.lejournaldesentreprises.com/article/au-mans-lentreprise-du-patrimoine-vivant-gravor-change-de-dirigeant-2111273
+- Pourquoi : PME indépendante du patrimoine vivant, miroiterie/gravure sur verre haut de gamme au Mans (Sarthe), 20-49 salariés. Isabelle Ratiskol, après 10 ans à la tête de l'entreprise, transmet à un repreneur individuel qui s'initie aux savoir-faire auprès des ouvriers de l'atelier avant de prendre la direction : signal 3, changement de dirigeant avec reprise indépendante (pas un rachat par un groupe).
+- Statut : nouveau
+
+- Entreprise : Helen Traiteur
+- Dirigeant : Arnaud Louis (petit-fils du fondateur), après le retrait de son père
+- Contact : contact@helen.fr
+- Source : https://www.lejournaldesentreprises.com/article/apres-la-transmission-familiale-helen-traiteur-veut-maintenir-une-croissance-annuelle-de-10-2097955
+- Pourquoi : traiteur événementiel indépendant basé à Morières-lès-Avignon (Vaucluse), fondé en 1959. Transmission familiale récente : Arnaud Louis, petit-fils du fondateur, prend la direction après le retrait de son père : signal 2, transmission familiale (effectif précis à confirmer selon les sources, PME indépendante).
+- Statut : nouveau
+
+- Entreprise : Moulin de Hurtigheim
+- Dirigeant : famille Becker (cédants, 5e génération) ; repris par un couple indépendant
+- Contact : non trouvé, voir source
+- Source : https://www.lejournaldesentreprises.com/breve/le-moulin-de-hurtigheim-change-de-mains-2101860
+- Pourquoi : meunerie artisanale indépendante à Hurtigheim (Bas-Rhin), 10 salariés, ~1,6-2 M€ de CA, dirigée par la famille Becker depuis 1969 (5 générations). Cession pour départ à la retraite à un couple repreneur indépendant, accompagnée par MBA Capital Strasbourg : signal 3, pas de rachat par un groupe.
+- Statut : nouveau
+
+- Entreprise : Corre Automobiles
+- Dirigeant : Frédéric Corre, passation en cours avec ses deux fils (6e génération)
+- Contact : non trouvé, voir source
+- Source : https://www.lejournaldesentreprises.com/article/karim-benoit-prend-la-tete-des-concessions-nissan-de-saint-brieuc-et-lannion-109611 (contexte réseau automobile régional) et fiches annuaire auto-infos.fr/pagesjaunes.fr sur Corre Automobiles
+- Pourquoi : garage/concession automobile indépendant à Lannion (Côtes-d'Armor), 10-19 salariés. Frédéric Corre réalise une passation de pouvoir avec ses deux fils, qui doivent reprendre l'entreprise familiale en 6e génération : transmission familiale en cours, signal 2, transaction pas encore finalisée.
+- Statut : nouveau
+
+- Entreprise : Literie Michel (Adrien Michel)
+- Dirigeant : famille Michel (Armelle Briand Michel et ses enfants, actionnaires) ; David Lachaud, directeur général salarié depuis juin 2024
+- Contact : contact@adrien-michel.fr (déduit du domaine officiel, aucune adresse plus précise affichée)
+- Source : https://www.lejournaldesentreprises.com/article/jai-reorganise-literie-michel-apres-le-deces-brutal-de-son-dirigeant-2136392
+- Pourquoi : artisan litier indépendant depuis 1962, atelier à Yffiniac (Côtes-d'Armor), 60 salariés, 7 M€ de CA. Après le décès brutal du dirigeant (2e génération) en septembre 2023, la famille a gardé le capital et embauché un DG salarié externe pour rebâtir l'organisation : situation de transition de direction où fidéliser/structurer l'équipe de cadres clés est un enjeu direct, entreprise restée familiale et indépendante.
+- Statut : nouveau
+
+- Entreprise : CVGA (Clinique Vétérinaire du Gour de l'Arche)
+- Dirigeant : non trouvé (plusieurs vétérinaires associés cités : Drs Mazière, Simeon, Bongrain, Hendriks)
+- Contact : cvga@orange.fr
+- Source : https://envt.fr/wp-content/uploads/Offres_emploi/DEVE/CV-du-Gour-de-lArche-Annonce-recrutement.pdf
+- Pourquoi : clinique vétérinaire indépendante à Périgueux (Dordogne), 6 vétérinaires + 9 ASV (environ 15 salariés). Recherche un chirurgien pour assurer progressivement le remplacement d'un confrère orthopédiste partant à la retraite, avec transmission envisageable : signal 3, départ en retraite avec reprise interne/indépendante, pas de rachat par un groupe.
+- Statut : nouveau
+
+Total du jour : 13 leads. Objectif de 25 non atteint malgré une recherche élargie menée via 7 agents de recherche en parallèle sur de nombreux angles (industrie/BTP, tech/services, santé/commerce, transmission familiale/retraite toutes régions, tension de recrutement/témoignages AGA, portails de cession UIMM/fusacq/CRA/CCI, agroalimentaire/viticulture, transport/commerce de détail, Entreprises du Patrimoine Vivant, professions libérales). De nombreux signaux trouvés ce jour ont dû être rejetés pour rester strictement fidèle au filtre qualité : transactions déjà finalisées avec un repreneur ou un groupe/fonds externe (ex. Azur Bâtiment, Voyages Goujeau, Transports Caillot, Normandie Logistique, Charcuterie Lachenal, Menuiserie Kissenberger, Baillardran, Fizzy Distribution, Emargence, CET Ingénierie, CEDETI, Accolab), entreprises dépassant largement 150 salariés (ex. FLS/Freche Père & Fils, HDI/Cobalt, Groupe Lempereur, Charier, Enygea/WC Loc), ou annonces anonymisées sans nom d'entreprise identifiable (plusieurs annonces UIMM/fusacq/CCI). Aucun lead de transaction déjà finalisée n'a été réintroduit pour combler le volume.
