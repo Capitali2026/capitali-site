@@ -2314,3 +2314,41 @@ Total du jour : 7 leads. Objectif de 25 non atteint malgré une recherche élarg
 - Statut : nouveau
 
 Total du jour : 13 leads. Objectif de 25 non atteint malgré une recherche élargie menée via 7 agents de recherche en parallèle sur de nombreux angles (industrie/BTP, tech/services, santé/commerce, transmission familiale/retraite toutes régions, tension de recrutement/témoignages AGA, portails de cession UIMM/fusacq/CRA/CCI, agroalimentaire/viticulture, transport/commerce de détail, Entreprises du Patrimoine Vivant, professions libérales). De nombreux signaux trouvés ce jour ont dû être rejetés pour rester strictement fidèle au filtre qualité : transactions déjà finalisées avec un repreneur ou un groupe/fonds externe (ex. Azur Bâtiment, Voyages Goujeau, Transports Caillot, Normandie Logistique, Charcuterie Lachenal, Menuiserie Kissenberger, Baillardran, Fizzy Distribution, Emargence, CET Ingénierie, CEDETI, Accolab), entreprises dépassant largement 150 salariés (ex. FLS/Freche Père & Fils, HDI/Cobalt, Groupe Lempereur, Charier, Enygea/WC Loc), ou annonces anonymisées sans nom d'entreprise identifiable (plusieurs annonces UIMM/fusacq/CCI). Aucun lead de transaction déjà finalisée n'a été réintroduit pour combler le volume.
+
+## 2026-11-12
+- Entreprise : Mozart Autos
+- Dirigeant : Jérémy Sanchez et Julie Sanchez (2e génération, co-direction ; leur mère conserve la présidence)
+- Contact : contact@mozart-autos.com (déduit du domaine officiel mozart-autos.com, aucune adresse plus précise trouvée dans les extraits)
+- Source : https://journalauto.com/distribution/mozart-autos-le-sens-de-la-famille-comme-partition/
+- Pourquoi : groupe de distribution automobile familial indépendant (Nice/Cannes, Alpes-Maritimes), ~100 salariés, 60 M€ de CA. Transmission familiale en cours vers la 2e génération déjà aux commandes : signal 2. Info tirée d'extraits de recherche.
+- Statut : nouveau
+
+- Entreprise : Elo Energie
+- Dirigeant : Franck Gillier (dirigeant historique sortant)
+- Contact : non trouvé, voir source
+- Source : https://www.lejournaldesentreprises.com/article/elo-energie-transmet-son-capital-ses-cadres-accompagne-par-bpifrance-2136047
+- Pourquoi : PME d'installation électrique/énergie indépendante (Grandchamp-des-Fontaines, Loire-Atlantique), ~50 salariés, 19 M€ de CA. Le dirigeant historique cède l'entreprise à 4 cadres clés via un MBO accompagné par Bpifrance : départ en retraite avec reprise interne, signal 3. Info tirée d'extraits de recherche.
+- Statut : nouveau
+
+- Entreprise : International Software Company (ISC)
+- Dirigeant : non trouvé (fondateur non nommé dans les extraits)
+- Contact : non trouvé, voir source
+- Source : https://www.cfnews.net/L-actualite/Exclusif-CFNEWS/International-Software-Company-ordonne-sa-transmission-470958
+- Pourquoi : éditeur francilien de logiciel d'ordonnancement/planification IT. Le fondateur transmet l'entreprise à son directeur général adjoint, adossé à un fonds d'investissement : transmission interne à un cadre clé, pas de rachat par un groupe concurrent, signal 3. Info tirée d'un extrait tronqué (teaser de presse), sans lecture complète de l'article.
+- Statut : nouveau
+
+- Entreprise : Sindup
+- Dirigeant : Mickaël Réault (fondateur-PDG)
+- Contact : contact@sindup.com (déduit du domaine officiel sindup.com, aucune adresse plus précise trouvée dans les extraits)
+- Source : https://www.lejournaldesentreprises.com/article/lentreprise-sindup-se-transforme-en-scic-societe-cooperative-dinteret-collectif-2130507
+- Pourquoi : éditeur de logiciel de veille stratégique/intelligence économique indépendant (Beaucouzé, Maine-et-Loire), 20 salariés, >2 M€ de CA. Le fondateur, aux commandes depuis 20 ans, transforme volontairement l'entreprise en SCIC pour ouvrir le capital à ses salariés : témoignage direct de fidélisation par l'actionnariat salarié, signal 5. Info tirée d'extraits de recherche.
+- Statut : nouveau
+
+- Entreprise : APG (ex-Audit Paie Gestion)
+- Dirigeant : Philippe Boyon (fondateur, ~25 ans à la tête du cabinet) ; transmission interne à Anaïs Aubry, nouvelle présidente
+- Contact : contact@apg-grandest.fr (déduit du domaine officiel apg-grandest.fr, aucune adresse plus précise trouvée dans les extraits)
+- Source : https://www.lagazettefrance.fr/article/essey-les-nancy-changement-dans-la-continuite-au-cabinet-apg
+- Pourquoi : cabinet de conseil et organisme de formation en capital humain, indépendant (Essey-lès-Nancy, Meurthe-et-Moselle), ~23 salariés, 1,35 M€ de CA. Le fondateur transmet la direction en interne à une cadre de longue date, sans rachat par un groupe : départ en retraite avec reprise interne, signal 3. Info tirée d'extraits de recherche, sans lecture complète de l'article.
+- Statut : nouveau
+
+Total du jour : 5 leads. Objectif de 25 non atteint malgré une recherche élargie menée via 7 agents de recherche en parallèle sur de nombreux angles (industrie/BTP toutes régions, recherche de repreneur BTP/commerce/santé, tension de recrutement/fidélisation/actionnariat salarié, agroalimentaire/vins/commerce Sud-Ouest-Bretagne, services/conseil/transport Île-de-France/Rhône-Alpes, professions libérales, SCOP/franchises/textile-cosmétique). Sur une dizaine de signaux nominatifs remontés, la plupart ont dû être écartés : soit des entreprises déjà listées dans ce fichier au cours des semaines précédentes bien que hors de la fenêtre stricte des 30 jours (Cap Formation, Cobalt, Groupe Monnot, Ruban Bleu, Beurel Environnement), soit des situations de redressement/liquidation judiciaire jugées trop fragiles ou sans contact exploitable (IDP Agencement, Debevre Ventilation), soit des cas à la taille ou au statut incertain (Groupe Polmar, filiale de groupe). Aucune transaction déjà finalisée par un groupe acheteur ni aucun doublon n'a été réintroduit pour combler le volume.
