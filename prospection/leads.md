@@ -2352,3 +2352,42 @@ Total du jour : 13 leads. Objectif de 25 non atteint malgré une recherche élar
 - Statut : nouveau
 
 Total du jour : 5 leads. Objectif de 25 non atteint malgré une recherche élargie menée via 7 agents de recherche en parallèle sur de nombreux angles (industrie/BTP toutes régions, recherche de repreneur BTP/commerce/santé, tension de recrutement/fidélisation/actionnariat salarié, agroalimentaire/vins/commerce Sud-Ouest-Bretagne, services/conseil/transport Île-de-France/Rhône-Alpes, professions libérales, SCOP/franchises/textile-cosmétique). Sur une dizaine de signaux nominatifs remontés, la plupart ont dû être écartés : soit des entreprises déjà listées dans ce fichier au cours des semaines précédentes bien que hors de la fenêtre stricte des 30 jours (Cap Formation, Cobalt, Groupe Monnot, Ruban Bleu, Beurel Environnement), soit des situations de redressement/liquidation judiciaire jugées trop fragiles ou sans contact exploitable (IDP Agencement, Debevre Ventilation), soit des cas à la taille ou au statut incertain (Groupe Polmar, filiale de groupe). Aucune transaction déjà finalisée par un groupe acheteur ni aucun doublon n'a été réintroduit pour combler le volume.
+
+## 2026-11-13
+
+Note technique : recherche menée via 5 agents en parallèle sur des angles sectoriels/signaux différents (industrie/BTP cession-transmission, santé/commerce transmission familiale, tech/services tension de recrutement et fidélisation, agroalimentaire/artisanat départ en retraite, transport/logistique/BTP annonces de cession). Journée particulièrement difficile : la grande majorité des pistes remontées par WebSearch ont dû être écartées, soit parce qu'il s'agissait de transactions déjà finalisées (rachat par un groupe), soit parce que les entreprises étaient hors gabarit de taille (ETI de plusieurs centaines à plusieurs milliers de salariés), soit parce qu'il s'agissait de doublons avec des entreprises déjà présentes dans ce fichier au-delà de la fenêtre de 30 jours (Espace Couvert déjà listé le 2026-10-04, Beurel Environnement déjà listé précédemment) — ces deux doublons ont été retirés du lot avant publication. Deux leads supplémentaires (Groupe Polmar, Clinique vétérinaire de Vallauris) ont aussi été écartés faute d'identification fiable (taille de groupe incertaine ou nom d'entreprise non confirmé). Volume du jour réduit en conséquence : 5 leads au lieu des ~25 visés. Aucune transaction déjà finalisée, aucun doublon et aucune entreprise non identifiée avec certitude n'a été forcé pour combler le volume.
+
+- Entreprise : Compagnie Fiduciaire Grésivaudan (CFG / CFG-Europe / CFG Audit)
+- Dirigeant : Florent Rapin (président)
+- Contact : non trouvé, voir source
+- Source : https://candidat.francetravail.fr/offres/recherche/detail/5648157 ; https://www.pappers.fr/entreprise/340148741
+- Pourquoi : cabinet d'expertise comptable indépendant (Pontcharra, Isère, plusieurs agences dont Vif et Échirolles). Plusieurs offres France Travail actives pour un "Expert-comptable repreneur" avec tuilage explicite ("un tuilage sera rapidement mis en place pour prendre peu à peu l'ensemble des fonctions de l'Expert-comptable dirigeant actuel") : signal clair de préparation de succession, transaction pas encore faite. Info tirée d'extraits de recherche.
+- Statut : nouveau
+
+- Entreprise : Saphelec
+- Dirigeant : Hervé Mangot (fondateur) ; Julien Lequeurre (nouveau directeur général)
+- Contact : contact@saphelec.fr
+- Source : https://www.lemondeinformatique.fr/actualites/lire-saphelec-prepare-le-depart-de-son-fondateur-93811.html ; https://www.cfnews.net/L-actualite/LBO/Operations/LBO-Bis/Saphelec-prepare-la-transmission-aux-managers-484100
+- Pourquoi : groupe d'intégration IT & télécom (145 salariés) dont le fondateur prépare son départ et réorganise le capital pour permettre à des cadres clés de prendre à terme le contrôle de l'entreprise : signal direct de transmission en préparation (pas encore réalisée) avec association de collaborateurs au capital. Info tirée d'extraits de recherche.
+- Statut : nouveau
+
+- Entreprise : Les Poteries d'Albi
+- Dirigeant : Lore Camillo (6e génération)
+- Contact : contact@poterie-albi.fr
+- Source : https://www.lejournaldesentreprises.com/article/comment-les-poteries-dalbi-se-reinventent-au-fil-des-generations-2123234
+- Pourquoi : poterie artisanale familiale indépendante (28 salariés, Albi, Tarn, depuis 1891). La fille de la dirigeante, Aimie, a rejoint l'entreprise après un master en droit des affaires, signe d'une succession familiale en réflexion mais encore incertaine. Info tirée d'un extrait de recherche, sans lecture complète de la page.
+- Statut : nouveau
+
+- Entreprise : Fonderie d'Art Macheret
+- Dirigeant : Paul Macheret (fils du créateur Philippe Macheret)
+- Contact : non trouvé, voir source
+- Source : https://www.lejournaldesentreprises.com/entreprise/fonderie-dart-macheret
+- Pourquoi : fonderie d'art indépendante (10 à 19 salariés, Montfort-le-Gesnois, Sarthe). Transmission familiale récente vers la génération suivante : la nouvelle direction est un profil typique pour structurer la gouvernance et fidéliser les savoir-faire clés de l'entreprise. Info tirée d'extraits de recherche (Journal des Entreprises, Xerfi, INSEE).
+- Statut : nouveau
+
+- Entreprise : ETS Heyraud
+- Dirigeant : Thomas Heyraud (co-gérant, avec Samuel Heyraud)
+- Contact : non trouvé, voir source
+- Source : https://www.capeb.fr/www/capeb/media//aura/document/JDB-16-07-26_ent-heyraud-63.pdf
+- Pourquoi : entreprise familiale de menuiserie/charpente/couverture (16 salariés, Vic-le-Comte, Puy-de-Dôme) portée par la 3e génération, avec transmission interne récente vers un co-gérant repreneur et une structure de direction partagée dirigeant/salarié encore en consolidation. Info tirée d'un extrait CAPEB.
+- Statut : nouveau
