@@ -2432,3 +2432,5 @@ Note technique : recherche menée via 5 agents en parallèle sur des angles sect
 - Statut : nouveau
 
 Total du jour : 5 leads (objectif de 25 largement non atteint, journée particulièrement difficile en raison de l'anonymisation des bourses de cession et de la taille excessive de la plupart des pistes nommées trouvées). Aucun lead de transaction déjà finalisée, de doublon des 30 derniers jours ou d'entreprise hors profil de taille n'a été ajouté pour combler le volume, conformément au filtre qualité strict demandé.
+
+Note technique (agent de redaction, 2026-11-14) : aucun brouillon ni relance crees aujourd'hui. Le connecteur Gmail MCP de cette session pointe toujours vers le compte personnel helionsaxx@gmail.com (activite saxophoniste/DJ), sans rapport avec Capitali ni Antoine Goudot, exactement le probleme deja signale le 2026-11-11 (cb7f1f6). Rien n'a ete envoye ni modifie dans ce compte Gmail. 124 leads "nouveau" et 150 leads "brouillon cree" avec contact connu restent en attente de traitement depuis cette date. Notification renvoyee a l'utilisateur pour reconnecter le bon compte Gmail avant la prochaine execution.
