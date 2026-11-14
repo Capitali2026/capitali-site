@@ -2391,3 +2391,44 @@ Note technique : recherche menée via 5 agents en parallèle sur des angles sect
 - Source : https://www.capeb.fr/www/capeb/media//aura/document/JDB-16-07-26_ent-heyraud-63.pdf
 - Pourquoi : entreprise familiale de menuiserie/charpente/couverture (16 salariés, Vic-le-Comte, Puy-de-Dôme) portée par la 3e génération, avec transmission interne récente vers un co-gérant repreneur et une structure de direction partagée dirigeant/salarié encore en consolidation. Info tirée d'un extrait CAPEB.
 - Statut : nouveau
+
+## 2026-11-14
+
+Note technique : recherche menée via 5 agents en parallèle sur des angles sectoriels/régionaux distincts (industrie-métallurgie Hauts-de-France/Grand Est/Normandie, BTP-artisanat Auvergne-Rhône-Alpes/Bourgogne-Franche-Comté, commerce-agroalimentaire Nouvelle-Aquitaine/Occitanie, services-conseil-santé Île-de-France/Centre-Val de Loire/Pays de la Loire, PACA/Bretagne/Corse + cession bpifrance-transmission/LinkedIn), complétée par des recherches manuelles. Journée particulièrement difficile : la quasi-totalité des annonces de cession réellement disponibles (UIMM Opportunités industrielles, Fusacq, CAPEB, Transentreprise, bpifrance-transmission, cra.asso.fr) sont anonymisées dans les extraits WebSearch (aucun nom d'entreprise ni de dirigeant). Plusieurs pistes nommées ont dû être écartées : transactions déjà finalisées (Minssieux & Fils, SFCMM et Macarons de Boulay déjà listés les 30 derniers jours, Dynamips dont la transmission date de 2004-2007), entreprises hors gabarit de taille 10-150 salariés (Becouze ~200 salariés, Groupe Lempereur ~850 salariés, Groupe Mary ~2000 salariés, Groupe Polmar 201-500 salariés, Groupe Gustave Rideau ~900 salariés, Le Roy Logistique ~1000 salariés et racheté par un fonds), signal trop faible ou non daté (Altonéo, Groupe LBC, Exco Avec, Maison Casteigt dont l'effectif n'a pas pu être confirmé comme suffisant). Un lead (Debevre Ventilation) est inclus malgré un signal plus faible qu'une succession classique, car il s'agit d'un redressement judiciaire en recherche active de repreneur et non d'une transaction déjà conclue ; à requalifier avant démarchage. Volume du jour réduit en conséquence : 5 leads au lieu des ~25 visés. Aucune transaction déjà finalisée, aucun doublon et aucune entreprise hors profil n'a été forcé pour combler le volume.
+
+- Entreprise : Interima (Groupe Ima)
+- Dirigeant : Marc Raiola (président)
+- Contact : contact@interima.com (déduit du domaine officiel interima.com)
+- Source : https://www.lejournaldesentreprises.com/article/il-fallait-quinterima-puisse-continuer-avec-ou-sans-moi-2142289
+- Pourquoi : entreprise familiale d'intérim/recrutement à Nice (fondée en 1978 par le père de Marc Raiola, environ 40 salariés, 19 M€ de CA en 2025, agences à Grasse, Cannes, Antibes, Nice, Carros). Le dirigeant historique vient de transmettre la direction opérationnelle à trois collaboratrices clés tout en restant président : démarche explicite d'association de profils clés au pilotage en vue de la transmission future, signal fort et récent.
+- Statut : nouveau
+
+- Entreprise : Maison Biraben
+- Dirigeant : Jean-Cyrille Biraben-Loustau (président) ; Cyrille et Pierre Biraben-Loustau (directeurs généraux)
+- Contact : non trouvé, voir source
+- Source : https://www.lejournaldesentreprises.com/article/maison-biraben-des-marches-aux-plats-cuisines-2105764 ; https://www.pappers.fr/entreprise/096780838
+- Pourquoi : conserverie artisanale familiale (plats cuisinés, foie gras) à Beuste (Pyrénées-Atlantiques), créée en 1967. Près de 70 ans après sa création, une troisième génération (Clara Biraben) rejoint l'entreprise encore dirigée par la génération précédente : signal de transmission familiale en préparation. Info tirée d'extraits de presse économique et Pappers.
+- Statut : nouveau
+
+- Entreprise : Chocolaterie Tarnaise de Distribution (Chocolats Yves Thuriès)
+- Dirigeant : Yves Thuriès (fondateur, double Meilleur Ouvrier de France) ; Florence Lagarde (nouvelle directrice générale, nommée en 2026, ex-L'Occitane en Provence)
+- Contact : contact@yvesthuries.com (déduit du domaine officiel yvesthuries.com)
+- Source : https://www.franchise-magazine.com/news-franchise/reseau-chocolats-yves-thuries-septembre-2026
+- Pourquoi : chocolaterie-torréfaction basée à Marssac-sur-Tarn (Tarn), réseau de boutiques en franchise, environ 50 à 99 salariés. Le fondateur historique délègue la direction générale à une dirigeante venue de l'extérieur : signal de transmission/succession en préparation au moment où l'entreprise change de pilotage opérationnel.
+- Statut : nouveau
+
+- Entreprise : Atlantic Conditionnement
+- Dirigeant : Éric Archer (président, 58 ans) ; Gaël Challan Belval (directeur général, futur repreneur)
+- Contact : non trouvé, voir source
+- Source : https://www.lejournaldesentreprises.com/article/atlantic-conditionnement-prepare-sa-transmission-1326744
+- Pourquoi : PME de co-packing (groupage de produits conditionnés pour opérations promotionnelles, environ 30 salariés, 3,5 M€ de CA) à Saint-Germain-sur-Moine (Maine-et-Loire). À l'approche de la retraite, le dirigeant a planifié un passage de témoin étalé sur 8 ans, le repreneur devenant actionnaire majoritaire dans 4 ans : transmission anticipée et structurée, encore en cours, entreprise toujours indépendante.
+- Statut : nouveau
+
+- Entreprise : Debevre Ventilation (filiale du Groupe AH)
+- Dirigeant : Amaury Honoré
+- Contact : non trouvé, voir source
+- Source : https://www.lejournaldesentreprises.com/breve/le-groupe-ah-et-debevre-ventilation-recherchent-un-repreneur-2146794
+- Pourquoi : PME de métallurgie/ventilation industrielle (84-87 salariés, environ 8,3 M€ de CA) à Merris (Nord), placée en redressement judiciaire en juillet 2026, recherche activement un repreneur (dépôt des offres attendu mi-septembre 2026) ; transaction pas encore réalisée, entreprise encore indépendante. Réserve importante : il s'agit d'une procédure collective et non d'une transmission patrimoniale volontaire classique, le fit avec le pitch AGA est donc plus faible qu'un cas de succession standard — à requalifier avant tout démarchage commercial.
+- Statut : nouveau
+
+Total du jour : 5 leads (objectif de 25 largement non atteint, journée particulièrement difficile en raison de l'anonymisation des bourses de cession et de la taille excessive de la plupart des pistes nommées trouvées). Aucun lead de transaction déjà finalisée, de doublon des 30 derniers jours ou d'entreprise hors profil de taille n'a été ajouté pour combler le volume, conformément au filtre qualité strict demandé.
