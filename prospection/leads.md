@@ -2434,3 +2434,51 @@ Note technique : recherche menée via 5 agents en parallèle sur des angles sect
 Total du jour : 5 leads (objectif de 25 largement non atteint, journée particulièrement difficile en raison de l'anonymisation des bourses de cession et de la taille excessive de la plupart des pistes nommées trouvées). Aucun lead de transaction déjà finalisée, de doublon des 30 derniers jours ou d'entreprise hors profil de taille n'a été ajouté pour combler le volume, conformément au filtre qualité strict demandé.
 
 Note technique (agent de redaction, 2026-11-14) : aucun brouillon ni relance crees aujourd'hui. Le connecteur Gmail MCP de cette session pointe toujours vers le compte personnel helionsaxx@gmail.com (activite saxophoniste/DJ), sans rapport avec Capitali ni Antoine Goudot, exactement le probleme deja signale le 2026-11-11 (cb7f1f6). Rien n'a ete envoye ni modifie dans ce compte Gmail. 124 leads "nouveau" et 150 leads "brouillon cree" avec contact connu restent en attente de traitement depuis cette date. Notification renvoyee a l'utilisateur pour reconnecter le bon compte Gmail avant la prochaine execution.
+
+## 2026-11-15
+
+Note technique : recherche menée via 5 agents en parallèle sur des angles distincts (industrie/BTP Hauts-de-France/Grand Est/Bourgogne-Franche-Comté/Normandie, commerce-santé-agroalimentaire Nouvelle-Aquitaine/Occitanie/PACA/Auvergne-Rhône-Alpes, tension de recrutement/fidélisation et témoignages directs AGA tous secteurs, tech/ESN/services Île-de-France/Pays de la Loire/Bretagne/Centre-Val de Loire, annonces de cession directes bpifrance-transmission/cra.asso.fr/fusacq), complétée par des recherches manuelles ciblées (lejournaldesentreprises.com, presse sectorielle, Pappers). Journée à nouveau difficile : deux des cinq agents n'ont trouvé aucun lead exploitable (régions Sud/Ouest déjà bien couvertes les jours précédents, annonces de cession UIMM/Fusacq anonymisées sans nom d'entreprise), et plusieurs pistes nommées ont dû être écartées en recherche manuelle : transactions déjà finalisées (Printcorp, Goubault Imprimeur déjà listé, Idea Industries, pharmacies de Saint-Martin-de-Landelles et de Landéan déjà cédées), entreprises hors gabarit ou déjà intégrées à un groupe (Robur/Manufactors Invest, BCF Life Sciences, Groupe Mary, Groupe Polmar, Groupe Bodemer, Le Duff/Bridor), transmissions trop anciennes pour constituer un signal récent (Blanc des Vosges 1998, GT Solutions 2019), ou doublon de la liste des 30 derniers jours (CVGA). Volume du jour réduit en conséquence : 6 leads au lieu des ~25 visés. Aucune transaction déjà finalisée, aucun doublon et aucune entreprise hors profil n'a été forcé pour combler le volume.
+
+- Entreprise : Manugreg
+- Dirigeant : Grégory Danel (fondateur, 1999)
+- Contact : non trouvé, voir source
+- Source : https://www.lagazettefrance.fr/article/en-pleine-croissance-manugreg-affiche-un-carnet-de-commandes-plein
+- Pourquoi : PME familiale de Lys-lez-Lannoy (Nord, environ 26 salariés), conception de pièces pour machines agroalimentaires. Le fils du dirigeant, Doryan Danel, "devrait logiquement reprendre les rênes de la société d'ici les prochaines années" : transmission familiale à venir, pas encore réalisée.
+- Statut : nouveau
+
+- Entreprise : Eurequip
+- Dirigeant : Philippe Coste (dirigeant historique) ; Céline Coste (petite-fille du fondateur, directrice générale depuis cette année)
+- Contact : contact@eurequip.com (déduit d'un avis de marché public mentionnant le domaine eurequip.com, aucune adresse plus précise affichée dans les extraits)
+- Source : https://www.lejournaldesentreprises.com/article/le-fabricant-de-meubles-eurequip-organise-sa-croissance-et-se-diversifie-2131701
+- Pourquoi : PME familiale de Lambres-lez-Douai (Nord, environ 71 salariés), fabricant de mobilier pour collectivités depuis 40 ans. Passation progressive en cours entre le père et sa fille, 4e génération : transmission familiale non finalisée.
+- Statut : nouveau
+
+- Entreprise : Normandie Piscines
+- Dirigeant : Jérôme Lapasset (dirigeant depuis 2002)
+- Contact : non trouvé, voir source
+- Source : https://www.lejournaldesentreprises.com/article/passage-de-temoin-en-vue-pour-normandie-piscines-181323
+- Pourquoi : PME de Carpiquet (Calvados, environ 15 salariés), construction/maintenance de piscines depuis 50 ans. Sa fille Andréa envisage de prendre sa suite "d'ici cinq années" (3e génération familiale) : transmission clairement à venir, pas encore réalisée.
+- Statut : nouveau
+
+- Entreprise : Lexcap (cabinet d'avocats)
+- Dirigeant : Pierre Laugery et Flavien Meunier (co-gérants)
+- Contact : non trouvé, voir source
+- Source : https://www.lejournaldesentreprises.com/article/100-ans-le-cabinet-davocats-lexcap-se-tourne-vers-les-defis-de-demain-2141259
+- Pourquoi : cabinet d'avocats centenaire indépendant à Angers, 20 associés. Un tiers des associés partira à la retraite en 2031 ; le cabinet prépare l'entrée au capital de nouveaux avocats pour fidéliser et transmettre en interne : signal de départ en retraite à venir avec préparation de transmission/association des profils clés.
+- Statut : nouveau
+
+- Entreprise : Auditia (cabinet d'expertise comptable, audit et conseil)
+- Dirigeant : Jean-Marc Huilizen (co-fondateur, 56 ans) ; Damien Leroux (34 ans, associé pressenti pour la succession)
+- Contact : contact@auditia.fr (adresse générique déduite du domaine, un extrait indiquant que les adresses du cabinet suivent le format prenom.nom@auditia.fr)
+- Source : https://www.lejournaldesentreprises.com/article/auditia-le-cabinet-opte-pour-une-succession-en-interne-69187
+- Pourquoi : cabinet d'expertise comptable basé à Saint-Nazaire (Pays de la Loire, bureaux aussi à Pornic, Pontchâteau, Guérande et Orvault), 10 associés. Le cabinet a reçu des offres de rachat externes mais a choisi une transmission interne vers la jeune génération pour rester indépendant : signal direct de transmission en cours, avant toute cession externe.
+- Statut : nouveau
+
+- Entreprise : Sométal
+- Dirigeant : Norbert Périgault (dirigeant historique) ; Yoann Boisson (nouveau directeur général, en cours de rachat du capital)
+- Contact : non trouvé, voir source
+- Source : https://www.lejournaldesentreprises.com/article/sometal-mise-23-millions-deuros-dans-un-nouveau-cycle-industriel-2139605
+- Pourquoi : PME de construction métallique à Péret (Hérault, 27 salariés, 4,2 M€ de CA), fondée il y a près de 40 ans. Norbert Périgault passe peu à peu le témoin à Yoann Boisson, qui rachète 25 % du capital par an sur 4 ans : transmission progressive en cours, pas encore finalisée, dirigeant historique toujours partiellement aux commandes.
+- Statut : nouveau
+
+Total du jour : 6 leads (objectif de 25 non atteint). Aucun lead de transaction déjà finalisée, de doublon des 30 derniers jours ou d'entreprise hors profil de taille n'a été ajouté pour combler le volume, conformément au filtre qualité strict demandé.
