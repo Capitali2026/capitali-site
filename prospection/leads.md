@@ -2482,3 +2482,55 @@ Note technique : recherche menée via 5 agents en parallèle sur des angles dist
 - Statut : nouveau
 
 Total du jour : 6 leads (objectif de 25 non atteint). Aucun lead de transaction déjà finalisée, de doublon des 30 derniers jours ou d'entreprise hors profil de taille n'a été ajouté pour combler le volume, conformément au filtre qualité strict demandé.
+
+## 2026-11-16
+- Entreprise : Vakom
+- Dirigeant : Jean-Louis Fel (fondateur-président) ; transmission en cours vers sa fille Anne-Claire Fel (associée et directrice générale)
+- Contact : contact@vakom.fr (adresse générique déduite du domaine officiel vakom.fr, aucune adresse plus précise affichée dans les extraits)
+- Source : https://www.lejournaldesentreprises.com/article/jean-louis-fel-vakom-ma-fille-anne-claire-sest-imposee-comme-une-evidence-pour-prendre-ma-suite-2079155
+- Pourquoi : cabinet de conseil RH indépendant (environ 100 salariés, 10 M€ de CA, siège à Rouen, réseau de franchises). Jean-Louis Fel organise la transmission familiale à sa fille, devenue associée/DG après rachat de 20 % du capital, mais reste lui-même président : transmission familiale en cours, pas encore finalisée.
+- Statut : nouveau
+
+- Entreprise : Sanit Confort
+- Dirigeant : Dominique Le Saint (gérant, lui-même ancien repreneur de l'entreprise il y a 13 ans)
+- Contact : non trouvé, voir source
+- Source : https://www.lejournaldesentreprises.com/article/sanit-confort-prepare-sa-reprise-par-4-de-ses-salaries-2146098
+- Pourquoi : PME de plomberie/chauffage/climatisation à Plérin (Côtes-d'Armor, Bretagne, environ 34-44 salariés). Le gérant prépare la transmission à 4 de ses salariés (26-47 ans) via une holding créée début 2025 qui détient déjà 30 % du capital : transmission interne en cours, pas encore finalisée, dirigeant toujours aux commandes.
+- Statut : nouveau
+
+- Entreprise : Domaine de Bois Redon
+- Dirigeant : Philippe Isnard et son épouse Geneviève Isnard (exploitants) ; leur fils Geoffrey Isnard co-gère le domaine depuis 2016
+- Contact : non trouvé, voir source
+- Source : https://www.lafranceagricole.fr/publi-information/article/766540/nous-veillons--prserver-lquilibre-de-la-transmission-entre-nos-enfants
+- Pourquoi : domaine viticole et agricole (110 ha, AOC Coteaux d'Aix-en-Provence, truffière) à Lamanon (Bouches-du-Rhône, PACA). Les dirigeants organisent explicitement la transmission à leur fils Geoffrey (création d'une EARL puis projet de GFA familial) pour répartir l'exploitation entre leurs 4 enfants : transmission familiale en cours, pas encore finalisée.
+- Statut : nouveau
+
+- Entreprise : Confiserie du Tech
+- Dirigeant : Xavier Danjou
+- Contact : contact@confiseriedutech.com (domaine confiseriedutech.com confirmé)
+- Source : https://www.banquepopulaire.fr/sud/votre-banque/xavier-danjou-la-rousquille-catalane-en-heritage-2/
+- Pourquoi : PME agroalimentaire familiale fondée en 1964 à Cabestany (Pyrénées-Orientales, Occitanie), dirigée par la 3e génération, investissements récents de plusieurs millions d'euros dans l'usine. Le dirigeant évoque publiquement la perspective que ses enfants reprennent l'entreprise un jour : transmission familiale envisagée à venir, non planifiée formellement.
+- Statut : nouveau
+
+- Entreprise : Pâtes Fraîches Provence Côte d'Azur (PFPCA)
+- Dirigeant : Mathias Ruger
+- Contact : non trouvé, voir source
+- Source : https://www.lejournaldesentreprises.com/article/pates-fraiches-provence-cote-dazur-nous-devons-consacrer-3-4-heures-par-jour-au-recrutement-2049960
+- Pourquoi : PME agroalimentaire (fabrication de pâtes fraîches) à Vallauris (Alpes-Maritimes, PACA), reprise par Mathias Ruger en 2018, en expansion (usine agrandie de 40 %). Le dirigeant témoigne directement d'une tension de recrutement/fidélisation majeure ("3 à 4 heures par jour consacrées au recrutement") : signal clair et nominatif de problème de fidélisation des équipes.
+- Statut : nouveau
+
+- Entreprise : Garages Chaigneau
+- Dirigeant : Sylvain Chaigneau (a succédé à son père André Chaigneau)
+- Contact : non trouvé, voir source
+- Source : https://journalauto.com/distribution/les-garages-chaigneau-et-toyota-une-histoire-qui-dure/
+- Pourquoi : groupe familial vendéen indépendant (6 affaires, concessionnaire Toyota exclusif depuis plus de 50 ans) à Cheffois. La direction vient de passer du fondateur André Chaigneau à son fils Sylvain, seul dirigeant indépendant désormais aux commandes : transmission familiale récente, structure toujours indépendante, enjeu de fidélisation des cadres non-familiaux pour la suite.
+- Statut : nouveau
+
+- Entreprise : Groupe Polmar
+- Dirigeant : Jean-François Evrard (fondateur-président) ; transmission en cours à son fils Paul Evrard (DG depuis janvier 2026) et sa fille Margaux
+- Contact : non trouvé, voir source
+- Source : https://journalauto.com/distribution/le-groupe-polmar-accelere-son-projet-de-transmission-familiale/
+- Pourquoi : distributeur automobile indépendant (Opel, Hyundai, Suzuki, Fiat, Skoda) basé à Caen avec des sites à Lisieux/Caen/Bayeux/Rouen (Normandie). Jean-François Evrard prépare depuis 10 ans la transmission familiale et a nommé son fils DG en janvier 2026 : transmission familiale en cours, pas encore finalisée, dirigeant fondateur toujours président.
+- Statut : nouveau
+
+Total du jour : 7 leads (objectif de 25 non atteint). La recherche a été menée par 5 agents en parallèle couvrant des secteurs/régions différents (santé-agroalimentaire Sud, industrie-BTP Nord, commerce-auto Ouest, services IDF/AURA, transmission familiale Bretagne/BFC/PACA + LinkedIn), mais chacun a buté sur une limite de quota WebSearch après 20-50 requêtes, avant d'avoir pu explorer toutes les pistes prévues. La grande majorité des pistes nommées rencontrées étaient soit des transactions déjà finalisées (rachat par un groupe), soit des entreprises hors profil de taille, soit des doublons des 30 derniers jours, et ont été explicitement écartées plutôt que forcées. Aucun lead de transaction déjà finalisée n'a été ajouté pour combler le volume.
