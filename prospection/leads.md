@@ -2536,3 +2536,69 @@ Total du jour : 6 leads (objectif de 25 non atteint). Aucun lead de transaction 
 Total du jour : 7 leads (objectif de 25 non atteint). La recherche a été menée par 5 agents en parallèle couvrant des secteurs/régions différents (santé-agroalimentaire Sud, industrie-BTP Nord, commerce-auto Ouest, services IDF/AURA, transmission familiale Bretagne/BFC/PACA + LinkedIn), mais chacun a buté sur une limite de quota WebSearch après 20-50 requêtes, avant d'avoir pu explorer toutes les pistes prévues. La grande majorité des pistes nommées rencontrées étaient soit des transactions déjà finalisées (rachat par un groupe), soit des entreprises hors profil de taille, soit des doublons des 30 derniers jours, et ont été explicitement écartées plutôt que forcées. Aucun lead de transaction déjà finalisée n'a été ajouté pour combler le volume.
 
 Note technique (agent de redaction, 2026-11-16) : aucun brouillon ni relance crees aujourd'hui. Le connecteur Gmail MCP de cette session pointe toujours vers le compte personnel helionsaxx@gmail.com (activite saxophoniste/DJ), sans rapport avec Capitali ni Antoine Goudot, exactement le probleme deja signale le 2026-11-11 (cb7f1f6) et le 2026-11-14 (96a28c8). Rien n'a ete envoye ni modifie dans ce compte Gmail. 137 leads "nouveau" avec contact connu et 150 leads "brouillon cree" en attente de verification de relance restent en souffrance depuis cette date. Notification renvoyee a l'utilisateur pour reconnecter le bon compte Gmail avant la prochaine execution.
+
+## 2026-11-17
+- Entreprise : KS Groupe
+- Dirigeant : Édouard Sauer et Jérôme Sauer (co-dirigeants)
+- Contact : contact@ksgroupe.fr
+- Source : https://www.lejournaldesentreprises.com/article/les-dirigeants-de-ks-groupe-transferent-leur-capital-leur-fonds-de-dotation-2107410
+- Pourquoi : PME du BTP du Bas-Rhin (Grand Est) ; les dirigeants-fondateurs ont transféré le capital de l'entreprise à un fonds de dotation pour en sécuriser l'indépendance et la pérennité, démarche présentée comme une première dans le BTP régional — signal direct de dirigeants qui structurent activement la transmission de leur capital en dehors d'un rachat par un tiers. Info tirée d'un extrait de recherche ; contact déduit du domaine ksgroupe.fr, trouvé via une offre d'emploi HelloWork.
+- Statut : nouveau
+
+- Entreprise : Pharmacie Bounseum (Pharmacie de Landéan)
+- Dirigeant : Thao Bounseum
+- Contact : non trouvé, voir source
+- Source : https://www.lequotidiendupharmacien.fr/exercice-pro/faute-de-repreneur-il-cede-sa-pharmacie-pour-un-euro-symbolique
+- Pourquoi : Titulaire de 68 ans à Landéan (Ille-et-Vilaine, Bretagne), cherche un repreneur depuis plusieurs années sans succès et se résigne à céder l'officine pour un euro symbolique faute d'acquéreur. Info tirée d'un extrait de presse ; aucun site officiel identifié malgré recherche dédiée.
+- Statut : nouveau
+
+- Entreprise : Pharmacie de Chamboulive (Pharmacie Bordillon-Gaucher)
+- Dirigeant : Patricia Bordillon (titulaire présumée, à confirmer)
+- Contact : non trouvé, voir source
+- Source : https://www.lequotidiendupharmacien.fr/exercice-pro/une-petition-lancee-pour-sauver-une-pharmacie-de-correze
+- Pourquoi : Titulaire de 64 ans souhaitant partir à la retraite, seule officine d'un village corrézien de 1200 habitants, aucun repreneur identifié à ce jour, pétition municipale lancée pour sauver la pharmacie. Info tirée d'un extrait de presse ; aucun site officiel identifié.
+- Statut : nouveau
+
+- Entreprise : Brasserie de l'Île de Groix (marque "La Bière de Groix")
+- Dirigeant : non confirmé avec certitude (fondateur historique, gérant actuel non identifié)
+- Contact : non trouvé, voir source
+- Source : https://opportunites-industrielles.uimm.fr/imprimer-annonce-vente,78410-E
+- Pourquoi : Annonce de cession (portail UIMM) pour départ en retraite du dirigeant, recherche d'un repreneur personne physique ; seule brasserie produite sur l'Île de Groix (Morbihan, Bretagne), environ 5 salariés. Info tirée d'un extrait d'annonce ; aucun site officiel identifié malgré recherche dédiée.
+- Statut : nouveau
+
+- Entreprise : Calvados Roger Groult
+- Dirigeant : Estelle Groult
+- Contact : contact@calvados-groult.com (trouvé dans un annuaire professionnel du secteur boissons, à vérifier)
+- Source : https://drinkcalvados.com/en/producers/roger-groult/ ; rapport d'inspection ICPE (georisques.gouv.fr, juillet 2025)
+- Pourquoi : Distillerie familiale de Calvados à Valorbiquet (Calvados, Normandie), 8 salariés ; un rapport d'inspection officiel de juillet 2025 signale 2 départs en retraite prévus prochainement sur cette petite structure, signal de tension de rétention sur une PME familiale. Info tirée d'extraits de recherche, pas de lecture complète des pages sources.
+- Statut : nouveau
+
+- Entreprise : Autodistribution Peretti
+- Dirigeant : Xavier Peretti (DG, 59 ans), avec Laura Peretti (32 ans) et le fondateur de 86 ans
+- Contact : non trouvé, voir source
+- Source : https://j2rauto.com/rechange/trois-generations-aux-commandes-dautodistribution-peretti
+- Pourquoi : Distributeur de pièces automobiles pour garages, basé à Ajaccio (Corse), fondé en 1964 ; dirigé aujourd'hui conjointement par trois générations (86/59/32 ans) — transmission familiale manifestement en cours, pas encore stabilisée sur une seule génération. Info tirée d'un extrait de presse spécialisée ; aucun site officiel identifié.
+- Statut : nouveau
+
+- Entreprise : Le Chant du Levain (EARL)
+- Dirigeant : non trouvé
+- Contact : non trouvé, voir source
+- Source : https://jobs.makesense.org/fr/jobs/le-chant-du-levain-boulanger-en-vue-de-la-transmission-de-lactivite-hf-MlLhXlmIytuAEM5Qy1co
+- Pourquoi : Boulangerie paysanne bio (EARL) à Vierzon (Cher, Centre-Val de Loire), annonce explicite de recherche de repreneur en vue d'un départ à la retraite prévu vers 2027, dirigeant encore en poste. Info tirée d'une offre de transmission publiée en 2026 ; aucun site/email propre identifié.
+- Statut : nouveau
+
+- Entreprise : Garage Manfé
+- Dirigeant : Guy Manfé (67 ans)
+- Contact : non trouvé, voir source
+- Source : https://www.largus.fr/pros/actualite-automobile/garage-manfe-le-temps-du-developpement-9983398.html
+- Pourquoi : Concession familiale Mitsubishi/Hyundai à Agen (Lot-et-Garonne, Occitanie), une des plus anciennes de France pour ces marques ; transmission intrafamiliale amorcée (parts transférées aux deux fils) mais le fondateur reste impliqué quotidiennement. Info tirée d'un extrait de presse spécialisée (L'Argus) ; recherche de domaine non finalisée par manque de budget de recherche, aucun site officiel identifié à ce stade.
+- Statut : nouveau
+
+- Entreprise : Maison Orsteel (ex-SJD Décolletage, groupe Sfecci Expertise)
+- Dirigeant : Adrien Sfecci (3e génération), succédant à son père Daniel Sfecci
+- Contact : contact@orsteel.com (déduit du domaine ; un répertoire tiers associe ce domaine à une autre activité de la marque, à vérifier)
+- Source : https://www.lejournaldesentreprises.com/article/avec-sa-nouvelle-usine-orsteel-est-equipe-pour-tripler-sa-productivite-2141130
+- Pourquoi : PME industrielle d'usinage de précision (décolletage) à L'Escarène (Alpes-Maritimes, PACA), 22 salariés. Transmission familiale en cours du groupe Sfecci Expertise vers les deux fils du fondateur, dirigeant toujours aux commandes, aucune cession à un tiers externe identifiée. Info tirée d'extraits de presse économique.
+- Statut : nouveau
+
+Total du jour : 9 leads (objectif de 25 non atteint). Recherche menée en deux vagues de 9 agents en parallèle (secteurs industrie/BTP, commerce/artisanat, santé/services pros, tech/services, agroalimentaire/vignobles, transmission familiale, + une vague de complément ciblée sur d'autres régions et sur l'enrichissement des contacts). Chaque agent a buté sur une limite de quota WebSearch après 20 à 65 requêtes. Sur une vingtaine de pistes nommées trouvées au total, plus de la moitié ont été écartées (transaction déjà finalisée/rachat par un groupe déjà acté, taille hors profil PME 10-150 salariés, signal trop vague ou invérifiable, doublon entre agents, ou information insuffisamment fiable). Aucun lead de transaction déjà finalisée n'a été ajouté pour combler le volume. La quasi-totalité des annonces de cession publiées sur les portails professionnels (UIMM, CRA, CCI/CMA, bpifrance-transmission) restent anonymisées et sans nom d'entreprise exploitable, ce qui limite structurellement le volume de leads identifiables par recherche web ouverte sur ce type de signal.
